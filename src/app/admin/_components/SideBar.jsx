@@ -51,8 +51,8 @@ const SideBar = ({ toggle }) => {
       ],
     },
 
-    { title: "traders", icon: <Diversity2Icon />, href: "traders" },
-    { title: "trades", icon: <CurrencyExchangeIcon />, href: "trades" },
+    // { title: "traders", icon: <Diversity2Icon />, href: "traders" },
+    { title: "trades signals", icon: <CurrencyExchangeIcon />, href: "trades" },
     { title: "Wallets", icon: <SettingsIcon />, href: "wallets" },
 
     { title: "logout", icon: <ExitToAppIcon /> },

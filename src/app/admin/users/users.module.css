@@ -67,6 +67,12 @@
     border-color: #777;
     color: #777;
 }
+.input select{
+    background-color: #fff!important;
+    padding: 0.4rem;
+    border-radius: 4px;
+    color: #000;
+}
 .cta_{
     color:  rgb(250, 251, 252);
     padding: 3px 9px;
@@ -124,7 +130,7 @@
 }
 .btnSubmit, .btnBack, .btnTopActive, .btnTop{
     width: 100%;
-    background-color: green;
+    background-color: green!important;
     padding: 6px;
     cursor: pointer;
     transition: 0.3s all;

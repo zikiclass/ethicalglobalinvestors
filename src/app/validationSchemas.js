@@ -27,6 +27,12 @@ export const registerSchema = z
 export const userSchema = z.object({
   email: z.string().min(1, "Email is required"),
 });
+export const signalSchema = z.object({
+  action: z.string(),
+  leverage: z.string(),
+  amount: z.string(),
+  profit: z.string(),
+});
 export const adminSchema = z
   .object({
     firstname: z.string().min(1, "First name is required").max(255),

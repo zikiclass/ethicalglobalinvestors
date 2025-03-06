@@ -7,6 +7,7 @@ import toast, { Toaster } from "react-hot-toast";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import PaymentsIcon from "@mui/icons-material/Payments";
 import PreviewIcon from "@mui/icons-material/Preview";
+import SellIcon from "@mui/icons-material/Sell";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import DeleteIcon from "@mui/icons-material/Delete";
 import Link from "next/link";
@@ -153,6 +154,13 @@ const Users = () => {
                       >
                         <PreviewIcon />
                         <span>View</span>
+                      </Link>
+                      <Link
+                        className={styles.cta_}
+                        href={`trades_user?userId=${user.id}`}
+                      >
+                        <SellIcon />
+                        <span>Trades</span>
                       </Link>
                       {/* <Link className={styles.cta_} href="">
                         <LockOpenIcon />

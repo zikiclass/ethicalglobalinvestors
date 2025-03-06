@@ -135,6 +135,25 @@ model CopyTraders {
   image       String?
 }
 
+model Trade {
+  id        Int      @id @default(autoincrement())
+  userId    String // Reference to user (if you have a user model)
+  leverage  Int
+  action    String // "buy" or "sell"
+  status    String   @default("pending") // "pending", "win", "lose"
+  profit    Float    @default(0)
+  createdAt DateTime @default(now())
+}
+
+model Tradesignal {
+  id        Int      @id @default(autoincrement())
+  amount    Float
+  leverage  Float
+  action    String // "buy" or "sell"
+  profit    Float    @default(0)
+  createdAt DateTime @default(now())
+}
+
 model Account {
   id                String  @id @default(cuid())
   userId            String  @map("user_id")
