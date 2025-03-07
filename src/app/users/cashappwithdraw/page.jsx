@@ -9,6 +9,7 @@ import BottomNavBar from "../_components/BottomNavBar";
 import DashboardPageNavigator from "../../components/DashboardPageNavigator";
 import toast, { Toaster } from "react-hot-toast";
 import fetchUser from "../_components/FetchUser";
+import Swal from "sweetalert2";
 import axios from "axios";
 const CashAppWithdraw = () => {
   const { data } = fetchUser();
@@ -20,7 +21,7 @@ const CashAppWithdraw = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("/api/users/withdrawal", {
+      const response = await axios.post("/api/users/withdrawals", {
         type: "cashtag",
         id: data.id,
         fromAccount,
@@ -30,7 +31,12 @@ const CashAppWithdraw = () => {
         userOtp: data.otp_code,
       });
 
-      if (response.data.message === "success") {
+      if (response.data.message === "Success") {
+        Swal.fire({
+          icon: "success",
+          text: "Your withdrawal request is in process.",
+          timer: 1500,
+        });
         toast.success("Your withdrawal request is in process.");
         router.push(`withdrawal_list`);
       }

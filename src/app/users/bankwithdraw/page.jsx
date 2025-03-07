@@ -9,6 +9,7 @@ import BottomNavBar from "../_components/BottomNavBar";
 import DashboardPageNavigator from "../../components/DashboardPageNavigator";
 import fetchUser from "../_components/FetchUser";
 import toast, { Toaster } from "react-hot-toast";
+import Swal from "sweetalert2";
 import axios from "axios";
 const BankWithdraw = () => {
   const { data } = fetchUser();
@@ -19,7 +20,7 @@ const BankWithdraw = () => {
   const [accountName, setAccountName] = useState(null);
   const [amount, setAmount] = useState(null);
   const [bank, setBank] = useState(null);
-  const [otpCode, setOtpCode] = useState(null);
+  const [OTP, setOTP] = useState(null);
 
   const formatNumber = (number) => {
     // Check if the number is a valid number or convert it to a string
@@ -31,7 +32,7 @@ const BankWithdraw = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("/api/users/withdrawal", {
+      const response = await axios.post("/api/users/withdrawals", {
         type: "bank",
         id: data.id,
         fromAccount,
@@ -39,11 +40,16 @@ const BankWithdraw = () => {
         accountNumber,
         accountName,
         bank,
-        otpCode,
+        OTP,
         userOtp: data.otp_code,
       });
 
-      if (response.data.message === "success") {
+      if (response.data.message === "Success") {
+        Swal.fire({
+          icon: "success",
+          text: "Your withdrawal request is in process.",
+          timer: 1500,
+        });
         toast.success("Your withdrawal request is in process.");
         router.push(`withdrawal_list`);
       }
@@ -55,6 +61,11 @@ const BankWithdraw = () => {
           "Invalid OTP Code, please contact support for a valid OTP code and try again"
         );
       } else {
+        Swal.fire({
+          icon: "error",
+          text: errorMessage,
+          timer: 1500,
+        });
         toast.error(errorMessage);
       }
     }
@@ -197,7 +208,7 @@ const BankWithdraw = () => {
                       <input
                         type="text"
                         name="otp_code"
-                        onChange={(e) => setOtpCode(e.target.value)}
+                        onChange={(e) => setOTP(e.target.value)}
                       />
                     </div>
                   </div>

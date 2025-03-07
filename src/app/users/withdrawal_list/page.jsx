@@ -50,7 +50,7 @@ const WithdrawalList = () => {
 
         try {
           const response_ = await axios.get(
-            `/api/users/withdrawal?id=${response.data.id}`
+            `/api/users/withdrawals?id=${response.data.id}`
           );
           if (response_) {
             setLists(response_.data.data);
@@ -111,21 +111,7 @@ const WithdrawalList = () => {
                       <br />({list.status})
                     </span>
                   </div>
-                  <div className="crypto_equiv">
-                    {list.from_account === "balance"
-                      ? "Trading Balance"
-                      : list.from_account === "btc"
-                      ? "Bitcoin Mining"
-                      : list.from_account === "eth"
-                      ? "Ethereum Mining"
-                      : list.from_account === "atom"
-                      ? "Cosmos Mining"
-                      : list.from_account === "doge"
-                      ? "Dogecoin Mining"
-                      : list.from_account === "bnb"
-                      ? "Binance Coin Mining"
-                      : list.from_account === "referral" && "Referral Balance"}
-                  </div>
+                  <div className="crypto_equiv">{list.bank_name}</div>
                 </div>
               ))
             )}

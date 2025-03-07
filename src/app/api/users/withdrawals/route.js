@@ -1,27 +1,40 @@
 import { NextResponse } from "next/server";
 import prisma from "../../../../../prisma/client";
-import { getServerSession } from "next-auth";
 
 export async function POST(req) {
   try {
     const body = await req.json();
 
-    if (!body || !body.amount || !body.account_ || !body.dep_method) {
+    const getOTP = await prisma.register.findUnique({
+      where: { id: body.id },
+    });
+
+    if (body.OTP !== getOTP.otp_code) {
+      return NextResponse.json(
+        { message: "Invalid OTP code, please contact support@mt5indexpro.com" },
+        { status: 400 }
+      );
+    }
+
+    if (!body) {
       return NextResponse.json({ message: "Invalid details" }, { status: 400 });
     }
 
-    const session = await getServerSession();
-    if (!session) {
-      return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
-    }
-
-    const dep = await prisma.deposit.create({
+    const dep = await prisma.withdrawal.create({
       data: {
-        userId: parseInt(body.userId),
+        userId: parseInt(body.id),
         amount: parseFloat(body.amount),
-        account_: body.account_,
-        dep_method: body.dep_method,
-        date_deposited: new Date(),
+        method: body.type || "",
+        from_account: body.fromAccount || "",
+        account_number: body.accountNumber || "",
+        account_name: body.accountName || "",
+        bank_name: body.bank || "",
+        crypto: body.crypto || "",
+        wallet_address: body.wallet || "",
+        paypal_email: body.paypalEmail || "",
+        cash_tag: body.cashTag || "",
+        date: new Date(),
+
         status: "Pending",
       },
     });
@@ -47,10 +60,12 @@ export async function GET(req) {
     if (!id)
       return NextResponse.json({ message: "Unathorized" }, { status: 404 });
 
-    const deposits = await prisma.deposit.findMany({
+    const withdrawal = await prisma.withdrawal.findMany({
       where: { userId: parseInt(id) },
+      orderBy: [{ id: "desc" }],
     });
-    if (deposits) return NextResponse.json({ data: deposits }, { status: 200 });
+    if (withdrawal)
+      return NextResponse.json({ data: withdrawal }, { status: 200 });
     return NextResponse.json({ message: "Error" }, { status: 404 });
   } catch (error) {
     return NextResponse.json(
