@@ -53,6 +53,7 @@ label{
     height: 100%;
     width: 100%;
     z-index: 999;
+    background-color: transparent!important;
 }
 .form__login input:focus + label, .form__login input:valid + label{
     top: -25px;

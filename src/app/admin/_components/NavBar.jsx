@@ -35,6 +35,7 @@ const NavBar = ({ onClick, setIcon }) => {
         </div>
         <div className="search">
           <input
+            className="searchInput"
             type="text"
             name="search"
             placeholder={`Search ${project_name}`}

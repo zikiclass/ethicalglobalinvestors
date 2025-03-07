@@ -47,6 +47,9 @@
     display: flex;
     gap: 10px;
 }
+.searchInput{
+    background-color: transparent!important;
+}
 .s_ic_{
     padding: 6px!important;
 }

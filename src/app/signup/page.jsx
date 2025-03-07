@@ -160,12 +160,12 @@ const RegisterForm = () => {
                   <span className="processing-text">Processing...</span>
                 )}
 
-                <p>
+                <span>
                   Already have an account?{" "}
                   <Link href="signin" style={{ color: "#6648fe" }}>
                     Login
                   </Link>
-                </p>
+                </span>
               </div>
             </form>
             {/* Add overlay with spinner when loading */}

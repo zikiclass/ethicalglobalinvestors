@@ -97,6 +97,7 @@
     border-radius: 5px;
     margin-bottom: 0.6rem;
     color: #fff!important;
+    background-color: transparent!important;
 }
 .input label {
     color: #fff;
@@ -146,12 +147,12 @@
     background-color: rgb(136, 219, 13);
 }
 .btnTopActive{
-    background-color: #fff;
+    background-color: #fff!important;
     color: #000;
     
 }
 .btnTop{
-    background-color: transparent;
+    background-color: transparent!important;
     border: 1px solid #fff;
 }
 .container{
@@ -203,6 +204,7 @@
     width: 100%;
     margin-bottom: 15px;
     color: #fff;
+    background-color: transparent!important;
 }
 .searchInput:focus{
     outline: none;
