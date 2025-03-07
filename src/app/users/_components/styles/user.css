@@ -880,7 +880,9 @@ gap: 0.3rem;
     font-size: 12px
 }
 @media screen and (max-width: 760px){
-   
+    .hide-on-mobile {
+        display: none;
+      }
     .trader{
         flex-direction: column;
         align-items: center;
