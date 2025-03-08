@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `Tradesignal` ADD COLUMN `duration` VARCHAR(191) NOT NULL DEFAULT '30',
+    ADD COLUMN `outcome` VARCHAR(191) NOT NULL DEFAULT 'win';

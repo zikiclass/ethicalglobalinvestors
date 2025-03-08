@@ -5,15 +5,56 @@ import DashboardPageNavigator from "../../components/DashboardPageNavigator";
 import BottomNavBar from "../_components/BottomNavBar";
 import HourglassTopIcon from "@mui/icons-material/HourglassTop";
 import HourglassFullIcon from "@mui/icons-material/HourglassFull";
+import axios from "axios";
+import toast, { Toaster } from "react-hot-toast";
+import btc from "../../../../public/img/btc.webp";
+import fetchUser from "../_components/FetchUser";
 import {
   TradeSelectFirst,
   TradeSelectSecond,
   TradeSelectThird,
 } from "../../components/index/data";
+import Image from "next/image";
 const Trades = () => {
+  const { data } = fetchUser();
   const [open, setOpen] = useState("open");
   const [closed, setClosed] = useState("");
   const container = useRef();
+  const [openTrades, setOpenTrades] = useState([]);
+  const [closedTrades, setClosedTrades] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`/api/trade/open?id=${data.id}`);
+
+        if (response.data.trades) {
+          setOpenTrades(response.data.trades);
+        } else {
+          toast.error("User not found");
+        }
+      } catch (error) {
+        toast.error("User not found");
+      }
+    };
+    fetchData();
+  }, [data]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`/api/trade/close?id=${data.id}`);
+
+        if (response.data.trades) {
+          setClosedTrades(response.data.trades);
+        } else {
+          toast.error("User not found");
+        }
+      } catch (error) {
+        toast.error("User not found");
+      }
+    };
+    fetchData();
+  }, [data]);
 
   useEffect(() => {
     // Check if the TradingView script is already appended
@@ -121,9 +162,69 @@ const Trades = () => {
                 <HourglassFullIcon /> Closed
               </span>
             </div>
-            {open && <div className="open_trades trades_x">No open trades</div>}
+            {open && (
+              <div className="open_trades">
+                {openTrades.length === 0 ? (
+                  <p>No open trades</p>
+                ) : (
+                  openTrades.map((trade) => (
+                    <div key={trade.id} className="open_trade">
+                      <div className="open_trade_col1">
+                        <Image src={btc} alt="btc" className="btcImage" />
+
+                        <div className="open_trade_quote">
+                          <span
+                            style={{ fontWeight: "bold" }}
+                            className={trade.action === "buy" ? "buy" : "sell"}
+                          >
+                            {trade.action} {trade.amount} BTCUSD
+                          </span>
+                          <p>Leverage: {trade.leverage}</p>
+                        </div>
+                      </div>
+                      <div className="open_trade_col2">
+                        <span
+                          className={trade.action === "buy" ? "buy" : "sell"}
+                        >
+                          ...
+                        </span>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            )}
             {closed && (
-              <div className="open_trades trades_x">No closed trades</div>
+              <div className="open_trades">
+                {openTrades.length === 0 ? (
+                  <p>No closed trades</p>
+                ) : (
+                  closedTrades.map((trade) => (
+                    <div key={trade.id} className="open_trade">
+                      <div className="open_trade_col1">
+                        <Image src={btc} alt="btc" className="btcImage" />
+
+                        <div className="open_trade_quote">
+                          <span
+                            style={{ fontWeight: "bold" }}
+                            className={trade.action === "buy" ? "buy" : "sell"}
+                          >
+                            {trade.action} {trade.amount} BTCUSD
+                          </span>
+                          <p>Leverage: {trade.leverage}</p>
+                        </div>
+                      </div>
+                      <div className="open_trade_col2">
+                        <span className={trade.profit === 0 ? "sell" : "buy"}>
+                          {trade.profit === 0
+                            ? "-" + trade.loss
+                            : "+" + trade.profit}
+                        </span>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
             )}
           </div>
         </div>

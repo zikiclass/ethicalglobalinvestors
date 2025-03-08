@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Tradesignal` ADD COLUMN `loss` DOUBLE NOT NULL DEFAULT 0;

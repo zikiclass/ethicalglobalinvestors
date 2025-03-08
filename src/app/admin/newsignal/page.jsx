@@ -21,6 +21,9 @@ const NewSignals = () => {
       amount: parseFloat(formData.get("amount")),
       leverage: parseInt(formData.get("leverage")),
       profit: parseFloat(formData.get("profit")),
+      loss: parseFloat(formData.get("loss")),
+      duration: formData.get("duration"),
+      outcome: formData.get("outcome"),
     };
 
     try {
@@ -75,6 +78,28 @@ const NewSignals = () => {
           <div className={styles.input}>
             <label>Profit</label>
             <input type="text" name="profit" placeholder="Profit" required />
+          </div>
+          <div className={styles.input}>
+            <label>Loss</label>
+            <input type="text" name="loss" placeholder="Loss" required />
+          </div>
+          <div className={styles.input}>
+            <label>Duration</label>
+            <select name="duration">
+              <option value="15">15</option>
+              <option value="30">30</option>
+              <option value="45">45</option>
+              <option value="60">60</option>
+              <option value="90">90</option>
+              <option value="120">120</option>
+            </select>
+          </div>
+          <div className={styles.input}>
+            <label>Outcome</label>
+            <select name="outcome">
+              <option value="win">WIN</option>
+              <option value="loss">LOSS</option>
+            </select>
           </div>
 
           <input

@@ -61,6 +61,7 @@ const Trades = () => {
                   <th>Amount</th>
                   <th>Leverage</th>
                   <th>Profit</th>
+                  <th>Loss</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -71,6 +72,7 @@ const Trades = () => {
                     <td>{adm.amount}</td>
                     <td>{adm.leverage}</td>
                     <td>{adm.profit}</td>
+                    <td>{adm.loss}</td>
                     <td className={styles.actions_}>
                       <Link
                         className={styles.cta_}

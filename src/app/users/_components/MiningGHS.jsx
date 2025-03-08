@@ -57,7 +57,7 @@ const MiningGHS = () => {
       : 0;
   };
 
-  if (!cryptoRates || !currencyRates) return <p>Loading rates...</p>;
+  if (!cryptoRates || !currencyRates) return <p></p>;
 
   // Get user's currency (default to USD if not found)
   const userCurrency = data?.currency || "USD";

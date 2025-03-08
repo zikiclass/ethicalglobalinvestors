@@ -5,12 +5,6 @@ export async function POST(request) {
   try {
     const body = await request.json();
 
-    if (!body.action || !body.amount || !body.leverage || !body.profit) {
-      return NextResponse.json(
-        { message: "Missing required fields" },
-        { status: 400 }
-      );
-    }
     if (!body) {
       return NextResponse.json(
         { message: "Signals details not provided" },
@@ -24,6 +18,9 @@ export async function POST(request) {
         amount: parseFloat(body.amount),
         leverage: parseFloat(body.leverage),
         profit: parseFloat(body.profit),
+        loss: parseFloat(body.loss),
+        duration: body.duration,
+        outcome: body.outcome,
       },
     });
 
@@ -33,7 +30,9 @@ export async function POST(request) {
 
     return NextResponse.json({ message: "success" }, { status: 200 });
   } catch (error) {
-    return NextResponse.json("Internal server error", { status: 500 });
+    return NextResponse.json("Internal server error", {
+      status: 500,
+    });
   }
 }
 
