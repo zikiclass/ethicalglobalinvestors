@@ -1,43 +1,41 @@
 "use client";
 import { useSearchParams, useRouter } from "next/navigation";
-import React, { useEffect, useRef, useState, Suspense } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import "../dashboard/styles/dashboard.css";
 import "../_components/styles/user.css";
 import { DashboardNavbar } from "../../HomeComponents";
 import BottomNavBar from "../_components/BottomNavBar";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import DashboardPageNavigator from "../../components/DashboardPageNavigator";
-import Button from "../../components/Button2";
 import ButtonTransparent from "../../components/ButtonTransparent";
+import Swal from "sweetalert2";
 import axios from "axios";
+
 const DepositWalletAddress = () => {
   return (
-    <>
-      <Suspense fallback={<div>Loading...</div>}>
-        <DepositWalletAddressContent />
-      </Suspense>
-    </>
+    <Suspense fallback={<div>Loading...</div>}>
+      <DepositWalletAddressContent />
+    </Suspense>
   );
 };
 
 const DepositWalletAddressContent = () => {
   const [wallets, setWallets] = useState("");
+  const [copied, setCopied] = useState(false); // State to manage toast message
   const searchParams = useSearchParams();
   const amount = searchParams.get("amount");
   const paymethod = searchParams.get("paymethod");
 
   const router = useRouter();
-
   const [timeLeft, setTimeLeft] = useState(3600);
+
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft((prevTimeLeft) => {
         if (prevTimeLeft === 0) {
           clearInterval(timer);
-          // Optionally, redirect to the expired page
-          // router.push('/expired-page');
         } else {
-          localStorage.setItem("timeLeft", prevTimeLeft - 1); // Store updated timeLeft in localStorage
+          localStorage.setItem("timeLeft", prevTimeLeft - 1);
         }
         return prevTimeLeft > 0 ? prevTimeLeft - 1 : 0;
       });
@@ -55,9 +53,10 @@ const DepositWalletAddressContent = () => {
 
         if (response.data.wallets) {
           setWallets(response.data.wallets);
-        } else {
         }
-      } catch (error) {}
+      } catch (error) {
+        console.error("Error fetching wallet:", error);
+      }
     };
     fetchData();
   }, [paymethod]);
@@ -74,10 +73,21 @@ const DepositWalletAddressContent = () => {
     e.preventDefault();
     router.push(`deposit_list`);
   };
-  const showPaymentProofUpload = (e) => {
-    e.preventDefault();
-    router.push(`upload_proof`);
+
+  // ✅ Copy Wallet Address Function
+  const copyToClipboard = () => {
+    if (wallets.wallet) {
+      setCopied(true);
+      Swal.fire({
+        icon: "success",
+        text: wallets.wallet + " copied!",
+        timer: 2000,
+      });
+      // Hide toast after 2 seconds
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
+
   return (
     <div>
       <DashboardNavbar />
@@ -102,7 +112,12 @@ const DepositWalletAddressContent = () => {
                   WALLET APP
                 </p>
                 <div className="input__deposit__">
-                  <ContentCopyIcon id="icon" />
+                  {/* ✅ Copy Icon Now Works */}
+                  <ContentCopyIcon
+                    id="icon"
+                    onClick={copyToClipboard}
+                    style={{ cursor: "pointer" }}
+                  />
                   <input
                     type="text"
                     value={wallets.wallet}
@@ -111,19 +126,16 @@ const DepositWalletAddressContent = () => {
                   />
                 </div>
 
+                {/* ✅ Toast Notification */}
+                {copied && <div className="toast">Copied!</div>}
+
                 <span className="span__dep">
-                  {" "}
                   {minutes < 10 ? "0" + minutes : minutes}:
                   {seconds < 10 ? "0" + seconds : seconds}
                 </span>
                 <span className="span__dep" style={{ marginBottom: "1rem" }}>
                   Awaiting Payment
                 </span>
-
-                {/* <Button
-                  title="UPLOAD PAYMENT PROOF"
-                  onClick={showPaymentProofUpload}
-                /> */}
 
                 <ButtonTransparent
                   title="wait for confirmation"
@@ -135,6 +147,37 @@ const DepositWalletAddressContent = () => {
         </div>
       </div>
       <BottomNavBar active="dashboard" />
+
+      {/* ✅ Add Toast Styles */}
+      <style jsx>{`
+        .toast {
+          position: fixed;
+          bottom: 50px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #333;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 14px;
+          animation: fadeInOut 2s;
+        }
+
+        @keyframes fadeInOut {
+          0% {
+            opacity: 0;
+          }
+          10% {
+            opacity: 1;
+          }
+          90% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      `}</style>
     </div>
   );
 };

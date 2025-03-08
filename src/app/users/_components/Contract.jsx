@@ -62,14 +62,14 @@ const Contract = ({ data }) => {
             : ""}
         </span>
       </div>
-      <div className="min_flex_buttons">
+      {/* <div className="min_flex_buttons">
         <Link href="/" id="link__button__min">
           buy contract
         </Link>
         <Link href="/" id="link__button__min">
           my contracts
         </Link>
-      </div>
+      </div> */}
       <div className="trading_view_1" style={{ marginBottom: "0.6rem" }}></div>
       <div className="trading_view_2"></div>
     </div>

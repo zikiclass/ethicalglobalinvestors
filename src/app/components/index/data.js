@@ -619,44 +619,6 @@ export const favorites = [
   { id: 8, svg: uk100, name: "UK 100", desc: "UK100GBP" },
 ];
 
-export const min_ghs = [
-  {
-    id: 1,
-    svg: Bitcoin,
-    crypto_amt: "0.000000 BTC",
-    dollar_amt: "$0.00",
-    ghs: "GH/s",
-  },
-  {
-    id: 2,
-    svg: Ethereum,
-    crypto_amt: "0.000000 ETH",
-    dollar_amt: "$0.00",
-    ghs: "GH/s",
-  },
-  {
-    id: 3,
-    svg: Binance,
-    crypto_amt: "0.000000 BNB",
-    dollar_amt: "$0.00",
-    ghs: "0 GH/s",
-  },
-  {
-    id: 4,
-    svg: dodge,
-    crypto_amt: "0.000000 DOGE",
-    dollar_amt: "$0.00",
-    ghs: "GH/s",
-  },
-  {
-    id: 5,
-    svg: Cosmos,
-    crypto_amt: "0.000000 ATOM",
-    dollar_amt: "$0.00",
-    ghs: "GH/s",
-  },
-];
-
 export const tradersList = [
   {
     id: 1,
