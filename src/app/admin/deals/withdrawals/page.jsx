@@ -1,4 +1,4 @@
-// src/app/admin/deals/withdrawals/page.jsx
+"use client";
 import React, { Suspense } from "react";
 import Layout from "../../Layout";
 import styles from "../../users/users.module.css";
