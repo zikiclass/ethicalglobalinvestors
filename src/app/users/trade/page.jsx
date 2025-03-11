@@ -155,45 +155,6 @@ const Trade = () => {
             ></div>
           </div>
           <div className="trade__col__1">
-            <div className="row">
-              <select
-                name="first_select"
-                value={firstSelect}
-                onChange={handleFirstSelectChange}
-              >
-                {TradeSelectFirst.map((tradeSelect, index) => (
-                  <option value={tradeSelect} key={index}>
-                    {tradeSelect}
-                  </option>
-                ))}
-              </select>
-              <select name="second_select">
-                {firstSelect
-                  ? TradeSelectSecond[firstSelect].map((tradeSelect, index) => (
-                      <option value={tradeSelect} key={index}>
-                        {tradeSelect}
-                      </option>
-                    ))
-                  : TradeSelectSecond["Crypto (43)"].map(
-                      (tradeSelect, index) => (
-                        <option value={tradeSelect} key={index}>
-                          {tradeSelect}
-                        </option>
-                      )
-                    )}
-              </select>
-              <select
-                name="third_select"
-                value={thirdSelect}
-                onChange={(e) => setThirdSelect(e.target.value)}
-              >
-                {TradeSelectThird.map((tradeSelect, index) => (
-                  <option value={tradeSelect} key={index}>
-                    {tradeSelect}
-                  </option>
-                ))}
-              </select>
-            </div>
             {openTrades.length !== 0 && (
               <div className="open_trades">
                 {openTrades.map((trade) => (
