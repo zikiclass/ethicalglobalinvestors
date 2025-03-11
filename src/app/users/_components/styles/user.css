@@ -732,10 +732,10 @@ gap: 0.3rem;
     color: var(--dark) !important;
 }
 .levr{
-    display: flex;
-    gap: 0.5rem;
+    
+   
     width: 100%;
-    justify-content: space-between;
+    
 }
 .input__ input{
     border: 1px solid #000!important;
