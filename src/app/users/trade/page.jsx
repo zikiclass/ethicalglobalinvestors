@@ -25,6 +25,14 @@ const Trade = () => {
   const [leverage, setLeverage] = useState(1); // Default leverage
   const [openTrades, setOpenTrades] = useState([]);
 
+  // Load open trades from localStorage if available
+  useEffect(() => {
+    const savedTrades = JSON.parse(localStorage.getItem("openTrades"));
+    if (savedTrades) {
+      setOpenTrades(savedTrades);
+    }
+  }, []);
+
   const handleBuySell = async (action) => {
     try {
       const response = await fetch("/api/trade", {
@@ -46,14 +54,16 @@ const Trade = () => {
           timer: 2000,
         });
 
-        setOpenTrades((prevTrades) => [
-          ...prevTrades,
-          {
-            ...result.tradeSignal,
-            remainingTime: result.tradeSignal.duration * 60, // Convert minutes to seconds
-            currentProfit: 0, // Start from 0 and increase to actual profit
-          },
-        ]);
+        const newTrade = {
+          ...result.tradeSignal,
+          remainingTime: result.tradeSignal.duration * 60, // Convert minutes to seconds
+          currentProfit: 0, // Start from 0 and increase to actual profit
+        };
+
+        // Update openTrades and save to localStorage
+        const updatedTrades = [...openTrades, newTrade];
+        setOpenTrades(updatedTrades);
+        localStorage.setItem("openTrades", JSON.stringify(updatedTrades));
       } else {
         Swal.fire({
           icon: "error",
@@ -95,10 +105,13 @@ const Trade = () => {
           })
           .filter((trade) => trade !== null)
       );
+
+      // Save updated trades to localStorage
+      localStorage.setItem("openTrades", JSON.stringify(openTrades));
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [openTrades]);
 
   const handleFirstSelectChange = (event) => {
     setFirstSelect(event.target.value);

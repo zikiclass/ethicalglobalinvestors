@@ -39,23 +39,27 @@ const SideBar = ({ toggle }) => {
       title: "dashboard",
       icon: <DashboardIcon />,
       subLink: [],
-      href: "dashboard",
+      href: "/admin/dashboard",
     },
     {
       title: "accounts",
       icon: <PersonIcon />,
       sub: "accounts",
       subLink: [
-        { title: "users", href: "users" },
-        { title: "admin", href: "admin_" },
+        { title: "users", href: "/admin/users" },
+        { title: "admin", href: "/admin/admin_" },
       ],
     },
 
     // { title: "traders", icon: <Diversity2Icon />, href: "traders" },
-    { title: "trades signals", icon: <CurrencyExchangeIcon />, href: "trades" },
-    { title: "Wallets", icon: <SettingsIcon />, href: "wallets" },
+    {
+      title: "trades signals",
+      icon: <CurrencyExchangeIcon />,
+      href: "/admin/trades",
+    },
+    { title: "Wallets", icon: <SettingsIcon />, href: "/admin/wallets" },
 
-    { title: "logout", icon: <ExitToAppIcon /> },
+    { title: "logout", icon: <ExitToAppIcon />, href: "/api/auth/signout" },
   ];
 
   return (

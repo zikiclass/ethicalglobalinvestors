@@ -1,5 +1,5 @@
 "use client";
-import React, { Suspense, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../../Layout";
 import styles from "../../users/users.module.css";
 import axios from "axios";
@@ -16,7 +16,7 @@ import IndeterminateCheckBoxIcon from "@mui/icons-material/IndeterminateCheckBox
 import Box from "@mui/material/Box";
 import { format, parseISO } from "date-fns";
 
-// Simulate a delay for Suspense
+// Custom hook to fetch search params
 const useSearchParamsWithSuspense = () => {
   const searchParams = useSearchParams();
   const [params, setParams] = useState(null);
@@ -27,31 +27,28 @@ const useSearchParamsWithSuspense = () => {
     }
   }, [searchParams]);
 
-  if (!params) {
-    // Simulate async behavior by throwing a Promise
-    throw new Promise(() => {});
-  }
-
   return params;
 };
 
 const DealsWithdrawalsContent = () => {
-  const searchParams = useSearchParamsWithSuspense(); // Wrap useSearchParams to trigger Suspense
-  const userId = searchParams.get("userId");
+  const searchParams = useSearchParamsWithSuspense(); // This hook now simply gets params
+  const userId = searchParams ? searchParams.get("userId") : null;
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          `/api/users/withdrawals/uniquewithdraw?id=${userId}`
-        );
-        setUsers(response.data.data);
-        setLoading(false);
-      } catch (error) {
-        toast.error("Error");
-        setLoading(false);
+      if (userId) {
+        try {
+          const response = await axios.get(
+            `/api/users/withdrawals/uniquewithdraw?id=${userId}`
+          );
+          setUsers(response.data.data);
+          setLoading(false);
+        } catch (error) {
+          toast.error("Error fetching data");
+          setLoading(false);
+        }
       }
     };
     fetchData();
@@ -163,11 +160,7 @@ const DealsWithdrawalsContent = () => {
 };
 
 const DealsWithdrawals = () => {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <DealsWithdrawalsContent />
-    </Suspense>
-  );
+  return <DealsWithdrawalsContent />;
 };
 
 export default DealsWithdrawals;
