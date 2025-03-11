@@ -155,13 +155,13 @@ const Users = () => {
                         <PreviewIcon />
                         <span>View</span>
                       </Link>
-                      <Link
+                      {/* <Link
                         className={styles.cta_}
                         href={`trades_user?userId=${user.id}`}
                       >
                         <SellIcon />
                         <span>Trades</span>
-                      </Link>
+                      </Link> */}
                       {/* <Link className={styles.cta_} href="">
                         <LockOpenIcon />
                         <span>Login</span>

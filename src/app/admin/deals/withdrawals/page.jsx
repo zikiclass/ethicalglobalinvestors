@@ -1,10 +1,9 @@
-"use client";
-import React, { useState, useEffect } from "react";
+// src/app/admin/deals/withdrawals/page.jsx
+import React, { Suspense } from "react";
 import Layout from "../../Layout";
 import styles from "../../users/users.module.css";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import { useSearchParams } from "next/navigation";
 import CircularProgress from "@mui/material/CircularProgress";
 import Link from "next/link";
 import DoneAllIcon from "@mui/icons-material/DoneAll";
@@ -15,44 +14,25 @@ import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
 import IndeterminateCheckBoxIcon from "@mui/icons-material/IndeterminateCheckBox";
 import Box from "@mui/material/Box";
 import { format, parseISO } from "date-fns";
+import { useSearchParams } from "next/navigation";
 
-// Custom hook to fetch search params
-const useSearchParamsWithSuspense = () => {
-  const searchParams = useSearchParams();
-  const [params, setParams] = useState(null);
-
-  useEffect(() => {
-    if (searchParams) {
-      setParams(searchParams); // Set the params when available
-    }
-  }, [searchParams]);
-
-  return params;
+// Async function to fetch data from API
+const fetchWithdrawals = async (userId) => {
+  try {
+    const response = await axios.get(
+      `/api/users/withdrawals/uniquewithdraw?id=${userId}`
+    );
+    return response.data.data;
+  } catch (error) {
+    console.error("Error fetching withdrawals:", error);
+    return [];
+  }
 };
 
-const DealsWithdrawalsContent = () => {
-  const searchParams = useSearchParamsWithSuspense(); // This hook now simply gets params
-  const userId = searchParams ? searchParams.get("userId") : null;
-  const [users, setUsers] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      if (userId) {
-        try {
-          const response = await axios.get(
-            `/api/users/withdrawals/uniquewithdraw?id=${userId}`
-          );
-          setUsers(response.data.data);
-          setLoading(false);
-        } catch (error) {
-          toast.error("Error fetching data");
-          setLoading(false);
-        }
-      }
-    };
-    fetchData();
-  }, [userId]);
+const DealsWithdrawalsContent = async () => {
+  const searchParams = useSearchParams();
+  const userId = searchParams.get("userId");
+  const users = await fetchWithdrawals(userId);
 
   const formatDate = (dateString) => {
     const date = parseISO(dateString);
@@ -78,7 +58,7 @@ const DealsWithdrawalsContent = () => {
           <IndeterminateCheckBoxIcon />
           Withdrawals
         </Link>
-        {loading ? (
+        {users.length === 0 ? (
           <Box
             sx={{
               display: "flex",
@@ -100,57 +80,50 @@ const DealsWithdrawalsContent = () => {
                   <th>Actions</th>
                 </tr>
               </thead>
-              {users.length > 0 ? (
-                <tbody className={styles.tbody}>
-                  {users.map((user, index) => (
-                    <tr key={index} className={styles.tr}>
-                      <td>{formatDate(user.date)}</td>
-                      <td>{user.amount}</td>
-                      <td style={{ textTransform: "uppercase" }}>
-                        {user.method}
-                      </td>
-                      <td>
-                        {user.status === "Pending" ? (
-                          <span className={styles.danger}>Pending</span>
-                        ) : user.status === "Declined" ? (
-                          <span className={styles.decline}>Declined</span>
-                        ) : (
-                          <span className={styles.success}>Approved</span>
-                        )}
-                      </td>
-                      <td className={styles.actions}>
-                        <Link
-                          className={styles.cta_}
-                          href={`withdrawals/approve?id=${user.id}&userId=${user.userId}`}
-                        >
-                          <DoneAllIcon />
-                          <span>Approve</span>
-                        </Link>
-                        <Link
-                          className={styles.cta_}
-                          href={`withdrawals/decline?id=${user.id}&userId=${user.userId}`}
-                        >
-                          <CancelIcon />
-                          <span>Decline</span>
-                        </Link>
+              <tbody className={styles.tbody}>
+                {users.map((user, index) => (
+                  <tr key={index} className={styles.tr}>
+                    <td>{formatDate(user.date)}</td>
+                    <td>{user.amount}</td>
+                    <td style={{ textTransform: "uppercase" }}>
+                      {user.method}
+                    </td>
+                    <td>
+                      {user.status === "Pending" ? (
+                        <span className={styles.danger}>Pending</span>
+                      ) : user.status === "Declined" ? (
+                        <span className={styles.decline}>Declined</span>
+                      ) : (
+                        <span className={styles.success}>Approved</span>
+                      )}
+                    </td>
+                    <td className={styles.actions}>
+                      <Link
+                        className={styles.cta_}
+                        href={`withdrawals/approve?id=${user.id}&userId=${user.userId}`}
+                      >
+                        <DoneAllIcon />
+                        <span>Approve</span>
+                      </Link>
+                      <Link
+                        className={styles.cta_}
+                        href={`withdrawals/decline?id=${user.id}&userId=${user.userId}`}
+                      >
+                        <CancelIcon />
+                        <span>Decline</span>
+                      </Link>
 
-                        <Link
-                          className={styles.cta_}
-                          href={`withdrawals/delete?id=${user.id}&userId=${user.userId}`}
-                        >
-                          <DeleteForeverIcon />
-                          <span>Delete</span>
-                        </Link>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              ) : (
-                <div className={styles.notransaction}>
-                  {" "}
-                  &lt; No Withdrawals &gt;{" "}
-                </div>
-              )}
+                      <Link
+                        className={styles.cta_}
+                        href={`withdrawals/delete?id=${user.id}&userId=${user.userId}`}
+                      >
+                        <DeleteForeverIcon />
+                        <span>Delete</span>
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
             </table>
           </>
         )}
@@ -159,8 +132,4 @@ const DealsWithdrawalsContent = () => {
   );
 };
 
-const DealsWithdrawals = () => {
-  return <DealsWithdrawalsContent />;
-};
-
-export default DealsWithdrawals;
+export default DealsWithdrawalsContent;
