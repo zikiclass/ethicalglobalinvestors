@@ -147,6 +147,13 @@ const Trade = () => {
       <div className="container" style={{ marginTop: "3rem" }}>
         <DashboardPageNavigator text="Trade" />
         <div className="trade">
+          <div className="trade__col__2">
+            <div
+              className="tradingview-widget-container"
+              ref={container}
+              style={{ height: "calc(100vh - 64px)", width: "100%" }}
+            ></div>
+          </div>
           <div className="trade__col__1">
             <div className="row">
               <select
@@ -217,13 +224,7 @@ const Trade = () => {
               </div>
             )}
           </div>
-          <div className="trade__col__2">
-            <div
-              className="tradingview-widget-container"
-              ref={container}
-              style={{ height: "calc(100vh - 64px)", width: "100%" }}
-            ></div>
-          </div>
+
           <div className="trade__col__1">
             <form action="">
               <div className="updown__">
