@@ -12,7 +12,7 @@ const WalletAddress = () => {
   const [btc, setBTC] = useState("");
   const [eth, setETH] = useState("");
   const [usdttrc, setUsdtTrc] = useState("");
-  const [usdterc, setUsdtErc] = useState("");
+  const [solana, setSolana] = useState("");
   const [trx, setTrx] = useState("");
   const router = useRouter();
   // Fetch wallet data from API
@@ -29,8 +29,7 @@ const WalletAddress = () => {
             if (wallet.wallet_address === "ETH Ethereum") setETH(wallet.wallet);
             if (wallet.wallet_address === "USDT (TRC20)")
               setUsdtTrc(wallet.wallet);
-            if (wallet.wallet_address === "USDT (ERC20)")
-              setUsdtErc(wallet.wallet);
+            if (wallet.wallet_address === "Solana") setSolana(wallet.wallet);
             if (wallet.wallet_address === "TRX (Tron)") setTrx(wallet.wallet);
           });
         } else {
@@ -51,7 +50,7 @@ const WalletAddress = () => {
         btc,
         eth,
         usdttrc,
-        usdterc,
+        solana,
         trx,
       });
 
@@ -108,12 +107,12 @@ const WalletAddress = () => {
                 />
               </div>
               <div className={styles.input}>
-                <label>USDT (ERC20)</label>
+                <label>Solana</label>
                 <input
                   type="text"
                   name="usdterc"
-                  value={usdterc}
-                  onChange={(e) => setUsdtErc(e.target.value)}
+                  value={solana}
+                  onChange={(e) => setSolana(e.target.value)}
                 />
               </div>
               <div className={styles.input}>

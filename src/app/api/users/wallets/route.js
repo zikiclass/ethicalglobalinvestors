@@ -6,7 +6,7 @@ export async function PUT(request) {
   try {
     const body = await request.json(); // The request body contains wallet data
 
-    const { btc, eth, usdttrc, usdterc, trx } = body; // Get wallet values from the request
+    const { btc, eth, usdttrc, solana, trx } = body; // Get wallet values from the request
 
     // Update wallet information for each type if they are provided
     const updatedWallets = [];
@@ -41,12 +41,12 @@ export async function PUT(request) {
       );
     }
 
-    if (usdterc) {
+    if (solana) {
       updatedWallets.push(
         await prisma.wallets.upsert({
-          where: { wallet_address: "USDT (ERC20)" },
-          update: { wallet: usdterc },
-          create: { wallet_address: "USDT (ERC20)", wallet: usdterc },
+          where: { wallet_address: "Solana" },
+          update: { wallet: solana },
+          create: { wallet_address: "Solana", wallet: solana },
         })
       );
     }

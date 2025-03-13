@@ -123,7 +123,7 @@ const DepositStep3Content = () => {
                     </option>
                     <option value="ETH Ethereum">ETH Ethereum </option>
                     <option value="USDT (TRC20)">USDT Usdt(trc20) </option>
-                    <option value="USDT (ERC20)">USDT Usdt(erc20) </option>
+                    <option value="Solana">Solana </option>
                     <option value="TRX (Tron)">TRX Trx(tron) </option>
                     {/* <option value="PIX">
                       PIX Elzimar medeiros de jesus ribeiro Nubank
