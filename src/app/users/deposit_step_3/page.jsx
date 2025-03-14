@@ -31,9 +31,28 @@ const DepositStep3Content = () => {
   const [buttonClicked, setButtonClicked] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState("BTC Bitcoin");
   const router = useRouter();
-  const [btcEquivalent, setBtcEquivalent] = useState(null);
-
+  const [cryptoEquivalent, setCryptoEquivalent] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const fetchExchangeRate = async (cryptoId) => {
+    try {
+      const response = await fetch(
+        `https://api.coingecko.com/api/v3/simple/price?ids=${cryptoId}&vs_currencies=usd`
+      );
+      const data = await response.json();
+      const exchangeRate = data[cryptoId]?.usd;
+      if (!isNaN(exchangeRate)) {
+        const cryptoEquivalentAmount = amountUSD / exchangeRate;
+        setCryptoEquivalent(cryptoEquivalentAmount.toFixed(8));
+      } else {
+        console.error("Invalid exchange rate:", exchangeRate);
+      }
+    } catch (error) {
+      console.error("Error fetching exchange rate:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleProceed = async (e) => {
     e.preventDefault();
@@ -61,28 +80,28 @@ const DepositStep3Content = () => {
   };
 
   useEffect(() => {
-    const fetchExchangeRate = async () => {
-      try {
-        const response = await fetch(
-          "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
-        );
-        const data = await response.json();
-        const exchangeRate = data.bitcoin.usd;
-        if (!isNaN(exchangeRate)) {
-          const btcEquivalentAmount = amountUSD / exchangeRate;
-          setBtcEquivalent(btcEquivalentAmount.toFixed(8));
-        } else {
-          console.error("Invalid exchange rate:", exchangeRate);
-        }
-      } catch (error) {
-        console.error("Error fetching exchange rate:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchExchangeRate();
+    if (amountUSD) {
+      fetchExchangeRate("bitcoin"); // default to BTC
+    }
   }, [amountUSD]);
+
+  useEffect(() => {
+    if (paymentMethod) {
+      const cryptoMap = {
+        "BTC Bitcoin": "bitcoin",
+        "ETH Ethereum": "ethereum",
+        "USDT (TRC20)": "tether",
+        Solana: "solana",
+        "TRX (Tron)": "tron",
+      };
+      const selectedCrypto = cryptoMap[paymentMethod];
+      if (selectedCrypto) {
+        setLoading(true);
+        fetchExchangeRate(selectedCrypto);
+      }
+    }
+  }, [paymentMethod, amountUSD]);
+
   return (
     <div>
       <DashboardNavbar />
@@ -104,10 +123,10 @@ const DepositStep3Content = () => {
                 <label>
                   {loading
                     ? "Loading..."
-                    : btcEquivalent !== null && !isNaN(btcEquivalent)
-                    ? parseFloat(btcEquivalent).toFixed(8)
+                    : cryptoEquivalent !== null && !isNaN(cryptoEquivalent)
+                    ? parseFloat(cryptoEquivalent).toFixed(8)
                     : "N/A"}{" "}
-                  BTC
+                  {paymentMethod.split(" ")[0]}
                 </label>
               </center>
               <form action="#" onSubmit={handleProceed}>
@@ -117,34 +136,19 @@ const DepositStep3Content = () => {
                     className="select__deposit"
                     name="paymentMethod"
                     onChange={(e) => setPaymentMethod(e.target.value)}
+                    value={paymentMethod}
                   >
-                    <option value="BTC Bitcoin" selected="">
-                      BTC Bitcoin
-                    </option>
-                    <option value="ETH Ethereum">ETH Ethereum </option>
-                    <option value="USDT (TRC20)">USDT Usdt(trc20) </option>
-                    <option value="Solana">Solana </option>
-                    <option value="TRX (Tron)">TRX Trx(tron) </option>
-                    {/* <option value="PIX">
-                      PIX Elzimar medeiros de jesus ribeiro Nubank
-                    </option>
-                    <option value="PIXX Inter">PIXX Inter banco </option>
-                    <option value="PIXX Mercado">
-                      PIXX Mercado pago elzimar medeiros de jesus ribeiro{" "}
-                    </option>
-                    <option value="PIXXX Sandra">
-                      PIXXX Sandra aparecida gagetti Chave BV
-                    </option> */}
+                    <option value="BTC Bitcoin">BTC Bitcoin</option>
+                    <option value="ETH Ethereum">ETH Ethereum</option>
+                    <option value="USDT (TRC20)">USDT Usdt(trc20)</option>
+                    <option value="Solana">Solana</option>
+                    <option value="TRX (Tron)">TRX Trx(tron)</option>
                   </select>
                 </div>
                 {!buttonClicked ? (
                   <Button title="Proceed" />
                 ) : (
-                  <center
-                    style={{
-                      padding: "0px",
-                    }}
-                  >
+                  <center style={{ padding: "0px" }}>
                     <CircularProgress thickness={4} />
                   </center>
                 )}
