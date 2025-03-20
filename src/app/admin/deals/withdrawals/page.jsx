@@ -16,26 +16,8 @@ import Box from "@mui/material/Box";
 import { format, parseISO } from "date-fns";
 import { useSearchParams } from "next/navigation";
 
-// Simulate a delay for Suspense
-const useSearchParamsWithSuspense = () => {
-  const searchParams = useSearchParams();
-  const [params, setParams] = useState(null);
-
-  useEffect(() => {
-    if (searchParams) {
-      setParams(searchParams); // Set the params when available
-    }
-  }, [searchParams]);
-
-  if (!params) {
-    // Simulate async behavior by throwing a Promise
-    throw new Promise(() => {});
-  }
-
-  return params;
-};
 const DealsWithdrawalsContent = () => {
-  const searchParams = useSearchParamsWithSuspense(); // Wrap useSearchParams to trigger Suspense
+  const searchParams = useSearchParams(); // Wrap useSearchParams to trigger Suspense
   const userId = searchParams.get("userId");
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
