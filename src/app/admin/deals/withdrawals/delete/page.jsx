@@ -9,7 +9,7 @@ import Link from "next/link";
 import ReplyIcon from "@mui/icons-material/Reply";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
-
+import { useRouter } from "next/navigation";
 // Component to handle the withdrawal deletion logic
 const DeleteWithdrawalContent = () => {
   const searchParams = useSearchParams();
