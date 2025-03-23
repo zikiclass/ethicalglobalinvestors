@@ -59,12 +59,14 @@ export async function PUT(req) {
 }
 export async function DELETE(req) {
   try {
-    const body = await req.json();
-    if (!body.id)
-      return NextResponse.json({ message: "Invalid ID" }, { status: 404 });
+    const url = new URL(req.url);
+    const searchParams = new URLSearchParams(url.searchParams);
+    const id = searchParams.get("id");
+    if (!id)
+      return NextResponse.json({ message: "Unathorized" }, { status: 404 });
 
     const deleteDeposit = await prisma.deposit.delete({
-      where: { id: parseInt(body.id) },
+      where: { id: parseInt(id) },
     });
     if (deleteDeposit) {
       return NextResponse.json({ message: "success" }, { status: 200 });

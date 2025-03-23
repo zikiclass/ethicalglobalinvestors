@@ -26,7 +26,7 @@ const DeleteDepositContent = () => {
     try {
       // Send the ID in the URL for the DELETE request
       const deleteResponse = await axios.delete(
-        `/api/users/deposit/uniquedeposit/${id}`
+        `/api/users/deposit/uniquedeposit?id=${id}`
       );
 
       if (deleteResponse.data.message === "success") {

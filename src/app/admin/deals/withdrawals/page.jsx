@@ -62,7 +62,7 @@ const DealsWithdrawalsContent = () => {
           <IndeterminateCheckBoxIcon />
           Withdrawals
         </Link>
-        {users.length === 0 ? (
+        {loading ? (
           <Box
             sx={{
               display: "flex",
@@ -84,50 +84,57 @@ const DealsWithdrawalsContent = () => {
                   <th>Actions</th>
                 </tr>
               </thead>
-              <tbody className={styles.tbody}>
-                {users.map((user, index) => (
-                  <tr key={index} className={styles.tr}>
-                    <td>{formatDate(user.date)}</td>
-                    <td>{user.amount}</td>
-                    <td style={{ textTransform: "uppercase" }}>
-                      {user.method}
-                    </td>
-                    <td>
-                      {user.status === "Pending" ? (
-                        <span className={styles.danger}>Pending</span>
-                      ) : user.status === "Declined" ? (
-                        <span className={styles.decline}>Declined</span>
-                      ) : (
-                        <span className={styles.success}>Approved</span>
-                      )}
-                    </td>
-                    <td className={styles.actions}>
-                      <Link
-                        className={styles.cta_}
-                        href={`withdrawals/approve?id=${user.id}&userId=${user.userId}`}
-                      >
-                        <DoneAllIcon />
-                        <span>Approve</span>
-                      </Link>
-                      <Link
-                        className={styles.cta_}
-                        href={`withdrawals/decline?id=${user.id}&userId=${user.userId}`}
-                      >
-                        <CancelIcon />
-                        <span>Decline</span>
-                      </Link>
+              {users.length > 0 ? (
+                <tbody className={styles.tbody}>
+                  {users.map((user, index) => (
+                    <tr key={index} className={styles.tr}>
+                      <td>{formatDate(user.date)}</td>
+                      <td>{user.amount}</td>
+                      <td style={{ textTransform: "uppercase" }}>
+                        {user.method}
+                      </td>
+                      <td>
+                        {user.status === "Pending" ? (
+                          <span className={styles.danger}>Pending</span>
+                        ) : user.status === "Declined" ? (
+                          <span className={styles.decline}>Declined</span>
+                        ) : (
+                          <span className={styles.success}>Approved</span>
+                        )}
+                      </td>
+                      <td className={styles.actions}>
+                        <Link
+                          className={styles.cta_}
+                          href={`withdrawals/approve?id=${user.id}&userId=${user.userId}`}
+                        >
+                          <DoneAllIcon />
+                          <span>Approve</span>
+                        </Link>
+                        <Link
+                          className={styles.cta_}
+                          href={`withdrawals/decline?id=${user.id}&userId=${user.userId}`}
+                        >
+                          <CancelIcon />
+                          <span>Decline</span>
+                        </Link>
 
-                      <Link
-                        className={styles.cta_}
-                        href={`withdrawals/delete?id=${user.id}&userId=${user.userId}`}
-                      >
-                        <DeleteForeverIcon />
-                        <span>Delete</span>
-                      </Link>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
+                        <Link
+                          className={styles.cta_}
+                          href={`withdrawals/delete?id=${user.id}&userId=${user.userId}`}
+                        >
+                          <DeleteForeverIcon />
+                          <span>Delete</span>
+                        </Link>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              ) : (
+                <div className={styles.notransaction}>
+                  {" "}
+                  &lt; No Withdrawals &gt;{" "}
+                </div>
+              )}
             </table>
           </>
         )}
