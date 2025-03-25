@@ -19,6 +19,7 @@ const NavBar = () => {
   const [fadeOut, setFadeOut] = useState(true);
   const [scrolled, setScrolled] = useState(false);
   const [countryShow, setCountryShow] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState("US");
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -110,16 +111,18 @@ const NavBar = () => {
         >
           <FlagIcon code="US" className="icon__country" /> <span>EN</span>
         </div>
-        {/* <div className="country__list">
-          <div className="country__wrap">
-            {countryList.map((country) => (
-              <div className="icon__country__list" key={country.id}>
-                <FlagIcon code={country.code} className="icon__country__" />{" "}
-                <span>{country.code}</span>
-              </div>
-            ))}
+        {
+          <div className="country__list">
+            <div className="country__wrap">
+              {countryList.map((country) => (
+                <div className="icon__country__list" key={country.id}>
+                  <FlagIcon code={country.code} className="icon__country__" />{" "}
+                  <span>{country.code}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div> */}
+        }
       </div>
 
       <div
