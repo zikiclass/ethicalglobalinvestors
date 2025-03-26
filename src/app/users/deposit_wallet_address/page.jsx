@@ -77,14 +77,27 @@ const DepositWalletAddressContent = () => {
   // ✅ Copy Wallet Address Function
   const copyToClipboard = () => {
     if (wallets.wallet) {
-      setCopied(true);
-      Swal.fire({
-        icon: "success",
-        text: wallets.wallet + " copied!",
-        timer: 2000,
-      });
-      // Hide toast after 2 seconds
-      setTimeout(() => setCopied(false), 2000);
+      navigator.clipboard
+        .writeText(wallets.wallet)
+        .then(() => {
+          setCopied(true);
+          Swal.fire({
+            icon: "success",
+            text: wallets.wallet + " copied!",
+            timer: 2000,
+          });
+
+          // Hide toast after 2 seconds
+          setTimeout(() => setCopied(false), 2000);
+        })
+        .catch((error) => {
+          console.error("Failed to copy text: ", error);
+          Swal.fire({
+            icon: "error",
+            text: "Failed to copy the wallet address.",
+            timer: 2000,
+          });
+        });
     }
   };
 
