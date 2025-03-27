@@ -85,6 +85,9 @@
 .icon__country__list:hover{
     background-color: rgba(0,0,0,0.1);
 }
+.icon__country__list span{
+    color: #000!important;
+}
 .icon__country__{
     height: 20px;
     width: 40px;

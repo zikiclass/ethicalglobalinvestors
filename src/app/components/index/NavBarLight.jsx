@@ -18,6 +18,15 @@ const NavBarLight = () => {
   const [fadeOut, setFadeOut] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
 
+  const [selectedCountry, setSelectedCountry] = useState("US");
+
+  // const handleCountryChange = (countryCode) => {
+  //   const languageCode = countryCode.toLowerCase();
+  //   if (i18n) {
+  //     i18n.changeLanguage(languageCode); // Change the language
+  //   }
+  // };
+
   // Function to handle scroll event
   const handleScroll = (event) => {
     setScrollPosition(event.target.scrollTop);
@@ -66,7 +75,7 @@ const NavBarLight = () => {
         </Link>
         {status === "unauthenticated" ? (
           <Link href="signin" className="md-links">
-            Log In
+            Login
           </Link>
         ) : (
           <Link href="users/dashboard" className="md-links">

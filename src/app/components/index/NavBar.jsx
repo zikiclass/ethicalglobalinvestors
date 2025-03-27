@@ -20,6 +20,7 @@ const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [countryShow, setCountryShow] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState("US");
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -86,7 +87,7 @@ const NavBar = () => {
         </Link>
         {!data ? (
           <Link href="signin" className="md-links">
-            Log In
+            Login
           </Link>
         ) : (
           <Link href="users/dashboard" className="md-links">
@@ -116,7 +117,7 @@ const NavBar = () => {
             <div className="country__wrap">
               {countryList.map((country) => (
                 <div className="icon__country__list" key={country.id}>
-                  <FlagIcon code={country.code} className="icon__country__" />{" "}
+                  <FlagIcon code={country.code} className="icon__country__" />
                   <span>{country.code}</span>
                 </div>
               ))}

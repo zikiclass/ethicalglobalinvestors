@@ -355,6 +355,7 @@ export const countries = [
   { id: "CD", name: "Congo (Democratic Republic of the)" },
   { id: "CK", name: "Cook Islands" },
   { id: "CR", name: "Costa Rica" },
+  { id: "CI", name: "Côte d'Ivoire" },
   { id: "HR", name: "Croatia" },
   { id: "CU", name: "Cuba" },
   { id: "CW", name: "Curaçao" },
