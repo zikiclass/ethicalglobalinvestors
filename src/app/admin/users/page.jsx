@@ -8,6 +8,8 @@ import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import PaymentsIcon from "@mui/icons-material/Payments";
 import PreviewIcon from "@mui/icons-material/Preview";
 import SellIcon from "@mui/icons-material/Sell";
+
+import PlaylistAddCheckCircleIcon from "@mui/icons-material/PlaylistAddCheckCircle";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import DeleteIcon from "@mui/icons-material/Delete";
 import Link from "next/link";
@@ -155,13 +157,13 @@ const Users = () => {
                         <PreviewIcon />
                         <span>View</span>
                       </Link>
-                      {/* <Link
+                      <Link
                         className={styles.cta_}
-                        href={`trades_user?userId=${user.id}`}
+                        href={`verification?userId=${user.id}`}
                       >
-                        <SellIcon />
-                        <span>Trades</span>
-                      </Link> */}
+                        <PlaylistAddCheckCircleIcon />
+                        <span>Verification</span>
+                      </Link>
                       {/* <Link className={styles.cta_} href="">
                         <LockOpenIcon />
                         <span>Login</span>

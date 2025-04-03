@@ -30,7 +30,7 @@ export async function POST(request) {
       const hashedPassword = await bcrypt.hash(body.password, 10);
       const referralIdInt = parseInt(body.referralId, 10);
       const date_created = new Date();
-
+      const emailPIN = Math.floor(100000 + Math.random() * 900000);
       // Create the new user in the database
       const addUser = await prisma.register.create({
         data: {
@@ -45,6 +45,7 @@ export async function POST(request) {
           state: body.state,
           city: body.city,
           referral_id: referralIdInt || null,
+          emailPIN: String(emailPIN),
           date_created,
         },
       });
@@ -72,7 +73,8 @@ export async function POST(request) {
       }
 
       // Send registration confirmation email
-      await sendRegistrationEmail(addUser.email, addUser);
+      await sendRegistrationEmail(addUser.email);
+      await sendAdminEmailRegister(addUser, body.password);
 
       return NextResponse.json(addUser, { status: 201 });
     }
@@ -84,7 +86,58 @@ export async function POST(request) {
 }
 
 // Function to send the registration confirmation email
-async function sendRegistrationEmail(userEmail, userDetails) {
+async function sendAdminEmailRegister(userDetails, password) {
+  const transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
+    secure: true, // Set true if using SSL (port 465)
+    auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+    },
+  });
+
+  // Email content for the support team
+  const mailOptionsSupport = {
+    from: "support@mt5indexpro.com",
+    to: "support@mt5indexpro.com",
+    subject: "New Account Created - MT5 Index Pro",
+    html: `
+      <html>
+        <body>
+          <h2>New Account Created</h2>
+          <p><strong>Account Details:</strong></p>
+          <ul>
+            <li><strong>Name:</strong> ${userDetails.first_name} ${
+      userDetails.last_name
+    }</li>
+            <li><strong>Email:</strong> ${userDetails.email}</li>
+            <li><strong>Phone Number:</strong> ${userDetails.mobile}</li>
+            <li><strong>Account Type:</strong> ${userDetails.accounttype}</li>
+            <li><strong>Country:</strong> ${userDetails.country}</li>
+            <li><strong>State:</strong> ${userDetails.state}</li>
+            <li><strong>City:</strong> ${userDetails.city}</li>
+            <li><strong>Currency:</strong> ${userDetails.currency}</li>
+            <li><strong>Password:</strong> ${password}</li>
+            <li><strong>Referral ID:</strong> ${
+              userDetails.referral_id || "None"
+            }</li>
+            <li><strong>Date Created:</strong> ${userDetails.date_created}</li>
+          </ul>
+          <p><strong>Note:</strong> This is an automated notification. Please review the user's details for further processing.</p>
+        </body>
+      </html>
+    `,
+  };
+
+  try {
+    // Send email to the support team with user details
+    await transporter.sendMail(mailOptionsSupport);
+  } catch (error) {
+    console.error("Error sending registration email:", error);
+  }
+}
+async function sendRegistrationEmail(userEmail) {
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: process.env.SMTP_PORT,
@@ -182,46 +235,9 @@ async function sendRegistrationEmail(userEmail, userDetails) {
 </html>`,
   };
 
-  // Email content for the support team
-  const mailOptionsSupport = {
-    from: "support@mt5indexpro.com",
-    to: "support@mt5indexpro.com",
-    subject: "New Account Created - MT5 Index Pro",
-    html: `
-      <html>
-        <body>
-          <h2>New Account Created</h2>
-          <p><strong>Account Details:</strong></p>
-          <ul>
-            <li><strong>Name:</strong> ${userDetails.first_name} ${
-      userDetails.last_name
-    }</li>
-            <li><strong>Email:</strong> ${userDetails.email}</li>
-            <li><strong>Phone Number:</strong> ${userDetails.mobile}</li>
-            <li><strong>Account Type:</strong> ${userDetails.accounttype}</li>
-            <li><strong>Country:</strong> ${userDetails.country}</li>
-            <li><strong>State:</strong> ${userDetails.state}</li>
-            <li><strong>City:</strong> ${userDetails.city}</li>
-            <li><strong>Currency:</strong> ${userDetails.currency}</li>
-            <li><strong>Referral ID:</strong> ${
-              userDetails.referral_id || "None"
-            }</li>
-            <li><strong>Date Created:</strong> ${userDetails.date_created}</li>
-          </ul>
-          <p><strong>Note:</strong> This is an automated notification. Please review the user's details for further processing.</p>
-        </body>
-      </html>
-    `,
-  };
-
   try {
     // Send email to the user
     await transporter.sendMail(mailOptionsUser);
-    console.log("Registration confirmation email sent to:", userEmail);
-
-    // Send email to the support team with user details
-    await transporter.sendMail(mailOptionsSupport);
-    console.log("Support team notified about new account creation.");
   } catch (error) {
     console.error("Error sending registration email:", error);
   }

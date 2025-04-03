@@ -19,7 +19,14 @@ const AccountVerification = () => {
       color: "#b548c6",
       title: "Email Verification",
       href: "email_verification",
-      span: "Skipped",
+      span:
+        data?.emailVerify === "yes"
+          ? "Verified"
+          : data?.emailVerify === "pend"
+          ? "Pending Verification"
+          : data?.emailVerify === "rej"
+          ? "Rejected"
+          : "Not Started",
     },
     {
       id: 2,
@@ -27,7 +34,14 @@ const AccountVerification = () => {
       color: "#e1545d",
       title: "Identity Verification",
       href: "identity_verification",
-      span: "Pending",
+      span:
+        data?.idVerify === "yes"
+          ? "Verified"
+          : data?.idVerify === "pend"
+          ? "Pending Verification"
+          : data?.idVerify === "rej"
+          ? "Rejected"
+          : "Not Started",
     },
     {
       id: 3,
@@ -35,7 +49,14 @@ const AccountVerification = () => {
       color: "#525297",
       title: "Address Verification",
       href: "address_verification",
-      span: "Pending",
+      span:
+        data?.addressVerify === "yes"
+          ? "Verified"
+          : data?.addressVerify === "pend"
+          ? "Pending Verification"
+          : data?.addressVerify === "rej"
+          ? "Rejected"
+          : "Not Started",
     },
   ];
 
@@ -55,7 +76,12 @@ const AccountVerification = () => {
             <div className="profile__listings">
               {profile1.map((profile) => (
                 <Link
-                  href={profile.href}
+                  href={
+                    profile.span === "Verified" ||
+                    profile.span === "Pending Verification"
+                      ? "#"
+                      : profile.href
+                  }
                   className="profile_list"
                   key={profile.id}
                 >
@@ -69,7 +95,20 @@ const AccountVerification = () => {
                   </div>
                   <span>
                     {profile.title}
-                    <small className="sm__prof"> {profile.span}</small>
+                    <small className="sm__prof">
+                      {" "}
+                      {profile.span === "Verified" ? (
+                        <span style={{ color: "green" }}>Verified</span>
+                      ) : profile.span === "Pending Verification" ? (
+                        <span style={{ color: "orange" }}>
+                          Pending Verification
+                        </span>
+                      ) : profile.span === "Rejected" ? (
+                        <span style={{ color: "red" }}>Rejected</span>
+                      ) : (
+                        <span>Not Started</span>
+                      )}
+                    </small>
                   </span>
                 </Link>
               ))}

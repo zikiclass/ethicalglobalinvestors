@@ -10,7 +10,16 @@ import "../dashboard/styles/dashboard.css";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import CircularProgress from "@mui/joy/CircularProgress";
+import Swal from "sweetalert2";
+import fetchUser from "../_components/FetchUser";
 const IdentityVerification = () => {
+  const { data } = fetchUser();
+  const [formData, setFormData] = useState({
+    idFront: "",
+    idBack: "",
+    email: data?.email,
+  });
+
   const [buttonClicked, setButtonClicked] = useState(false);
   const router = useRouter();
   const handleProceed = (e) => {
@@ -21,6 +30,50 @@ const IdentityVerification = () => {
     }, 2000);
     router.push(`dashboard`);
   };
+
+  const handleFileChange = (event, type, index = null) => {
+    const file = event.target.files[0];
+    if (file) {
+      if (type === "idFront") {
+        setFormData({ ...formData, idFront: file });
+      } else {
+        setFormData({ ...formData, idBack: file });
+      }
+    }
+  };
+
+  const handleSubmit = async () => {
+    setButtonClicked(true);
+    try {
+      // Prepare the data to be sent to the backend
+      const dataToSubmit = new FormData();
+
+      dataToSubmit.append("idFront", formData.idFront);
+      dataToSubmit.append("idBack", formData.idBack);
+      dataToSubmit.append("email", data?.email);
+
+      // Send the form data to the backend
+      await fetch("/api/users/identity_verification", {
+        method: "POST",
+        body: dataToSubmit,
+      });
+
+      Swal.fire({
+        icon: "success",
+        text: "Identity verification in progress...",
+      });
+      setButtonClicked(false);
+      router.push("account_verification");
+    } catch (error) {
+      Swal.fire({
+        icon: "error",
+        text: "Unable to upload data" + error,
+      });
+      setButtonClicked(false);
+    } finally {
+    }
+  };
+
   return (
     <div>
       <DashboardNavbar />
@@ -44,16 +97,24 @@ const IdentityVerification = () => {
               </p>
               <div className="input__deposit">
                 <label>Select Front</label>
-                <input type="file" name="photo__front" />
+                <input
+                  type="file"
+                  accept="image/*"
+                  required
+                  onChange={(e) => handleFileChange(e, "idFront")}
+                />
               </div>
               <div className="input__deposit">
                 <label>Select Back</label>
-                <input type="file" name="photo__back" />
+                <input
+                  type="file"
+                  accept="image/*"
+                  required
+                  onChange={(e) => handleFileChange(e, "idBack")}
+                />
               </div>
-              <Button title="Upload" />
-              <br />
               {!buttonClicked ? (
-                <ButtonTransparent title="Skip" onClick={handleProceed} />
+                <Button title="Upload" onClick={handleSubmit} />
               ) : (
                 <center
                   style={{
@@ -63,6 +124,10 @@ const IdentityVerification = () => {
                   <CircularProgress thickness={4} />
                 </center>
               )}
+
+              <br />
+
+              <ButtonTransparent title="Skip" onClick={handleProceed} />
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const DepositWalletAddressContent = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `/api/users/wallets?paymentmethod=${paymethod}`
+          `/api/users/wallets?paymentmethod=${paymethod}&amount=${amount}`
         );
 
         if (response.data.wallets) {

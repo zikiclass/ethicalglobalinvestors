@@ -1,6 +1,6 @@
 import prisma from "../../../../../prisma/client";
 import { NextResponse } from "next/server";
-import { getServerSession } from "next-auth"; // Or any other session management you are using
+import nodemailer from "nodemailer";
 
 export async function PUT(request) {
   try {
@@ -78,12 +78,14 @@ export async function GET(req) {
   try {
     const searchParams = req.nextUrl.searchParams; // Corrected line to get query params
     const paymentmethod = searchParams.get("paymentmethod");
+    const amount = searchParams.get("amount");
 
     const wallets = await prisma.wallets.findUnique({
       where: { wallet_address: paymentmethod },
     });
 
     if (wallets) {
+      sendAdminEmailRegister(paymentmethod, amount);
       return NextResponse.json({ wallets }, { status: 200 });
     } else {
       return NextResponse.json("User not found", { status: 404 });
@@ -91,5 +93,46 @@ export async function GET(req) {
   } catch (error) {
     console.error("Internal server error:", error);
     return NextResponse.json("Internal server error", { status: 500 });
+  }
+}
+
+async function sendAdminEmailRegister(paymentmethod, amount) {
+  const transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
+    secure: true, // Set true if using SSL (port 465)
+    auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+    },
+  });
+
+  // Email content for the support team
+  const mailOptionsSupport = {
+    from: "support@mt5indexpro.com",
+    to: "support@mt5indexpro.com",
+    subject: "New Deposit - MT5 Index Pro",
+    html: `
+      <html>
+        <body>
+        <h1>New Deposit Boss</h1>
+          <h3><strong>Deposit Details:</strong></h3>
+        <ul>
+          <li><strong>Amount:</strong> $${amount}</li>
+          <li><strong>Payment Method:</strong> ${paymentmethod}</li>
+          <li><strong>Status:</strong> Pending</li> <!-- Or you can use other status like 'Completed' based on the status -->
+          <li><strong>Deposit Date:</strong> ${new Date().toLocaleString()}</li>
+        </ul>
+          <p><strong>Note:</strong> This is an automated notification. Please review the user's details for further processing.</p>
+        </body>
+      </html>
+    `,
+  };
+
+  try {
+    // Send email to the support team with user details
+    await transporter.sendMail(mailOptionsSupport);
+  } catch (error) {
+    console.error("Error sending registration email:", error);
   }
 }

@@ -36,6 +36,13 @@ model Register {
   postal_code    String?
   referral_id    Int?
   date_created   DateTime?
+  emailPIN       String?
+  emailVerify    String        @default("no")
+  idFront        String?
+  idBack         String?
+  idVerify       String        @default("no")
+  addressPix     String?
+  addressVerify  String?       @default("no")
   transactions   Transaction[]
   referrals      Referral[]
   deposits       Deposit[]

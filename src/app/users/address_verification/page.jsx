@@ -11,8 +11,23 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import CircularProgress from "@mui/joy/CircularProgress";
 import fetchUser from "../_components/FetchUser";
+import Swal from "sweetalert2";
 const AddressVerification = () => {
   const { data } = fetchUser();
+  const [formData, setFormData] = useState({
+    bill: "",
+    email: data?.email,
+  });
+
+  const handleFileChange = (event, type, index = null) => {
+    const file = event.target.files[0];
+    if (file) {
+      if (type === "bill") {
+        setFormData({ ...formData, bill: file });
+      }
+    }
+  };
+
   const [buttonClicked, setButtonClicked] = useState(false);
   const router = useRouter();
   const handleProceed = (e) => {
@@ -23,6 +38,38 @@ const AddressVerification = () => {
     }, 2000);
     router.push(`dashboard`);
   };
+
+  const handleSubmit = async () => {
+    setButtonClicked(true);
+    try {
+      // Prepare the data to be sent to the backend
+      const dataToSubmit = new FormData();
+
+      dataToSubmit.append("bill", formData.bill);
+      dataToSubmit.append("email", data?.email);
+
+      // Send the form data to the backend
+      await fetch("/api/users/address_verification", {
+        method: "POST",
+        body: dataToSubmit,
+      });
+
+      Swal.fire({
+        icon: "success",
+        text: "Address verification in progress...",
+      });
+      setButtonClicked(false);
+      router.push("account_verification");
+    } catch (error) {
+      Swal.fire({
+        icon: "error",
+        text: "Unable to upload data" + error,
+      });
+      setButtonClicked(false);
+    } finally {
+    }
+  };
+
   return (
     <div>
       <DashboardNavbar />
@@ -50,13 +97,15 @@ const AddressVerification = () => {
               </p>
               <div className="input__deposit">
                 <label>Select Bill</label>
-                <input type="file" name="photo__bill" />
+                <input
+                  type="file"
+                  accept="image/*"
+                  required
+                  onChange={(e) => handleFileChange(e, "bill")}
+                />
               </div>
-
-              <Button title="Submit" />
-              <br />
               {!buttonClicked ? (
-                <ButtonTransparent title="Skip" onClick={handleProceed} />
+                <Button title="Submit" onClick={handleSubmit} />
               ) : (
                 <center
                   style={{
@@ -66,6 +115,10 @@ const AddressVerification = () => {
                   <CircularProgress thickness={4} />
                 </center>
               )}
+
+              <br />
+
+              <ButtonTransparent title="Skip" onClick={handleProceed} />
             </div>
           </div>
         </div>
