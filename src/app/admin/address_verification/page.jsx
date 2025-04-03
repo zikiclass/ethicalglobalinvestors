@@ -91,7 +91,7 @@ const Verification = () => {
                         width={100}
                         height={100}
                         alt="ID Front"
-                        src={users.addressPix}
+                        src={users.addressPix || ""}
                       />
                     </center>
                   </td>
