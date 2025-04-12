@@ -13,6 +13,7 @@ import {
   TradeSelectThird,
 } from "../../components/index/data";
 import Image from "next/image";
+import axios from "axios";
 
 const Trade = () => {
   const { data } = fetchUser();
@@ -22,16 +23,45 @@ const Trade = () => {
   const [thirdSelect, setThirdSelect] = useState("");
   const [amount, setAmount] = useState(10);
   const [time, setTime] = useState(10); // Default time is 10 minutes
-  const [leverage, setLeverage] = useState(1); // Default leverage
+  const [leverage, setLeverage] = useState("1:2000"); // Default leverage
   const [openTrades, setOpenTrades] = useState([]);
+  let interval;
 
-  // Load open trades from localStorage if available
   useEffect(() => {
-    const savedTrades = JSON.parse(localStorage.getItem("openTrades"));
-    if (savedTrades) {
-      setOpenTrades(savedTrades);
-    }
-  }, []);
+    const fetchTrades = async () => {
+      if (data?.id) {
+        try {
+          const response = await axios.get(`/api/trade?userId=${data.id}`);
+          const serverTrades = response.data.trades || [];
+
+          if (serverTrades.length > 0) {
+            const enriched = serverTrades.map((trade) => {
+              const now = new Date();
+              const created = new Date(trade.createdAt);
+              const totalSeconds = (trade.duration || time) * 60;
+              const elapsed = Math.floor((now - created) / 1000);
+              const remainingTime = totalSeconds - elapsed;
+
+              return {
+                ...trade,
+                remainingTime: remainingTime > 0 ? remainingTime : 0,
+                currentProfit: 0,
+              };
+            });
+            setOpenTrades(enriched);
+            localStorage.setItem("openTrades", JSON.stringify(enriched));
+          } else {
+            setOpenTrades([]);
+            localStorage.removeItem("openTrades");
+          }
+        } catch (error) {
+          console.error("Failed to fetch trades:", error);
+        }
+      }
+    };
+
+    fetchTrades();
+  }, [data]);
 
   const handleBuySell = async (action) => {
     try {
@@ -42,21 +72,25 @@ const Trade = () => {
           userId: data?.id,
           amount,
           leverage,
+          action,
+          time,
+          email: data?.email,
         }),
       });
 
       const result = await response.json();
 
       if (response.ok) {
+        console.log(result);
         Swal.fire({
           icon: "success",
-          text: "Trade started successfully!",
+          text: result.message,
           timer: 2000,
         });
 
         const newTrade = {
-          ...result.tradeSignal,
-          remainingTime: result.tradeSignal.duration * 60, // Convert minutes to seconds
+          ...result.trade,
+          remainingTime: time * 60, // Convert minutes to seconds
           currentProfit: 0, // Start from 0 and increase to actual profit
         };
 
@@ -67,7 +101,7 @@ const Trade = () => {
       } else {
         Swal.fire({
           icon: "error",
-          text: "Invalid trading signal. Contact support@mt5indexpro.com",
+          text: result.message,
           timer: 2000,
         });
       }
@@ -78,40 +112,33 @@ const Trade = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setOpenTrades((prevTrades) =>
-        prevTrades
+      setOpenTrades((prevTrades) => {
+        const updatedTrades = prevTrades
           .map((trade) => {
             if (trade.remainingTime > 0) {
               const fluctuation = (Math.random() - 0.5) * (trade.profit / 15);
               const profitStep = trade.profit / (trade.duration * 60);
-              const lossStep = trade.loss / (trade.duration * 60);
 
               return {
                 ...trade,
                 remainingTime: trade.remainingTime - 1,
-                currentProfit:
-                  trade.outcome === "win"
-                    ? Math.min(
-                        trade.currentProfit + profitStep + fluctuation,
-                        trade.profit
-                      )
-                    : Math.max(
-                        trade.currentProfit - lossStep + fluctuation,
-                        -trade.loss
-                      ),
+                currentProfit: trade.currentProfit + profitStep + fluctuation,
               };
             }
-            return null;
+            return {
+              ...trade,
+              remainingTime: 0,
+            };
           })
-          .filter((trade) => trade !== null)
-      );
+          .filter((trade) => trade.remainingTime > 0); // 🧼 Only keep active trades
 
-      // Save updated trades to localStorage
-      localStorage.setItem("openTrades", JSON.stringify(openTrades));
+        localStorage.setItem("openTrades", JSON.stringify(updatedTrades));
+        return updatedTrades;
+      });
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [openTrades]);
+  }, []);
 
   const handleFirstSelectChange = (event) => {
     setFirstSelect(event.target.value);
@@ -176,20 +203,21 @@ const Trade = () => {
                       <Image src={btc} alt="btc" className="btcImage" />
                       <div className="open_trade_quote">
                         <span
-                          className={trade.outcome === "buy" ? "buy" : "sell"}
+                          className={trade.action === "buy" ? "buy" : "sell"}
                         >
-                          {trade.action} {trade.amount} BTCUSD
+                          {trade.action} BTCUSD
                         </span>
                         <p>Leverage: {trade.leverage}</p>
                       </div>
                     </div>
                     <div className="open_trade_col2">
                       <span
-                        className={
-                          trade.currentProfit.toFixed(2) > 0 ? "buy" : "sell"
-                        }
+                        className={trade.profit.toFixed(2) > 0 ? "buy" : "sell"}
                       >
-                        {trade.currentProfit.toFixed(2)} USD
+                        {trade.profit.toFixed(2) > 0
+                          ? "+" + trade.profit.toFixed(2)
+                          : "-" + trade.loss.toFixed(2)}{" "}
+                        $
                       </span>
                       <p>{formatTime(trade.remainingTime)}</p>
                     </div>

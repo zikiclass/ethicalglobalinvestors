@@ -142,19 +142,6 @@ model CopyTraders {
   image       String?
 }
 
-model Tradesignal {
-  id        Int      @id @default(autoincrement())
-  amount    Float
-  leverage  Float
-  action    String // "buy" or "sell"
-  profit    Float    @default(0)
-  loss      Float    @default(0)
-  createdAt DateTime @default(now())
-  Trade     Trade[]
-  duration  String   @default("30")
-  outcome   String   @default("win")
-}
-
 model Trade {
   id        Int      @id @default(autoincrement())
   userId    Int // Reference to user (if you have a user model)
@@ -164,9 +151,7 @@ model Trade {
   profit    Float    @default(0)
   loss      Float    @default(0)
   createdAt DateTime @default(now())
-
-  tradeSignalId Int?
-  tradeSignal   Tradesignal? @relation(fields: [tradeSignalId], references: [id])
+  duration  Int?
 }
 
 model Account {

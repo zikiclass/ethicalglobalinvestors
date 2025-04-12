@@ -4,20 +4,29 @@ import Layout from "../Layout";
 import styles from "../users/users.module.css";
 import Link from "next/link";
 import CircularProgress from "@mui/material/CircularProgress";
-import DeleteIcon from "@mui/icons-material/Delete";
+import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import Box from "@mui/material/Box";
 import axios from "axios";
+import { useSearchParams } from "next/navigation";
 import toast, { Toaster } from "react-hot-toast";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import { format, parseISO } from "date-fns";
+import { useRouter } from "next/navigation";
 const Trades = () => {
   const [signals, setSignals] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const userId = searchParams.get("userId");
+  const handleChange = (index, field, value) => {
+    const updatedSignals = [...signals];
+    updatedSignals[index][field] = value;
+    setSignals(updatedSignals);
+  };
+
   useEffect(() => {
     const fetchAdmin = async () => {
       try {
-        const response = await axios.get("/api/signals");
+        const response = await axios.get(`/api/signals?id=${userId}`);
         if (response.data.message === "success") {
           setSignals(response.data.signals);
           setLoading(false);
@@ -34,13 +43,26 @@ const Trades = () => {
     fetchAdmin();
   }, []);
 
+  const handleSetTrades = async (event, uId, profit, loss) => {
+    event.preventDefault();
+    try {
+      const setTrade = await axios.put(
+        `/api/signals?uId=${uId}&profit=${profit}&loss=${loss}`
+      );
+      if (setTrade) {
+        toast.success("Trade set successfully");
+        router.push("/admin/users");
+      } else {
+        toast.error("An error occured");
+      }
+    } catch (error) {
+      toast.error("An error occured");
+    }
+  };
+
   return (
     <Layout pageTitle="Trades">
       <div className={styles.wrapper}>
-        <Link href="/admin/newsignal" className={styles.btnTop}>
-          <PersonAddIcon />
-          New Signals
-        </Link>
         <Toaster position="bottom-left" />
         {loading ? (
           <Box
@@ -58,29 +80,51 @@ const Trades = () => {
               <thead className={styles.thead}>
                 <tr>
                   <th>BUY/SELL</th>
-                  <th>Amount</th>
-                  <th>Leverage</th>
+
                   <th>Profit</th>
                   <th>Loss</th>
+                  <th>Status</th>
                   <th>Actions</th>
                 </tr>
               </thead>
               <tbody className={styles.tbody}>
                 {signals.map((adm, index) => (
                   <tr key={index} className={styles.tr}>
-                    <td>{adm.action}</td>
-                    <td>{adm.amount}</td>
-                    <td>{adm.leverage}</td>
-                    <td>{adm.profit}</td>
-                    <td>{adm.loss}</td>
+                    <td style={{ textTransform: "uppercase" }}>{adm.action}</td>
+
+                    <td>
+                      <input
+                        type="text"
+                        value={adm.profit}
+                        style={{ textAlign: "center" }}
+                        onChange={(e) =>
+                          handleChange(index, "profit", e.target.value)
+                        }
+                      />
+                    </td>
+                    <td>
+                      <input
+                        type="text"
+                        value={adm.loss}
+                        style={{ textAlign: "center" }}
+                        onChange={(e) =>
+                          handleChange(index, "loss", e.target.value)
+                        }
+                      />
+                    </td>
+                    <td>{adm.status}</td>
                     <td className={styles.actions_}>
-                      <Link
-                        className={styles.cta_}
-                        href={`deletesignal?id=${adm.id}`}
-                      >
-                        <DeleteIcon />
-                        <span>Delete</span>
-                      </Link>
+                      {adm.status === "open" && (
+                        <button
+                          className={styles.cta_}
+                          onClick={(event) =>
+                            handleSetTrades(event, adm.id, adm.profit, adm.loss)
+                          }
+                        >
+                          <CurrencyExchangeIcon />
+                          <span>Set</span>
+                        </button>
+                      )}
                     </td>
                   </tr>
                 ))}

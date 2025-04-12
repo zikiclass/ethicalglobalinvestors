@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonIcon from "@mui/icons-material/Person";
-import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import Diversity2Icon from "@mui/icons-material/Diversity2";
 import SettingsIcon from "@mui/icons-material/Settings";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
@@ -52,11 +51,7 @@ const SideBar = ({ toggle }) => {
     },
 
     // { title: "traders", icon: <Diversity2Icon />, href: "traders" },
-    {
-      title: "trades signals",
-      icon: <CurrencyExchangeIcon />,
-      href: "/admin/trades",
-    },
+
     { title: "Wallets", icon: <SettingsIcon />, href: "/admin/wallets" },
 
     { title: "logout", icon: <ExitToAppIcon />, href: "/api/auth/signout" },

@@ -150,7 +150,7 @@ const Trades = () => {
                   setClosed("");
                 }}
               >
-                <HourglassTopIcon /> Open
+                <HourglassTopIcon /> Open ({openTrades.length})
               </span>
               <span
                 className={closed && "active"}
@@ -159,7 +159,7 @@ const Trades = () => {
                   setOpen("");
                 }}
               >
-                <HourglassFullIcon /> Closed
+                <HourglassFullIcon /> Closed ({closedTrades.length})
               </span>
             </div>
             {open && (
@@ -183,10 +183,10 @@ const Trades = () => {
                         </div>
                       </div>
                       <div className="open_trade_col2">
-                        <span
-                          className={trade.action === "buy" ? "buy" : "sell"}
-                        >
-                          ...
+                        <span className={trade.profit === 0 ? "sell" : "buy"}>
+                          {trade.profit === 0
+                            ? "-" + trade.loss
+                            : "+" + trade.profit}
                         </span>
                       </div>
                     </div>
@@ -196,7 +196,7 @@ const Trades = () => {
             )}
             {closed && (
               <div className="open_trades">
-                {openTrades.length === 0 ? (
+                {closedTrades.length === 0 ? (
                   <p>No closed trades</p>
                 ) : (
                   closedTrades.map((trade) => (

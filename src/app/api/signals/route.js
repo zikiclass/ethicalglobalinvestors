@@ -38,9 +38,12 @@ export async function POST(request) {
 
 export async function GET(req) {
   try {
-    //const body = await req.json();
-
-    const signals = await prisma.tradesignal.findMany();
+    const searchParams = req.nextUrl.searchParams;
+    const id = searchParams.get("id");
+    const signals = await prisma.trade.findMany({
+      where: { userId: Number(id) },
+      orderBy: [{ id: "desc" }],
+    });
     if (signals) {
       return NextResponse.json(
         { message: "success", signals },
@@ -70,5 +73,23 @@ export async function DELETE(req) {
     }
   } catch (error) {
     return NextResponse.json("Internal server error" + error, { status: 500 });
+  }
+}
+
+export async function PUT(req) {
+  try {
+    const searchParams = req.nextUrl.searchParams;
+    const id = searchParams.get("uId");
+    const profit = searchParams.get("profit");
+    const loss = searchParams.get("loss");
+
+    const updateTrade = await prisma.trade.update({
+      where: { id: parseInt(id) },
+      data: { profit: parseFloat(profit), loss: parseFloat(loss) },
+    });
+
+    if (updateTrade) return NextResponse.json("updated", { status: 200 });
+  } catch (error) {
+    return NextResponse.json(error, { status: 500 });
   }
 }

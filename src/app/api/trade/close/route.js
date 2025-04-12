@@ -7,6 +7,7 @@ export async function GET(req) {
     const id = parseInt(userID);
     const trades = await prisma.trade.findMany({
       where: { status: "closed", userId: id },
+      orderBy: [{ id: "desc" }],
     });
     if (trades) {
       return NextResponse.json({ message: "success", trades }, { status: 200 });
