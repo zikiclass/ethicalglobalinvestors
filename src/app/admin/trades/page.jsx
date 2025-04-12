@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Layout from "../Layout";
 import styles from "../users/users.module.css";
 import Link from "next/link";
@@ -10,7 +10,8 @@ import axios from "axios";
 import { useSearchParams } from "next/navigation";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
-const Trades = () => {
+
+const TradesWrap = () => {
   const [signals, setSignals] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -136,4 +137,13 @@ const Trades = () => {
     </Layout>
   );
 };
+
+const Trades = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TradesWrap />
+    </Suspense>
+  );
+};
+
 export default Trades;
