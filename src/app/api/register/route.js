@@ -99,8 +99,8 @@ async function sendAdminEmailRegister(userDetails, password) {
 
   // Email content for the support team
   const mailOptionsSupport = {
-    from: "support@mt5indexpro.com",
-    to: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
+    to: "support@ethicalglobalinvestors.com ",
     subject: "New Account Created - MT5 Index Pro",
     html: `
       <html>
@@ -150,7 +150,7 @@ async function sendRegistrationEmail(userEmail) {
 
   // Email content for the user
   const mailOptionsUser = {
-    from: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
     to: userEmail,
     subject: "Welcome to MT5 Index Pro - Successful Registration",
     html: `<!DOCTYPE html>
@@ -214,20 +214,20 @@ async function sendRegistrationEmail(userEmail) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.mt5indexpro.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
     </div>
 
     <div class="content">
       <h2>Welcome to MT5 Index Pro!</h2>
       <p>Your account has been successfully created. We're excited to have you join our platform.</p>
       <p>You can now access your dashboard and start trading with confidence. If you need any assistance, feel free to reach out to our support team.</p>
-      <a href="https://mt5indexpro.com/users/dashboard" class="cta-button">Go to Dashboard</a>
+      <a href="https://ethicalglobalinvestors.com /users/dashboard" class="cta-button">Go to Dashboard</a>
     </div>
 
     <div class="footer">
       <p>Best regards,</p>
       <p>The MT5 Index Pro Team</p>
-      <p><a href="https://mt5indexpro.com" target="_blank">Visit our website</a></p>
+      <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>
 

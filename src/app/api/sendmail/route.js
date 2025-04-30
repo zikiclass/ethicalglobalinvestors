@@ -19,7 +19,7 @@ export async function POST(req) {
 
     // Define email options
     const mailOptions = {
-      from: "support@mt5indexpro.com",
+      from: "support@ethicalglobalinvestors.com ",
       to,
       subject,
       text, // Message body content

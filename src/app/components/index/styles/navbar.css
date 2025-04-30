@@ -145,7 +145,7 @@
     background-color: #f4f7fd;
 }
 .sidebar__links{
-    color: var(--text-gray);
+    color: #777;
     list-style: none;
     margin: 1rem;
     display: flex;

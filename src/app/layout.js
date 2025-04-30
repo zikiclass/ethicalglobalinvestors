@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     smartsuppScript.type = "text/javascript";
     smartsuppScript.innerHTML = `
       var _smartsupp = _smartsupp || {};
-      _smartsupp.key = '27946429bd10e3c3605575a3e91fdf4618a2bf83';
+      _smartsupp.key = 'c145dbe0090309a4e1d690af2ade7b381481f961';
       window.smartsupp||(function(d) {
         var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
         s=d.getElementsByTagName('script')[0];c=d.createElement('script');

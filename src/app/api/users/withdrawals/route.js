@@ -11,7 +11,10 @@ export async function POST(req) {
 
     if (body.OTP !== getOTP.otp_code) {
       return NextResponse.json(
-        { message: "Invalid OTP code, please contact support@mt5indexpro.com" },
+        {
+          message:
+            "Invalid OTP code, please contact support@ethicalglobalinvestors.com ",
+        },
         { status: 400 }
       );
     }
@@ -77,7 +80,7 @@ async function sendDepositEmail(user, withDetails) {
 
   // Email content for the user
   const mailOptionsUser = {
-    from: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
     to: user.email,
     subject: "Withdrawal Confirmation - MT5 Index Pro",
     html: `<!DOCTYPE html>
@@ -141,7 +144,7 @@ async function sendDepositEmail(user, withDetails) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.mt5indexpro.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
     </div>
 
     <div class="content">
@@ -153,13 +156,13 @@ async function sendDepositEmail(user, withDetails) {
       withDetails.method
     }</strong> has been successfully initiated. Please note that it may take some time for the transaction to be fully processed and reflected in your account.</p>
       <p>If you have any questions or need further assistance, feel free to contact our support team.</p>
-      <a href="https://mt5indexpro.com/users/dashboard" class="cta-button">Go to Dashboard</a>
+      <a href="https://ethicalglobalinvestors.com /users/dashboard" class="cta-button">Go to Dashboard</a>
     </div>
 
     <div class="footer">
       <p>Best regards,</p>
       <p>The MT5 Index Pro Team</p>
-      <p><a href="https://mt5indexpro.com" target="_blank">Visit our website</a></p>
+      <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>
 

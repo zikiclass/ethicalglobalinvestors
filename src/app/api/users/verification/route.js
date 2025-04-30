@@ -81,14 +81,14 @@ async function sendVerificationStatusEmail(email, type, status) {
 
   // Email content for the support team
   const mailOptionsSupport = {
-    from: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
     to: email,
     subject: "New Deposit - MT5 Index Pro",
     html: `
        <html>
         <body>
           <h1>${type} verification ${status}</h1>
-          <p>Your ${type} verification was ${status}. Please contact support@mt5indexpro.com for further assistance.</p>
+          <p>Your ${type} verification was ${status}. Please contact support@ethicalglobalinvestors.com  for further assistance.</p>
           <p>If you did not initiate this process, please ignore this email.</p>
         </body>
       </html>

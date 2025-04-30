@@ -6,7 +6,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FlagIcon } from "react-flag-kit";
-import { countryList, sidebarLinks } from "./data";
+import { countryList } from "./data";
 import "./styles/navbar.css";
 import Image from "next/image";
 import logo from "../../../../public/img/logo.png";
@@ -26,7 +26,77 @@ const NavBarLight = () => {
       event.target.scrollTop = 0;
     }
   };
-
+  const sidebarLinks = [
+    { id: 1, icon: HomeIcon, name: "Home", link: "/" },
+    { id: 2, icon: PersonOutlinedIcon, name: "Sign In", link: "signin" },
+    { id: 3, icon: PersonAddIcon, name: "Sign Up", link: "signup" },
+    { id: 4, icon: MailOutlinedIcon, name: "Contact Us", link: "contact" },
+    {
+      id: 5,
+      icon: LockOpenOutlinedIcon,
+      name: "Cookie Policy",
+      link: "cookie",
+    },
+    {
+      id: 6,
+      icon: LockOpenOutlinedIcon,
+      name: "Privacy Policy",
+      link: "privacy",
+    },
+    { id: 7, icon: DnsIcon, name: "Crypto Mining", link: "cryptomining" },
+    {
+      id: 8,
+      icon: CopyrightIcon,
+      name: "Bitcoin Mining",
+      link: "bitcoinmining",
+    },
+    {
+      id: 9,
+      icon: CopyrightIcon,
+      name: "Dogecoin Mining",
+      link: "dogecoinmining",
+    },
+    {
+      id: 10,
+      icon: ContentCopyIcon,
+      name: "Copy Trading",
+      link: "copytrading",
+    },
+    {
+      id: 11,
+      icon: CopyrightIcon,
+      name: "Crypto Trading",
+      link: "cryptotrading",
+    },
+    { id: 12, icon: FolderOpenIcon, name: "Terms of Service", link: "terms" },
+    { id: 13, icon: WysiwygIcon, name: "Forex Trading", link: "forextrading" },
+    {
+      id: 14,
+      icon: InsertChartOutlinedIcon,
+      name: "Stocks Trading",
+      link: "stockstrading",
+    },
+    {
+      id: 15,
+      icon: DonutLargeOutlinedIcon,
+      name: "Options Trading",
+      link: "optionstrading",
+    },
+    { id: 16, icon: PeopleIcon, name: "What is Leverage", link: "leverage" },
+    {
+      id: 17,
+      icon: PeopleIcon,
+      name: "Responsible Trading",
+      link: "responsibletrading",
+    },
+    {
+      id: 18,
+      icon: FolderOpenIcon,
+      name: "General Risk Disclosure",
+      link: "generalrisk",
+    },
+    { id: 19, icon: PeopleIcon, name: "About Us", link: "about" },
+  ];
   useEffect(() => {
     setFadeOut(true);
   }, []);

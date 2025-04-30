@@ -7,7 +7,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FlagIcon } from "react-flag-kit";
-import { countryList, sidebarLinks } from "./data";
+import { countryList } from "./data";
 import "./styles/navbar.css";
 import Image from "next/image";
 import logo from "../../../../public/img/logo.png";
@@ -15,6 +15,20 @@ import { useSession } from "next-auth/react";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 import { signOut } from "next-auth/react";
 import fetchUser from "../../users/_components/FetchUser";
+
+import HomeIcon from "@mui/icons-material/Home";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
+import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
+import DnsIcon from "@mui/icons-material/Dns";
+import CopyrightIcon from "@mui/icons-material/Copyright";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+import FolderOpenIcon from "@mui/icons-material/FolderOpen";
+import WysiwygIcon from "@mui/icons-material/Wysiwyg";
+import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
+import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
+import PeopleIcon from "@mui/icons-material/People";
 const DashboardNavbar = () => {
   const { status, data: session } = useSession();
   const [countryShow, setCountryShow] = useState(false);
@@ -29,6 +43,78 @@ const DashboardNavbar = () => {
       event.target.scrollTop = 0;
     }
   };
+
+  const sidebarLinks = [
+    { id: 1, icon: HomeIcon, name: "Home", link: "/" },
+    { id: 2, icon: PersonOutlinedIcon, name: "Sign In", link: "signin" },
+    { id: 3, icon: PersonAddIcon, name: "Sign Up", link: "signup" },
+    { id: 4, icon: MailOutlinedIcon, name: "Contact Us", link: "contact" },
+    {
+      id: 5,
+      icon: LockOpenOutlinedIcon,
+      name: "Cookie Policy",
+      link: "cookie",
+    },
+    {
+      id: 6,
+      icon: LockOpenOutlinedIcon,
+      name: "Privacy Policy",
+      link: "privacy",
+    },
+    { id: 7, icon: DnsIcon, name: "Crypto Mining", link: "cryptomining" },
+    {
+      id: 8,
+      icon: CopyrightIcon,
+      name: "Bitcoin Mining",
+      link: "bitcoinmining",
+    },
+    {
+      id: 9,
+      icon: CopyrightIcon,
+      name: "Dogecoin Mining",
+      link: "dogecoinmining",
+    },
+    {
+      id: 10,
+      icon: ContentCopyIcon,
+      name: "Copy Trading",
+      link: "copytrading",
+    },
+    {
+      id: 11,
+      icon: CopyrightIcon,
+      name: "Crypto Trading",
+      link: "cryptotrading",
+    },
+    { id: 12, icon: FolderOpenIcon, name: "Terms of Service", link: "terms" },
+    { id: 13, icon: WysiwygIcon, name: "Forex Trading", link: "forextrading" },
+    {
+      id: 14,
+      icon: InsertChartOutlinedIcon,
+      name: "Stocks Trading",
+      link: "stockstrading",
+    },
+    {
+      id: 15,
+      icon: DonutLargeOutlinedIcon,
+      name: "Options Trading",
+      link: "optionstrading",
+    },
+    { id: 16, icon: PeopleIcon, name: "What is Leverage", link: "leverage" },
+    {
+      id: 17,
+      icon: PeopleIcon,
+      name: "Responsible Trading",
+      link: "responsibletrading",
+    },
+    {
+      id: 18,
+      icon: FolderOpenIcon,
+      name: "General Risk Disclosure",
+      link: "generalrisk",
+    },
+    { id: 19, icon: PeopleIcon, name: "About Us", link: "about" },
+  ];
 
   useEffect(() => {
     setFadeOut(true);

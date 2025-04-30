@@ -124,7 +124,7 @@ async function sendTradeEmail(trade, email) {
 
   // Email content for the user
   const mailOptionsUser = {
-    from: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
     to: email,
     subject: "Your Trade Has Started - MT5 Index Pro",
     html: `<!DOCTYPE html>
@@ -188,7 +188,7 @@ async function sendTradeEmail(trade, email) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.mt5indexpro.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
     </div>
 
    <div class="content">
@@ -205,13 +205,13 @@ async function sendTradeEmail(trade, email) {
         ).toLocaleString()}</li>
       </ul>
       <p>You can view and monitor your trade from your dashboard anytime.</p>
-      <a href="https://mt5indexpro.com/users/dashboard" class="cta-button">Go to Dashboard</a>
+      <a href="https://ethicalglobalinvestors.com /users/dashboard" class="cta-button">Go to Dashboard</a>
     </div>
     
     <div class="footer">
       <p>Best regards,</p>
       <p>The MT5 Index Pro Team</p>
-      <p><a href="https://mt5indexpro.com" target="_blank">Visit our website</a></p>
+      <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>
 

@@ -38,7 +38,7 @@ async function sendPendingAddressVerification(email) {
 
   // Email content for the support team
   const mailOptionsSupport = {
-    from: "support@mt5indexpro.com",
+    from: "support@ethicalglobalinvestors.com ",
     to: email,
     subject: "New Deposit - MT5 Index Pro",
     html: `
