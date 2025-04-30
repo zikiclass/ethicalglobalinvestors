@@ -1,11 +1,11 @@
 import NextAuth from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials"; // ✅ use default import here
+import CredentialsProvider from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import bcrypt from "bcrypt";
 import prisma from "../../../../../prisma/client";
 import nodemailer from "nodemailer";
 
-export const authOptions = {
+const authOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     CredentialsProvider({
@@ -87,6 +87,6 @@ async function sendSignInEmail(email) {
   await transporter.sendMail(mailOptions);
 }
 
-// ✅ NextAuth handler setup for App Router
+// ✅ Only export handlers
 const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
