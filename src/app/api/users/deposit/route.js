@@ -66,13 +66,13 @@ async function sendDepositEmail(user, depDetails) {
   const mailOptionsUser = {
     from: "support@ethicalglobalinvestors.com ",
     to: user.email,
-    subject: "Deposit Confirmation - MT5 Index Pro",
+    subject: "Deposit Confirmation - Ethical Global Investors",
     html: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deposit Confirmation - MT5 Index Pro</title>
+  <title>Deposit Confirmation - Ethical Global Investors</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -128,7 +128,7 @@ async function sendDepositEmail(user, depDetails) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="Ethical Global Investors Logo">
     </div>
 
     <div class="content">
@@ -139,13 +139,13 @@ async function sendDepositEmail(user, depDetails) {
       }</strong> via <strong>${
       depDetails.depMethod
     }</strong> has been successfully received and is currently being processed. Your transaction will be updated shortly.</p>
-      <p>We appreciate your trust in MT5 Index Pro, and we are excited to continue supporting your trading journey. If you have any questions or need assistance, please don’t hesitate to reach out to our support team.</p>
+      <p>We appreciate your trust in Ethical Global Investors, and we are excited to continue supporting your trading journey. If you have any questions or need assistance, please don’t hesitate to reach out to our support team.</p>
       <a href="https://ethicalglobalinvestors.com /users/dashboard" class="cta-button">Go to Dashboard</a>
     </div>
 
     <div class="footer">
       <p>Best regards,</p>
-      <p>The MT5 Index Pro Team</p>
+      <p>The Ethical Global Investors Team</p>
       <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>

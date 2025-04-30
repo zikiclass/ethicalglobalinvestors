@@ -43,7 +43,7 @@ async function sendPendingIdentityVerification(email) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "New Deposit - MT5 Index Pro",
+    subject: "New Deposit - Ethical Global Investors",
     html: `
        <html>
         <body>

@@ -111,7 +111,7 @@ async function sendAdminEmailRegister(paymentmethod, amount) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: "support@ethicalglobalinvestors.com ",
-    subject: "New Deposit - MT5 Index Pro",
+    subject: "New Deposit - Ethical Global Investors",
     html: `
       <html>
         <body>

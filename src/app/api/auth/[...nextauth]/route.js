@@ -80,7 +80,7 @@ async function sendSignInEmail(email) {
   const mailOptions = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "MT5 Index Pro - Successful Sign-In",
+    subject: "Ethical Global Investors - Successful Sign-In",
     html: `<h3>Hi there!</h3><p>You successfully logged in.</p>`,
   };
 

@@ -126,13 +126,13 @@ async function sendTradeEmail(trade, email) {
   const mailOptionsUser = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "Your Trade Has Started - MT5 Index Pro",
+    subject: "Your Trade Has Started - Ethical Global Investors",
     html: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to MT5 Index Pro</title>
+  <title>Welcome to Ethical Global Investors</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -188,12 +188,12 @@ async function sendTradeEmail(trade, email) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="Ethical Global Investors Logo">
     </div>
 
    <div class="content">
       <h2>Your Trade Has Been Placed!</h2>
-      <p>Hi there, your trade has started successfully on MT5 Index Pro.</p>
+      <p>Hi there, your trade has started successfully on Ethical Global Investors.</p>
       <p><strong>Trade Details:</strong></p>
       <ul style="text-align:left; list-style: none; padding: 0;">
         <li><strong>Action:</strong> ${trade.action}</li>
@@ -210,7 +210,7 @@ async function sendTradeEmail(trade, email) {
     
     <div class="footer">
       <p>Best regards,</p>
-      <p>The MT5 Index Pro Team</p>
+      <p>The Ethical Global Investors Team</p>
       <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>

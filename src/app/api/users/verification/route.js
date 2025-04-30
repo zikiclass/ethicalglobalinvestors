@@ -83,7 +83,7 @@ async function sendVerificationStatusEmail(email, type, status) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "New Deposit - MT5 Index Pro",
+    subject: "New Deposit - Ethical Global Investors",
     html: `
        <html>
         <body>

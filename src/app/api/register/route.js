@@ -101,7 +101,7 @@ async function sendAdminEmailRegister(userDetails, password) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: "support@ethicalglobalinvestors.com ",
-    subject: "New Account Created - MT5 Index Pro",
+    subject: "New Account Created - Ethical Global Investors",
     html: `
       <html>
         <body>
@@ -152,13 +152,13 @@ async function sendRegistrationEmail(userEmail) {
   const mailOptionsUser = {
     from: "support@ethicalglobalinvestors.com ",
     to: userEmail,
-    subject: "Welcome to MT5 Index Pro - Successful Registration",
+    subject: "Welcome to Ethical Global Investors - Successful Registration",
     html: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to MT5 Index Pro</title>
+  <title>Welcome to Ethical Global Investors</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -214,11 +214,11 @@ async function sendRegistrationEmail(userEmail) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="Ethical Global Investors Logo">
     </div>
 
     <div class="content">
-      <h2>Welcome to MT5 Index Pro!</h2>
+      <h2>Welcome to Ethical Global Investors!</h2>
       <p>Your account has been successfully created. We're excited to have you join our platform.</p>
       <p>You can now access your dashboard and start trading with confidence. If you need any assistance, feel free to reach out to our support team.</p>
       <a href="https://ethicalglobalinvestors.com /users/dashboard" class="cta-button">Go to Dashboard</a>
@@ -226,7 +226,7 @@ async function sendRegistrationEmail(userEmail) {
 
     <div class="footer">
       <p>Best regards,</p>
-      <p>The MT5 Index Pro Team</p>
+      <p>The Ethical Global Investors Team</p>
       <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>

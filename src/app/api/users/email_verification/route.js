@@ -61,7 +61,7 @@ async function sendEmailVerification(email, pin) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "New Deposit - MT5 Index Pro",
+    subject: "New Deposit - Ethical Global Investors",
     html: `
        <html>
         <body>
@@ -96,7 +96,7 @@ async function sendPendingEmailVerification(email) {
   const mailOptionsSupport = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "New Deposit - MT5 Index Pro",
+    subject: "New Deposit - Ethical Global Investors",
     html: `
        <html>
         <body>

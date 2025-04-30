@@ -82,13 +82,13 @@ async function sendDepositEmail(user, withDetails) {
   const mailOptionsUser = {
     from: "support@ethicalglobalinvestors.com ",
     to: user.email,
-    subject: "Withdrawal Confirmation - MT5 Index Pro",
+    subject: "Withdrawal Confirmation - Ethical Global Investors",
     html: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Withdrawal Confirmation - MT5 Index Pro</title>
+  <title>Withdrawal Confirmation - Ethical Global Investors</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -144,7 +144,7 @@ async function sendDepositEmail(user, withDetails) {
 
   <div class="container">
     <div class="header">
-      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="MT5 Index Pro Logo">
+      <img src="https://www.ethicalglobalinvestors.com /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d381394.png&w=828&q=75" alt="Ethical Global Investors Logo">
     </div>
 
     <div class="content">
@@ -161,7 +161,7 @@ async function sendDepositEmail(user, withDetails) {
 
     <div class="footer">
       <p>Best regards,</p>
-      <p>The MT5 Index Pro Team</p>
+      <p>The Ethical Global Investors Team</p>
       <p><a href="https://ethicalglobalinvestors.com " target="_blank">Visit our website</a></p>
     </div>
   </div>
