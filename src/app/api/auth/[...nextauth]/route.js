@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 import prisma from "../../../../../prisma/client";
 import nodemailer from "nodemailer";
 
-export const authOptions = {
+const authOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     CredentialsProvider({
