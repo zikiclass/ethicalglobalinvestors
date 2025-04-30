@@ -12,6 +12,19 @@ import Image from "next/image";
 import logo from "../../../../public/img/logo.png";
 import { useSession } from "next-auth/react";
 
+import HomeIcon from "@mui/icons-material/Home";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
+import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
+import DnsIcon from "@mui/icons-material/Dns";
+import CopyrightIcon from "@mui/icons-material/Copyright";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+import FolderOpenIcon from "@mui/icons-material/FolderOpen";
+import WysiwygIcon from "@mui/icons-material/Wysiwyg";
+import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
+import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
+import PeopleIcon from "@mui/icons-material/People";
 const NavBarLight = () => {
   const { status, data: session } = useSession();
   const [countryShow, setCountryShow] = useState(false);
