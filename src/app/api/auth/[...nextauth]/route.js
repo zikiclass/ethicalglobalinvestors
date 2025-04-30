@@ -1,11 +1,11 @@
 import NextAuth from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials";
+import CredentialsProvider from "next-auth/providers/credentials"; // ✅ use default import here
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import bcrypt from "bcrypt";
 import prisma from "../../../../../prisma/client";
 import nodemailer from "nodemailer";
 
-const authOptions = {
+export const authOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     CredentialsProvider({
@@ -80,13 +80,13 @@ async function sendSignInEmail(email) {
   const mailOptions = {
     from: "support@ethicalglobalinvestors.com ",
     to: email,
-    subject: "Ethical Global Investors - Successful Sign-In",
+    subject: "Ethical Global Investors- Successful Sign-In",
     html: `<h3>Hi there!</h3><p>You successfully logged in.</p>`,
   };
 
   await transporter.sendMail(mailOptions);
 }
 
-// ✅ Only export handlers
+// ✅ NextAuth handler setup for App Router
 const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
