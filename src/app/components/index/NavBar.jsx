@@ -194,7 +194,7 @@ const NavBar = () => {
             setCountryShow(!countryShow);
           }}
         >
-          <FlagIcon code="US" className="icon__country" /> <span>EN</span>
+          <FlagIcon code="GB" className="icon__country" /> <span>EN</span>
         </div>
         {/* {
           <div className="country__list">

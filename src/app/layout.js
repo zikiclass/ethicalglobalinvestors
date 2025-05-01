@@ -70,6 +70,14 @@ export default function RootLayout({ children }) {
             <Theme appearance="dark">{children}</Theme>
           </ThemeProvider>
         </AuthProvider>
+        <a
+          href={"https://wa.me/+" + process.env.WHATSAPPNUMBER}
+          className="whatsapp-float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" />
+        </a>
       </body>
     </html>
   );
