@@ -17,6 +17,9 @@ const metadata = {
     ": The Online Trading and Mining Platform - " +
     process.env.PROJECT_NAME,
   description: process.env.PROJECT_DESCRIPTION,
+  icons: {
+    icon: "/img/Trading.jpeg", // relative to the public folder
+  },
 };
 
 export default function RootLayout({ children }) {
