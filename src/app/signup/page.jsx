@@ -55,7 +55,7 @@ const RegisterForm = () => {
                   Swal.fire({
                     icon: "error",
                     title: "Error!",
-                    text: "Email already registered" + error,
+                    text: "Email already registered",
                     timer: 1500,
                   });
                   toast.error("Email already registered");
