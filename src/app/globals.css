@@ -170,3 +170,26 @@ right: 0!important;
 .VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-of-type(2), .VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-of-type(3){
   display: none!important;
 }
+/* Fix Google Translate dropdown overflow */
+.goog-te-menu-frame.skiptranslate {
+  max-height: 300px !important;
+  overflow-y: auto !important;
+  top: 0 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999 !important;
+}
+
+/* Allow scrolling inside iframe content */
+.goog-te-menu2 {
+  max-height: 300px !important;
+  overflow-y: scroll !important;
+}
+
+/* Optional: fix body shifting when widget loads */
+body .goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
