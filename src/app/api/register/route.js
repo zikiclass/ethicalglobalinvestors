@@ -99,8 +99,8 @@ async function sendAdminEmailRegister(userDetails, password) {
 
   // Email content for the support team
   const mailOptionsSupport = {
-    from: "support@ethicalglobalinvestors.com ",
-    to: "support@ethicalglobalinvestors.com ",
+    from: "support@ethicalglobalinvestors.com",
+    to: "support@ethicalglobalinvestors.com",
     subject: "New Account Created - Ethical Global Investors",
     html: `
       <html>
