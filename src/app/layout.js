@@ -1,39 +1,72 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./globals.css";
-import { Metadata } from "next";
 import { Inter, Signika_Negative } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { Theme } from "@radix-ui/themes";
 import AuthProvider from "./auth/Provider";
 
-// Assign the font loaders to consts with specified subsets
 const inter = Inter({ subsets: ["latin"] });
 const signika = Signika_Negative({ subsets: ["latin"] });
 
-const metadata = {
-  title:
-    process.env.PROJECT_NAME +
-    ": The Online Trading and Mining Platform - " +
-    process.env.PROJECT_NAME,
-  description: process.env.PROJECT_DESCRIPTION,
-};
-
 export default function RootLayout({ children }) {
-  // Adding the Smartsupp chat script dynamically
+  const [whatsappNumber, setWhatsappNumber] = useState("");
+
   useEffect(() => {
+    fetch("/api/admin/whatsapp")
+      .then((res) => res.json())
+      .then((data) => setWhatsappNumber(data.whatsapp.whatsappnumber))
+      .catch((err) => console.error("Failed to fetch WhatsApp number", err));
+  }, []);
+
+  useEffect(() => {
+    // Define the callback globally
+    window.googleTranslateElementInit = () => {
+      if (
+        typeof window.google !== "undefined" &&
+        typeof window.google.translate !== "undefined"
+      ) {
+        new window.google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout:
+              window.google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    };
+
+    // Avoid loading the script multiple times
+    const existingScript = document.getElementById("google_translate_script");
+    if (!existingScript) {
+      const script = document.createElement("script");
+      script.id = "google_translate_script";
+      script.src =
+        "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      script.async = true;
+      document.head.appendChild(script); // Important: append to head, not body
+    } else {
+      // If script is already present but widget hasn't shown, call init again
+      if (window.google && window.google.translate) {
+        window.googleTranslateElementInit();
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    // Smartsupp Chat
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "https://www.smartsuppchat.com/loader.js?";
     script.async = true;
-    script.onload = () => console.log("Smartsupp chat script loaded!");
+    document.body.appendChild(script);
 
-    // Set Smartsupp key
     const smartsuppScript = document.createElement("script");
     smartsuppScript.type = "text/javascript";
     smartsuppScript.innerHTML = `
       var _smartsupp = _smartsupp || {};
-      _smartsupp.key = 'c145dbe0090309a4e1d690af2ade7b381481f961';
+      _smartsupp.key = 'c145dbe0090309a4e1d690af2ade7b381f961';
       window.smartsupp||(function(d) {
         var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
         s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -41,15 +74,13 @@ export default function RootLayout({ children }) {
         c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
       })(document);
     `;
-    document.body.appendChild(script);
     document.body.appendChild(smartsuppScript);
 
-    // Cleanup the script on component unmount
     return () => {
       document.body.removeChild(script);
       document.body.removeChild(smartsuppScript);
     };
-  }, []); // Empty dependency array to ensure it's only added once when the component mounts
+  }, []);
 
   return (
     <html lang="en">
@@ -62,22 +93,49 @@ export default function RootLayout({ children }) {
         <meta
           name="description"
           content="Sign up With Trade Experts Market to join thousands of traders currently benefiting from high leveraged full STP/ECN CFD trading with zero conflict of interest through tier one liquidity."
-        ></meta>
+        />
       </head>
       <body className={signika.className}>
+        {/* Google Translate Bar */}
+        <div
+          id="google_translate_element"
+          style={{
+            width: "100%", // Make the container full width
+            background: "none!important6",
+            height: "0px",
+            padding: "0px",
+            position: "fixed",
+            zIndex: 9999,
+            textAlign: "right",
+            boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+          }}
+        />
+
+        {/* WhatsApp Floating Button */}
+        <a
+          href={`https://wa.me/+${whatsappNumber}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: "fixed",
+            bottom: 20,
+            left: 20,
+            zIndex: 9999,
+          }}
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+            alt="Chat on WhatsApp"
+            width="50"
+            height="50"
+          />
+        </a>
+
         <AuthProvider>
           <ThemeProvider attribute="class">
             <Theme appearance="dark">{children}</Theme>
           </ThemeProvider>
         </AuthProvider>
-        <a
-          href={"https://wa.me/+" + process.env.WHATSAPPNUMBER}
-          className="whatsapp-float"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" />
-        </a>
       </body>
     </html>
   );

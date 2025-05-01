@@ -52,7 +52,12 @@ const SideBar = ({ toggle }) => {
 
     // { title: "traders", icon: <Diversity2Icon />, href: "traders" },
 
-    { title: "Wallets", icon: <SettingsIcon />, href: "/admin/wallets" },
+    {
+      title: "Wallets",
+      icon: <AccountBalanceWalletIcon />,
+      href: "/admin/wallets",
+    },
+    { title: "Whatsapp", icon: <SettingsIcon />, href: "/admin/whatsapp" },
 
     { title: "logout", icon: <ExitToAppIcon />, href: "/api/auth/signout" },
   ];

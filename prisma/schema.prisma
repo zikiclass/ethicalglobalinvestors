@@ -134,6 +134,11 @@ model Wallets {
   wallet_address String? @unique
 }
 
+model Whatsapp {
+  id             Int     @id @default(autoincrement())
+  whatsappnumber String?
+}
+
 model CopyTraders {
   id          Int     @id @default(autoincrement())
   title       String?

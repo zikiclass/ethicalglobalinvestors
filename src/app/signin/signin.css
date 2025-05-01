@@ -10,11 +10,10 @@
     opacity: 1;
 }
 .logo{
-    width: 300px!important;
+    width: 200px!important;
     height: 100px!important;
     margin-bottom: 1rem;
-    mix-blend-mode: multiply;
-    background-color: #000; 
+    border-radius: 20px;
   
 }
 .form__login{
