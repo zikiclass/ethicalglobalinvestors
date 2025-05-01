@@ -17,9 +17,6 @@ const metadata = {
     ": The Online Trading and Mining Platform - " +
     process.env.PROJECT_NAME,
   description: process.env.PROJECT_DESCRIPTION,
-  icons: {
-    icon: "/img/Trading.jpeg", // relative to the public folder
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -56,6 +53,17 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/img/Trading.jpeg"
+          type="image/x-icon"
+        />
+        <meta
+          name="description"
+          content="Sign up With Trade Experts Market to join thousands of traders currently benefiting from high leveraged full STP/ECN CFD trading with zero conflict of interest through tier one liquidity."
+        ></meta>
+      </head>
       <body className={signika.className}>
         <AuthProvider>
           <ThemeProvider attribute="class">
