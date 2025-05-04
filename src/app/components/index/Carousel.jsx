@@ -4,8 +4,14 @@ import "./styles/carousel.css";
 import { Button } from "@radix-ui/themes";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
 
 const Slider = ({ project_title }) => {
+  const pathname = usePathname();
+  const router = useRouter();
+
+  // Get locale from the first part of the path: "/fr/contact" -> "fr"
+  const locale = pathname.split("/")[1] || "en";
   const t = useTranslations("Carousel");
 
   const slides = [
@@ -13,25 +19,25 @@ const Slider = ({ project_title }) => {
       src: "/img/BgForex.jpg",
       title: t("welcome", { project: project_title }),
       description: t("welcomeDesc"),
-      buttonLink: "signup",
+      buttonLink: `/${locale}/signup`,
     },
     {
       src: "/img/BgStocks2.jpg",
       title: t("stocksTitle"),
       description: t("stocksDesc"),
-      buttonLink: "signup",
+      buttonLink: `/${locale}/signup`,
     },
     {
       src: "/img/BgTrader.jpg",
       title: t("forexTitle"),
       description: t("forexDesc", { project: project_title }),
-      buttonLink: "signup",
+      buttonLink: `/${locale}/signup`,
     },
     {
       src: "/img/Crypto4.jpeg",
       title: t("copyTitle"),
       description: t("copyDesc"),
-      buttonLink: "signup",
+      buttonLink: `/${locale}/signup`,
     },
   ];
 
