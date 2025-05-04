@@ -143,7 +143,7 @@ const NavBarLight = () => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
   const handleLocaleChange = (newLocale) => {
-    if (newLocale === "en") {
+    if (newLocale === "en" && locale === "en") {
       router.reload();
     } else {
       const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);

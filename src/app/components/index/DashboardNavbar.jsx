@@ -151,7 +151,7 @@ const DashboardNavbar = () => {
     }
   };
   const handleLocaleChange = (newLocale) => {
-    if (newLocale === "en") {
+    if (newLocale === "en" && locale === "en") {
       router.reload();
     } else {
       const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
