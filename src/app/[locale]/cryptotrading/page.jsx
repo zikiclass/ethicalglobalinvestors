@@ -1,9 +1,9 @@
 "use client";
-import { project_name } from "../../../env";
+import { project_name } from "../../../../env";
 import { useEffect, useRef } from "react";
-import { Footer, NavBar } from "../HomeComponents";
-import BannerEmpty from "../components/Banner2";
-import "../components/style1.css";
+import { Footer, NavBar } from "../../HomeComponents";
+import BannerEmpty from "../../components/Banner2";
+import "../../components/style1.css";
 
 const CryptoTrading = () => {
   const refHandle = useRef();

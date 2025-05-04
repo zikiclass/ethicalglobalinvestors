@@ -1,9 +1,9 @@
 "use client";
-import ForexBanner from "../../../public/img/BgForex.jpg";
+import ForexBanner from "../../../../public/img/BgForex.jpg";
 import { useEffect, useRef } from "react";
-import { Footer, NavBar } from "../HomeComponents";
-import Banner from "../components/Banner";
-import "../components/style1.css";
+import { Footer, NavBar } from "../../HomeComponents";
+import Banner from "../../components/Banner";
+import "../../components/style1.css";
 
 const ForexTrading = () => {
   const refHandle = useRef();

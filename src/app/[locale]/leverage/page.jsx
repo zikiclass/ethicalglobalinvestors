@@ -1,10 +1,10 @@
 "use client";
-import { project_name } from "../../../env";
-import LeverageBanner from "../../../public/img/Hero3.jpg";
+import { project_name } from "../../../../env";
+import LeverageBanner from "../../../../public/img/Hero3.jpg";
 import { useEffect, useRef } from "react";
-import { Footer, NavBar } from "../HomeComponents";
-import Banner from "../components/Banner";
-import "../components/style1.css";
+import { Footer, NavBar } from "../../HomeComponents";
+import Banner from "../../components/Banner";
+import "../../components/style1.css";
 
 const Leverage = () => {
   const refHandle = useRef();

@@ -1,9 +1,9 @@
 "use client";
-import OptionBanner from "../../../public/img/Hero5.jpg";
+import OptionBanner from "../../../../public/img/Hero5.jpg";
 import { useEffect, useRef } from "react";
-import { Footer, NavBar } from "../HomeComponents";
-import Banner from "../components/Banner";
-import "../components/style1.css";
+import { Footer, NavBar } from "../../HomeComponents";
+import Banner from "../../components/Banner";
+import "../../components/style1.css";
 
 const OptionsTrading = () => {
   const refHandle = useRef();
