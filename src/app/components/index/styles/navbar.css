@@ -10,7 +10,7 @@
     position: fixed;
     transition: background-color 0.3s ease;
     z-index: 1000;
-    margin-top: 30px;
+ 
 }
 .scrolled{
     background-color: var(--background-color-2)!important;
@@ -50,8 +50,8 @@
 }
 .country__list, .country__list__show{
     background-color: #fff;
-    width: 15rem;
-    height: 100vh;
+    width: 25rem;
+    height: 80vh;
     position: absolute;
     right: 0;
     top: 2.5rem;
@@ -68,9 +68,10 @@
 }
 .country__wrap{
     flex-wrap: wrap;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    gap: 1.6rem;
+    gap: 0.5rem;
     margin: 1.5rem 0;
 }
 .icon__country__list{

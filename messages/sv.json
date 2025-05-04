@@ -1,0 +1,589 @@
+{
+    "HomePage": {
+      "home": "Hem",
+      "login": "Logga in",
+      "signin": "Logga in",
+      "signup": "Registrera dig",
+      "contact": "Kontakta oss",
+      "cookie": "Cookiepolicy",
+      "privacy": "Integritetspolicy",
+      "cryptomining": "Kryptovalutamining",
+      "bitcoinmining": "Bitcoin Mining",
+      "dogecoinmining": "Dogecoin Mining",
+      "copytrading": "Kopiera handel",
+      "cryptotrading": "Kryptovalutahandel",
+      "terms": "Användarvillkor",
+      "forextrading": "Valutahandel",
+      "stockstrading": "Aktiehandel",
+      "optionstrading": "Optionshandel",
+      "leverage": "Vad är hävstång",
+      "responsibletrading": "Ansvarsfull handel",
+      "generalrisk": "Allmän riskinformation",
+      "about": "Om oss"
+    },
+  
+    "Carousel": {
+      "welcome": "Välkommen till {project}",
+      "welcomeDesc": "Börja tjäna pengar idag genom att handla med kryptovalutor, forex, aktier eller binära optioner.",
+      "stocksTitle": "Handla Aktier",
+      "stocksDesc": "Handla aktier eller gör långsiktiga investeringar på samma plattform.",
+      "forexTitle": "Handla Forex",
+      "forexDesc": "Handla forex på {project} plattformen och njut av pålitliga priser och exceptionell execution.",
+      "copyTitle": "Kopiera Expert Traders",
+      "copyDesc": "Välj från en lista av experttraders och kopiera automatiskt deras affärer utan att behöva följa marknaden själv.",
+      "getStarted": "Kom igång"
+    },
+  
+    "ContactPage": {
+      "name": "Ditt namn*",
+      "email": "E-postadress*",
+      "phone": "Telefonnummer*",
+      "subject": "Ämne*",
+      "message": "Ditt meddelande...",
+      "send": "Skicka meddelande",
+      "note": "Observera:",
+      "disclaimer": "Vi lovar att inte skicka spam och din e-postadress kommer att hållas konfidentiell."
+    },
+   "features":  {
+      "feature1Heading": "Snabb registrering",
+      "feature1Paragraph": "Bara 1 minut och du är inne. Ange den information som behövs för att bli en plattformsinvesterare och starta direkt.",
+      "feature2Heading": "Snabba affärer",
+      "feature2Paragraph": "Investera och luta dig tillbaka. Du kan när som helst följa din investeringsstatus och investera i tidsbegränsade erbjudanden.",
+      "feature3Heading": "Tidig support",
+      "feature3Paragraph": "Vi erbjuder oöverträffad supporttjänst via e-post eller livechatt för att ge ett professionellt och snabbt svar."
+    },
+    "CopyExperts": {
+  "title": "Copy Expert Traders",
+  "paragraph1": "För ungefär 5 år sedan började jag experimentera och leka med valutamarknaden. Anledningen till att jag valde trading var på grund av friheten. Möjligheten att göra vad som helst, när som helst... Det är den ljusa sidan av trading.",
+  "paragraph2": "Men när jag började berättade ingen för mig om den mörka och utmanande sidan av trading. För några år sedan fanns det inga guider eller strukturerade resurser för att hjälpa traders att göra detta till en karriär. Allt var trial and error för mig... Jag fortsatte att experimentera och lära mig från mina misstag tills jag behärskade detta. Nu kommer jag vara den första att säga att trading kräver enorm disciplin.",
+  "paragraph3": "Realistiskt sett kan du till och med handla i 2+ år konsekvent utan att se mycket tillväxt eller pengar i de tidiga stadierna. Det är skrämmande att tänka på, men det är verkligheten som många inte pratar om.",
+  "paragraph4": "Om det fanns en hemlighet till trading så skulle det vara konsekvens. Men att vara konsekvent är svårt när du inte har någon riktning. Ingen att dela dina utmaningar med. Ingen att ge dig feedback. Allt detta slutar med Copy Trading.",
+  "paragraph5": "Mitt mål är att överbrygga gapet från den mörka och utmanande sidan av trading till en punkt där du kan göra detta till en hållbar karriär. Så håll i er, för det här kommer att bli en fantastisk resa! Du kan ta en titt på de live trades jag har gjort på mitt {project_name} finansierade konto. Vilket jag kunde växa till sexsiffriga vinster på 30 dagar - {project_title} Expert Trader"
+},
+"WhatWeOffer": {
+    "title": "Vad vi erbjuder",
+    "description": "Vi bygger en ny standard för handel och mining. Ett konto med förenklad åtkomst till flera likviditetsmarknader.",
+    "learnMore": "Läs mer",
+    "offerList": [
+      {
+        "heading": "Krypto Trading",
+        "paragraph": "Nu kan du börja handla Bitcoin, Ethereum och många fler kryptovalutor snabbt, enkelt och säkert var du än är – på bara några sekunder.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Forex Trading",
+        "paragraph": "Forexmarknaden är en plats där valutor handlas. Det är den största och mest likvida finansmarknaden i världen med en genomsnittlig daglig omsättning på 6,6 triljoner US-dollar 2019.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Krypto Expert Traders",
+        "paragraph": "Copy trading låter dig kopiera direkt de positioner som en annan trader har tagit. Du bestämmer hur mycket du vill investera och kopierar automatiskt allt de gör.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "MINERA TOP CRYPTO VALUTOR",
+    "description1": "Till skillnad från papperspengar produceras Bitcoin och andra kryptovalutor matematiskt och hålls digitalt. De som frivilligt erbjuder sin beräkningskraft för att säkra dessa kryptovalutanätverk kallas miners. Kryptovalutor har inte någon central regering eller andra så kallade 'mellanmän' som bestämmer om systemets framtid.",
+    "description2": "Som miners bearbetar och verifierar vi transaktionerna i kryptovaluta-ekosystemen och håller deras offentliga transaktionshistorik (blockchains) säker. För detta belönas mining-communityn med nätverkens transaktionsavgifter och nyproducerade mynt."
+  },
+  "FinancialMarket": {
+    "title": "Finansiella Marknader Förklarade",
+    "description1": "De finansiella marknader hänvisar kollektivt till en online-marknad där företag och individer ingår kontrakt för att sälja eller köpa en specifik produkt från ett brett utbud av 'finansiella marknadsinstrument'.",
+    "description2": "Det enda syftet med investeringar på den finansiella marknaden är att handla med finansiella värdepapper och derivat till låga transaktionskostnader samtidigt som man genererar avkastning från beräknade handelsinträden och utgångar.",
+    "description3": "Finansiella marknadsinstrument och värdepapper inkluderar aktier och obligationer, optioner, kryptovalutor, valutapar, råvaror och ädelmetaller som i de finansiella marknaderna är kända som råvaror."
+  },
+  
+    "TradingPlan": {
+  "title": "EN TRADINGPLAN FÖR ALLA",
+  "description": "Vi erbjuder olika handelskonton som passar alla handelsstilar och erfarenhetsnivåer. Oavsett om du är scalper, daytrader, använder EAs eller handlar diskretionärt – vi har vad du behöver.",
+  "plans": [
+    {
+      "title": "Brons",
+      "amount": "300",
+      "minDeposit": "300",
+      "referralBonus": "Rekommendationsbonus",
+      "itSupport": "Fullständig IT-support",
+      "purchasePlan": "KÖP PLAN"
+    },
+    {
+      "title": "Premium",
+      "amount": "600",
+      "minDeposit": "600",
+      "referralBonus": "Rekommendationsbonus",
+      "itSupport": "Fullständig IT-support",
+      "purchasePlan": "KÖP PLAN"
+    },
+    {
+      "title": "Guld",
+      "amount": "1200",
+      "minDeposit": "1200",
+      "referralBonus": "Rekommendationsbonus",
+      "itSupport": "Fullständig IT-support",
+      "purchasePlan": "KÖP PLAN"
+    },
+    {
+      "title": "Platina",
+      "amount": "50000",
+      "minDeposit": "50000",
+      "referralBonus": "Rekommendationsbonus",
+      "itSupport": "Fullständig IT-support",
+      "purchasePlan": "KÖP PLAN"
+    }
+  ]
+},
+
+  "latest_payouts": "Senaste utbetalningarna",
+  "testimonials": {
+    "name_1": "Miles Kozey",
+    "comment_1": "Jag är extremt nöjd med plattformen när det gäller enkelhet, användarvänlighet och pålitlighet.",
+    "name_2": "Katrine Welch",
+    "comment_2": "Väldigt enkelt och säkert sätt att lägga till ränta på dina investeringar.",
+    "name_3": "Kianna Heaney",
+    "comment_3": "Jag tredubblade bitcoinen i min plånbok med denna tjänst på bara 7 dagar.",
+    "name_4": "Geoffrey Dare",
+    "comment_4": "Enkel att använda, riskfri handelsplattform som ökar ens inkomstpotential."
+  },
+  "payouts": {
+    "1": "Delmer Kuhlman",
+    "2": "Clifton Deckow",
+    "3": "Gina Hills",
+    "4": "Elta Fritsch",
+    "5": "Name Ziemann",
+    "6": "Daniela Erdman",
+    "7": "Bernhard Haag",
+    "8": "Shawna Goldner",
+    "9": "Hazle Konopelski",
+    "10": "Kenneth Gorczany",
+    "11": "Lela Kuhn",
+    "12": "Benedict Donnelly",
+    "13": "Raphaelle Spencer",
+    "14": "Sadie Lesch",
+    "15": "Nico Kshlerin",
+    "16": "Britney Runolfsdottir",
+    "17": "Jermaine Howe",
+    "18": "Brisa Rice"
+  },
+  "faq": {
+  "how_does_copy_trading_work": {
+    "question": "Hur fungerar copy trading?",
+    "answer": "Copy trading är enkelt: som investerare väljer du en eller flera experter vars affärer du vill kopiera. Efter att du har prenumererat behöver du inte göra något mer. Så snart du har prenumererat är du redo att börja. Alla affärer kopieras automatiskt på ditt konto. Vi följer tradernas aktiviteter, och så snart de gör en affär beräknar vi parametrarna och gör affären åt dig. Det enda du behöver göra är att säkerställa att det finns tillräckligt med pengar på ditt handelskonto i den basvaluta som används av traders. Hur mycket pengar behövs? För att täcka plattformens minimikrav (vanligtvis cirka 10 USD per affär) bör du ha minst 300 USD på ditt konto för att täcka alla möjliga affärer (med 100 % allokering till den valda tradern). Det är också viktigt att ha åtminstone 10 % fria medel för att undvika obekräftade order. När en trader stänger en affär stängs den automatiskt på ditt konto. Du kan när som helst ändra beloppet som är allokerat till en trader."
+  },
+  "what_are_the_fees": {
+    "question": "Vad är avgifterna?",
+    "answer": "Alla investerare betalar en avgift på 10 % när de tar ut pengar, och traders får en fast procentandel av den vinst de genererar."
+  },
+  "who_are_the_trading_experts": {
+    "question": "Vem är tradingexperterna?",
+    "answer": "Vi väljer noggrant ut våra traders genom att titta på deras resultat under en lång period. Vi söker också efter traders med en prenumerantbas för att bekräfta deras kvalifikationer (socialt bevis). Du kan ta reda på mer om varje trader genom att titta på deras profiler."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "Hur mycket rekommenderas det att investera för att börja?",
+    "answer": "Vi rekommenderar att du börjar med minst 3000–5000 USD på ditt konto för att täcka minimikraven för affärer på plattformen och för att betala för eventuella månatliga prenumerationsavgifter."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "Hur fungerar Bitcoin mining?",
+    "answer": "Det är snabbt och enkelt! När vi mottar din betalning läggs kontraktet till i din profil och du kan börja mina omedelbart. Beroende på vilken algoritm och kontrakt du har valt kan du mina direkt eller allokera beräkningskraft till andra kryptovalutor (markerade som AUTO) samt justera deras fördelning. Till exempel, 60 % LTC, 20 % BTC och 20 % DOGE. Den första utbetalningen från mining är tillgänglig 48 timmar efter start, och sedan kommer den att göras dagligen."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "Minner ni för er själva?",
+    "answer": "Förutom att vi miner på samma utrustning som vi erbjuder våra kunder, har vi en begränsad kapitalbas. Vi anser att Bitcoin- och altcoin-mining är ett av de bästa sätten att få kryptovaluta, men vi vill inte ‘lägga alla ägg i en korg’."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "Var är er miningfarm belägen?",
+    "answer": "Vi avslöjar inte exakt var våra miningfarmer finns av säkerhetsskäl. Sedan april 2015 har vi drivit flera miningfarmer i Europa, Nordamerika och Asien. Elkostnad och tillgång till kylning är viktiga, men inte de enda kriterierna. För mer information, vänligen besök vår dedikerade centersida."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "Vilka mynt kan jag mina med varje algoritm?",
+    "answer": "Du kan mina Bitcoin och andra altcoins direkt via vår sidan för allokering av beräkningskraft*. Tillgängliga kryptovalutor att mina beror på det kontrakt du har valt.<br/><br/>SHA-256 kontrakt – Bitcoin<br/>Ethash kontrakt – Ethereum<br/>(*) “{param} Avancerad fördelning” (specialfunktion): detta gör att du kan mina olika mynt även om de inte stöds av en viss algoritm. Till exempel kan du få BTC genom att mina med algoritmen X11! Detta är möjligt då du minar mynt som DASH som automatiskt konverteras till BTC genom vår algoritmstruktur. Denna funktion kallas smart BTC mining."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "Hur fungerar era Ether-kontrakt?",
+    "answer": "När du köper ett Ether mining-kontrakt köper du en del av en GPU (grafikprocessor) för att mina Ethereum. Algoritmen som används för att mina Ethereum kallas Ethash (eller Dagger-Hashimoto).<br/><br/>Ethash-algoritmen kräver användning av en DAG-fil (Directed Acyclic Graph) för att utföra beräkningar. Denna fil växer över tid, vilket innebär att varje beräkning kräver fler operationer. Detta sänker något effektiviteten av hashing när DAG-filen växer.<br/><br/>Detta är viktigt att tänka på när man jämför den teoretiska utgångseffekten. Online-kalkylatorer tar ofta inte med denna faktor.<br/><br/>Observera att vissa av våra produkter har en månatlig underhållsavgift."
+  },
+  "expected_returns": {
+    "question": "Vad är de förväntade avkastningarna?",
+    "answer": "Bitcoin- och altcoin-mining är mycket beroende av priset och svårigheten på nätverket för de kryptovalutor som du minar, vilket är omöjligt att förutse. Vi tycker inte att det är rätt att ge någon prestation utan att samtidigt sälja kontrakt. Därför rekommenderar vi att alla våra kunder gör egen research och beräknar prestanda själva.<br/><br/>Till exempel kan du använda coinwarz.com för att få information. Tänk på att sidan inte tar med underhållsavgifter för vissa av våra produkter som dras från dagliga utbetalningar från mining.<br/><br/>Denna webbplats är en oberoende källa och är inte associerad med {param}."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "Vilka pooler använder ni för mining?",
+    "answer": "Vi publicerar inte en lista på de pooler vi använder. De viktigaste kriterierna vid val av bra pool är: pålitlighet, kostnadsstruktur och avgifter för avvikelser. I framtiden planerar vi att mina vissa mynt själva (och ge de sparade medlen till våra användare!).<br/><br/>Vår interna policy: 'Var bra kryptoborgare'. Detta betyder att vi använder minst två pooler för varje mynt (ibland upp till fyra). Detta bevarar decentraliseringen av kryptonätverk! Om vi märker att en pool närmar sig 50 % marknadsandel, byter vi pool och använder backup."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "Är det inte billigare att köpa utrustning?",
+    "answer": "Det kan verka som att köpa miner X är billigare än att hyra miningkraft. Men det finns några ‘dolda’ kostnader som gör ekonomin helt annorlunda:<br/><br/>Fraktkostnader: Många återförsäljare täcker inte dessa kostnader och du får ofta betala extra.<br/>Tullavgifter/MOMS: Vid internationell frakt måste du troligen betala tull och moms, vilket gör utrustningen mycket dyrare.<br/>Leveranstid: När du har betalat måste du vänta på att produkten packas och skickas. Om det fastnar vid tullen kan det ta veckor. Och medan detta händer kan du inte mina (förlorade möjligheter). Vad händer om återförsäljaren inte har produkten i lager? Då får du vänta ännu längre. Hos oss, så snart du har betalat, blir din beräkningskraft online omedelbart. Inget väntande!<br/><br/>Ytterligare kostnader för utrustning: När du köper utrustning från stora återförsäljare måste du ofta köpa extra utrustning, som strömförsörjning, som motsvarar elstandarderna i ditt land, kontrollenheter och specialställ för att lagra enheterna. Detta orsakar ytterligare betydande kostnader.<br/><br/>Systemkonfiguration: När utrustningen kommer måste den monteras och konfigureras. Nybörjare underskattar ofta den tid och de tekniska kunskaper som krävs för att konfigurera utrustningen och optimera dess funktion. Personer som arbetade med de första ASIC-månarna spenderade dagar eller veckor på detta. I monetära termer betyder det två saker: (i) din tid och (ii) förlorade miningmöjligheter.<br/><br/>Underhåll: Utrustning kan gå sönder, krascha eller frysa vilket leder till driftstopp från några sekunder till flera veckor. Om din enhet går sönder måste du returnera den och börja om. (Kontrollera garantin på din enhet, den är vanligtvis mindre än ett år). Hos oss har vi 100 % garanti för upptid: om din enhet går sönder, ansluts en ny och den börjar mina omedelbart."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "Vad är underhållsavgiften?",
+    "answer": "Vissa av våra produkter inkluderar en underhållsavgift. Det innebär att vi tar hand om utrustningen, ser till att maskinerna är i gott skick och gör justeringar vid behov. Detta säkerställer att du alltid kan fortsätta mina utan tekniska problem eller driftstopp."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "Kan jag mina olika mynt samtidigt?",
+    "answer": "Ja! Hos {param} kan du mina flera mynt samtidigt, även om de använder olika algoritmer.<br/><br/>Vi erbjuder funktionen ‘Auto’ som automatiskt omvandlar din miningkraft till en annan kryptovaluta om du inte har konfigurerat en specifik fördelning.<br/><br/>Gå till inställningssidan för fördelning av miningkraft i kontrollpanelen och välj de mynt du vill mina och deras fördelning. Spara inställningarna och börja ta emot miningutbetalningar baserat på den fördelningen.<br/><br/>Se till att du har lagt till adresserna för dina plånböcker i din profil innan du börjar ta emot miningutbetalningar."
+  }
+},
+"footer": {
+  "quick_links": "Snabba Länkar",
+  "contact_us": "Kontakta Oss",
+  "my_account": "Mitt Konto",
+  "create_account": "Skapa Konto"
+},
+
+  "SignUpPage": {
+    "signUp": "Registrera dig",
+    "successMessage": "Konto registrerat framgångsrikt",
+    "accountTypeLive": "LIVE",
+    "accountTypeDemo": "DEMO",
+    "accountType": "Kontotyp",
+    "email": "E-post",
+    "password": "Lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "mobileNumber": "Mobilnummer",
+    "currency": "Valuta",
+    "country": "Land",
+    "state": "Delstat",
+    "city": "Stad",
+    "termsText": "Jag accepterar alla användarvillkor",
+    "createAccount": "Skapa mitt konto",
+    "processing": "Bearbetar...",
+    "alreadyHaveAccount": "Har du redan ett konto?",
+    "login": "Logga in",
+    "creatingAccount": "Skapar konto..."
+  },
+  "ErrorPage": {
+    "error": "Fel!",
+    "emailAlreadyRegistered": "E-postadressen är redan registrerad"
+  },
+  "LoadingPage": {
+    "loading": "Laddar..."
+  },
+  
+    "LoginPage": {
+      "email": "E-post",
+      "password": "Lösenord",
+      "signIn": "Logga in",
+      "forgotPassword": "Glömt lösenord?",
+      "noAccount": "Har du inget konto?",
+      "signUp": "Registrera dig",
+      "processing": "Bearbetar...",
+      "error": "Fel!",
+      "invalidDetails": "Ogiltiga inloggningsuppgifter.",
+      "signInFailed": "Inloggning misslyckades. Försök igen."
+    },
+    "ForgotPassword": {
+    "pageTitle": "Återställ lösenord",
+    "instruction": "Ange e-postadressen kopplad till ditt konto nedan",
+    "emailLabel": "E-post",
+    "submit": "Skicka"
+  },
+  "CookiePolicy": {
+  "title": "Cookiepolicy",
+  "lastRevised": "Senast reviderad",
+  "purpose1": "{project_name} använder cookies för att: Optimera din handelupplevelse, inklusive att komma ihåg dina preferenser, plats, föredragna språk, webbläsare och andra detaljer;",
+  "purpose2": "Verifiera din identitet för säkerhetsändamål;",
+  "purpose3": "Underhålla vår webbplats och vissa funktioner som är tillgängliga på den;",
+  "purpose4": "Analysera och spåra användningen av våra tjänster;",
+  "purpose5": "Justera vår plattform enligt dina handelsvanor och våra regulatoriska krav.",
+  "whatAreCookiesTitle": "Vad är cookies",
+  "whatAreCookiesDesc": "Cookies är små bitar av data som skickas till din dator från en webbplats och lagras på din dator. Cookies är inte körbara och kan inte användas för att installera skadlig kod. De gör det möjligt för webbplatser att känna igen besökare när de återvänder och innehåller grundläggande information om dem som kontrolleras och uppdateras varje gång du besöker webbplatsen. För mer information, se: http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Hantera cookies",
+  "managingCookiesIntro": "På {project_name} respekterar vi din rätt till integritet och erbjuder därför verktyg för att hantera de cookies du tar emot från våra webb tjänster. Vissa cookies är nödvändiga för prestandan på vår plattform (du kan inte välja bort dessa cookies om du vill använda vår plattform). Nedan finner du en lista på några av de tredjepartscookies som används av {project_name}. För användare som inte vill ta emot icke-essentiella cookies har vi tillhandahållit ett “opt-out”-alternativ för dig att välja.",
+  "managingCookiesBrowser": "Din webbläsare kan också tillåta dig att blockera lagring av cookies på din dator; vänligen konsultera din webbläsares “Hjälp”-meny eller webbplats för mer information. Om du använder våra webb tjänster utan att blockera cookies, samtycker du faktiskt till cookies."
+},
+
+  "privacyPolicy": "Integritetspolicy",
+  "lastRevised": "Senast reviderad",
+  "limited": "Begränsat",
+  "respectPrivacy": "respekterar integriteten för våra användare (var och en, \"du\" eller \"Användare\")",
+  "usersCommitment": "och är engagerade i att skydda integriteten för användare som får tillgång till, laddar ner, installerar eller registrerar sig för vår mobilapp",
+  "informationCollection": "Företaget har förberett denna integritetspolicy för att beskriva våra rutiner för att samla in, använda och avslöja din information när du använder tjänsterna.",
+  "agreeToTerms": "Genom att använda tjänsterna godkänner du villkoren i denna integritetspolicy.",
+  "retainInformation": "Hur länge vi behåller informationen",
+  "protectingInformation": "Hur vi skyddar din information",
+  "advertisements": "Annonser",
+  "advertisingId": "Annonserings-ID och Annonseringsidentifierare",
+  "cookiesAndAnalytics": "Cookies och Google Analytics",
+  "shareInformation": "MED VEM VI DELAR INFORMATIONEN OCH FÖR VILKET SYFTE",
+  "sharingDetails": "Vi hyr inte ut, säljer eller delar din personliga information med tredje part utom som beskrivs i denna integritetspolicy...",
+  "retentionDetails": "Vi respekterar dina integritetsrättigheter och du kan kontakta oss när som helst och begära...",
+  "protectionDetails": "Vi vidtar stor omsorg för att implementera och upprätthålla säkerheten för tjänsterna och din information...",
+  "advertisementDetails": "Vi kan använda en tredjeparts annons-teknologi för att visa annonser när du använder tjänsterna...",
+  "advertisingIdDetails": "Google Advertising ID är en anonym identifierare, som tillhandahålls av Google Play-tjänster...",
+  "updatePrivacyPolicy": "UPPDATERINGAR ELLER ÄNDRINGAR AV INTEGRITETSPOLICYN",
+  "updateDetails": "Vi kan revidera denna integritetspolicy från tid till annan, efter eget gottfinnande, och den senaste versionen kommer alltid att publiceras...",
+    "cryptoMining": "Kryptomining",
+    "cryptoMiningTitle": "Kryptomining",
+    "cryptoMiningParagraph1": "Kryptovalutanätverk behöver beräkningskraft för att fungera säkert. Världens mest kraftfulla blockkedjor stöds av miljontals datorer världen över...",
+    "cryptoMiningParagraph2": "Kryptovalutor har ingen central regering eller andra så kallade 'mellanhand' som bestämmer systemets framtid...",
+    "howIsBitcoinSecure": "HUR SÄKERT HÅLLS BITCOIN",
+    "bitcoinSecurityParagraph": "Det enda sättet att inte skapa pengar från intet eller korrumpera det är att bränna verklig energi. Detta kallas Proof-of-Work...",
+    "minersIncentives": "VAD ÄR INCITAMENTEN FÖR MINER",
+    "minersIncentivesParagraph": "Allt handlar om förtroende: Miners håller blockkedjorna pålitliga och belönas för sina ansträngningar...",
+    "bigVisionOfCrypto": "DEN STORA VISIONEN FÖR CRYPTO CURRENCY",
+    "bigVisionParagraph": "För att bevara integriteten (och värderingarna!) hos alla kryptovalutaekosystem, håller miners nätverken säkra och deras auktoritet decentraliserad...",
+    "BitcoinMining": {
+    "title": "Bitcoin Mining",
+    "paragraph1": "Bitcoin har en offentlig bokföring som kallas blockchain. Processen för mining lägger till nya transaktioner till denna offentliga bokföring. Varför? Jo, Bitcoin-användare behöver denna process eftersom den innebär att varje transaktion säkert bekräftas och verifieras medan alla användare som använder Bitcoin-nätverket har full tillgång till blockchain – med andra ord, Bitcoin-bokföringen. Mining hjälper också nätverket att avgöra vilka transaktioner som är rättvisa och legitima, och eliminerar alla transaktioner som försöker spendera pengar en andra gång.",
+    "paragraph2": "Så när någon ”minar” Bitcoin utför de faktiskt en tjänst för alla Bitcoin-användare eftersom de säkerställer att Bitcoin-transaktioner är legitima. Under mining-processen kommer de som minar Bitcoin att slutföra ett nytt block, vilket innebär att minaren får en belöning. År 2018 var belöningen för att slutföra ett nytt block 12,5 Bitcoin, men belöningen minskar med tiden.",
+    "paragraph3": "Som du kan tänka dig kräver mining mycket hårt arbete och tålamod – du får inte Bitcoin-miningresultat snabbt. Därför finns en uppenbar liknelse med den faktiska, fysiska miningen av metaller som guld. Därav användningen av ordet ”mining” för de beräkningsuppgifter som genererar nya Bitcoin.",
+    "bold1": "Välja din miningutrustning",
+    "paragraph4": "Bitcoin-mining involverar mycket komplexa beräkningar som är mycket beräkningsintensiva. Så att välja rätt hårdvarukit när du minar Bitcoin är verkligen avgörande. Du behöver tänka på ett antal specifika egenskaper när du väljer ditt Bitcoin-miningkit.",
+    "bold2": "Hashhastigheter",
+    "paragraph5": "Kanske den viktigaste aspekten av ditt val av miningkit är detta: hashhastigheten som din mininghårdvara kan bibehålla. Hashhastigheten är i grund och botten antalet kryptoberäkningar som din mininghårdvara kan utföra varje sekund. Det är lätt att förstå varför en högre hashhastighet hjälper dig att mina mynt snabbare – helt enkelt eftersom fler beräkningar per sekund innebär att du löser den kryptografiska matematiken som krävs för att mina ett mynt mycket snabbare. Som ett resultat kan du snabbt slutföra ett block och få din belöning för att göra det.",
+    "paragraph6": "Hashfunktioner fungerar så här: vilken inmatning du än matar in kommer alltid att ge samma resultat. Så för att hitta ett specifikt resultat måste du försöka så många slumpmässiga inmatningar som möjligt – så snabbt som möjligt. Det gör mining konkurrensutsatt och minaren som kan bearbeta fler inmatningar än andra miners kommer att belönas snabbare. Så, igen, om du kan få hårdvara med hög hashhastighet kommer du att ha ett försprång över andra miners vilket innebär att du får fler belöningar snabbare.",
+    "paragraph7": "Mätningen för hashhastigheter är MH/sec, vilket står för megahashes per sekund. Du kan också mäta hashhastigheter i termer av GH/sec och TH/sec, som står för giga- respektive terahashes per sekund. Bitcoin-mininghårdvara har hashhastigheter som kan sträcka sig från några hundra MH/sec hela vägen upp till 10 TH/sec (eller 10 000 000 MH/sec).",
+    "bold3": "Energikostnad",
+    "paragraph8": "Det finns kostnader förknippade med Bitcoin-mining, och det handlar inte bara om den fysiska mininghårdvara du behöver oroa dig för. Om du har råd med kraftfull hårdvara kommer du snabbt att hitta att du har ett annat huvudvärk: elkostnaden för att driva den hårdvaran eftersom kraftfull mininghårdvara förbrukar mycket ström.",
+    "paragraph9": "När du köper hårdvara behöver du därför noga titta på elförbrukningen för kitet – räkna ut det i watt och se hur mycket det kommer att kosta dig, så att du inte får en stor överraskning när du får din nästa elräkning. Om du inte gör det riskerar du att spendera alla dina miningvinster på elektricitet – eller till och med att göra en stor förlust.",
+    "paragraph10": "Hashhastighet tillsammans med energiförbrukning är ett bra sätt att utvärdera miningvinster. Jämför de hashar du kan slutföra på en timme med elkostnaden per timme (eller per dag). Ett enkelt sätt att göra detta är att dela hashhastigheten för ditt kit med de watt som förbrukas. Det ger dig ett MH/s per watt-värde som kan vägleda dig, tillsammans med aktuella elkostnader, för att avgöra om ditt miningkit kommer att ge vinst.",
+    "paragraph11": "Glöm inte att inkludera extra kostnader som datorhårdvara som driver mining-GPU:er när du räknar ut vinster – din PC kommer också att förbruka ström utöver den mininghårdvara du har.",
+    "bold4": "Bitcoin mining hårdvarualternativ",
+    "paragraph12": "När Bitcoin först släpptes uppmärksammade en mängd olika människor det eftersom det var en unik idé som folk ansåg vara mycket liberal. Hur som helst var Bitcoin väldigt revolutionerande jämfört med hur transaktioner bearbetades tidigare: genom centraliserade banker. Detta självstyrande nätverk var utanför finansinstitutens, skatteverkets och andra stora organisationers räckvidd eftersom det var helt decentraliserat.",
+    "paragraph13": "Under de första dagarna av Bitcoin visste färre människor om kryptovalutan och ännu färre människor köpte och investerade i Bitcoin, så värdet på Bitcoin var inte så högt. Resultatet var att det var lätt att mina Bitcoin vilket innebar att det fanns många miners som var intresserade av att mina Bitcoin för vinst, men de var också intresserade av Bitcoin eftersom det var en så fantastisk och ny idé. Då krävde mining av Bitcoin användning av grundläggande datorkraft – till och med en bärbar dator räckte, eller en kraftfull stationär dator.",
+    "paragraph14": "Genom denna process av att mina Bitcoin med bärbara datorer och stationära datorer började folk inse att GPU:er (grafikkort) var kapabla att verkligen boosta Bitcoin-miningförmågan. GPU:er är väl lämpade för Bitcoin-mining: GPU:er förbrukar mindre ström än en dator-CPU som är dedikerad till mining och GPU:er kan mina 50 till 100 gånger snabbare.",
+    "paragraph15": "Som ett resultat introducerades dedikerade enheter som var specialdesignade för mining på marknaden. Miningkapabiliteterna mångdubblerades och detta ledde till en intressant utveckling: Bitcoin-mininggårdar som i princip var vinstcentra – och som ledde till utvecklingen av en mer formell industri som var dedikerad till att mina Bitcoin.",
+    "paragraph16": "Med tiden har Bitcoin-mining blivit mycket lönsamt och många seriösa miners driver mycket stora Bitcoin-mininggårdar som genererar mycket pengar. Det är en blandning av hårdvara som är involverad i dessa mininggårdar – inklusive GPU:er tillsammans med kraftfulla kylare för att hålla temperaturen nere. Elektricitet är ett stort problem för dessa operationer men i vissa länder är elpriserna låga och detta är varför mininggårdar har koncentrerats till platser med billig elektricitet.",
+    "paragraph17": "Tyvärr betyder det att för att mina Bitcoin är du upp emot mycket kapabla miningoperationer med mycket kapital bakom dem – det är i grund och botten en tävling mot stora företag runt om i världen som har mycket pengar att spendera. Det finns fortfarande otaliga individuella Bitcoin-miners också – och de tenderar att samarbeta för vinst genom att gå med i Bitcoin-miningpooler.",
+    "bold5": "Välja en CP",
+    "paragraph18": "Så mycket som en CPU verkligen är central för din dator är den faktiskt inte den viktigaste delen i ett Bitcoin-miningrigg. Ja, när Bitcoin just släpptes kunde du mina med enbart en CPU och du kunde göra det lönsamt så länge din dators CPU hade tillräcklig kraft.",
+    "paragraph19": " Miners jobbade hårt för att maximera sina vinster, så resultatet blev att de försökte olika typer av hårdvara för mining. De upptäckte snabbt att CPU:er inte är de bästa alternativen för att mina Bitcoin. Du behöver fortfarande använda en CPU för att driva din PC som kör miningriggen, men din CPU kommer att ta decennier på sig att mina en meningsfull mängd Bitcoin.",
+    "bold6": "GPU:er för mining",
+    "paragraph20": "Det finns många olika användningsområden för GPU:er, eller grafiska processorenheter – från att spela avancerade 3D-spel till att göra 3D-rendering. Faktum är att det ursprungliga designkravet för GPU:er var att kunna beräkna den matematik som gör att toppklassiga videospel ser ut som de gör. Men av en slump innebar detta också att GPU:er är utmärkta verktyg för att utföra hashingfunktioner. Och som vi vet är hashing nyckeln till att lösa de kryptografiska pussel som löser Bitcoin-transaktionsblock.",
+    "paragraph21": "GPU:er är inte billiga, med flera hundra dollar styck, men det finns en enorm fördel med GPU:er jämfört med CPU:er när det gäller hashing. En bra GPU kan enkelt hash:as hundra gånger snabbare än en toppklassig CPU. Denna fakta ledde till uppkomsten av det som kallas en miningrigg: en grundläggande dator som är kopplad till ett stort antal GPU:er – alla dedikerade till mining och för att mina så snabbt som möjligt. Men vissa människor använde dessa maskiner i en blandad användarkonfiguration, till exempel spelade 3D-spel vid vissa tider medan de minade när de inte spelade spel.",
+    "paragraph22": "Dålig nyhet för GPU-mining dök snabbt upp: idag kan du inte verkligen mina Bitcoin lönsamt med hjälp av GPU:er. För att sammanfatta det: ju mer kraftfulla miningutrustningen blir, desto svårare blir det att mina Bitcoin. Resultatet är att GPU:er inte längre effektivt kan mina Bitcoin jämfört med alternativa lösningar – vilket vi kommer att prata om nedan. Så, du kommer inte att få tillbaka pengarna i kapital och elkostnader om du använder en GPU för att mina Bitcoin.",
+    "bold7": "FPGAs i Bitcoin mining",
+    "paragraph23": "GPU:er ersattes snart av något som kallas en field programmable gate array, eller FPGA. En integrerad krets, FPGA:er måste konfigureras efter att de byggts, men det betyder att ett företag som bygger miningkit kan köpa många FPGA:er och sedan ställa in dessa för att vara utmärkta för Bitcoin-mining. FPGA:er visade sig vara ett utmärkt alternativ för Bitcoin-mining och förändrade parametrarna för Bitcoin-mining – vilket tog bort GPU:er från spelplanen.",
+    "paragraph24": "Faktum är att FPGA-miningriggar var det första miningkitet som använde hårdvara som var specifikt designad för Bitcoin-mining, och som endast kunde användas för att mina Bitcoin. I en viktig utveckling upptäcktes det snabbt att FPGA:er använde mycket mindre ström än GPU:er – faktiskt, för samma hashhastighet, kunde en FPGA använda mindre än 20% av strömmen för en GPU – vilket gjorde miningoperationer mycket mer lönsamma.",
+    "bold8": "Vad är ASICs?",
+    "paragraph25": "Det sista steget i Bitcoin-miningens vapenkapplöpning, application-specific integrated circuits eller ASICs var chip designade från grunden för att mina Bitcoin. Du kan inte programmera en ASIC, dess funktionalitet är intryckt i dess kretsar och när det gäller Bitcoin-miningriggar kunde ASICs endast användas för att mina Bitcoin. Bra ASICs kunde mina med 100 gånger hastigheten och använda mindre elektricitet. I detta skede finns det ingen ersättningsteknologi för ASICs i sikte, så ASICs förblir det snabbaste sättet att mina Bitcoin på den närmaste framtiden.",
+    "paragraph26": "Självklart kommer det att vara tidskrävande och ganska dyrt att skapa en specialdesignad chip. Men denna utgift kommer med resultat – en toppklassig miner från ett företag som AntMiner kan ge dig hashhastigheter i terahashes per sekund-intervallet – lätt över 10TH/sec. Priset? Över tusen dollar. Du får också billigare lösningar men hastigheten kommer att vara lägre.",
+    "paragraph27": "Att få rätt på miningvinster är svårt och det beror på hårdvalet vilket är varför miningnybörjare kan tycka att valet av hårdvara är lite överväldigande att hantera. Att få ditt hårdval rätt kommer att avgöra dina vinster, så du måste kunna beräkna lönsamheten för att täcka kostnaden för hårdvaran samt elektriciteten du förbrukar. Det är viktigt att du gör denna beräkning innan du spenderar pengar på hårdvara eftersom din hårdvara kan vara svår att sälja vidare.",
+    "paragraph28": "Lyckligtvis kan du använda en förbyggd kalkylator för att hjälpa dig – två alternativ inkluderar BTC Mining Profit Calculator, som låter dig lägga till fakta som priset du betalar för din hårdvara plus hashhastigheten du uppnår tillsammans med elektriciteten du konsumerar – den tar sedan det aktuella priset på Bitcoin och talar om för dig om din investering kommer att ge belöningar – eller bara kosta dig pengar. En annan kalkylator du kan prova är den från Genesis Block.",
+    "bold9": "Välja gruvprogramvara",
+"paragraph29": "Tycker du att valet av gruvhårdvara är svårt? Du måste också fatta fler beslut – den här gången om den programvara du använder för gruvdrift. Du behöver inte gruvprogramvara för alla typer av gruvriggar, men du kommer troligtvis att behöva det – både GPU:er och FPGA:er kräver att du gör en dator tillgänglig för gruvdrift, som fungerar som värd för Bitcoins klient och den gruvprogramvara du väljer att använda.",
+"paragraph30": "Varför en Bitcoin-klient och gruvprogramvara? Jo, Bitcoin-klienten kopplar din gruvrigg till Bitcoin-nätverket och gruvprogramvaran är applikationen som använder din gruvhårdvara för att lösa kryptografiska pussel för att lösa transaktionsblock – vilket såklart är vad du blir belönad för.",
+"paragraph31": "ASIC-system kan vara förkonfigurerade med programvara, de kan till och med inkludera en Bitcoin-adress som är redo att använda. Allt du behöver göra är att plugga in din ASIC-gruvrigg i ett uttag och komma igång. Äldre ASIC-riggar behövde dock separat programvara för att komma igång.",
+"paragraph32": "Vilka är de mest populära Bitcoin-gruvprogramvarorna? Vi tycker att du bör kolla in ett av dessa fem alternativ, beroende på dina exakta behov:",
+"paragraph33": "Bitcoin Miner. Den gör vad den säger och är lätt att använda samtidigt som den erbjuder ett strömsparläge samt stöd för gruvpooler. Den här appen är känd för sin förmåga att snabbt skicka in aktier och hjälper dig också att generera en vinstrapport. För OS X eller Windows.",
+"paragraph34": "RPC Miner. Om du är en Mac-användare kommer du att gilla RPC Miner eftersom den är nära integrerad med OS X och API:erna i OS X – tillsammans med OS X:s delsystem.",
+"paragraph35": "CGMiner. Stödjer Linux, OS X och Windows. CGMiner kommer med extra funktioner inklusive möjligheten att kontrollera fläkthastigheten samt fjärrkontroll. Den upptäcker nya block på egen hand tack vare en intern databas och stöder både CPU- och GPU-gruvdrift, med stöd för flera GPU:er.",
+"paragraph36": "BFGMiner. Behöver du något som är designat för ASIC:er? Överväg BFGMiner som är mycket lik CGMiner förutom att den stöder ASIC:er. Den fungerar också på alla stora PC-operativsystem.",
+"paragraph37": "EasyMiner. Med användbara prestandadiagram är EasyMiner en bra lösning om du vill ha stöd för ett antal gruvprotokoll. Den kan fungera i antingen solo- eller pool-läge och är tillgänglig för Linux och OS X.",
+"bold10": "Förstå gruvpooler",
+"paragraph38": "De datorresurser som krävs för att bryta Bitcoin har ökat till den grad att det nu krävs att du tävlar mot organisationer med mycket pengar, som kan sätta upp stora gruvfarmar. Så det är svårt att bryta ensam och ett sätt att förbättra din förmåga att bryta Bitcoin är att gå med i en pool med Bitcoin-gruvarbetare.",
+"paragraph39": "När du poolar dina gruvinsatser ger du helt enkelt dina datorresurser till det kollektiva gruvarbetet så att block kan hittas snabbare, vilket innebär att belöningar erhålls snabbare. Dessa belöningar delas sedan upp bland de som bidrar med sina datorresurser på ett sätt som är proportionellt mot deras bidrag. Att gå med i en pool kan därför göra din gruvinkomst mer strömlinjeformad då du blir betald snabbare – även om de individuella betalningarna kan vara små.",
+"paragraph40": "Det är enkelt att gå med i en pool, du registrerar dig precis som du skulle registrera dig på vilken annan webbplats som helst – genom att skapa ett konto. Du lägger sedan till en arbetare – eller flera arbetare om du har flera riggar – och kopplar arbetarna till dina hårdvaruriggar. Tänk på att pooler tar betalt för sina tjänster så att du kan förlora mellan en och tio procent av dina gruvbelöningar. Vissa pooler tar inga pengar alls.",
+"bold11": "Kan du bryta Bitcoin lönsamt?",
+"paragraph41": "De vinster du kan generera vid Bitcoin-gruvdrift har snabbt förändrats genom åren eftersom Bitcoin själv har blivit mer värdefull, samtidigt som svårigheten att bryta Bitcoin har ökat exponentiellt. De tidiga entusiasterna som använde CPU:er för att bryta Bitcoin kommer inte längre att kunna tjäna pengar på att göra det, istället är spelet nu i händerna på de som driver gruvverksamheter på företagsnivå.",
+"paragraph42": "Så i själva verket såldes de lätt åtkomliga Bitcoins för länge sedan så idag är det extremt svårt att bryta Bitcoin, som att försöka hitta diamanter. Den ökande värderingen och den populära attraktionskraften av Bitcoin har också lockat många nya aktörer till Bitcoin-gruvdriften vilket gör konkurrensen om att bryta nya mynt ännu tuffare – det innebär att du helt enkelt behöver fler och mer kraftfulla datorresurser för att bryta ett mynt.",
+"bold12": "Specialiserad gruvutrustning är nu nyckeln",
+"paragraph43": "Det är inte så att du inte kan bryta – det innebär bara att för att göra vinst behöver du nu ganska specialiserad Bitcoin-gruvutrustning. Individuella gruvare kommer ofta att upptäcka att de helt enkelt spenderar mer på elektriciteten de använder för att bryta än vad de får tillbaka från att bryta. Till viss del är tillgång till billig elektricitet avgörande för att framgångsrikt bryta Bitcoin idag och så är det också skala – förmågan att sätta ihop en mycket stor gruvdrift.",
+"paragraph44": "Folk som bryter hemma måste också hantera alla möjliga problem, från strömavbrott till hårdvara som går sönder och att bli avbrutna från internet – för att inte tala om krascher i Bitcoin-priser, vilket händer ibland. Det är verkligen mycket svårt för människor att bryta Bitcoin hemma och tjäna pengar överhuvudtaget.",
+"paragraph45": "Det betyder inte att gruvdrift hemma inte kommer att förändras: ASIC:er blir bättre och bättre samtidigt som programvaran som hanterar hårdvaran också blir mer kapabel. I framtiden kan alla dessa faktorer förändras så att individer återigen kan bryta Bitcoin hemma – vilket skulle vara en bra sak eftersom det stöder den decentraliserade aspekten av Bitcoin. Med andra ord, människor som bryter Bitcoin hemma förhindrar att all makt samlas hos några få stora aktörer.",
+"bold13": "Vad du behöver veta om Bitcoin molngruvdrift",
+"paragraph46": "Det finns ett alternativ till att bryta Bitcoin med din egen utrustning. Det kallas molngruvdrift och fungerar på ett liknande sätt som andra molntjänster. Istället för att äga din egen datorutrustning \"hyr\" du gruvkapaciteter från någon annan. Det är lite som att köpa ett gruvkontrakt och genom det kommer du att dela på de enorma datorresurserna hos det företag du kontrakterar med.",
+"paragraph47": "Utan tvekan kan Bitcoin molngruvdrift vara lättare än att försöka göra det med din egen hårdvara eftersom det inte finns något behov av att oroa sig för programvara, internetbandbredd eller kostnaden för elektricitet. Och naturligtvis behöver du inte heller betala för hårdvaran. Allt du behöver är en internetanslutning och helst din egen Bitcoin-plånbok för att hålla dina mynt lokalt.",
+"paragraph48": "Tänk dock på att när du outsourcar din gruvdrift till en molngruvdriftleverantör kommer du att ta en viss risk. Du lämnar över nästan all kontroll till molngruvdriftleverantören. Därför bör du välja enbart pålitliga molngruvdriftleverantörer som {project_name}."
+
+},
+"About": {
+    "title": "Om oss",
+    "paragraph1": "Grundat 2014 av en grupp yrkesverksamma som skickligt kombinerar den tekniska expertis som krävs för att kopiera professionella handlare (om du inte kan handla själv). Forex Trading, Kryptovalutahandel och Aktietrading med ett dedikerat företagslag, ett toppmodernt huvudkontor och en passion för att hjälpa dem med en stark önskan att förbättra sina liv.",
+    "paragraph2": "Vårt team är engagerat att uppnå exceptionella resultat och vara ett steg före. Vi har skapat en handelsplattform för långsiktigt bruk och satt standarden för att förändra framtida generationers öden! Vi förenar alla viktiga aspekter av att driva en effektiv kryptovalutamining-operation. Från att bygga mycket effektiva datacenter till att tillhandahålla ett strömlinjeformat minersystem för våra användare.",
+    "paragraph3": "För att vara konkurrenskraftig idag måste du investera betydande resurser, tid och ansträngning i din setup. Vårt team har byggt de mest effektiva mining-systemen för att göra jobbet åt dig. På så sätt kan du fokusera helt på att hålla koll på marknaderna och förbli konkurrensduglig med dina mining-belöningar.",
+    "paragraph4": "Förutom att vara portalen för intressant mining-data bidrar vi också aktivt till kryptovaluta-ekosystemet, från att lansera medvetenhetskampanjer till att släppa open-source mining-programvara. Vi bygger mining-datacenter runt om i världen som kan stödja 6 mining-algoritmer för över 10 olika kryptovalutor. Om det inte räcker, kommer vi gärna att stödja de mynt du vill mine!"
+},
+  "DepositInfo": {
+    "deposit": "Insättning",
+    "signal": "Signalstyrka",
+    "profit": "Vinst",
+    "copytraders": "Kopiera traders",
+    "refer": "Rekommendera och tjäna"
+  },
+  "Categories": {
+    "favorites": "Favoriter",
+    "gainers": "Största vinster",
+    "losers": "Största förluster"
+  },
+  "ButtomNav": {
+    "dashboard": "Hem",
+    "mining": "Gruvdrift",
+    "markets": "Marknader",
+    "trade": "Handel",
+    "trades": "Handelstransaktioner",
+    "profile": "Profil"
+  },
+  "Trade": {
+    "title": "Handel",
+    "trade_message": "Handel startad framgångsrikt",
+    "trade_error": "Otillräckliga medel! Vänligen fyll på ditt saldo för att genomföra denna handel.",
+    "buy": "Köp",
+    "sell": "Sälj",
+    "amount": "Belopp",
+    "time": "Tid (minuter)",
+    "leverage": "Hävstång (max 5000)",
+    "lev": "Hävstång:"
+  },
+  "Dashboard": {
+    "title": "Instrumentpanel",
+    "markets": "Marknader",
+    "mining": "Gruvdrift",
+    "trades": "Handelsoperationer"
+  },
+  "Trades": {
+    "noopen": "Inga öppna handelsoperationer",
+    "noclose": "Inga stängda handelsoperationer"
+  },
+  "Profile": {
+    "deposits": "Insättningar",
+    "withdrawals": "Uttag",
+    "referrals": "Rekommendationer",
+    "watchlist": "Bevakningslista",
+    "updatemail": "Uppdatera e-post",
+    "updatephoto": "Uppdatera foto",
+    "updatepassword": "Uppdatera lösenord",
+    "accountsettings": "Kontoinställningar",
+    "logout": "Logga ut",
+    "loading_data": "Laddar användardata...",
+    "update_email_title": "Uppdatera e-post",
+    "new_email_text": "DIN NYA E-POST",
+    "update": "UPPDATERA",
+    "update_email_success": "E-post uppdaterad framgångsrikt",
+    "update_email_error": "Kunde inte uppdatera e-post",
+    "InvalidLogin": "Ogiltiga inloggningsuppgifter.",
+    "update_photo_title": "Uppdatera foto",
+    "update_photo_alt": "profilbild",
+    "update_password_success": "Lösenord uppdaterat framgångsrikt",
+    "update_password_title": "Uppdatera lösenord",
+    "password": "Lösenord",
+    "new_password": "Nytt lösenord",
+    "confirm_password": "Bekräfta lösenord",
+    "update_password_error_1": "Lösenordet bör vara minst 4 tecken långt",
+    "update_password_error_2": "Användaren kunde inte hittas",
+    "update_password_error_3": "Felaktigt nuvarande lösenord",
+    "update_password_error_4": "Det nya lösenordet matchar inte bekräftelselösenordet",
+    "myprofile": "Min profil",
+    "notifications": "Aviseringar",
+    "updateaddress": "Uppdatera adress",
+    "accountverification": "Kontoverifiering",
+    "email": "E-POST",
+    "phone": "MOBILNUMMER",
+    "firstname": "FÖRNAMN",
+    "lastname": "EFTERNAMN",
+    "streetaddress": "GATA",
+    "postalcode": "POSTNUMMER",
+    "city": "STAD",
+    "state": "STAT",
+    "country": "LAND",
+    "notification_permission": "Du kan inaktivera MEDDELANDEPERMISSION i din webbläsarinställningar, dina webbläsarinställningar kommer att åsidosätta webbplatsens inställningar.",
+    "notification_permission_2": "Meddelelsespermissio (Webbläsare): Beviljat",
+    "notification_permission_3": "Meddelelsespermissio (Webbläsare)",
+    "denied": "Nekat",
+    "granted": "Beviljat",
+    "update_address_title": "Uppdatera adress",
+    "street_address": "Gata",
+    "zip_code": "Postkod",
+    "address_success": "Adress uppdaterad framgångsrikt",
+    "email_verification": "E-postverifiering",
+    "identity_verification": "Identitetsverifiering",
+    "address_vericiation": "Adressverifiering",
+    "verified": "Verifierad",
+    "pending": "Väntar på verifiering",
+    "notstarted": "Ej påbörjad",
+    "verifications": "Verifieringar",
+    "verify_email_error": "Ogiltig e-post. Den här e-posten är inte registrerad hos oss.",
+    "verify_email_success": "Verifierings-PIN har skickats till {email} framgångsrikt.",
+    "verify_email_success_2": "E-postverifiering genomförd framgångsrikt.",
+    "verify_email_error_2": "Fel vid uppdatering av e-postverifiering: {error}",
+    "verify_email_error_3": "Ogiltig PIN-kod, försök igen.",
+    "verify_email_title": "Verifiera e-post",
+    "paragraph1": "Ett e-postmeddelande som innehåller din 6-siffriga PIN har skickats till din e-postadress. Om du inte mottagit det på en minut eller två, tryck på 'Skicka om'.",
+    "pin": "PIN",
+    "verify_email_title_2": "VERIFIERA E-POST",
+    "email_2": "E-post",
+    "resend": "SKICKA OM PIN",
+    "verify_identity_success": "Identitetsverifiering pågår...",
+    "verify_identity_error": "Kunde inte ladda upp data {error}",
+    "verify_identity_title": "Verifiera identitet",
+    "verify_your_title": "Verifiera din identitet",
+    "paragraph2": "Vänligen verifiera din identitet genom att ladda upp ett giltigt officiellt ID-kort. Du kan uppleva problem vid uppladdning från en iOS-enhet. Kontrollera att din webbläsare har kameraåtkomst i dina iOS-inställningar.",
+    "select_front": "Välj framsidan",
+    "select_back": "Välj baksidan",
+    "upload": "Ladda upp",
+    "skip": "Hoppa över",
+    "address_verify_success": "Adressverifiering pågår...",
+    "address_verify_error": "Kunde inte ladda upp data {error}",
+    "address_verification_title": "Adressverifiering",
+    "street": "Gata",
+    "bill": "Välj faktura",
+    "submit": "Skicka"
+  },
+  "DepositList": {
+    "title": "Insättning",
+    "message": "Insättningar kommer att vara i vänteläge tills tillräckliga bekräftelser erhålls på blockkedjan.",
+    "withdrawal": "Uttag",
+    "new_withdrawal": "Nytt uttag",
+    "no_withdrawal": "Inget uttag ännu"
+  },
+  "Referrals": {
+    "title": "Rekommendationer",
+    "ref_balance": "Referral Balans",
+    "withdraw": "TA UT",
+    "ref_link": "Rekommendationslänk",
+    "no_ref": "Inga rekommendationer ännu"
+  },
+  "Deposit": {
+    "title": "Insättning",
+    "fundaccount": "Fyll på konto",
+    "viewpricing": "Visa priser",
+    "amount": "Belopp",
+    "to": "Till",
+    "tradingbalance": "Handelsbalans",
+    "proceed": "Fortsätt",
+    "loading": "Laddar...",
+    "pay": "BETALA",
+    "paymentmethod": "VÄLJ BETALNINGSMETOD",
+    "sendcrypto": "Skicka Krypto",
+    "sendcrypto_message": "Skicka stödde kryptovalutor",
+    "invalidlink": "Ogiltig eller utgången betalningslänk",
+    "send": "SKICKA",
+    "worth": "VÄRDE",
+    "paragraph1": "TILL WALLET-ADRESSEN NEDAN ELLER SKANERA QR-KODEN MED DIN WALLET APP",
+    "wallet": "Wallet-adress",
+    "paragraph2": "TILL DE ANGIVNA BANKUPPGIFTERNA.",
+    "paragraph3": "FÖR DETALJER OM BANKEN KONTAKTA [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM)",
+    "awaiting": "Väntar på betalning",
+    "wait": "Vänta på bekräftelse"
+  },
+  "Withdrawal": {
+    "title": "Uttag",
+    "selectmethod": "Välj uttagsmetod",
+    "bankwithdraw": "Bankuttag",
+    "withdrawbank": "Ta ut till bank",
+    "paragraph1": "Vi kan kontakta dig för ytterligare information.",
+    "from": "Från",
+    "to": "Till",
+    "accountnumber": "Kontonummer",
+    "accountname": "Kontonamn",
+    "amount": "Belopp",
+    "bankname": "Banknamn",
+    "otpcode": "OTP-kod",
+    "submit": "Skicka",
+    "success_message": "Ditt uttag har skickats för behandling och kommer att behandlas inom kort."
+  }
+
+
+
+
+    
+
+
+
+
+
+    
+
+  }
+  

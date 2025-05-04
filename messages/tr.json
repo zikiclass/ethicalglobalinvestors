@@ -1,0 +1,598 @@
+{
+    "HomePage": {
+      "home": "Anasayfa",
+      "login": "Giriş Yap",
+      "signin": "Giriş Yap",
+      "signup": "Kayıt Ol",
+      "contact": "İletişim",
+      "cookie": "Çerez Politikası",
+      "privacy": "Gizlilik Politikası",
+      "cryptomining": "Kripto Madenciliği",
+      "bitcoinmining": "Bitcoin Madenciliği",
+      "dogecoinmining": "Dogecoin Madenciliği",
+      "copytrading": "Kopya Ticaret",
+      "cryptotrading": "Kripto Ticaret",
+      "terms": "Hizmet Şartları",
+      "forextrading": "Forex Ticaret",
+      "stockstrading": "Hisse Senedi Ticaret",
+      "optionstrading": "Opsiyon Ticaret",
+      "leverage": "Kaldıraç Nedir?",
+      "responsibletrading": "Sorumlu Ticaret",
+      "generalrisk": "Genel Risk Açıklaması",
+      "about": "Hakkımızda"
+    },
+  
+    "Carousel": {
+      "welcome": "{project}’a Hoşgeldiniz",
+      "welcomeDesc": "Bugün Kripto Para, Forex, Hisse Senedi veya Binary Opsiyon ticareti yaparak kar etmeye başlayın.",
+      "stocksTitle": "Hisse Senedi Ticaret",
+      "stocksDesc": "Hisse senetlerini ticaret yapın veya aynı platformda uzun vadeli yatırımlar yapın.",
+      "forexTitle": "Forex Ticaret",
+      "forexDesc": "{project} platformunda forex ticareti yapın ve güvenilir fiyatlar ile mükemmel bir işlem deneyimi yaşayın.",
+      "copyTitle": "Uzman Tüccarları Kopyalayın",
+      "copyDesc": "Uzman tüccarların listesinden seçim yapın ve piyasayı izlemeden otomatik olarak onların işlemlerini kopyalayın.",
+      "getStarted": "Başlayın"
+    },
+  
+    "ContactPage": {
+      "name": "Adınız*",
+      "email": "E-posta Adresiniz*",
+      "phone": "Telefon Numaranız*",
+      "subject": "Konu*",
+      "message": "Mesajınız...",
+      "send": "Mesaj Gönder",
+      "note": "Not:",
+      "disclaimer": "Spam göndermeyeceğimize söz veriyoruz ve e-posta adresiniz gizli tutulacaktır."
+    },
+    "features": {
+      "feature1Heading": "Hızlı Kayıt",
+      "feature1Paragraph": "Sadece 1 dakika ve hazırsınız. Bir platform yatırımcısı olmak için gerekli bilgileri girin ve hemen başlayın.",
+      "feature2Heading": "Hızlı İşlemler",
+      "feature2Paragraph": "Yatırım yapın ve geri yaslanın. Yatırım durumunuzu her zaman takip edebilir ve sınırlı süreli özel tekliflere yatırım yapabilirsiniz.",
+      "feature3Heading": "Zamanında Destek",
+      "feature3Paragraph": "Profesyonel ve hızlı yanıt sağlamak için e-posta veya canlı sohbet yoluyla rakipsiz destek hizmeti sunuyoruz."
+    },
+    "CopyExperts": {
+  "title": "Copy Expert Trader'lar",
+  "paragraph1": "Yaklaşık 5 yıl önce döviz piyasasında denemeler yapmaya ve oyunlar oynamaya başladım. Ticaret yapmaya karar verme sebebim özgürlüktü. Ne zaman isterseniz istediğiniz şeyi yapabilme yeteneği... Ticaretin parlak tarafı bu.",
+  "paragraph2": "Ancak başladığımda, kimse bana ticaretin karanlık ve zorlu taraflarını anlatmamıştı. Birkaç yıl önce, trader'ların bunu bir kariyere dönüştürmelerine yardımcı olacak bir rehber veya yapılandırılmış bir kaynak yoktu. Her şey deneme-yanılma yöntemiydi... Ben de denemeye devam ettim ve hatalarımdan ders çıkararak bunu başardım. Şimdi size ilk söyleyeceğim şey ticaretin büyük bir disiplin gerektirdiğidir.",
+  "paragraph3": "Gerçekçi olarak, ilk aşamalarda çok fazla büyüme ya da para görmeden 2+ yıl boyunca tutarlı bir şekilde ticaret yapabilirsiniz. Bunu düşünmek korkutucu, ama bu, pek çok kişinin bahsetmediği gerçektir.",
+  "paragraph4": "Eğer ticaretin bir sırrı varsa, o da tutarlılıktır. Ancak tutarlı kalmak, yönünüz olmadığında zor olabilir. Paylaşabileceğiniz bir sorun yok. Size geri bildirimde bulunacak kimse yok. Bunların hepsi Copy Trading ile sona erer.",
+  "paragraph5": "Amacım, ticaretin karanlık ve zorlu tarafından bunu sürdürülebilir bir kariyere dönüştürme noktasına kadar olan boşluğu köprülemektir. O yüzden kemerlerinizi bağlayın, çünkü bu harika bir yolculuk olacak! {project_name} finanse edilmiş hesabımda gerçekleştirdiğim canlı ticaretlere göz atabilirsiniz. Ki bunu 30 günde altı rakamlı kâr elde edebilecek şekilde büyütebildim - {project_title} Expert Trader"
+},
+"WhatWeOffer": {
+    "title": "Sunduğumuz Hizmetler",
+    "description": "Ticaret ve madencilik için yeni bir standart oluşturuyoruz. Bir hesap ile birden fazla likidite alanına kolay erişim.",
+    "learnMore": "Daha fazla bilgi",
+    "offerList": [
+      {
+        "heading": "Kripto Ticaret",
+        "paragraph": "Şimdi, Bitcoin, Ethereum ve diğer birçok kripto parayı hızlı, kolay ve güvenli bir şekilde nerede olursanız olun — sadece birkaç saniye içinde ticaret yapabilirsiniz.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Forex Ticaret",
+        "paragraph": "Forex piyasası, para birimlerinin ticaretinin yapıldığı bir yerdir. 2019 yılında günlük ortalama işlem hacmi 6,6 trilyon Amerikan doları olan dünyanın en büyük ve en likit finansal piyasasıdır.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Kripto Uzman Trader'ları",
+        "paragraph": "Copy trading, başka bir trader'ın aldığı pozisyonları doğrudan kopyalamanızı sağlar. Yatırmak istediğiniz miktarı belirler ve otomatik olarak onların yaptığı her şeyi kopyalarsınız.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "EN POPÜLER KRİPTO PARALARI MADENCİLİĞİ",
+    "description1": "Kağıt paradan farklı olarak, Bitcoin ve diğer kripto paralar matematiksel olarak üretilir ve dijital olarak saklanır. Bu kripto para ağlarını güvence altına almak için gönüllü olarak hesaplama gücünü sunan kişiler madenciler olarak adlandırılır. Kripto paraların merkezi bir hükümeti veya sistemin geleceğine karar veren başka bir 'aracı' yoktur.",
+    "description2": "Madenciler olarak, kripto para ekosistemlerinin işlemlerini işliyor ve doğruluyoruz ve bunların halka açık işlem geçmişini (blockchain'ler) güvenli tutuyoruz. Bunun karşılığında madencilik topluluğu, ağların işlem ücretleri ve yeni oluşturulan coin'lerle ödüllendirilir."
+  },
+  "FinancialMarket": {
+    "title": "Finansal Piyasalar Açıklaması",
+    "description1": "Finansal piyasalar, şirketlerin ve bireylerin 'finansal piyasa enstrümanları' geniş bir yelpazeden belirli bir ürünü satmak veya satın almak için sözleşme yaptığı çevrimiçi bir pazara kolektif olarak atıfta bulunur.",
+    "description2": "Finansal piyasa alanındaki yatırımların tek amacı, düşük işlem maliyetleriyle finansal menkul kıymetler ve türevleri ticaretini yapmak ve hesaplanmış ticaret giriş ve çıkışlarından getiri elde etmektir.",
+    "description3": "Finansal piyasa enstrümanları ve menkul kıymetler, hisse senetleri ve tahviller, opsiyonlar, kripto para birimleri, döviz çiftleri, ham maddeler ve değerli metallerden oluşur; bunlar finansal piyasalarda emtialar olarak bilinir."
+  },
+  
+    "TradingPlan": {
+      "title": "HERKES İÇİN BİR TİCARET PLANI",
+      "description": "Her seviyedeki deneyime hitap eden her ticaret tarzına uygun çeşitli ticaret hesapları sunuyoruz. İster bir scalper, ister bir günlük trader olun, EAs kullanın veya geleneksel bir trader olun, ihtiyacınız olan her şey burada.",
+      "plans": [
+        {
+          "title": "Bronz",
+          "amount": "300",
+          "minDeposit": "300",
+          "referralBonus": "Referans Bonusu",
+          "itSupport": "Tam IT Desteği",
+          "purchasePlan": "PLANI SATIN AL"
+        },
+        {
+          "title": "Premium",
+          "amount": "600",
+          "minDeposit": "600",
+          "referralBonus": "Referans Bonusu",
+          "itSupport": "Tam IT Desteği",
+          "purchasePlan": "PLANI SATIN AL"
+        },
+        {
+          "title": "Altın",
+          "amount": "1200",
+          "minDeposit": "1200",
+          "referralBonus": "Referans Bonusu",
+          "itSupport": "Tam IT Desteği",
+          "purchasePlan": "PLANI SATIN AL"
+        },
+        {
+          "title": "Platin",
+          "amount": "50000",
+          "minDeposit": "50000",
+          "referralBonus": "Referans Bonusu",
+          "itSupport": "Tam IT Desteği",
+          "purchasePlan": "PLANI SATIN AL"
+        }
+      ]
+    },
+    
+      "latest_payouts": "Son Ödemeler",
+      "testimonials": {
+        "name_1": "Miles Kozey",
+        "comment_1": "Platformdan son derece memnunum, kullanım kolaylığı, hız ve güvenilirlik açısından.",
+        "name_2": "Katrine Welch",
+        "comment_2": "Yatırımlarınıza faiz eklemenin çok basit ve güvenli bir yolu.",
+        "name_3": "Kianna Heaney",
+        "comment_3": "Bu hizmetle cüzdanımdaki bitcoin'i sadece 7 günde üç katına çıkardım.",
+        "name_4": "Geoffrey Dare",
+        "comment_4": "Kolay kullanımlı, risksiz bir ticaret platformu, kişisel kazanç potansiyelinizi artırır."
+      },
+      "payouts": {
+        "1": "Delmer Kuhlman",
+        "2": "Clifton Deckow",
+        "3": "Gina Hills",
+        "4": "Elta Fritsch",
+        "5": "Name Ziemann",
+        "6": "Daniela Erdman",
+        "7": "Bernhard Haag",
+        "8": "Shawna Goldner",
+        "9": "Hazle Konopelski",
+        "10": "Kenneth Gorczany",
+        "11": "Lela Kuhn",
+        "12": "Benedict Donnelly",
+        "13": "Raphaelle Spencer",
+        "14": "Sadie Lesch",
+        "15": "Nico Kshlerin",
+        "16": "Britney Runolfsdottir",
+        "17": "Jermaine Howe",
+        "18": "Brisa Rice"
+      },
+      "faq": {
+  "how_does_copy_trading_work": {
+    "question": "Copy trading nasıl çalışır?",
+    "answer": "Copy trading oldukça basittir: yatırımcı olarak, kopyalamak istediğiniz bir veya daha fazla uzman seçersiniz. Abone olduktan sonra, başka bir şey yapmanıza gerek yoktur. Abone olduktan sonra işlem yapmaya başlamak için hazır olursunuz. Tüm işlemler otomatik olarak hesabınızda kopyalanır. Biz, trader'ların aktivitelerini takip ederiz ve onlar işlem yaptığında, parametreleri hesaplar ve işlemi sizin adınıza gerçekleştiririz. Yapmanız gereken tek şey, trader tarafından kullanılan baz para biriminde işlem hesabınızda yeterli bakiye olmasıdır. Ne kadar para gerekir? Platformun minimum gereksinimlerini karşılamak için (genellikle işlem başına yaklaşık 10 USD) ve tüm olası işlemleri (seçilen trader'a %100 tahsisle) karşılamak için hesabınızda en az 300 USD olmalıdır. Ayrıca, onaylanmamış emirleri önlemek için en az %10 serbest bakiyenizin olması önemlidir. Bir trader işlem kapattığında, işlem otomatik olarak hesabınızda kapanır. Her zaman bir trader'a tahsis edilen miktarı değiştirebilirsiniz."
+  },
+  "what_are_the_fees": {
+    "question": "Ücretler nedir?",
+    "answer": "Tüm yatırımcılar, para çekme işlemi yaparken %10 ücret öder ve trader'lar, ürettikleri kazançların sabit bir yüzdesini alır."
+  },
+  "who_are_the_trading_experts": {
+    "question": "Ticaret uzmanları kimdir?",
+    "answer": "Trader'larımızı uzun vadeli performanslarına bakarak dikkatlice seçiyoruz. Ayrıca, niteliklerini doğrulamak için trader'ların abone sayısını da kontrol ediyoruz (sosyal kanıt). Her trader hakkında daha fazla bilgi edinmek için profillerini inceleyebilirsiniz."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "Başlamak için ne kadar yatırım yapmam önerilir?",
+    "answer": "Hesabınızda platformun minimum işlem gereksinimlerini karşılayacak şekilde, en az 3000-5000 USD tutarında bir başlangıç yapmanızı öneririz."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "Bitcoin madenciliği nasıl çalışır?",
+    "answer": "Hızlı ve kolaydır! Ödemenizi aldığımızda, kontrat profilinize eklenir ve hemen madenciliğe başlarsınız. Seçtiğiniz algoritma ve kontrata bağlı olarak, madenciliğe hemen başlayabilir veya hesaplama gücünüzü diğer kripto paralara (AUTO olarak işaretlenmiş) tahsis edebilirsiniz ve bu dağılımı ayarlayabilirsiniz. Örneğin, %60 LTC, %20 BTC ve %20 DOGE. Madencilikten gelen ilk ödeme, başlatmadan 48 saat sonra yapılabilir ve ardından günlük olarak yapılır."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "Kendi madenciliğinizi yapıyor musunuz?",
+    "answer": "Müşterilerimize sunduğumuz ekipmanlarla kendi madenciliğimizi yapıyoruz. Ancak, sınırlı bir sermaye tabanımız var. Bitcoin ve altcoin madenciliğinin en iyi kripto para kazanma yöntemlerinden biri olduğunu düşünüyoruz, ancak tüm yumurtalarımızı tek bir sepette toplamak istemiyoruz."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "Madencilik çiftliğiniz nerede bulunmaktadır?",
+    "answer": "Güvenlik nedeniyle, madencilik çiftliklerimizin tam yerini açıklamıyoruz. Nisan 2015'ten bu yana, Avrupa, Kuzey Amerika ve Asya'da birkaç madencilik çiftliği işletiyoruz. Elektrik maliyetleri ve soğutma erişimi önemlidir, ancak tek kriterler değildir. Daha fazla bilgi için, lütfen özel merkezler sayfamızı ziyaret edin."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "Her algoritma ile hangi coin'leri madencilik yapabilirim?",
+    "answer": "Bitcoin ve diğer altcoin'leri, hesaplama gücü tahsisi sayfamız aracılığıyla doğrudan madencilik yapabilirsiniz*. Madenciliğe uygun kripto paralar, seçtiğiniz kontrata bağlıdır.<br/><br/>SHA-256 kontratı - Bitcoin<br/>Ethash kontratı - Ethereum<br/>(*) “{param} Gelişmiş dağılım” (özel özellik): Bu, belirli bir algoritma tarafından desteklenmeyen coin'leri madencilik yapmanızı sağlar. Örneğin, X11 algoritmasıyla BTC madenciliği yapabilirsiniz! Bu, DASH gibi coin'leri madencilik yaparak, otomatik olarak BTC'ye dönüştürmemiz sayesinde mümkündür. Bu özellik akıllı BTC madenciliği olarak bilinir."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "Ether kontratlarınız nasıl çalışır?",
+    "answer": "Ether madencilik kontratı satın aldığınızda, Ethereum madenciliği yapmak için bir GPU (grafik işleme birimi) alıyorsunuz. Ethereum madenciliği yapmak için kullanılan algoritma Ethash (ya da Dagger-Hashimoto) olarak bilinir.<br/><br/>Ethash algoritması, hesaplamalar yapmak için bir DAG dosyası (Directed Acyclic Graph) kullanır. Bu dosya zamanla büyür, yani her hesaplama daha fazla işlem gerektirir. Bu, DAG dosyası büyüdükçe hashing verimliliğini biraz düşürür.<br/><br/>Bu faktör, teorik çıkış gücünü karşılaştırırken önemlidir. Çevrimiçi hesaplayıcılar genellikle bu faktörü göz önünde bulundurmaz.<br/><br/>Bazı ürünlerimizde aylık bakım ücreti bulunmaktadır."
+  },
+  "expected_returns": {
+    "question": "Beklenen getiriler nedir?",
+    "answer": "Bitcoin ve altcoin madenciliği, madencilik yapılan kripto paraların fiyatına ve ağ zorluğuna bağlı olarak çok değişkendir, bu da tahmin edilmesini imkansız kılar. Hiçbir performans vaat etmiyoruz çünkü bu, aynı zamanda kontrat satmayı da içerir. Bu nedenle, tüm müşterilerimize kendi araştırmalarını yapmalarını ve performansı kendilerinin hesaplamalarını öneriyoruz.<br/><br/>Örneğin, coinwarz.com sitesini kullanabilirsiniz. Bu site, bazı ürünlerimizin bakım ücretlerini içermez, bu da günlük madencilik ödemelerinden düşülür.<br/><br/>Bu site bağımsız bir kaynaktır ve {param} ile ilişkili değildir."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "Madencilik için hangi havuzları kullanıyorsunuz?",
+    "answer": "Kullandığımız havuzların listesini yayınlamıyoruz. İyi bir havuz seçerken en önemli kriterler: güvenilirlik, maliyet yapısı ve sapma ücretleridir. Gelecekte, bazı coin'leri kendimiz madencilik yapmayı ve tasarruf edilen fonları kullanıcılarımıza vermeyi planlıyoruz.<br/><br/>İç politikamız: 'İyi bir kripto yurttaşı olmak'. Bu, her coin için en az iki havuz kullanmamız gerektiği anlamına gelir (bazen dört havuza kadar). Bu, kripto ağlarının merkeziyetsizliğini korur! Bir havuzun pazar payı %50'ye yaklaşırsa, havuz değiştiririz ve yedek havuz kullanırız."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "Ekipman satın almak daha ucuz değil mi?",
+    "answer": "ASIC madencilik makineleri almak, madencilik gücü kiralamaktan daha ucuz gibi görünebilir. Ancak, bazı 'gizli' maliyetler, ekonomik durumu tamamen değiştirir:<br/><br/>Nakliye maliyetleri: Birçok satıcı, bu maliyetleri kapsamaz ve genellikle ek ücretler ödemeniz gerekir.<br/>Gümrük Vergileri/KDV: Uluslararası nakliye sırasında gümrük ve KDV ödemeniz gerekebilir, bu da ekipmanı çok daha pahalı hale getirebilir.<br/>Teslimat süresi: Ödeme yaptıktan sonra ürün paketlenip gönderilmeyi bekler. Gümrükte takılırsa haftalar sürebilir. Bu süre zarfında madencilik yapamazsınız (kaybolan fırsatlar). Satıcı ürünün stokta olup olmadığını nasıl kontrol eder? O zaman daha uzun süre bekleyebilirsiniz. Bizde, ödeme yaptıktan sonra hesaplama gücünüz hemen çevrimiçi olur. Beklemek yok!<br/><br/>Ekipman için ek maliyetler: Büyük satıcılardan ekipman satın aldığınızda, genellikle ekstra ekipman (elektrik beslemesi, ülkenizin elektrik standartlarına uygun) almanız gerekir, ayrıca kontrol birimleri ve cihazları depolamak için özel raflar gereklidir. Bu da ek maliyetler oluşturur.<br/><br/>Sistem konfigürasyonu: Ekipman geldiğinde, montaj yapılması ve yapılandırılması gerekir. Yeni başlayanlar, yapılandırmanın ve verimli çalıştırmanın ne kadar zaman ve teknik bilgi gerektirdiğini genellikle göz ardı eder. İlk ASIC makineleriyle çalışan insanlar, bunu günlerce hatta haftalarca yapmışlardır. Maddi açıdan bu, iki şeyi ifade eder: (i) zamanınız ve (ii) kaybedilen madencilik fırsatları.<br/><br/>Bakım: Ekipman bozulabilir, arızalanabilir veya donabilir, bu da birkaç saniyeden birkaç haftaya kadar çalışma durmasına yol açabilir. Cihazınız bozulursa, onu iade etmeniz gerekir ve sıfırdan başlamak zorunda kalırsınız. (Cihazınızdaki garantiyi kontrol edin, genellikle bir yıldan daha azdır). Bizde %100 çalışma garantisi vardır: cihazınız bozulursa, yenisi bağlanır ve hemen madenciliğe başlar."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "Bakım ücreti nedir?",
+    "answer": "Bazı ürünlerimiz bakım ücreti içerir. Bu, ekipmanı bakımdan geçirip düzgün çalışmasını sağlama ve gerekirse ayar yapma anlamına gelir. Bu, her zaman sorunsuz madenciliğinizi garanti eder."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "Aynı anda farklı coin'leri nasıl madencilik yapabilirim?",
+    "answer": "Evet! {param} ile aynı anda birden fazla coin madenciliği yapabilirsiniz, bunlar farklı algoritmalar kullanabilir.<br/><br/>’Auto’ özelliğini sunuyoruz, bu özellik madencilik gücünüzü başka bir kripto paraya otomatik olarak dönüştürür, eğer belirli bir dağılım yapılandırmadıysanız.<br/><br/>Kontrol panelinizde madencilik gücü dağılımı ayarları sayfasına gidin ve madencilik yapmak istediğiniz coin'leri ve dağılımlarını seçin. Ayarları kaydedin ve bu dağılıma dayalı olarak madencilik ödemelerini almaya başlayın.<br/><br/>Madencilik ödemelerini almaya başlamadan önce, profilinizdeki cüzdan adreslerini eklemeyi unutmayın."
+  }
+},
+"footer": {
+  "quick_links": "Hızlı Bağlantılar",
+  "contact_us": "Bize Ulaşın",
+  "my_account": "Hesabım",
+  "create_account": "Hesap Oluştur"
+},
+
+  "SignUpPage": {
+    "signUp": "Kayıt Ol",
+    "successMessage": "Hesap başarıyla kaydedildi",
+    "accountTypeLive": "GERÇEK",
+    "accountTypeDemo": "DEMO",
+    "accountType": "Hesap Türü",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "mobileNumber": "Mobil Numara",
+    "currency": "Para Birimi",
+    "country": "Ülke",
+    "state": "Eyalet",
+    "city": "Şehir",
+    "termsText": "Tüm hizmet şartlarını kabul ediyorum",
+    "createAccount": "Hesabımı Oluştur",
+    "processing": "İşleniyor...",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "login": "Giriş Yap",
+    "creatingAccount": "Hesap Oluşturuluyor..."
+  },
+  "ErrorPage": {
+    "error": "Hata!",
+    "emailAlreadyRegistered": "E-posta zaten kayıtlı"
+  },
+  "LoadingPage": {
+    "loading": "Yükleniyor..."
+  },
+  
+    "LoginPage": {
+      "email": "E-posta",
+      "password": "Şifre",
+      "signIn": "Giriş Yap",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "noAccount": "Hesabınız yok mu?",
+      "signUp": "Kayıt Ol",
+      "processing": "İşleniyor...",
+      "error": "Hata!",
+      "invalidDetails": "Geçersiz giriş bilgileri.",
+      "signInFailed": "Giriş başarısız. Lütfen tekrar deneyin."
+    },
+    "ForgotPassword": {
+    "pageTitle": "Şifreyi Sıfırla",
+    "instruction": "Lütfen aşağıya hesabınıza bağlı e-posta adresini girin",
+    "emailLabel": "E-posta",
+    "submit": "Gönder"
+  },
+  "CookiePolicy": {
+  "title": "Çerez Politikası",
+  "lastRevised": "Son Güncelleme",
+  "purpose1": "{project_name} çerezlerini kullanır: Ticaret deneyiminizi optimize etmek, tercihleriniz, konumunuz, tercih ettiğiniz dil, tarayıcınız ve diğer ayrıntıları hatırlamak;",
+  "purpose2": "Kimliğinizi güvenlik amacıyla doğrulamak;",
+  "purpose3": "Web sitemizi ve bazı işlevlerini korumak;",
+  "purpose4": "Hizmetlerimizi analiz etmek ve izlemek;",
+  "purpose5": "Platformumuzu ticaret alışkanlıklarınıza ve düzenleyici gereksinimlerimize göre ayarlamak.",
+  "whatAreCookiesTitle": "Çerezler nedir",
+  "whatAreCookiesDesc": "Çerezler, bir web sitesi tarafından bilgisayarınıza gönderilen ve bilgisayarınızda saklanan küçük veri parçacıklarıdır. Çerezler çalıştırılamaz ve kötü amaçlı yazılım yüklemek için kullanılamaz. Web siteleri, ziyaretçileri geri döndüklerinde tanımalarına ve her ziyaretinizde kontrol edilen ve güncellenen temel bilgileri içermelerine olanak tanır. Daha fazla bilgi için: http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Çerezleri Yönetme",
+  "managingCookiesIntro": "Biz {project_name} olarak gizlilik haklarınıza saygı gösteriyoruz ve web hizmetlerimizden aldığınız çerezleri yönetmeniz için araçlar sağlıyoruz. Bazı çerezler, platformumuzun çalışması için gereklidir (bu çerezlerden çıkamazsınız, eğer platformumuzu kullanmak istiyorsanız). Aşağıda {project_name} tarafından kullanılan bazı üçüncü taraf çerezlerinin bir listesini bulabilirsiniz. Gereksiz çerezleri almayı tercih etmeyen kullanıcılar için, 'çıkma' seçeneği sunulmuştur.",
+  "managingCookiesBrowser": "Tarayıcınız, çerezlerin bilgisayarınıza kaydedilmesini engellemeyi de mümkün kılabilir; lütfen tarayıcınızın ‘Yardım’ menüsüne veya web sitesine başvurun. Web hizmetlerimizi çerezleri engellemeden kullanıyorsanız, aslında çerezlere onay vermiş oluyorsunuz."
+},
+
+  "privacyPolicy": "Gizlilik Politikası",
+  "lastRevised": "Son Güncelleme",
+  "limited": "Sınırlı",
+  "respectPrivacy": "kullanıcılarımızın gizliliğine saygı gösterir (her biri, \"siz\" veya \"Kullanıcı\")",
+  "usersCommitment": "ve mobil uygulamamıza erişen, indiren, kuran veya kayıt olan Kullanıcıların gizliliğini korumaya kararlıdır",
+  "informationCollection": "Şirket, Hizmetleri kullandığınızda bilgilerinizi toplama, kullanma ve açıklama konusundaki uygulamalarımızı açıklamak için bu Gizlilik Politikasını hazırlamıştır.",
+  "agreeToTerms": "Hizmetleri kullanarak, bu Gizlilik Politikasının koşullarını kabul etmiş oluyorsunuz.",
+  "retainInformation": "Bilgileri ne kadar süreyle saklarız",
+  "protectingInformation": "Bilgilerinizi nasıl koruruz",
+  "advertisements": "Reklamlar",
+  "advertisingId": "Reklam ID ve Reklam Tanımlayıcısı",
+  "cookiesAndAnalytics": "Çerezler ve Google Analytics",
+  "shareInformation": "BİLGİLERİ KİMLERLE PAYLAŞIYORUZ VE HANGİ AMAÇLA",
+  "sharingDetails": "Kişisel Bilgilerinizi, bu Gizlilik Politikasında açıklanan durumlar dışında üçüncü şahıslarla kiralamaz, satmaz veya paylaşmazsınız...",
+  "retentionDetails": "Gizlilik haklarınıza saygı gösteriyoruz ve bu nedenle istediğiniz zaman bizimle iletişime geçebilir ve talep edebilirsiniz...",
+  "protectionDetails": "Hizmetlerin ve bilgilerinizin güvenliğini sağlamak için büyük özen göstermekteyiz...",
+  "advertisementDetails": "Hizmetleri kullanırken üçüncü taraf reklam teknolojisi kullanabiliriz...",
+  "advertisingIdDetails": "Google Reklam Kimliği, Google Play hizmetleri tarafından sağlanan anonim bir kimliktir...",
+  "updatePrivacyPolicy": "GİZLİLİK POLİTİKASINDA YAPILAN GÜNCELLEMELER VEYA DEĞİŞİKLİKLER",
+  "updateDetails": "Bu Gizlilik Politikasını zaman zaman kendi takdirimize göre gözden geçirebiliriz ve en güncel sürüm her zaman yayınlanacaktır...",
+  
+    "cryptoMining": "Kripto Madenciliği",
+    "cryptoMiningTitle": "Kripto Madenciliği",
+    "cryptoMiningParagraph1": "Kripto para ağlarının güvenli bir şekilde çalışabilmesi için hesaplama gücüne ihtiyacı vardır. Dünyanın en güçlü blok zincirleri, dünya çapında milyonlarca bilgisayar tarafından desteklenmektedir...",
+    "cryptoMiningParagraph2": "Kripto paralarda merkezi bir hükümet veya sistemin geleceğine karar veren başka bir ‘aracı’ yoktur...",
+    "howIsBitcoinSecure": "BİTCOİN NASIL GÜVENLİ TUTULUR",
+    "bitcoinSecurityParagraph": "Havadan para yaratmamak veya onu bozmamak için tek yol gerçek enerji harcamaktır. Bu, Proof-of-Work olarak bilinir...",
+    "minersIncentives": "MADENCİLERİN TEŞVİKLERİ NELERDİR",
+    "minersIncentivesParagraph": "Her şey güvene dayanır: Madenciler, blok zincirlerini güvenilir tutar ve çabaları için ödüllendirilir...",
+    "bigVisionOfCrypto": "KRİPTO PARA BİRİMİNİN BÜYÜK VİZYONU",
+    "bigVisionParagraph": "Tüm kripto para ekosistemlerinin bütünlüğünü (ve değerlerini!) korumak için, madenciler ağları güvenli tutar ve yetkilerini merkeziyetsiz hale getirir...",
+    "BitcoinMining": {
+    "title": "Bitcoin Madenciliği",
+    "paragraph1": "Bitcoin'in halk açık defteri, blockchain (blokzincir) olarak adlandırılır. Madencilik süreci, yeni işlemleri bu halka açık deftere ekler. Neden? Çünkü Bitcoin kullanıcıları bu sürece ihtiyaç duyarlar çünkü bu, her işlemin güvenli bir şekilde onaylandığı ve doğrulandığı anlamına gelirken, Bitcoin ağına erişimi olan tüm kullanıcılar blockchain'e – yani Bitcoin defterine – tam erişime sahip olur. Madencilik ayrıca ağı, hangi işlemlerin adil ve geçerli olduğunu belirlemesine yardımcı olur, bu da tekrar harcama yapmaya çalışan işlemleri ortadan kaldırır.",
+    "paragraph2": "Yani birisi Bitcoin madenciliği yaptığında, aslında tüm Bitcoin kullanıcıları için bir hizmet sunmuş olur çünkü Bitcoin işlemlerinin geçerli olmasını sağlarlar. Madencilik süreci sırasında Bitcoin madencileri, yeni bir blok tamamlarlar, bu da madencinin ödül almasını sağlar. 2018'de yeni bir blok tamamlamak için ödül 12,5 Bitcoin'di, ancak bu ödül zamanla azalır.",
+    "paragraph3": "Tahmin edebileceğiniz gibi, madencilik çok fazla çaba ve sabır gerektirir – Bitcoin madenciliği sonuçları hızlı bir şekilde almazsınız. Bu yüzden, aslında altın gibi metallerin fiziksel olarak madenciliğiyle benzer bir analoji vardır. Bu yüzden yeni Bitcoin'ler üreten hesaplamalı görevler için “madencilik” kelimesi kullanılır.",
+    "bold1": "Madencilik Ekipmanınızı Seçmek",
+    "paragraph4": "Bitcoin madenciliği, çok karmaşık hesaplamalar gerektirir ve bu hesaplamalar oldukça işlemci gücü gerektirir. Bu yüzden, Bitcoin madenciliği yaparken doğru donanım kitini seçmek gerçekten çok önemlidir. Bitcoin madenciliği kitini seçerken dikkate almanız gereken birkaç spesifik özellik vardır.",
+    "bold2": "Hash Hızları",
+    "paragraph5": "Madencilik kitinizi seçerken belki de en önemli konu bu olacaktır: madencilik donanımınızın sürdürebileceği hash hızı. Hash hızı, temelde madencilik donanımınızın her saniyede yapabileceği kripto hesaplama sayısıdır. Daha yüksek bir hash hızının, madeni paraları daha hızlı madencilik yapmanıza yardımcı olacağı açıktır – çünkü saniyede daha fazla hesaplama, bir madeni para madenciliği için gereken kripto matematiği çözmenizi çok daha hızlı hale getirir. Sonuç olarak, bir bloğu daha hızlı tamamlayabilir ve bunun için ödülünüzü alabilirsiniz.",
+    "paragraph6": "Hash işlevleri şu şekilde çalışır: ne kadar çok girdi eklerseniz, her zaman aynı çıktıyı alırsınız. Bu yüzden belirli bir çıktıyı bulmak için ne kadar çok rastgele girdi denerseniz, o kadar hızlı olursunuz. Bu, madenciliği rekabetçi hale getirir ve daha fazla girdi işleyebilen madenci, diğer madencilere göre daha hızlı ödüllendirilecektir. Yani, yüksek bir hash hızına sahip donanım alabilirseniz, diğer madencilere karşı avantaj elde edersiniz, bu da daha hızlı ödüller almanız anlamına gelir.",
+    "paragraph7": "Hash hızlarının ölçülme oranı MH/s (megahash/saniye) ile ifade edilir. Ayrıca hash hızları GH/s (gigahash/saniye) ve TH/s (terahash/saniye) cinsinden de ölçülebilir. Bitcoin madenciliği donanımının hash hızları birkaç yüz MH/s ile 10 TH/s'ye (veya 10.000.000 MH/s) kadar değişebilir.",
+    "bold3": "Enerji Maliyeti",
+    "paragraph8": "Bitcoin madenciliği ile ilgili maliyetler vardır ve bu sadece fiziksel madencilik donanımıyla ilgili değil. Güçlü bir donanım satın alabiliyorsanız, başka bir baş ağrısı ile karşılaşacağınızı hızla fark edeceksiniz: o donanımı çalıştırmak için gereken elektrik maliyeti çünkü güçlü madencilik donanımları çok fazla enerji tüketir.",
+    "paragraph9": "Donanım satın alırken, bu kitin elektrik tüketimine yakından bakmanız gerekmektedir – watt cinsinden hesaplayın ve ardından size ne kadar maliyet çıkaracağını görün, böylece bir sonraki elektrik faturanızda büyük bir sürprizle karşılaşmazsınız. Aksi takdirde tüm madencilik karınızı elektriğe harcama riskiniz vardır – ya da büyük bir kayıpla karşılaşabilirsiniz.",
+    "paragraph10": "Hash hızı ve enerji tüketimi, madencilik karlarını değerlendirmek için iyi bir yoldur. Bir saatte tamamlayabileceğiniz hash sayısını, saatlik (veya günlük) elektrik maliyeti ile karşılaştırın. Bunu yapmanın kolay bir yolu, kitinizin hash hızını tükettikleri watt'a bölmektir. Bu, size bir MH/s başına watt oranı verir ve bu da mevcut elektrik maliyetleriyle birlikte madencilik kitinizin kâr üretip üretmeyeceğini bulmanıza yardımcı olabilir.",
+    "paragraph11": "Kar hesapladığınızda, madencilik GPU'larını çalıştıran bilgisayar donanımını da unutmayın - PC'niz, sahip olduğunuz madencilik donanımının yanı sıra güç tüketecektir.",
+    "bold4": "Bitcoin Madenciliği Donanımı Seçenekleri",
+    "paragraph12": "Bitcoin ilk çıktığında, çok çeşitli insanlar dikkatini çekti çünkü çok özgürlükçü bir fikir olarak bulunuyordu. Her halükarda, Bitcoin, işlemlerin daha önce olduğu şekilde merkezi bankalar tarafından işlenmesine kıyasla çok devrimciydi. Bu kendi kendini yöneten ağ, finansal kuruluşlar, vergi otoriteleri ve diğer büyük kuruluşların yetki alanı dışındaydı çünkü tamamen merkeziyetsizdi.",
+    "paragraph13": "Bitcoin'in ilk zamanlarında daha az insan kripto para birimini biliyordu ve daha az insan Bitcoin alıp yatırım yapıyordu, bu yüzden Bitcoin'in değeri o kadar yüksek değildi. Sonuç olarak, Bitcoin madenciliği kolaydı, bu da birçok madencinin Bitcoin madenciliği yapmaya istekli olmasını sağladı – ancak aynı zamanda Bitcoin'e, inanılmaz ve yenilikçi bir fikir olduğu için ilgi duyuyorlardı. O zamanlar, Bitcoin madenciliği yapmak için temel bilgisayar gücü gerekiyordu – hatta bir dizüstü bilgisayar yeterliydi, ya da güçlü bir masaüstü bilgisayar.",
+    "paragraph14": "Bitcoin madenciliği yapmak için dizüstü bilgisayarlar ve masaüstü bilgisayarlar kullanılarak bu süreçte insanlar, GPU'ların (grafik kartları) Bitcoin madenciliği yeteneğini gerçekten artırabileceğini fark etmeye başladılar. GPU'lar Bitcoin madenciliği için çok uygun: GPU'lar, bir madencilik için ayrılmış bilgisayar CPU'larından daha az güç tüketir ve GPU'lar, CPU'lardan 50 ila 100 kat daha hızlı madencilik yapabilir.",
+    "paragraph15": "Sonuç olarak, madencilik için özel olarak tasarlanmış cihazlar piyasaya sürüldü. Madencilik yetenekleri çarpanlar şeklinde arttı ve bu, ilginç bir gelişmeye yol açtı: Bitcoin madenciliği çiftlikleri, etkin bir şekilde kâr merkezleri haline geldi ve bu da Bitcoin madenciliği için özel bir endüstrinin gelişmesine yol açtı.",
+    "paragraph16": "Zamanla Bitcoin madenciliği çok karlı hale geldi ve ciddi madencilerin, büyük Bitcoin madencilik çiftlikleri işletmesi sonucu büyük paralar kazanmaya başlamasına neden oldu. Bu madencilik çiftliklerinde donanımlar karışık şekilde kullanılıyor – GPU'lar ve güçlü soğutma sistemleri ile birlikte. Elektrik, bu operasyonlar için büyük bir sorun olsa da, bazı ülkelerde elektrik fiyatları düşük olduğu için madencilik çiftlikleri ucuz elektrik bulunan yerlerde yoğunlaşmıştır.",
+    "paragraph17": "Ne yazık ki, Bitcoin madenciliği yapmak için çok güçlü donanımların arkasında büyük sermaye bulunan madencilik operasyonlarına karşı rekabet etmek zorundasınız – temelde, küresel çapta büyük paralar harcayabilen büyük şirketlerle rekabet ediyorsunuz. Ancak hâlâ sayısız bireysel Bitcoin madencisi var – ve bunlar kâr için Bitcoin madenciliği havuzlarına katılarak işbirliği yapma eğilimindedir.",
+    "bold5": "Bir CPU Seçmek",
+    "paragraph18": "Bir CPU, bilgisayarınız için gerçekten merkezi bir bileşen olsa da, aslında bir Bitcoin madenciliği rigindeki en önemli parça değildir. Evet, Bitcoin ilk çıktığında yalnızca bir CPU kullanarak madencilik yapabiliyordunuz ve bilgisayarınızın CPU'su yeterince güçlü olduğu sürece bunu kârlı bir şekilde yapabiliyordunuz.",
+    "paragraph19": "Madenciler, karlarını en üst düzeye çıkarmak için farklı türde donanımlar kullanmaya başladılar. Hızla şunu fark ettiler ki, CPU'lar Bitcoin madenciliği için en iyi seçenek değildi. Yine de madencilik riginizi çalıştıran PC'nizi güçlendirmek için bir CPU kullanmanız gerekir, ancak CPU'nuz, anlamlı bir miktarda Bitcoin madenciliği yapmak için onlarca yıl alacaktır.",
+    "bold6": "Madencilik için GPU'lar",
+    "paragraph20": "GPU'lar veya grafik işlem birimleri için çok farklı kullanım alanları vardır – 3D oyunlar oynamaktan 3D render yapmaya kadar. Aslında, GPU'ların ilk tasarım amacı, en iyi video oyunlarının harika görünmesini sağlayan matematiksel hesaplamaları yapabilmeleriydi. Ancak tesadüfen bu, GPU'ların hash işlevlerini mükemmel bir şekilde yerine getirmeleri anlamına geliyordu. Ve bildiğimiz gibi, hash, Bitcoin işlem bloklarını çözen kripto bulmacalarını çözmek için anahtardır.",
+    "paragraph21": "GPU'lar ucuz değildir, her biri birkaç yüz dolar, ancak hashing konusunda GPU'ların CPU'lara göre büyük bir avantajı vardır. İyi bir GPU, yüksek kaliteli bir CPU'nun hızının yüz katı kadar hızlı hash yapabilir. Bu durum, madencilik riglerinin yükselmesine yol açtı: çok sayıda GPU'yu bağlayan bir temel bilgisayar – hepsi madencilik yapmak ve mümkün olan en hızlı şekilde madencilik yapmak için ayrılmıştır. Ancak bazı insanlar bu makineleri karma kullanım konfigürasyonlarında kullandılar, örneğin oyun oynarken madencilik yaparken.",
+    "paragraph22": "Ancak, GPU madenciliği için kötü haberler hızla ortaya çıktı: bugün, GPU'lar kullanarak Bitcoin madenciliği yapmak kârlı değildir. Uzun lafın kısası, donanım ne kadar güçlü olursa, Bitcoin madenciliği yapmak o kadar zorlaşır. Sonuç olarak, GPU'lar, en hızlı CPU'lardan birkaç kat daha güçlü olmasına rağmen, son zamanlarda Bitcoin madenciliğinde daha verimli alternatiflerin önünde duruyor.",
+    "bold7": "ASIC Cihazları",
+    "paragraph23": "ASIC (Application-Specific Integrated Circuit) cihazları, madencilik için özel olarak tasarlanmış donanımlardır. ASIC'ler, belirli bir hesaplamayı yalnızca çok hızlı ve verimli bir şekilde gerçekleştirecek şekilde yapılandırılmışlardır – örneğin Bitcoin madenciliği için. Bitcoin ASIC madencileri, tüm madencilik donanımı için kraldır çünkü çok fazla güç ve verimlilik sağlarlar. ASIC'ler sadece belirli bir işlevi yerine getirebildikleri için, Bitcoin madenciliği dışında başka bir işte kullanılamazlar. Ancak bu cihazlar, en güçlü donanım seçenekleridir ve kendi başlarına çığır açıcıdır.",
+    "paragraph24": "ASIC madencileri, Bitcoin ağında blokları çözmek için en iyi donanımdır ve genellikle saniyede çok yüksek miktarda hash yapabilirler. Bu da onların madencilik için çok verimli hale gelmelerini sağlar. ASIC madencileri, birkaç yıl boyunca bu tür madencilik için en popüler seçenek olmuştur.",
+    "bold8": "ASIC'ler Nedir?",
+    "paragraph25": "Bitcoin madenciliği yarışındaki son aşama, uygulamaya özel entegre devreler veya ASIC'ler, Bitcoin madenciliği için sıfırdan tasarlanmış çiplere verilen isimdir. Bir ASIC programlanamaz, işlevselliği devrelerine basılmıştır ve Bitcoin madenciliği makinelerinde ASIC'ler yalnızca Bitcoin madenciliği için kullanılabilir. İyi ASIC'ler, daha az elektrik kullanarak 100 kat daha hızlı madencilik yapabilir. Bu aşamada ASIC'ler için hiçbir alternatif teknoloji bulunmamaktadır, bu nedenle ASIC'ler yakın gelecekte Bitcoin madenciliğinin en hızlı yolu olarak kalmaktadır.",
+    "paragraph26": "Tabii ki, özel tasarlanmış bir çip yapmak zaman alıcı ve oldukça pahalı olabilir. Ancak bu masraf, sonuçlarla birlikte gelir – AntMiner gibi bir şirketten alınan birinci sınıf bir madenci, saniyede terahash (TH/sec) hızlarına ulaşabilir – kolayca 10TH/s'nin üzerinde. Fiyat? Binlerce dolar. Daha ucuz çözümler de mevcut ancak hızları daha düşük olacaktır. Madencilik kârlılığını hesaplamak",
+    "paragraph27": "Madencilik kârlarınızı doğru hesaplamak zordur ve donanım seçiminize bağlıdır, bu yüzden madencilik başlangıç seviyesindeki kişiler donanım seçimini biraz bunaltıcı bulabilirler. Donanım seçiminizi doğru yapmak, kârınızı belirleyecektir, bu yüzden donanımın maliyetini ve harcadığınız elektrik miktarını karşılayacak kârlılığı hesaplayabilmeniz gerekir. Donanım alımına para harcamadan önce bu hesaplamayı yapmanız önemlidir çünkü donanımınızın tekrar satılması zor olabilir.",
+    "paragraph28": "Neyse ki, size yardımcı olacak hazır bir hesap makinesi kullanabilirsiniz – iki seçenek arasında BTC Mining Profit Calculator yer alır, bu uygulama size donanım fiyatınız, elde ettiğiniz hash oranı ve harcadığınız elektrik gibi verileri eklemenizi sağlar – ardından Bitcoin'in güncel fiyatını alır ve yatırımınızın size kazanç sağlayıp sağlamayacağını veya sadece paranızın boşa gideceğini gösterir. Bir başka hesap makinesi ise Genesis Block'un sunduğudur.",
+    "bold9": "Madencilik Yazılımı Seçimi",
+    "paragraph29": "Madencilik donanımı seçmek zor olacak mı? Şimdi daha da fazla seçeneğiniz var – bu sefer madencilik için kullanacağınız yazılımı seçmeniz gerekiyor. Tüm madencilik makineleri için yazılım gerekli değildir ancak muhtemelen gerekecektir – GPU'lar ve FPGA'lar da madencilik için kullanacağınız bir bilgisayara ihtiyaç duyar, bu bilgisayar Bitcoin istemcisini ve seçtiğiniz madencilik yazılımını barındırır.",
+    "paragraph30": "Neden Bitcoin istemcisi ve madencilik yazılımı? Çünkü Bitcoin istemcisi madencinizi Bitcoin ağına bağlar ve madencilik yazılımı, madencilik donanımınızı kullanarak şifreleme bulmacalarını çözmek için işlem yapar – bu da blok çözmenin karşılığında ödülleri almanızı sağlar.",
+    "paragraph31": "ASIC sistemi, yazılımla önceden yapılandırılabilir, hatta kullanılmaya hazır bir Bitcoin adresi içerebilir. Yapmanız gereken tek şey, ASIC madencinizi bir priza takmak ve başlatmaktır. Ancak eski ASIC makineleri, çalıştırılmak için ayrı bir yazılım gerektiriyordu.",
+    "paragraph32": "En popüler Bitcoin madencilik yazılımları hangileridir? Tam olarak ihtiyaçlarınıza bağlı olarak aşağıdaki beş çözümü kontrol etmelisiniz:",
+    "paragraph33": "Bitcoin Miner. Adı üzerinde yaptığı işi yapan bu yazılım, kullanımı kolaydır ve güç tasarrufu modu ile madencilik havuzlarını destekler. Bu uygulama, payları hızla gönderebilme yeteneğiyle tanınır ve ayrıca size bir kâr raporu oluşturmanıza yardımcı olur. OS X veya Windows için.",
+    "paragraph34": "RPC Miner. Mac kullanıcısıysanız, RPC Miner'ı seveceksiniz çünkü OS X ile ve OS X'in API'leriyle çok iyi entegre olur.",
+    "paragraph35": "CGMiner. Linux, OS X ve Windows'u destekleyen CGMiner, fan hızını kontrol etme ve uzaktan kumanda gibi ekstra özelliklere sahiptir. Ayrıca, dahili veritabanı sayesinde yeni blokları kendi başına tespit eder ve CPU ile GPU madenciliğini destekler, birden fazla GPU'yu destekler.",
+    "paragraph36": "BFGMiner. ASIC'ler için tasarlanmış bir şey arıyorsanız, CGMiner'a çok benzeyen ancak ASIC'leri destekleyen BFGMiner'ı göz önünde bulundurabilirsiniz. Ayrıca tüm ana PC işletim sistemlerinde çalışır.",
+    "paragraph37": "EasyMiner. Kullanışlı performans grafiklerine sahip EasyMiner, bir dizi madencilik protokolünü destekleyen harika bir çözümdür. Hem solo hem de havuz modunda çalışabilir ve Linux ve OS X için mevcuttur.",
+    "bold10": "Madencilik Havuzlarını Anlamak",
+    "paragraph38": "Bitcoin madenciliği için gereken bilgisayar kaynakları o kadar arttı ki, başarılı bir şekilde Bitcoin madenciliği yapmak artık çok para harcayabilen ve büyük madencilik çiftlikleri kurabilen organizasyonlarla rekabet etmeyi gerektiriyor. Bu yüzden solo madencilik yapmak zor ve Bitcoin madenciliği yapma yeteneğinizi geliştirmek için bir madencilik havuzuna katılmak iyi bir seçenek olabilir.",
+    "paragraph39": "Madencilik çabalarınızı havuzda topladığınızda, temelde bilgisayar kaynaklarınızı toplu madencilik çabasına sunmuş oluyorsunuz, böylece bloklar daha hızlı bulunur ve ödüller daha hızlı elde edilir. Bu ödüller, katkılarınızla orantılı olarak katkı sağlayan kişiler arasında paylaşılır. Bir havuza katılmak, madencilik gelirinizin daha düzenli hale gelmesini sağlar, böylece daha hızlı ödeme alırsınız – hatta bireysel ödemeler küçük olsa bile.",
+    "paragraph40": "Bir havuza katılmak kolaydır, herhangi bir web sitesine kaydolduğunuz gibi kaydolursunuz – bir hesap oluşturarak. Ardından, bir işçi ekler – birden fazla rig'iniz varsa, işçileri donanım rig'lerinize bağlarsınız. Unutmayın ki havuzlar hizmetleri için ücret alır, bu nedenle madencilik ödüllerinizin yüzde bir ile yüzde onunu kaybedebilirsiniz. Bazı havuzlar ise hiç ücret almaz.",
+    "bold11": "Bitcoin Madenciliği Kârlı mı?",
+    "paragraph41": "Bitcoin madenciliğinden elde edebileceğiniz kârlar yıllar içinde hızla değişti, çünkü Bitcoin kendisi daha değerli hale geldi, ancak Bitcoin madenciliği zorlukları da katlanarak arttı. Erken dönemde CPU'ları kullanarak Bitcoin madenciliği yapan meraklılar artık bu şekilde para kazanamayacaklar, bunun yerine oyun, büyük ölçekli madencilik işletmeleri yürüten kişilerde.",
+    "paragraph42": "Esasında, kolayca elde edilebilen Bitcoin'ler çoktan madenciliği yapılmıştı, bu yüzden bugün madencilik inanılmaz derecede zorlaştı, sanki elmas bulmaya çalışıyormuşsunuz gibi. Bitcoin'in artan değeri ve popülerliği, Bitcoin madenciliğine yeni oyuncuların da katılmasına yol açtı, bu da yeni coin madenciliği için rekabeti daha da zorlaştırdı – bu da daha güçlü bilgisayar kaynaklarına ihtiyaç duyduğunuz anlamına geliyor.",
+    "bold12": "Özel Madencilik Donanımı Şimdi Anahtar",
+    "paragraph43": "Madencilik yapamayacağınız anlamına gelmiyor – yalnızca kâr elde etmek için artık oldukça özel Bitcoin madenciliği donanımına ihtiyacınız var. Bireyler, genellikle madencilik için harcadıkları elektrikten daha fazla ödeme yaparak bir şey kazanamamaktadırlar. Kısmen, ucuz elektriğe erişim, günümüzde Bitcoin madenciliği için başarılı olmak için anahtardır ve ölçek de önemlidir – çok büyük bir madencilik operasyonu kurma yeteneği.",
+    "paragraph44": "Evde madencilik yapan kişiler ayrıca elektriğin kesilmesinden, donanımın arızalanmasından ve internetten kopmalara kadar bir dizi sorunla başa çıkmak zorundadır – ayrıca Bitcoin fiyatındaki düşüşler de zaman zaman olur. Gerçekten de evde Bitcoin madenciliği yapmak ve herhangi bir para kazanmak çok zordur.",
+    "paragraph45": "Bu, evde madencilik yapma teklifinin değişmeyeceği anlamına gelmez: ASIC'ler daha da gelişiyor ve donanımı yöneten yazılımlar da daha yetenekli hale geliyor. Gelecekte, tüm bu faktörler değişebilir, böylece bireyler tekrar evde Bitcoin madenciliği yapabilirler – bu da iyi bir şey olacaktır çünkü Bitcoin'in merkeziyetsiz yönünü destekler. Başka bir deyişle, evde Bitcoin madenciliği yapan kişiler, gücün birkaç büyük oyuncuda birikmesini engeller.",
+    "bold13": "Bitcoin Bulut Madenciliği Hakkında Bilmeniz Gerekenler",
+    "paragraph46": "Kendi ekipmanınızı kullanarak Bitcoin madenciliği yapmanın bir alternatifi vardır. Buna bulut madenciliği denir ve diğer bulut hizmetlerine benzer bir ilkeye dayanır. Kendi bilgisayar ekipmanınızı sahiplenmek yerine, madencilik kapasitelerini başkasından \"kiralarsınız\". Bir madencilik sözleşmesi almak gibidir ve böylece sözleşme yaptığınız şirketin geniş hesaplama yeteneklerinden faydalanırsınız.",
+    "paragraph47": "Şüphesiz, Bitcoin bulut madenciliği, kendi donanımınızla yapmaktan daha kolay olabilir çünkü yazılım, internet bant genişliği veya elektrik maliyeti konusunda endişelenmenize gerek yoktur. Ve tabii ki, donanım için ödeme yapmanıza da gerek yoktur. Tek yapmanız gereken bir internet bağlantısına sahip olmak ve ideal olarak kendi Bitcoin cüzdanınızı kullanarak coinlerinizi yerel olarak saklamaktır.",
+    "paragraph48": "Ancak, madenciliğinizi bir bulut madenciliği sağlayıcısına devrederken bir derece risk almış oluyorsunuz. Neredeyse tüm kontrolü bulut madenciliği sağlayıcısına devretmiş oluyorsunuz. Bu yüzden yalnızca saygın bulut madenciliği sağlayıcılarını seçtiğinizden emin olun, örneğin {project_name}"
+
+},
+"About": {
+    "title": "Hakkımızda",
+    "paragraph1": "2014 yılında, profesyonel trader'ları kopyalamak için gereken teknik uzmanlığı ustaca birleştiren bir grup profesyonel tarafından kuruldu (kendiniz ticaret yapamıyorsanız). Forex Ticaret, Kripto Para Ticaret ve Hisse Senedi Ticaretini, kendini işine adamış bir kurumsal ekip, son teknoloji bir genel merkez ve hayatlarını iyileştirmek isteyen güçlü bir arzuya sahip olanlara yardım etme tutkusu ile birleştiriyoruz.",
+    "paragraph2": "Ekibimiz, olağanüstü sonuçlar elde etmek için kendini adadı ve her zaman bir adım önde olmaya çalışıyor. Uzun vadeli bir ticaret platformu yarattık ve gelecek nesillerin şansını değiştirecek bir standart belirledik! Kripto para madenciliği operasyonunun verimli bir şekilde yönetilmesi için tüm ana unsurları birleştiriyoruz. Yüksek verimli veri merkezleri kurmaktan, kullanıcılarımıza sadeleştirilmiş bir madencilik sistemi sağlamaya kadar.",
+    "paragraph3": "Bugün rekabetçi bir şekilde madencilik yapabilmek için, kurulumunuza önemli miktarda kaynak, zaman ve çaba harcamanız gerekir. Ekibimiz, işi sizin için yapmak üzere en verimli madencilik sistemlerini inşa etti. Bu şekilde, piyasaları takip etmeye tamamen odaklanabilir ve madencilik ödüllerinizle rekabetçi kalabilirsiniz.",
+    "paragraph4": "İlginç madencilik verileri için bir portal olmanın yanı sıra, kripto para ekosistemine aktif olarak katkıda bulunuyoruz, farkındalık kampanyaları başlatmaktan açık kaynaklı madencilik yazılımları yayınlamaya kadar. Dünyanın dört bir yanında 10'dan fazla farklı kripto para birimi için 6 madencilik algoritmasını destekleyebilen madencilik veri merkezleri inşa ediyoruz. Bu yeterli değilse, madenciliğini yapmak istediğiniz coinleri de desteklemekten memnuniyet duyarız!"
+},
+  "DepositInfo": {
+    "deposit": "Yatırma",
+    "signal": "Sinyal gücü",
+    "profit": "Kar",
+    "copytraders": "Takipçi Yatırımcılar",
+    "refer": "Referans ve Kazan"
+  },
+  "Categories": {
+    "favorites": "Favoriler",
+    "gainers": "Kazananlar",
+    "losers": "Kaybedenler"
+  },
+  "ButtomNav": {
+    "dashboard": "Anasayfa",
+    "mining": "Madencilik",
+    "markets": "Piyasalar",
+    "trade": "Ticaret",
+    "trades": "Ticaretler",
+    "profile": "Profil"
+  },
+  "Trade": {
+    "title": "Ticaret",
+    "trade_message": "Ticaret başarıyla başlatıldı",
+    "trade_error": "Yetersiz bakiye! Lütfen bu ticareti yapmak için bakiyenizi doldurun.",
+    "buy": "Al",
+    "sell": "Sat",
+    "amount": "Tutar",
+    "time": "Zaman (Dakika)",
+    "leverage": "Kaldıraç (5000 MAKS)",
+    "lev": "Kaldıraç:"
+  },
+  "Dashboard": {
+    "title": "Gösterge Paneli",
+    "markets": "Piyasalar",
+    "mining": "Madencilik",
+    "trades": "Ticaretler"
+  },
+  "Trades": {
+    "noopen": "Açık ticaret yok",
+    "noclose": "Kapalı ticaret yok"
+  },
+  "Profile": {
+    "deposits": "Yatırımlar",
+    "withdrawals": "Çekimler",
+    "referrals": "Referanslar",
+    "watchlist": "İzleme Listesi",
+    "updatemail": "E-posta Güncelle",
+    "updatephoto": "Fotoğraf Güncelle",
+    "updatepassword": "Şifreyi Güncelle",
+    "accountsettings": "Hesap Ayarları",
+    "logout": "Çıkış Yap",
+    "loading_data": "Kullanıcı verileri yükleniyor...",
+    "update_email_title": "E-posta Güncelle",
+    "new_email_text": "YENİ E-POSTANIZ",
+    "update": "GÜNCELLE",
+    "update_email_success": "E-posta başarıyla güncellendi",
+    "update_email_error": "E-posta güncellenemedi",
+    "InvalidLogin": "Geçersiz giriş bilgileri.",
+    "update_photo_title": "Fotoğraf Güncelle",
+    "update_photo_alt": "profil resmi",
+    "update_password_success": "Şifre başarıyla güncellendi",
+    "update_password_title": "Şifre Güncelle",
+    "password": "Şifre",
+    "new_password": "Yeni Şifre",
+    "confirm_password": "Şifreyi Onayla",
+    "update_password_error_1": "Şifre en az 4 karakter olmalıdır",
+    "update_password_error_2": "Kullanıcı bulunamadı",
+    "update_password_error_3": "Mevcut şifre yanlış",
+    "update_password_error_4": "Yeni şifre onay şifresiyle uyuşmuyor",
+    "myprofile": "Profilim",
+    "notifications": "Bildirimler",
+    "updateaddress": "Adres Güncelle",
+    "accountverification": "Hesap Doğrulaması",
+    "email": "E-POSTA",
+    "phone": "CEP TELEFONU",
+    "firstname": "AD",
+    "lastname": "SOYAD",
+    "streetaddress": "SOKAK ADRESİ",
+    "postalcode": "POSTA KODU",
+    "city": "ŞEHİR",
+    "state": "İL",
+    "country": "ÜLKE",
+    "notification_permission": "Bildirimi tarayıcı ayarlarınızdan devre dışı bırakabilirsiniz, tarayıcı ayarlarınız web sitesi ayarlarını geçersiz kılacaktır.",
+    "notification_permission_2": "Bildirim İzin (Tarayıcı): Verildi",
+    "notification_permission_3": "Bildirim İzin (Tarayıcı)",
+    "denied": "Reddedildi",
+    "granted": "Verildi",
+    "update_address_title": "Adres Güncelle",
+    "street_address": "Sokak Adresi",
+    "zip_code": "Posta Kodu",
+    "address_success": "Adres başarıyla güncellendi",
+    "email_verification": "E-posta Doğrulaması",
+    "identity_verification": "Kimlik Doğrulaması",
+    "address_vericiation": "Adres Doğrulaması",
+    "verified": "Doğrulandı",
+    "pending": "Doğrulama Bekleniyor",
+    "notstarted": "Başlanmadı",
+    "verifications": "doğrulamalar",
+    "verify_email_error": "Geçersiz e-posta. Bu e-posta bizimle kayıtlı değil.",
+    "verify_email_success": "Doğrulama PIN kodu {email} adresine başarıyla gönderildi.",
+    "verify_email_success_2": "E-posta doğrulaması başarıyla tamamlandı.",
+    "verify_email_error_2": "E-posta doğrulaması güncellenirken hata: {error}",
+    "verify_email_error_3": "Geçersiz PIN, lütfen tekrar deneyin.",
+    "verify_email_title": "E-posta Doğrula",
+    "paragraph1": "E-posta adresinize 6 haneli PIN içeren bir e-posta gönderilmiştir. Birkaç dakika içinde almadıysanız, ‘Yeniden Gönder’ butonuna tıklayın.",
+    "pin": "PIN",
+    "verify_email_title_2": "E-POSTAYI DOĞRULA",
+    "email_2": "E-posta",
+    "resend": "PIN GÖNDER",
+    "verify_identity_success": "Kimlik doğrulaması devam ediyor...",
+    "verify_identity_error": "Veri yüklenemedi {error}",
+    "verify_identity_title": "Kimlik Doğrulama",
+    "verify_your_title": "Kimliğinizi Doğrulayın",
+    "paragraph2": "Kimliğinizi doğrulamak için geçerli bir hükümet tarafından verilen kimlik kartını yükleyin. iOS cihazından yükleme yaparken sorun yaşayabilirsiniz. Web tarayıcınızın kamera erişimine sahip olduğundan emin olun.",
+    "select_front": "Önü Seç",
+    "select_back": "Arka Tarafı Seç",
+    "upload": "Yükle",
+    "skip": "Atla",
+    "address_verify_success": "Adres doğrulama devam ediyor...",
+    "address_verify_error": "Veri yüklenemedi {error}",
+    "address_verification_title": "Adres Doğrulama",
+    "street": "Sokak Adresi",
+    "bill": "Fatura Seç",
+    "submit": "Gönder"
+  },
+  "DepositList": {
+    "title": "Yatırma",
+    "message": "Yatırımlar, blockchain üzerinde yeterli onaylar alınana kadar beklemede olacaktır.",
+    "withdrawal": "Çekim",
+    "new_withdrawal": "Yeni çekim",
+    "no_withdrawal": "Henüz çekim yapılmadı"
+  },
+  "Referrals": {
+    "title": "Referanslar",
+    "ref_balance": "Referans Bakiyesi",
+    "withdraw": "ÇEK",
+    "ref_link": "Referans Bağlantısı",
+    "no_ref": "Henüz referans yok"
+  },
+  "Deposit": {
+    "title": "Yatırma",
+    "fundaccount": "Hesabı Fonla",
+    "viewpricing": "Fiyatları Görüntüle",
+    "amount": "Tutar",
+    "to": "Gönderilecek",
+    "tradingbalance": "Ticaret Bakiyesi",
+    "proceed": "İlerle",
+    "loading": "Yükleniyor...",
+    "pay": "ÖDE",
+    "paymentmethod": "ÖDEME YÖNTEMİNİ SEÇ",
+    "sendcrypto": "Krypto Gönder",
+    "sendcrypto_message": "Desteklenen kripto para birimlerini gönder",
+    "invalidlink": "Geçersiz veya Süresi Dolmuş Ödeme Bağlantısı",
+    "send": "GÖNDER",
+    "worth": "DEĞERİNDE",
+    "paragraph1": "AŞAĞIDAKİ CEBİNE YA DA QR KODU İLE CEBİNİZDEN TARAYIN",
+    "wallet": "Cüzdan Adresi",
+    "paragraph2": "BANKA HESABI DETAYLARI İÇİN İLETİŞİME GEÇİN.",
+    "paragraph3": "BANKA İLE İLGİLİ DETAYLAR İÇİN [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM)",
+    "awaiting": "Ödeme Bekleniyor",
+    "wait": "Onay Bekliyor"
+  },
+  "Withdrawal": {
+    "title": "Çekim",
+    "selectmethod": "Çekim Yöntemi Seç",
+    "bankwithdraw": "Banka Çekimi",
+    "withdrawbank": "Banka Çekimine Git",
+    "paragraph1": "Ek bilgi için bizimle iletişime geçebiliriz.",
+    "from": "Gönderen",
+    "to": "Alıcı",
+    "accountnumber": "Hesap Numarası",
+    "accountname": "Hesap Adı",
+    "amount": "Tutar",
+    "bankname": "Banka Adı",
+    "otpcode": "OTP Kodu",
+    "submit": "Gönder",
+    "success_message": "Çekim talebiniz işleme alındı.",
+    "error_message": "Geçersiz OTP Kodu, lütfen destekle iletişime geçin ve geçerli bir OTP kodu alın.",
+    "cryptowithdraw": "Kripto Çekim",
+    "withdrawcrypto": "Kripto Çekimine Git",
+    "wallet": "Cüzdan Adresi",
+    "paypalwithdraw": "PayPal Çekimi",
+    "withdrawpaypal": "PayPal ile Çekim",
+    "paypalemail": "PayPal E-posta",
+    "cashappwithdraw": "CashApp Çekimi",
+    "withdrawcashapp": "CashApp ile Çekim",
+    "cashtag": "Cash Tag"
+  }
+
+
+
+    
+
+
+
+        
+    
+
+  }
+  

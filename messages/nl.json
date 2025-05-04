@@ -1,0 +1,600 @@
+{
+    "HomePage": {
+      "home": "Home",
+      "login": "Inloggen",
+      "signin": "Inloggen",
+      "signup": "Aanmelden",
+      "contact": "Contacteer ons",
+      "cookie": "Cookiebeleid",
+      "privacy": "Privacybeleid",
+      "cryptomining": "Cryptomining",
+      "bitcoinmining": "Bitcoin Mining",
+      "dogecoinmining": "Dogecoin Mining",
+      "copytrading": "Copy Trading",
+      "cryptotrading": "Crypto Trading",
+      "terms": "Gebruiksvoorwaarden",
+      "forextrading": "Forex Trading",
+      "stockstrading": "Aandelenhandel",
+      "optionstrading": "Optiehandel",
+      "leverage": "Wat is hefboomwerking",
+      "responsibletrading": "Verantwoord handelen",
+      "generalrisk": "Algemene risicowaarschuwing",
+      "about": "Over ons"
+    },
+  
+    "Carousel": {
+      "welcome": "Welkom bij {project}",
+      "welcomeDesc": "Begin vandaag nog winst te maken door het verhandelen van cryptovaluta, forex, aandelen of binaire opties.",
+      "stocksTitle": "Handel in Aandelen",
+      "stocksDesc": "Handel in aandelen of maak langetermijninvesteringen op hetzelfde platform.",
+      "forexTitle": "Handel in Forex",
+      "forexDesc": "Handel in forex op het {project} platform en geniet van betrouwbare prijzen en uitzonderlijke uitvoering.",
+      "copyTitle": "Kopieer Expert Traders",
+      "copyDesc": "Kies uit een lijst van expert traders en kopieer automatisch hun handelsactiviteiten zonder zelf de markt te volgen.",
+      "getStarted": "Aan de slag"
+    },
+  
+    "ContactPage": {
+      "name": "Jouw naam*",
+      "email": "E-mailadres*",
+      "phone": "Telefoonnummer*",
+      "subject": "Onderwerp*",
+      "message": "Jouw bericht...",
+      "send": "Verstuur bericht",
+      "note": "Opmerking:",
+      "disclaimer": "We beloven geen spam te sturen en je e-mailadres zal vertrouwelijk worden behandeld."
+    },
+    "features": {
+      "feature1Heading": "Snelle registratie",
+      "feature1Paragraph": "Slechts 1 minuut en je bent erin. Voer de benodigde informatie in om een platformbelegger te worden en direct te beginnen.",
+      "feature2Heading": "Snelle handel",
+      "feature2Paragraph": "Investeer en leun achterover. Je kunt op elk moment de status van je investering volgen en investeren in beperkte tijdspecials.",
+      "feature3Heading": "Tijdige ondersteuning",
+      "feature3Paragraph": "We bieden ongeëvenaarde ondersteuning via e-mail of livechat om een professionele en snelle reactie te geven."
+    },
+    "CopyExperts": {
+  "title": "Copy Expert Traders",
+  "paragraph1": "Ongeveer 5 jaar geleden begon ik te experimenteren en spelen met de valutamarkt. De reden waarom ik voor handelen koos, was vanwege de vrijheid. De mogelijkheid om alles te doen, wanneer ik wil... Dat is de positieve kant van handelen.",
+  "paragraph2": "Maar toen ik begon, vertelde niemand me over de donkere, uitdagende kant van handelen. Een paar jaar geleden was er geen gids of gestructureerde bron om handelaren te helpen dit om te zetten in een carrière. Het was allemaal trial and error voor mij... Ik bleef experimenteren en leren van mijn fouten totdat ik het onder de knie had. Nu ben ik de eerste die je zegt dat handelen enorme hoeveelheden discipline vereist.",
+  "paragraph3": "Realistisch gezien zou je zelfs 2+ jaar consequent kunnen handelen zonder veel groei of geld in de vroege stadia te zien. Dat is eng om over na te denken, maar dat is de realiteit waar velen niet over praten.",
+  "paragraph4": "Als er een geheim zou zijn voor handelen, dan zou het consistentie zijn. Maar consistent blijven is moeilijk wanneer je geen richting hebt. Niemand met wie je je uitdagingen kunt delen. Niemand die je feedback geeft. Dat eindigt allemaal met Copy Trading.",
+  "paragraph5": "Mijn doel is om de kloof te overbruggen van de donkere, uitdagende kant van handelen naar een punt waar je dit kunt omzetten in een duurzame carrière. Dus zet je schrap, want het wordt een geweldige rit! Je kunt de live trades bekijken die ik heb gedaan op mijn {project_name} gefinancierde account. Die ik in 30 dagen heb laten groeien tot zes cijfers winst - {project_title} Expert Trader"
+},
+"WhatWeOffer": {
+    "title": "Wat wij bieden",
+    "description": "We bouwen een nieuwe standaard voor handel en mining. Eén account met gestroomlijnde toegang tot meerdere liquiditeitsmarkten.",
+    "learnMore": "Meer leren",
+    "offerList": [
+      {
+        "heading": "Crypto Trading",
+        "paragraph": "Nu kun je Bitcoin, Ethereum en vele andere cryptocurrencies snel, gemakkelijk en veilig verhandelen, waar je ook bent — binnen enkele seconden.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Forex Trading",
+        "paragraph": "De forexmarkt is een plek waar valuta's worden verhandeld. Het is de grootste en meest liquide financiële markt ter wereld, met een gemiddeld dagelijks volume van 6,6 biljoen Amerikaanse dollars in 2019.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Crypto Expert Traders",
+        "paragraph": "Copy trading stelt je in staat om direct de posities van een andere trader te kopiëren. Jij bepaalt het bedrag dat je wilt investeren en kopieert automatisch alles wat zij doen.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "MINE TOP CRYPTO VALUTA'S",
+    "description1": "In tegenstelling tot papiergeld, worden Bitcoin en andere cryptocurrencies wiskundig geproduceerd en digitaal bewaard. De mensen die vrijwillig hun rekencapaciteit aanbieden om deze cryptocurrency-netwerken te beveiligen, worden miners genoemd. Cryptocurrencies hebben geen centrale regering of andere zogenaamde 'tussenpersonen' die beslissen over de toekomst van het systeem.",
+    "description2": "Als miners verwerken en verifiëren wij de transacties van de cryptocurrency-ecosystemen en behouden we hun publieke transactiegeschiedenis (blockchains) veilig. Hiervoor wordt de mining-community beloond met de transactiekosten van de netwerken en nieuw gecreëerde munten."
+  },
+  "FinancialMarket": {
+    "title": "Financiële Markten Verklaard",
+    "description1": "De financiële markten verwijzen collectief naar een online markt waarin bedrijven en individuen contracten aangaan om een specifiek product te kopen of verkopen uit een breed scala van 'financiële marktinstrumenten'.",
+    "description2": "Het enige doel van investeringen binnen de financiële markt is het verhandelen van financiële instrumenten en derivaten tegen lage transactiekosten, terwijl rendementen worden gegenereerd door berekende handelsinstap- en uitstapmomenten.",
+    "description3": "Financiële marktinstrumenten en -effecten omvatten aandelen en obligaties, opties, cryptocurrencies, buitenlandse valutaparen, grondstoffen en edelmetalen, die in de financiële markten bekend staan als grondstoffen."
+  },
+  
+   "TradingPlan": {
+  "title": "EEN TRADINGPLAN VOOR IEDEREEN",
+  "description": "Wij bieden een verscheidenheid aan handelsaccounts die passen bij elke handelsstijl en elk ervaringsniveau. Of je nu een scalper, daytrader, EA-gebruiker of discretionaire handelaar bent – wij hebben het voor je geregeld.",
+  "plans": [
+    {
+      "title": "Brons",
+      "amount": "300",
+      "minDeposit": "300",
+      "referralBonus": "Verwijzingsbonus",
+      "itSupport": "Volledige IT-ondersteuning",
+      "purchasePlan": "PLAN AANSCHAFFEN"
+    },
+    {
+      "title": "Premium",
+      "amount": "600",
+      "minDeposit": "600",
+      "referralBonus": "Verwijzingsbonus",
+      "itSupport": "Volledige IT-ondersteuning",
+      "purchasePlan": "PLAN AANSCHAFFEN"
+    },
+    {
+      "title": "Goud",
+      "amount": "1200",
+      "minDeposit": "1200",
+      "referralBonus": "Verwijzingsbonus",
+      "itSupport": "Volledige IT-ondersteuning",
+      "purchasePlan": "PLAN AANSCHAFFEN"
+    },
+    {
+      "title": "Platina",
+      "amount": "50000",
+      "minDeposit": "50000",
+      "referralBonus": "Verwijzingsbonus",
+      "itSupport": "Volledige IT-ondersteuning",
+      "purchasePlan": "PLAN AANSCHAFFEN"
+    }
+  ]
+},
+
+  "latest_payouts": "Laatste betalingen",
+  "testimonials": {
+    "name_1": "Miles Kozey",
+    "comment_1": "Ik ben extreem tevreden met het platform, zowel wat betreft gebruiksgemak, snelheid en betrouwbaarheid.",
+    "name_2": "Katrine Welch",
+    "comment_2": "Een zeer eenvoudige en veilige manier om wat rente aan je investeringen toe te voegen.",
+    "name_3": "Kianna Heaney",
+    "comment_3": "Ik heb de bitcoin in mijn wallet in slechts 7 dagen met deze service verdrievoudigd.",
+    "name_4": "Geoffrey Dare",
+    "comment_4": "Een gebruiksvriendelijk, risicoloos handelsplatform dat het verdienpotentieel verhoogt."
+  },
+  "payouts": {
+    "1": "Delmer Kuhlman",
+    "2": "Clifton Deckow",
+    "3": "Gina Hills",
+    "4": "Elta Fritsch",
+    "5": "Name Ziemann",
+    "6": "Daniela Erdman",
+    "7": "Bernhard Haag",
+    "8": "Shawna Goldner",
+    "9": "Hazle Konopelski",
+    "10": "Kenneth Gorczany",
+    "11": "Lela Kuhn",
+    "12": "Benedict Donnelly",
+    "13": "Raphaelle Spencer",
+    "14": "Sadie Lesch",
+    "15": "Nico Kshlerin",
+    "16": "Britney Runolfsdottir",
+    "17": "Jermaine Howe",
+    "18": "Brisa Rice"
+  },
+  "faq": {
+  "how_does_copy_trading_work": {
+    "question": "Hoe werkt copy trading?",
+    "answer": "Zo werkt het kopiëren van trades: Als investeerder selecteer je eenvoudig een of meerdere experts van wie je de trades wilt kopiëren. Zodra je je hebt aangemeld, is dit de enige actie die nodig is van jouw kant. Zodra je dat hebt gedaan, ben je helemaal klaar. Er zijn geen codes die je hoeft uit te voeren of signalen die je handmatig hoeft in te voeren. Onze software zorgt automatisch voor het kopiëren van de trades namens jou. We volgen de handelsactiviteit van je experts en zodra er een trade wordt uitgevoerd, berekenen we alle benodigde parameters en voeren de trade uit. Het enige waar je voor moet zorgen, is dat je voldoende beschikbare basisvaluta hebt in je handelsaccount, die je expert gebruikt voor de handel. Hoeveel is genoeg? Je moet eerst voldoen aan het minimumbedrag voor bestellingen van het platform (bijvoorbeeld ongeveer $10 per trade voor de zekerheid). Dat betekent dat als je expert een order van 5% uitvoert, je minstens $300 in totaal in je account moet hebben (bijvoorbeeld met 100% allocatie aan de expert). Dit betekent ook dat je minimaal 10% of meer in beschikbare basisvaluta moet hebben om gemiste trades te voorkomen. Wanneer de expert een positie sluit, sluit jij deze ook automatisch. Je kunt de allocatie op elk moment aanpassen."
+  },
+  "what_are_the_fees": {
+    "question": "Wat zijn de kosten?",
+    "answer": "Elke investeerder betaalt een 10% opnamekosten om het opnameproces te voltooien en elke handelaar ontvangt een vastgesteld percentage van de winst die ze maken."
+  },
+  "who_are_the_trading_experts": {
+    "question": "Wie zijn de handelsdeskundigen?",
+    "answer": "We selecteren zorgvuldig de experts. We leren ze kennen als handelaar en bekijken hun handelsresultaten over een langere periode. We kijken ook naar experts die al een volgersbasis hebben om hun competentie verder te bevestigen (sociale bewijskracht). Je kunt ook meer lezen over elke expert op hun individuele prestatiepagina's."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "Wat is het aanbevolen startbedrag?",
+    "answer": "We raden aan om tussen de $3000 en $5000 in je account te hebben in BTC-waarde vanwege de minimale ordervereisten van het platform en zodat je ten minste de maandelijkse abonnementskosten kunt dekken."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "Hoe werkt Bitcoin mining?",
+    "answer": "Het is snel en heel eenvoudig! Zodra we je betaling ontvangen, wordt je contract aan je profiel toegevoegd en kun je onmiddellijk beginnen met minen. Afhankelijk van het blockchain-algoritme dat je kiest en de bijbehorende miningovereenkomst, kun je native cryptocurrencies rechtstreeks minen of je rekenkracht toewijzen aan andere cryptocurrencies (gemarkeerd met AUTO), en zelfs een specifieke verdeling voor hen kiezen. Bijvoorbeeld: 60% LTC, 20% BTC en 20% DOGE. De eerste miningoutput wordt 48 uur na de start vrijgegeven en vervolgens volgt er elke dag een miningoutput."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "Mijnen jullie voor jezelf?",
+    "answer": "Naast het feit dat wij zelf minen met dezelfde hardware die we aan onze klanten aanbieden, is ons kapitaal beperkt. We geloven dat Bitcoin en Altcoin mining een van de beste manieren is om cryptocurrencies te verkrijgen, maar we willen niet ‘al onze eieren in één mandje leggen’."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "Waar is je miningfarm gevestigd?",
+    "answer": "Om veiligheidsredenen maken we de exacte locatie van onze miningfarms niet bekend. Sinds april 2015 opereren we verschillende miningfarms in Europa, Amerika en Azië. Elektriciteitskosten en de beschikbaarheid van koeling zijn belangrijk, maar niet de enige criteria. Bekijk onze Datacenters-pagina voor meer informatie."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "Welke coins kan ik minen met elk algoritme?",
+    "answer": "Je kunt Bitcoin en verschillende altcoins rechtstreeks minen via onze miningtoewijzingspagina*. De beschikbaarheid van cryptocurrencies die je kunt minen, hangt af van het contract dat je hebt gekozen.<br/><br/>Je moet je rekenkracht toewijzen om de cryptocurrency te bepalen die je ontvangt voor je miningoutput. Als er geen toewijzing is gemaakt, wordt de miningoutput standaard toegewezen aan de volgende cryptocurrencies, afhankelijk van het blockchain-algoritme:<br/><br/>SHA-256 contract - Bitcoin<br/>Ethash contract - Ethereum<br/>(*) “{param} Geavanceerde Toewijzing” (speciale functie): Hiermee kun je miningoutput in veel verschillende coins krijgen, zelfs als ze niet rechtstreeks door een bepaald algoritme worden gemined. Bijvoorbeeld, je kunt BTC ontvangen bij mining met een X11-algoritme! Dit wordt mogelijk gemaakt door rechtstreeks de DASH-coin te minen, die automatisch naar BTC wordt omgewisseld door ons algoritmische kader. De Toewijzingsfunctie is ontworpen zodat klanten hun miningresultaten kunnen ontvangen in de cryptocurrency van hun keuze. We noemen het “slim BTC minen”. Dezelfde techniek wordt ook gebruikt om miningresultaten in LTC te ontvangen met een SHA-256 contract, enz."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "Hoe werken je Ether-contracten?",
+    "answer": "Wanneer je een Ether miningcontract koopt, koop je een aandeel in een GPU (“grafische verwerkingseenheid”) om Ethereum te minen. Het hashing-algoritme dat wordt gebruikt om Ether te minen, wordt Ethash (of Dagger-Hashimoto) genoemd.<br/><br/>Ethash vereist een zogenaamd DAG-bestand om de berekeningen uit te voeren. Dit bestand groeit in de loop van de tijd, wat betekent dat er meer bewerkingen nodig zijn voor elke hashingbewerking. Dit betekent dat de effectieve hashrate een beetje afneemt elke keer dat het DAG-bestand groeit.<br/><br/>Dit moet in overweging worden genomen bij het vergelijken van de theoretische output van je rekenkracht. Online calculators houden hier geen rekening mee.<br/><br/>Houd er ook rekening mee dat sommige van onze producten een onderhoudsvergoeding hebben."
+  },
+  "expected_returns": {
+    "question": "Wat zijn de verwachte rendementen?",
+    "answer": "Bitcoin- en altcoin-mining hangt sterk af van de prijzen en netwerkmoeilijkheden van de cryptocurrencies die je mineert, wat niet te voorspellen is. Het zou niet ‘kloppen’ als we gegevens zouden verstrekken over de miningprestaties en tegelijkertijd contracten zouden verkopen. Daarom raden we al onze klanten aan om hun eigen onderzoek te doen en hun eigen prestatieberekeningen te maken.<br/><br/>Bijvoorbeeld, je wilt misschien coinwarz.com bekijken. Vergeet niet dat sommige van onze producten een dagelijkse onderhoudskosten hebben die van de dagelijkse miningbeloningen moeten worden afgetrokken.<br/><br/>Let op, de website is een onafhankelijke bron en is op geen enkele manier verbonden met {param}."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "Welke miningpools gebruik je?",
+    "answer": "We publiceren geen lijst met pools die we gebruiken. Onze belangrijkste criteria voor een goede pool zijn: betrouwbaarheid, kostenstructuur en afwijzingspercentages. In de toekomst zullen we sommige coins solo-mijnen (en de kostenbesparingen doorrekenen aan onze gebruikers!).<br/><br/>Ons interne beleid is: “wees een goede crypto-burger”. Dit betekent dat we ten minste twee verschillende pools gebruiken (in sommige gevallen gebruiken we tot vier) voor elke coin. Dit is om de gedecentraliseerde aard van de crypto-netwerken te behouden! Als we merken dat een pool dicht bij 50% marktaandeel komt, zullen we van pool wisselen en een back-up gebruiken."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "Is het niet goedkoper om hardware te kopen?",
+    "answer": "Op het eerste gezicht zou je denken dat het kopen van miner X iets goedkoper is dan hosted mining. Er zijn echter een aantal ‘verborgen’ kosten die de economieën aanzienlijk veranderen:<br/><br/>Verzendkosten: weinig verkopers dekken dit, maar in de meeste gevallen rekenen ze extra kosten.<br/>Douanerechten / BTW: bij internationale levering moet je waarschijnlijk douanerechten en BTW betalen; dit heeft meestal een grote invloed op de totale kosten van je miningapparatuur.<br/>Leveringstijd: wanneer je betaalt voor je apparaat, moet je wachten tot de miner is verpakt en verzonden; als het vastzit bij de douane kan dit weken duren. En in de tussentijd kun je helemaal niet minen (“opportuniteitskosten”). Je moet wachten en hopen. En als de verkoper een voorraadtekort heeft; moet jij wachten. Bij {param} betaal je en krijg je je rekenkracht meteen online. Geen vertraging!<br/><br/>Kosten voor extra apparatuur: bij het kopen van miners van grotere retailers moet je vaak extra apparatuur kopen, zoals een extra PSU die voldoet aan de elektriciteitsspecificaties van je land, besturingseenheden en specifieke rekken om ze efficiënt op te slaan. Dit loopt op tot aanzienlijke extra kosten.<br/><br/>Het systeem instellen: wanneer het apparaat eindelijk arriveert, moet je het in elkaar zetten en configureren. Beginners onderschatten vaak de hoeveelheid werk en technische kennis die nodig is om het apparaat op te zetten en de instellingen te optimaliseren. Mensen die met de eerste ASICs werkten, besteedden er dagen of weken aan. In monetaire termen kost dit je twee keer: (i) je tijd en (ii) verloren miningkansen.<br/><br/>Onderhoud: hardwarestoringen, onderbrekingen en crashes kunnen leiden tot stilstand van seconden tot weken. Als je apparaat kapot gaat, moet je het retourneren en opnieuw beginnen (check trouwens de garantieperiode van je miner; deze is vaak korter dan een jaar). Bij {param} heb je een gegarandeerde uptime van 100%: als een van je units faalt, wordt een andere unit ingeschakeld en begint direct voor jou te minen.<br/><br/>Elektriciteit: het hebben van de machines thuis brengt niet alleen hitte en geluid, maar ook een stijging van je elektriciteitsrekening; een belangrijk factor dat veel mensen onderschatten. We willen niemand ontmoedigen om thuis te minen! We worden vaak gevraagd naar prijzen en realiseerden ons dat veel gebruikers zich niet bewust zijn van alle verborgen kosten. Als je de werkelijke kosten vergelijkt, zul je merken dat onze prijzen erg concurrerend zijn. We willen je de beste miningervaring bieden, zodat jij je kunt concentreren op het minen van je favoriete coins (terwijl wij voor alles zorgen)."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "Wat is de onderhoudskosten?",
+    "answer": "Sommige van onze producten zijn inclusief een onderhoudskosten. Dit betekent dat we de apparatuur onderhouden, de machines monitoren en elke gewenste aanpassing uitvoeren. Dit zorgt ervoor dat je altijd kunt blijven minen zonder je zorgen te maken over technische problemen of storingen."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "Kan ik meerdere coins tegelijkertijd minen?",
+    "answer": "Ja! Met {param} kun je meerdere coins tegelijkertijd minen, zelfs als ze verschillende algoritmes gebruiken.<br/><br/>We bieden een functie genaamd de ‘Auto’-instelling die je miningoutput zal converteren in een andere cryptocurrency dan je hebt toegewezen, zodat je verschillende coins kunt ontvangen op basis van je miningcapaciteit en voorkeuren.<br/><br/>Ga naar de miningtoewijzingspagina in het dashboard en selecteer de coins die je wilt minen, en de gewenste verdeling. Sla je instellingen op en ontvang je miningoutput op basis van deze configuratie.<br/><br/>Zorg ervoor dat je jouw walletadressen toevoegt aan je profiel voordat je de miningoutput ontvangt."
+  }
+},
+"footer": {
+  "quick_links": "Snelle Links",
+  "contact_us": "Neem Contact Op",
+  "my_account": "Mijn Account",
+  "create_account": "Account Aanmaken"
+},
+
+  "SignUpPage": {
+    "signUp": "Aanmelden",
+    "successMessage": "Account succesvol geregistreerd",
+    "accountTypeLive": "LIVE",
+    "accountTypeDemo": "DEMO",
+    "accountType": "Accounttype",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "mobileNumber": "Mobiel nummer",
+    "currency": "Valuta",
+    "country": "Land",
+    "state": "Provincie",
+    "city": "Stad",
+    "termsText": "Ik accepteer de algemene voorwaarden",
+    "createAccount": "Maak mijn account aan",
+    "processing": "Bezig met verwerken...",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "login": "Inloggen",
+    "creatingAccount": "Account aanmaken..."
+  },
+  "ErrorPage": {
+    "error": "Fout!",
+    "emailAlreadyRegistered": "E-mail is al geregistreerd"
+  },
+  "LoadingPage": {
+    "loading": "Laden..."
+  },
+  
+    "LoginPage": {
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "signIn": "Inloggen",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "noAccount": "Heb je nog geen account?",
+      "signUp": "Aanmelden",
+      "processing": "Bezig met verwerken...",
+      "error": "Fout!",
+      "invalidDetails": "Ongeldige inloggegevens.",
+      "signInFailed": "Inloggen mislukt. Probeer het opnieuw."
+    },
+    "ForgotPassword": {
+    "pageTitle": "Wachtwoord opnieuw instellen",
+    "instruction": "Voer hieronder het e-mailadres in dat aan uw account is gekoppeld",
+    "emailLabel": "E-mail",
+    "submit": "Verzenden"
+  },
+  "CookiePolicy": {
+  "title": "Cookiebeleid",
+  "lastRevised": "Laatst herzien",
+  "purpose1": "{project_name} gebruikt cookies om: Uw handelservaring te optimaliseren, inclusief het onthouden van uw voorkeuren, locatie, voorkeurstaal, browser en andere details;",
+  "purpose2": "Uw identiteit te verifiëren voor beveiligingsdoeleinden;",
+  "purpose3": "Onze website en bepaalde functies die erop beschikbaar zijn te onderhouden;",
+  "purpose4": "Het gebruik van onze diensten te analyseren en te volgen;",
+  "purpose5": "Ons platform aan te passen op basis van uw handelsgewoonten en onze regelgevende vereisten.",
+  "whatAreCookiesTitle": "Wat zijn cookies",
+  "whatAreCookiesDesc": "Cookies zijn kleine stukjes gegevens die door een website naar uw computer worden verzonden en daar worden opgeslagen. Cookies zijn niet uitvoerbaar en kunnen niet worden gebruikt om malware te installeren. Ze stellen websites in staat om bezoekers te herkennen wanneer ze terugkeren en bevatten basisinformatie over hen die elke keer wordt gecontroleerd en bijgewerkt wanneer u de website bezoekt. Voor meer informatie, zie: http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Cookies beheren",
+  "managingCookiesIntro": "Bij {project_name} respecteren we uw recht op privacy en bieden we u daarom tools om de cookies die u ontvangt van onze webdiensten te beheren. Sommige cookies zijn essentieel voor de prestaties van ons platform (u kunt zich niet afmelden voor deze cookies als u ons platform wilt gebruiken). Hieronder vindt u een lijst van enkele van de cookies van derden die door {project_name} worden gebruikt. Voor gebruikers die liever geen niet-essentiële cookies ontvangen, hebben we een optie voor ‘opt-out’ beschikbaar gesteld.",
+  "managingCookiesBrowser": "Uw browser kan u ook toestaan om het opslaan van cookies op uw computer te blokkeren; raadpleeg het ‘Help’-menu van uw browser of de website voor meer informatie. Als u onze webdiensten gebruikt zonder cookies te blokkeren, stemt u feitelijk in met de cookies."
+},
+
+  "privacyPolicy": "Privacybeleid",
+  "lastRevised": "Laatst herzien",
+  "limited": "Beperkt",
+  "respectPrivacy": "respecteert de privacy van onze gebruikers (ieder, ‘u’ of ‘gebruiker’)",
+  "usersCommitment": "en zet zich in voor het beschermen van de privacy van gebruikers die onze mobiele applicatie downloaden, installeren of zich registreren",
+  "informationCollection": "Het bedrijf heeft dit Privacybeleid opgesteld om onze praktijken met betrekking tot het verzamelen, gebruiken en openbaar maken van uw informatie bij het gebruik van de diensten te beschrijven.",
+  "agreeToTerms": "Door de diensten te gebruiken, gaat u akkoord met de voorwaarden van dit Privacybeleid.",
+  "retainInformation": "Hoelang wij de informatie bewaren",
+  "protectingInformation": "Hoe wij uw informatie beschermen",
+  "advertisements": "Advertenties",
+  "advertisingId": "Advertentie-ID en advertentie-identificatie",
+  "cookiesAndAnalytics": "Cookies en Google Analytics",
+  "shareInformation": "MET WIE WE DE INFORMATIE DELEN EN VOOR WELK DOEL",
+  "sharingDetails": "We verhuren, verkopen of delen uw persoonlijke informatie niet met derden, behalve zoals beschreven in dit Privacybeleid...",
+  "retentionDetails": "We respecteren uw privacyrechten en u kunt ons op elk moment contacteren en verzoeken...",
+  "protectionDetails": "We nemen grote zorg bij het implementeren en handhaven van de veiligheid van de diensten en uw informatie...",
+  "advertisementDetails": "We kunnen een derde partij advertentietechnologie gebruiken om advertenties weer te geven wanneer u de diensten gebruikt...",
+  "advertisingIdDetails": "De Google Advertentie-ID is een anonieme identificatie, verstrekt door Google Play-diensten...",
+  "updatePrivacyPolicy": "UPDATE OF WIJZIGINGEN IN HET PRIVACYBELEID",
+  "updateDetails": "We kunnen dit Privacybeleid van tijd tot tijd naar eigen goeddunken herzien, en de meest actuele versie wordt altijd gepost...",
+  
+    "cryptoMining": "Crypto Mining",
+    "cryptoMiningTitle": "Crypto Mining",
+    "cryptoMiningParagraph1": "Cryptocurrency-netwerken hebben rekenkracht nodig om veilig te kunnen draaien. De krachtigste blockchains ter wereld worden ondersteund door miljoenen computers over de hele wereld...",
+    "cryptoMiningParagraph2": "Cryptocurrencies hebben geen centrale overheid of andere zogenaamde 'tussenpersonen' die beslissen over de toekomst van het systeem...",
+    "howIsBitcoinSecure": "HOE WORDT BITCOIN VEILIG GEHOUDEN",
+    "bitcoinSecurityParagraph": "De enige manier om geen geld uit de lucht te creëren of te corrumperen, is door echte energie te verbranden. Dit wordt Proof-of-Work genoemd...",
+    "minersIncentives": "WAT ZIJN DE AANSTEKENINGEN VOOR MINERS",
+    "minersIncentivesParagraph": "Het draait allemaal om vertrouwen: Miners houden de blockchains betrouwbaar en worden beloond voor hun inspanningen...",
+    "bigVisionOfCrypto": "DE GROOTE VISIE VAN CRYPTO CURRENCY",
+    "bigVisionParagraph": "Om de integriteit (en waarden!) van alle cryptocurrency-ecosystemen intact te houden, houden miners de netwerken veilig en de autoriteit gedecentraliseerd...",
+    "BitcoinMining": {
+    "title": "Bitcoin Mining",
+    "paragraph1": "Bitcoin heeft een openbaar grootboek dat de blockchain wordt genoemd. Het mijnbouwproces voegt nieuwe transacties toe aan dit openbare grootboek. Waarom? Nou, Bitcoin-gebruikers hebben dit proces nodig omdat het betekent dat elke transactie veilig wordt bevestigd en geverifieerd, terwijl alle gebruikers die het Bitcoin-netwerk gebruiken volledig toegang hebben tot de blockchain – met andere woorden, het Bitcoin-grootboek. Mijnbouw helpt ook het netwerk om uit te zoeken welke transacties eerlijk en legitiem zijn, en elimineert transacties die proberen geld een tweede keer uit te geven.",
+    "paragraph2": "Dus wanneer iemand Bitcoin 'mijnt', voert die persoon in feite een dienst uit voor alle Bitcoin-gebruikers omdat ze ervoor zorgen dat Bitcoin-transacties legitiem zijn. Tijdens het mijnbouwproces zullen de mensen die Bitcoin mijnen een nieuw blok voltooien, wat betekent dat de miner een beloning ontvangt. In 2018 was de beloning voor het voltooien van een nieuw blok 12,5 Bitcoin, maar de beloning wordt in de loop van de tijd lager.",
+    "paragraph3": "Zoals je je kunt voorstellen, vereist mijnbouw veel hard werk en geduld – je krijgt niet snel resultaten van het mijnen van Bitcoin. Dus er is een duidelijke analogie met daadwerkelijke, fysieke mijnbouw van metalen zoals goud. Vandaar het gebruik van het woord “mijnen” voor de computationele taken die nieuwe Bitcoin genereren.",
+    "bold1": "Het kiezen van je mijnbouwapparatuur",
+    "paragraph4": "Bitcoin-mijnbouw houdt zeer complexe berekeningen in die rekenkundig intensief zijn. Dus, het kiezen van de juiste hardwarekit voor het mijnen van Bitcoin is echt essentieel. Je moet denken aan een aantal specifieke eigenschappen wanneer je je Bitcoin-mijnbouwkit kiest.",
+    "bold2": "Hash-snelheden",
+    "paragraph5": "Misschien wel het belangrijkste aspect van je keuze voor mijnbouwkit is dit: de hash-snelheid die je mijnbouwhardware kan ondersteunen. De hash-snelheid is in wezen het aantal crypto-berekeningen dat je mijnbouwhardware elke seconde kan uitvoeren. Het is gemakkelijk in te zien waarom een hogere hash-snelheid je zal helpen om sneller munten te mijnen – simpelweg omdat meer berekeningen per seconde betekent dat je de crypto-mathematica die nodig is om een munt te mijnen veel sneller oplost. Als gevolg daarvan kun je snel een blok voltooien en je beloning ontvangen.",
+    "paragraph6": "Hash-functies werken als volgt: welke invoer je ook invoert, je krijgt altijd dezelfde uitvoer. Dus om een specifieke uitvoer te vinden, moet je zoveel mogelijk willekeurige invoeren proberen – zo snel als je kunt. Dit maakt mijnbouw competitief en de miner die meer invoeren kan verwerken dan andere miners, zal sneller worden beloond. Dus, nogmaals, als je hardware kunt krijgen met een hoge hash-snelheid, heb je een voordeel ten opzichte van andere miners, wat betekent dat je sneller meer beloningen ontvangt.",
+    "paragraph7": "De meeteenheid voor hash-snelheden is MH/sec, wat staat voor megahashes per seconde. Je kunt hash-snelheden ook meten in termen van GH/sec en TH/sec, die respectievelijk staan voor giga- en terahashes per seconde. Bitcoin-mijnbouwhardware heeft hash-snelheden die variëren van enkele honderden MH/sec tot wel 10 TH/sec (of 10.000.000 MH/sec).",
+    "bold3": "Energiekosten",
+    "paragraph8": "Er zijn kosten verbonden aan het mijnen van Bitcoin, en het is niet alleen de fysieke mijnbouwhardware waar je je zorgen over moet maken. Als je je krachtige hardware kunt veroorloven, zul je snel merken dat je een ander probleem hebt: de elektriciteitskosten die gepaard gaan met het aandrijven van die hardware, omdat krachtige mijnbouwhardware veel stroom verbruikt.",
+    "paragraph9": "Wanneer je hardware koopt, moet je daarom goed kijken naar het elektriciteitsverbruik van de kit – werk het uit in watt en zie hoeveel het je kost, zodat je geen grote verrassingen hebt als je je volgende elektriciteitsrekening ontvangt. Als je dit niet doet, loop je het risico om al je mijnwinst uit te geven aan elektriciteit – of zelfs een groot verlies te maken.",
+    "paragraph10": "Hash-snelheid naast energieverbruik is een goede manier om mijnwinst te evalueren. Vergelijk de hashes die je in een uur kunt voltooien met de elektriciteitskosten per uur (of per dag). Een gemakkelijke manier om dit te doen is door de hash-snelheid van je kit te delen door het aantal verbruikte watt. Dit geeft je een MH/s per watt-verhouding, die je kan helpen, samen met de huidige elektriciteitskosten, om te bepalen of je mijnbouwkit winst zal genereren.",
+    "paragraph11": "Vergeet niet om extra kosten mee te rekenen, zoals de computerhardware die de mijnbouw-GPU's aandrijft wanneer je de winst berekent - je pc verbruikt ook stroom bovenop de mijnbouwhardware die je hebt.",
+    "bold4": "Bitcoin-mijnbouwhardware-opties",
+    "paragraph12": "Toen Bitcoin net werd uitgebracht, kreeg het veel aandacht van verschillende mensen, omdat het een uniek idee was dat mensen heel liberaal vonden. Hoe dan ook, Bitcoin was zeer revolutionair in vergelijking met de manier waarop transacties voorheen werden verwerkt: via gecentraliseerde banken. Dit zelfbesturende netwerk stond buiten de controle van financiële instellingen, belastingautoriteiten en andere grote organisaties omdat het volledig gedecentraliseerd was.",
+    "paragraph13": "In de vroege dagen van Bitcoin wisten minder mensen over de cryptocurrency en waren er minder mensen die Bitcoin kochten en investeerden, dus de waarde van Bitcoin was niet zo hoog. Het resultaat was dat het gemakkelijk was om Bitcoin te minen, wat betekende dat er veel miners geïnteresseerd waren in het mijnen van Bitcoin voor winst, maar ze waren ook geïnteresseerd in Bitcoin omdat het zo'n geweldig, nieuw idee was. Destijds vereiste het mijnen van Bitcoin het gebruik van basiscomputerkracht – zelfs een laptop was genoeg, of een krachtige desktopcomputer.",
+    "paragraph14": "Door het proces van het mijnen van Bitcoin met laptops en desktopcomputers begonnen mensen te beseffen dat GPU's (grafische kaarten) in staat waren om de Bitcoin-mijnbouwcapaciteit echt te verhogen. GPU's zijn goed geschikt voor Bitcoin-mijnbouw: GPU's verbruiken minder stroom dan een computer-CPU die aan mijnbouw is gewijd, en GPU's kunnen 50 tot 100 keer sneller mijnen.",
+    "paragraph15": "Als gevolg hiervan werden speciale apparaten die op maat waren ontworpen voor mijnbouw op de markt geïntroduceerd. De mijnbouwcapaciteiten vermenigvuldigden zich en dit leidde tot een interessante ontwikkeling: Bitcoin-mijnbouwboerderijen die effectief winstcentra waren – en die leidden tot de ontwikkeling van een meer formele industrie die zich toelegde op het mijnen van Bitcoin.",
+    "paragraph16": "In de loop der tijd is Bitcoin-mijnbouw zeer winstgevend geworden en veel serieuze miners runnen zeer grote Bitcoin-mijnbouwboerderijen die veel geld genereren. Het is een mix van hardware die betrokken is bij deze mijnbouwboerderijen – inclusief GPU's naast krachtige koelsystemen om de temperatuur laag te houden. Elektriciteit is een groot probleem voor deze operaties, maar in sommige landen zijn de elektriciteitsprijzen laag en daarom hebben mijnbouwboerderijen zich geconcentreerd in plaatsen met goedkope elektriciteit.",
+    "paragraph17": "Helaas betekent dit wel dat je om Bitcoin te minen moet concurreren tegen zeer capabele mijnbouwoperaties met veel kapitaal achter zich – het is in wezen een competitie tegen grote bedrijven over de hele wereld die veel geld te besteden hebben. Er zijn nog steeds talloze individuele Bitcoin-miners – en zij werken vaak samen voor winst door deel te nemen aan Bitcoin-mijnbouwpools.",
+    "bold5": "Kiezen van een CPU",
+    "paragraph18": "Hoewel een CPU echt centraal staat in je computer, is het in feite niet het belangrijkste onderdeel in een Bitcoin-mijnbouwrig. Ja, toen Bitcoin net werd gelanceerd, kon je het mijnen met alleen een CPU en kon je het winstgevend doen, zolang de CPU van je pc voldoende kracht had.",
+    "paragraph19": "Miners werkten hard om hun winst te maximaliseren, dus het resultaat was dat ze verschillende soorten hardware probeerden voor mijnbouw. Ze ontdekten al snel dat CPU's niet de beste opties zijn voor het mijnen van Bitcoin. Je hebt nog steeds een CPU nodig om je pc die de mijnbouwrig aandrijft, van stroom te voorzien, maar je CPU zal decennia duren om een betekenisvolle hoeveelheid Bitcoin te minen.",
+    "bold6": "GPU's voor mijnbouw",
+    "paragraph20": "Er zijn veel verschillende toepassingen voor GPU's, of grafische verwerkingseenheden – variërend van het spelen van geavanceerde 3D-games tot het uitvoeren van 3D-rendering. In feite was het oorspronkelijke ontwerp voor GPU's het vermogen om de wiskunde te berekenen die ervoor zorgt dat topgames er zo goed uitzien. Dit betekende echter toevallig ook dat GPU's uitstekende tools zijn voor het uitvoeren van hash-functies. En zoals we weten, is hash-functies de sleutel tot het oplossen van de crypto-puzzels die blokken Bitcoin-transacties oplossen.",
+    "paragraph21": "GPU's zijn niet goedkoop, met prijzen van enkele honderden dollars per stuk, maar er is een enorm voordeel voor GPU's ten opzichte van CPU's als het gaat om hash-snelheden. Een goede GPU kan gemakkelijk honderd keer sneller hash-en dan een top-CPU. Dit leidde tot de opkomst van wat een mijnbouwrig wordt genoemd: een basale computer die is verbonden met een groot aantal GPU's – allemaal gewijd aan mijnbouw en het mijnen zo snel mogelijk. Sommige mensen gebruikten deze machines echter in een gemengde configuratie, bijvoorbeeld door op bepaalde tijden 3D-games te spelen terwijl ze mijnbouw uitvoerden wanneer ze niet aan het gamen waren.",
+    "paragraph22": "Helaas werd snel duidelijk dat je vandaag de dag niet echt winstgevend Bitcoin kunt mijnen met GPU's. Om een lang verhaal kort te maken, hoe krachtiger de mijnbouwapparatuur wordt, hoe moeilijker het wordt om Bitcoin te mijnen. Het resultaat is dat GPU's geen Bitcoin meer effectief kunnen mijnen in vergelijking met alternatieven – die we hieronder zullen bespreken. Dus je zult je geld niet terugverdienen in kapitaal en elektriciteitskosten als je een GPU gebruikt om Bitcoin te mijnen.",
+    "bold7": "FPGAs in Bitcoin-mijnbouw",
+    "paragraph23": "GPU's werden al snel opgevolgd door iets dat een field-programmable gate array wordt genoemd, of FPGA. Een geïntegreerde schakeling, FPGA's moeten worden geconfigureerd nadat ze zijn gebouwd, maar dit betekent wel dat een bedrijf dat mijnbouwkit bouwt veel FPGA's kan kopen en deze kan instellen om uitstekend te zijn in het mijnen van Bitcoin. FPGA's bleken een geweldige optie te zijn voor Bitcoin-mijnbouw en het veranderde de parameters voor Bitcoin-mijnbouw – waardoor GPU's van het speelveld werden verwijderd.",
+    "paragraph24": "In feite waren FPGA-mijnbouwrigs de eerste mijnbouwkits die hardware specifiek ontworpen voor Bitcoin-mijnbouw gebruikten, en die alleen konden worden gebruikt om Bitcoin te mijnen. In een belangrijke ontwikkeling werd snel ontdekt dat FPGA's veel minder stroom verbruikten dan GPU's – in feite, voor dezelfde hash-snelheid, kon een FPGA minder dan 20% van de stroom van een GPU gebruiken – wat betekent dat mijnbouwoperaties veel winstgevender werden.",
+    "bold8": "Wat zijn ASIC's?",
+    "paragraph25": "De laatste fase in de Bitcoin-mijnbouw-wapenwedloop, application-specific integrated circuits of ASIC's, waren chips die vanaf de grond af zijn ontworpen om Bitcoin te mijnen. Je kunt een ASIC niet programmeren, de functionaliteit is in de circuits geprint en in het geval van Bitcoin-mijnbouw-rigs konden ASIC's alleen worden gebruikt om Bitcoin te mijnen. Goede ASIC's konden 100 keer sneller mijnen terwijl ze minder elektriciteit verbruikten. Op dit moment is er geen vervangende technologie voor ASIC's in zicht, dus ASIC's blijven de snelste manier om Bitcoin te mijnen voor de nabije toekomst.",
+    "paragraph26": "Natuurlijk is het maken van een op maat ontworpen chip tijdrovend en vrij duur. Deze kosten komen echter met resultaten – een top-mijnwerker van een bedrijf zoals AntMiner kan hash-snelheden behalen die in het terahashes-per-seconde bereik liggen – makkelijk duizend keer sneller dan een GPU of FPGA. Kortom, ASIC-mijnbouwers kunnen Bitcoins winnen in recordtijd, maar in de huidige markt is het een wedstrijd van middelen – een ASIC heeft het voordeel dat het toegang heeft tot de meeste mijnbouwkansen, maar het vereist wel een enorme kapitaalinvestering.",
+    "paragraph27": "Houd er rekening mee dat, net als bij GPU's en FPGA's, de elektriciteitskosten de winstgevendheid van een ASIC-mijnwerker kunnen beïnvloeden. Er zijn ASIC-mijnbouwers die zo krachtig zijn dat ze veel elektriciteit verbruiken, wat betekent dat een hoger energieverbruik de totale winstgevendheid zou kunnen verlagen.",
+    "paragraph28": "Gelukkig kun je een vooraf gebouwde calculator raadplegen om je te helpen – twee opties zijn de BTC Mining Profit Calculator, waarmee je gegevens zoals de prijs die je voor je hardware betaalt, de hash-snelheid die je behaalt en de elektriciteit die je verbruikt kunt invoeren – het rekent dan de huidige prijs van Bitcoin uit en vertelt je of je investering vruchten zal afwerpen – of je gewoon geld zal kosten. Een andere calculator die je kunt proberen is degene van Genesis Block.",
+    "bold9": "Het kiezen van mijnbouwsoftware",
+    "paragraph29": "Dacht je dat het kiezen van mijnbouwhardware moeilijk zou zijn? Je hebt nog meer keuzes te maken – dit keer de software die je gebruikt voor mijnbouw. Je hebt niet voor elk type mijnbouwrig software nodig, maar waarschijnlijk wel – GPU's en FPGA's vereisen ook dat je een computer beschikbaar stelt voor mijnbouw, die fungeert als host voor de Bitcoin-client en de mijnbouwsoftware die je kiest.",
+    "paragraph30": "Waarom een Bitcoin-client en mijnbouwsoftware? Nou, de Bitcoin-client verbindt je miner met het Bitcoin-netwerk en de mijnbouwsoftware is de applicatie die je mijnbouwhardware gebruikt om cryptografische puzzels op te lossen om transactieblokken op te lossen – wat natuurlijk is waar je voor beloond wordt.",
+    "paragraph31": "Een ASIC-systeem kan vooraf geconfigureerd worden met software, en ze kunnen zelfs een Bitcoin-adres bevatten dat klaar is voor gebruik. Alles wat je hoeft te doen is je ASIC-miner in een stopcontact te steken en beginnen. Oudere ASIC-rigs hadden echter aparte software nodig om ze te laten werken.",
+    "paragraph32": "Wat zijn de populairste Bitcoin-mijnbouwsoftware-opties? Wij denken dat je een van deze vijf oplossingen moet bekijken, afhankelijk van je specifieke behoeften:",
+    "paragraph33": "Bitcoin Miner. Het doet precies wat het zegt en is eenvoudig te gebruiken, terwijl het een energiebesparingsmodus biedt en ondersteuning voor mijnbouwpools. Deze app staat bekend om zijn vermogen om snel shares in te dienen en helpt je ook om een winstrapport te genereren. Voor OS X of Windows.",
+    "paragraph34": "RPC Miner. Als je een Mac-gebruiker bent, zul je RPC Miner leuk vinden, omdat het goed integreert met OS X en de API's in OS X – samen met de subsysteem van OS X.",
+    "paragraph35": "CGMiner. Ondersteunt Linux, OS X en Windows, CGMiner komt met extra functies, waaronder de mogelijkheid om de fansnelheid te regelen en op afstand te bedienen. Het detecteert nieuwe blokken op eigen kracht dankzij een interne database en ondersteunt zowel CPU- als GPU-mijnbouw, met ondersteuning voor meerdere GPU's.",
+    "paragraph36": "BFGMiner. Heb je iets nodig dat is ontworpen voor ASIC's? Overweeg BFGMiner, dat erg lijkt op CGMiner, behalve dat het ASIC's ondersteunt. Het werkt ook op alle grote pc-besturingssystemen.",
+    "paragraph37": "EasyMiner. Met nuttige prestatiegrafieken is EasyMiner een geweldige oplossing als je ondersteuning nodig hebt voor verschillende mijnbouwprotocollen. Het kan zowel in solo- als poolmodus werken en is beschikbaar voor Linux en OS X.",
+    "bold10": "Inzicht in mijnbouwpools",
+    "paragraph38": "De computerbronnen die nodig zijn om Bitcoin te minen zijn zodanig toegenomen dat succesvol Bitcoin minen nu vereist dat je concurreert met organisaties met veel geld, die grote mijnbouwboerderijen kunnen opzetten. Het is dus moeilijk om solo te minen en een van de manieren om je vermogen om Bitcoin te minen te verbeteren, is door je bij een pool van Bitcoin-miners aan te sluiten.",
+    "paragraph39": "Wanneer je je mijninspanningen bundelt, geef je je computerbronnen aan de collectieve mijninspanningen, zodat blokken sneller kunnen worden gevonden, wat betekent dat beloningen sneller worden verkregen. Deze beloningen worden vervolgens verdeeld onder de mensen die hun computerbronnen bijdragen, op een manier die evenredig is met hun bijdrage. Je bij een pool aansluiten kan dus je mijninkomsten meer gestroomlijnd maken, omdat je sneller betaald wordt – ook al kunnen de individuele betalingen klein zijn.",
+    "paragraph40": "Het is eenvoudig om je bij een pool aan te sluiten, je meldt je aan zoals bij elke andere website – door een account aan te maken. Vervolgens voeg je een werknemer toe – of meerdere werknemers als je meerdere rigs hebt – en verbind je de werknemers met je hardware-rigs. Houd er rekening mee dat pools kosten in rekening brengen voor hun diensten, dus je zou tussen één en tien procent van je mijnbeloningen kunnen verliezen. Sommige pools rekenen helemaal geen geld.",
+    "bold11": "Kun je winstgevend Bitcoin minen?",
+    "paragraph41": "De winst die je kunt genereren door Bitcoin te minen is snel veranderd door de jaren heen, aangezien Bitcoin zelf waardevoller is geworden, terwijl de moeilijkheid van het minen van Bitcoin exponentieel is toegenomen. De vroege enthousiastelingen die CPU's gebruikten om Bitcoin te minen, zullen nu geen geld meer kunnen verdienen door dit te doen, in plaats daarvan ligt het spel nu in handen van mensen die grootschalige mijnbouwbedrijven runnen.",
+    "paragraph42": "In wezen zijn de gemakkelijk verkrijgbare Bitcoins lang geleden gemined, dus tegenwoordig is minen ongelooflijk moeilijk, zoals het proberen om diamanten te vinden. De toenemende waarde en populaire aantrekkingskracht van Bitcoin heeft ook veel nieuwe spelers in de Bitcoin-mijnbouwscene gebracht, waardoor de concurrentie voor het minen van nieuwe munten nog moeilijker wordt – het betekent dat je gewoon steeds krachtigere computerbronnen nodig hebt om een munt te minen.",
+    "bold12": "Gespecialiseerde mijnbouwapparatuur is nu essentieel",
+    "paragraph43": "Het is niet zo dat je niet kunt minen – het betekent alleen dat je nu vrij gespecialiseerde Bitcoin-mijnbouwapparatuur nodig hebt om winst te maken. Individuen die proberen te minen, zullen vaak merken dat ze meer uitgeven aan de elektriciteit die ze gebruiken om te minen dan wat ze terugkrijgen voor het minen. Toegang tot goedkope elektriciteit is in zekere zin de sleutel tot het succesvol minen van Bitcoin vandaag de dag en ook schaal – het vermogen om een zeer grote mijnbouwoperatie op te zetten.",
+    "paragraph44": "Mensen die thuis minen moeten ook omgaan met allerlei problemen, van het uitvallen van stroom tot hardware die kapot gaat en het verliezen van internetverbinding – om nog maar te zwijgen van de crash in de prijs van Bitcoin, die af en toe voorkomt. Het is echt heel moeilijk voor mensen om thuis Bitcoin te minen en er geld mee te verdienen.",
+    "paragraph45": "Dat betekent echter niet dat de thuismijnbouwsituatie niet zal veranderen: ASIC's worden steeds beter en de software die de hardware aanstuurt wordt ook steeds capabeler. In de toekomst zouden al deze factoren kunnen veranderen zodat individuen weer Bitcoin thuis kunnen minen – wat een goede zaak zou zijn omdat het het gedecentraliseerde aspect van Bitcoin ondersteunt. Met andere woorden, mensen die Bitcoin thuis minen voorkomen dat de macht zich ophoopt bij een paar grote spelers.",
+    "bold13": "Wat je moet weten over Bitcoin cloud mining",
+    "paragraph46": "Er is een alternatief voor het minen van Bitcoin met je eigen apparatuur. Het staat bekend als cloud mining, en het werkt op een principe dat vergelijkbaar is met andere cloudservices. In plaats van je eigen computerapparatuur te bezitten, “huur” je mijnbouwcapaciteiten van iemand anders. Het is een beetje zoals het kopen van een mijnbouwcontract en door dit te doen, deel je in de enorme computercapaciteiten van het bedrijf waarmee je een contract hebt.",
+    "paragraph47": "Zonder twijfel kan Bitcoin cloud mining gemakkelijker zijn dan proberen het te doen met je eigen hardware, omdat je je geen zorgen hoeft te maken over software, internetbandbreedte of de kosten van elektriciteit. En natuurlijk hoef je de hardware ook niet te betalen. Alles wat je nodig hebt is een internetverbinding en idealiter je eigen Bitcoin-wallet om je munten lokaal op te slaan.",
+    "paragraph48": "Houd er echter rekening mee dat wanneer je je mijnbouwactiviteit uitbesteedt aan een cloud-miningprovider, je een zekere mate van risico neemt. Je geeft bijna alle controle uit handen aan de cloud-miningprovider. Daarom moet je alleen gerenommeerde cloud-miningproviders kiezen zoals {project_name}"
+
+},
+"About": {
+    "title": "Over Ons",
+    "paragraph1": "Opgericht in 2014 door een groep professionals die op vakkundige wijze de technische expertise combineren die nodig is om professionele traders te kopiëren (als je zelf niet kunt handelen). Forex Trading, Crypto Currency Trading en Stock Trading met een toegewijd corporate team, een state-of-the-art hoofdkantoor en een passie voor het helpen van degenen met een sterk verlangen om hun leven te verbeteren.",
+    "paragraph2": "Ons team is toegewijd aan het behalen van uitzonderlijke resultaten en altijd een stap voor te blijven. We hebben een handelsplatform voor de lange termijn gecreëerd en de standaard gezet om het lot van toekomstige generaties te veranderen! We verenigen alle belangrijke aspecten van het runnen van een efficiënte cryptocurrency mining operatie. Van het bouwen van zeer efficiënte datacenters tot het aanbieden van een gestroomlijnd mijnsysteem voor onze gebruikers.",
+    "paragraph3": "Om vandaag competitief te minen, moet je aanzienlijke middelen, tijd en moeite investeren in je setup. Ons team heeft de meest efficiënte mijnsystemen gebouwd om het werk voor je te doen. Op deze manier kun je je volledig richten op het volgen van de markten en competitief blijven met je mining beloningen.",
+    "paragraph4": "Naast het zijn van het portaal voor interessante miningdata, dragen wij ook actief bij aan het cryptocurrency-ecosysteem, van het lanceren van bewustwordingscampagnes tot het uitbrengen van open-source mijnsoftware. We bouwen wereldwijd mijncentra die 6 miningalgoritmen voor meer dan 10 verschillende cryptocurrencies ondersteunen. Als dat niet genoeg is, ondersteunen we graag ook de munten die jij wilt minen!"
+},
+  "DepositInfo": {
+    "deposit": "Storten",
+    "signal": "Signaalsterkte",
+    "profit": "Winst",
+    "copytraders": "Copy traders",
+    "refer": "Verwijs en verdien"
+  },
+  "Categories": {
+    "favorites": "Favorieten",
+    "gainers": "Stijgers",
+    "losers": "Dalers"
+  },
+  "ButtomNav": {
+    "dashboard": "Dashboard",
+    "mining": "Mijnbouw",
+    "markets": "Markten",
+    "trade": "Handel",
+    "trades": "Handelingen",
+    "profile": "Profiel"
+  },
+  "Trade": {
+    "title": "Handel",
+    "trade_message": "Handel succesvol gestart",
+    "trade_error": "Onvoldoende saldo. Gelieve op te laden om door te gaan.",
+    "buy": "Kopen",
+    "sell": "Verkopen",
+    "amount": "Bedrag",
+    "time": "Tijd (min)",
+    "leverage": "Hefboom (max 5000)",
+    "lev": "Hefboom:"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "markets": "Markten",
+    "mining": "Mijnbouw",
+    "trades": "Handelingen"
+  },
+  "Trades": {
+    "noopen": "Geen openstaande transacties",
+    "noclose": "Geen gesloten transacties"
+  },
+  "Profile": {
+    "deposits": "Stortingen",
+    "withdrawals": "Opnames",
+    "referrals": "Verwijzingen",
+    "watchlist": "Volglijst",
+    "updatemail": "E-mail bijwerken",
+    "updatephoto": "Foto bijwerken",
+    "updatepassword": "Wachtwoord bijwerken",
+    "accountsettings": "Accountinstellingen",
+    "logout": "Uitloggen",
+    "loading_data": "Gebruikersgegevens laden...",
+    "update_email_title": "E-mail bijwerken",
+    "new_email_text": "Nieuw e-mailadres",
+    "update": "Bijwerken",
+    "update_email_success": "E-mailadres succesvol bijgewerkt",
+    "update_email_error": "Fout bij bijwerken e-mailadres",
+    "InvalidLogin": "Ongeldige login",
+    "update_photo_title": "Foto bijwerken",
+    "update_photo_alt": "Profielfoto",
+    "update_password_success": "Wachtwoord succesvol bijgewerkt",
+    "update_password_title": "Wachtwoord bijwerken",
+    "password": "Huidig wachtwoord",
+    "new_password": "Nieuw wachtwoord",
+    "confirm_password": "Bevestig wachtwoord",
+    "update_password_error_1": "Wachtwoord moet minimaal 4 tekens zijn",
+    "update_password_error_2": "Gebruiker niet gevonden",
+    "update_password_error_3": "Huidig wachtwoord is onjuist",
+    "update_password_error_4": "Nieuwe wachtwoorden komen niet overeen",
+    "myprofile": "Mijn profiel",
+    "notifications": "Meldingen",
+    "updateaddress": "Adres bijwerken",
+    "accountverification": "Accountverificatie",
+    "email": "E-mail",
+    "phone": "Telefoonnummer",
+    "firstname": "Voornaam",
+    "lastname": "Achternaam",
+    "streetaddress": "Straatadres",
+    "postalcode": "Postcode",
+    "city": "Stad",
+    "state": "Provincie",
+    "country": "Land",
+    "notification_permission": "U kunt meldingen uitschakelen in uw browserinstellingen.",
+    "notification_permission_2": "Browsermeldingen zijn toegestaan",
+    "notification_permission_3": "Browsermeldingen",
+    "denied": "Geweigerd",
+    "granted": "Toegestaan",
+    "update_address_title": "Adres bijwerken",
+    "street_address": "Straatadres",
+    "zip_code": "Postcode",
+    "address_success": "Adres succesvol bijgewerkt",
+    "email_verification": "E-mailverificatie",
+    "identity_verification": "Identiteitsverificatie",
+    "address_vericiation": "Adresverificatie",
+    "verified": "Geverifieerd",
+    "pending": "In behandeling",
+    "notstarted": "Niet gestart",
+    "verifications": "Verificaties",
+    "verify_email_error": "Ongeldig e-mailadres. Niet geregistreerd.",
+    "verify_email_success": "Verificatiecode is verzonden naar {email}",
+    "verify_email_success_2": "E-mail succesvol geverifieerd",
+    "verify_email_error_2": "Fout bij bijwerken van verificatiestatus: {error}",
+    "verify_email_error_3": "Ongeldige PIN-code. Probeer opnieuw.",
+    "verify_email_title": "E-mailverificatie",
+    "paragraph1": "Een 6-cijferige PIN-code is verzonden naar uw e-mailadres. Klik op opnieuw verzenden als u deze niet ontvangt binnen 1-2 minuten.",
+    "pin": "PIN-code",
+    "verify_email_title_2": "E-mailverificatie",
+    "email_2": "E-mailadres",
+    "resend": "Opnieuw verzenden",
+    "verify_identity_success": "Identiteitsverificatie wordt verzonden...",
+    "verify_identity_error": "Fout bij ophalen van gegevens: {error}",
+    "verify_identity_title": "Identiteitsverificatie",
+    "verify_your_title": "Verifieer uw identiteit",
+    "paragraph2": "Upload een geldig identiteitsbewijs om uw identiteit te verifiëren. iOS-gebruikers moeten mogelijk cameratoegang toestaan.",
+    "select_front": "Voorzijde selecteren",
+    "select_back": "Achterzijde selecteren",
+    "upload": "Uploaden",
+    "skip": "Overslaan",
+    "address_verify_success": "Adresverificatie wordt verzonden...",
+    "address_verify_error": "Fout bij ophalen van gegevens: {error}",
+    "address_verification_title": "Adresverificatie",
+    "street": "Straat",
+    "bill": "Rekening uploaden",
+    "submit": "Verzenden"
+  },
+  "DepositList": {
+    "title": "Stortingsgeschiedenis",
+    "message": "Stortingen blijven in afwachting totdat ze op de blockchain zijn bevestigd.",
+    "withdrawal": "Opname",
+    "new_withdrawal": "Nieuwe opname",
+    "no_withdrawal": "Geen opnames gevonden"
+  },
+  "Referrals": {
+    "title": "Verwijzingen",
+    "ref_balance": "Saldo verwijzingsbonus",
+    "withdraw": "Opnemen",
+    "ref_link": "Verwijzingslink",
+    "no_ref": "Nog geen verwijzingen"
+  },
+  "Deposit": {
+    "title": "Storten",
+    "fundaccount": "Rekening opwaarderen",
+    "viewpricing": "Prijzen bekijken",
+    "amount": "Bedrag",
+    "to": "Naar rekening",
+    "tradingbalance": "Handelssaldo",
+    "proceed": "Doorgaan",
+    "loading": "Laden...",
+    "pay": "Betalen",
+    "paymentmethod": "Selecteer betaalmethode",
+    "sendcrypto": "Stuur crypto",
+    "sendcrypto_message": "Stuur een ondersteunde cryptocurrency",
+    "invalidlink": "Ongeldige of verlopen betalingslink",
+    "send": "Verzenden",
+    "worth": "Waarde",
+    "paragraph1": "Verzend naar het onderstaande walletadres of scan de QR-code",
+    "wallet": "Walletadres",
+    "paragraph2": "Stuur het bedrag naar de onderstaande bankgegevens",
+    "paragraph3": "Vraag bankgegevens aan via [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM)",
+    "awaiting": "Wachten op betaling",
+    "wait": "Wachten op bevestiging"
+  },
+  "Withdrawal": {
+    "title": "Opnemen",
+    "selectmethod": "Selecteer opnamemethode",
+    "bankwithdraw": "Bankopname",
+    "withdrawbank": "Opnemen naar bankrekening",
+    "paragraph1": "Extra gegevens kunnen vereist zijn",
+    "from": "Van rekening",
+    "to": "Naar rekening",
+    "accountnumber": "Rekeningnummer",
+    "accountname": "Rekeninghouder",
+    "amount": "Bedrag",
+    "bankname": "Banknaam",
+    "otpcode": "OTP-code",
+    "submit": "Verzenden",
+    "success_message": "Opnameverzoek verwerkt",
+    "error_message": "Ongeldige OTP-code. Neem contact op met support voor een nieuwe code.",
+    "cryptowithdraw": "Crypto-opname",
+    "withdrawcrypto": "Opnemen via crypto",
+    "wallet": "Walletadres",
+    "paypalwithdraw": "PayPal-opname",
+    "withdrawpaypal": "Opnemen via PayPal",
+    "paypalemail": "PayPal-e-mailadres",
+    "cashappwithdraw": "CashApp-opname",
+    "withdrawcashapp": "Opnemen via CashApp",
+    "cashtag": "CashTag"
+  }
+
+
+
+
+    
+
+
+
+
+
+    
+
+  }
+  

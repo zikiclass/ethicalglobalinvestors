@@ -1,0 +1,979 @@
+.bottom__nav{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1.5rem 1rem;
+    color: var(--dark-gray);
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 1rem;
+    background-color: var(--background-color);
+}
+.panel p{
+    color: var(--dark)!important;
+}
+.deposit__form__ p, .deposit_pending p{
+    color: #000!important;
+    font-weight: bold;
+}
+.bottom_nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.dashboard_ h2, .dashboard_ h5, .withdraw__heading{
+    color: var(--admin-color-white-2);
+}
+.bottom_nav_links.active{
+    color: #6648fe!important;
+    font-weight: bold;
+}
+
+/* DEPOSIT SECTION */
+.min_flex{
+    flex: 1.5;
+    overflow: hidden;
+   
+}
+.min_flex_top{
+    width: 100%;
+    background: url("../../../../../../public/img/Gradient.webp") center no-repeat;
+    background-size: cover;
+    height: 180px;
+    padding: 3rem 2rem;
+    margin-bottom: 0.7rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.min_flex_top span{
+    font-size: 2.5rem;
+}
+.min_flex_buttons{
+display: flex;
+justify-content: space-between;
+margin: 0.4rem 0;
+gap: 0.3rem;
+}
+.min_flex_buttons #link__button__min{
+    flex: 1;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.min_flex_buttons #link__button__min:hover{
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+}
+
+.deposit__top{
+    width: 100%;
+    background: url("../../../../../../public/img/Background1.png") center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+.deposit__top__item{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto 0.7rem auto; 
+    text-transform: uppercase;
+}
+.deposit__top__item div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+.deposit__top__item div > span:first-child{
+    font-size: 1.7rem;
+}
+.deposit__top__item div > span:last-child{
+    font-size: 12px;
+}
+.deposit__top__item__{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0; 
+}
+.progress{
+    width: 100%;
+    height: 4px;
+    border: 0.4px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    margin: 1rem 0;
+    position: relative;
+}
+.progressValue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    transition: width 0.3s ease;
+    background-color: #62ba46;
+    height: 100%;
+}
+.deposit__bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 85%;
+    color: var(--primary-color);
+}
+.dep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.deposit{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.deposit h2{
+    font-size: 3rem!important;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.deposit .pricing{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.deposit__form, .deposit__form__{
+
+    background-color: #fff;
+    padding: 3rem 1.4rem;
+    padding-top: 1.5rem!important;
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.deposit__form__{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px!important;
+}
+.deposit__form__ > table{
+    width: 100%;
+    color: #777;
+   
+}
+.deposit__form__ table .trcl{
+    background-color: #f4f7fd;
+}
+.deposit__form__ table tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+.deposit__form__ table tr td{
+    flex: 1;
+}
+.deposit__form__ table tr td:last-child{
+    text-align: left;
+    width: 100%;
+}
+.deposit__form__ .span__dep{
+    color: #777;
+}
+.deposit__form center{
+    padding-bottom: 2rem;
+    color: #777;
+}
+.input__deposit{
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.input__deposit label{
+    font-size: 12px;
+    margin-left: 1.4rem;
+    margin-bottom: 4px;
+    position: absolute;
+    top: -17px;
+    color: #777;
+}
+.text__input, .select__deposit{
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+.text__input span{
+    color: #777;
+    font-size: 15px;
+}
+.text__input input, .select__deposit{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.text__input input:focus{
+    outline: none;
+}
+.input__deposit__{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 7px;
+    margin: 1.2rem 0;
+
+}
+.input__deposit__ input[type="text"]{
+    width: 100%;
+    margin-left: 14px;
+}
+.input__deposit__ input[type="text"]:focus{
+    outline: none;
+}
+.input__deposit__ #icon{
+    color: #777;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0px 7px;
+}
+
+/* CATEGORIES SECTION */
+.categories{
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+}
+.categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories ul li{
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+    width: 100%;
+}
+.categories ul li.active{
+    color: #6648fe;
+}
+.favorites{
+    margin: 1.2rem;
+}
+.favorite{
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.favorite:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.fav__img{
+    width: 50px;
+    border-radius: 20%;
+}
+.fav__content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    padding-left: 2rem;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.fav__content span:last-child{
+    font-size: 12px;
+}
+.fav__icon{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.profile, .profile_{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+
+}
+.profile_{
+    width: 60%;
+    margin: auto;
+}
+.profile__col{
+    flex: 1;
+}
+.profile__col:last-child{
+    margin-top: 2rem;
+}
+.profile__pic__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.profile__pic__wrap span{
+    font-size: 2rem;
+}
+.profile__pic{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 1rem;
+}
+.profile__listings{
+    display: flex;
+    flex-direction: column;
+}
+.profile_list span{
+    width: 100%;
+    text-align: left;
+    margin-left: 1.4rem;
+    color: #26a69a;
+}
+.profile_list{
+    background-color: #fff;
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 0.4rem;
+    border-radius: 5px;
+}
+.profile_list:hover{
+    background-color: rgba(0,0,0,0.03);
+}
+.profile_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list__icon{
+    padding: 0.8rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.panel{
+    width: 500px;
+  height: auto;
+  padding: 2rem;
+  padding-bottom: 1rem !important;
+  background-color: var(--background-color-2);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+.panel:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.panel span{
+    color: var(--primary-color);
+  font-weight: bold;
+}
+.panel p{
+    color: #777;
+}
+
+/* DEPOSIT LIST */
+.deposit_pending{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+.deposit_list{
+    width: 100%;
+    background-color: var(--background-color-2);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: var(--dark);
+}
+.open_trades:hover, .trader:hover, .deposit_list:hover, .no__refer:hover, .panel__:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.deposit_pending p{
+    padding-top: 12px;
+    text-align: left;
+    cursor: pointer;
+}
+.deposit_pending_icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.date span:nth-child(2){
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.deposit_list_details{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.crypto_equiv{
+    width: 100%;
+    text-align: right;
+}
+.input__form__{
+    margin-bottom: 1rem;
+    padding: 1.3rem;
+}
+.referral__wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.referral__wrap .col__1{
+    flex: 1.2;
+}
+.referral__wrap .col__2{
+    flex: 2.8;
+}
+.refer__balance, .refer__link{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0px rgba(0,0,0,0.3);
+    padding: 2rem 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.refer__balance #amt{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.refer__balance #refer_bal{
+    color: #777;
+    margin-top: -15px;
+    margin-bottom: 1.5rem;
+}
+.refer__link input{
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+.refer__link input:focus{
+    outline: none;
+}
+.refer__link span{
+    font-size: 15px;
+    margin: 4px 0px;
+}
+.refer__link{
+    color: #777;
+}
+.no__refer{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2rem;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+.dashboard_ h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.panel__{
+    width: 40%;
+    background-color: var(--background-color-2);
+    border: 1px solid #fff;
+    color: var(--dark);
+    border-radius: 5px;
+    margin-bottom: -8px;
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.panel__text{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* WITHDRAWAL BANK */
+.withdrawal{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 2px;
+    margin-bottom: 2.5rem;
+  
+}
+.withdrawal p{
+    text-align: center;
+}
+.withdraw__heading{
+   font-size: 22px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+.withdraw_form{
+    display: flex;
+    margin: 1.2rem 0;
+    gap: 2rem;
+    padding: 0 1rem;
+    padding-right: 2.3rem;
+    width: 600px;
+}
+.withdraw_form input, .withdraw_form select{
+    background-color: transparent;
+    accent-color: transparent;
+}
+.withdraw_form input:focus{
+    outline: none;
+}
+.withdraw_form input[type="number"]{
+    background: transparent!important;
+}
+.withdraw_form .input__form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+}
+.withdraw_form .input__form input[type="number"]{
+    width: 100%;
+}
+.withdraw_form label{
+    font-size: 12px;
+    color: #8e9db0;
+    margin-bottom: 0.2rem;
+}
+.input__usd, .withdraw_form .input__form input, .withdraw_form .input__form select{
+    border: 1px solid #edeeef;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 15px;
+   
+}
+.input__usd{
+    display: flex;
+}
+.input__usd input{
+    border: none!important;
+    padding: 0px 7px!important;
+}
+.input__usd span{
+    color: #a3a2a2;
+    font-weight: 100;
+}
+.searchTraders{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: transparent;
+    padding: 7px;
+    border-radius: 5px;
+    margin: auto;
+}
+.searchTraders:focus{
+    outline: none;
+}
+.trader{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    gap: 3rem;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    margin-top: -10px;
+}
+.trader p{
+    color: #000!important;
+    margin-bottom: 10px;
+}
+.trader__img{
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+}
+.trader .details{
+    flex: 1;
+    width: 100%;
+}
+.trader span{
+    display: block;
+    margin-top: -5px;
+}
+.btn__copy{
+    width: 100px!important;
+    height: 100%!important;
+}
+.trade{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.trade__col__1 .row{
+    display: flex;
+    gap: 10px;
+}
+
+.trade__col__1 select{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: #444;
+    font-size: 14px;
+}
+.open_trades{
+    background-color: var(--background-color-2);
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: 0.2s ease all;
+    color: var(--dark);
+}
+.trade__col__1{
+    flex: 0.5;
+}
+.trade__col__1 .input__{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.input__ label{
+    color: var(--dark) !important;
+}
+.levr{
+    
+   
+    width: 100%;
+    
+}
+.input__ input{
+    border: 1px solid #000!important;
+    color: #000 !important;
+    accent-color: transparent !important;
+}
+.buy{
+    color: green;
+}
+.sell{
+    color: red;
+}
+.open_trades{
+    flex-direction: column;
+}
+.open_trade{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.btcImage{
+    width: 60px;
+    border-radius: 50%;
+}
+.open_trade_col1{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.open_trade_col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.open_trade_col2 span{
+  
+    font-weight: bold;
+}
+.trade__col__1 button{
+    display: block;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    transition: all 0.2s ease;
+    color: #fff;
+    width: 100%;
+}
+.btn__buy{
+    background-color: #4caf4f;
+}
+.btn__buy:hover{
+    background-color: #60e364;
+}
+.btn__sell{
+    background-color: #f44336;
+    margin-bottom: 0.8rem;
+}
+.btn__sell:hover{
+    background-color: #f6675c;
+}
+.trade__col__1 .input__ input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    color: #818385;
+    font-size: 1.2rem;
+}
+.trade__col__1 .input__ input:focus{
+    outline: none;
+}
+.trade__col__1 .input__ label{
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: #9e9e9e;
+}
+.trade__col__2{
+    flex: 1.3;
+    height: 450px;
+}
+.open_closed_trades{
+    display: flex;
+    margin-top: 2rem;
+}
+.open_closed_trades span{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #777;
+    transition: border-bottom 0.2s ease;
+    cursor: pointer;
+}
+.open_closed_trades span.active{
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: 2px solid #777;
+    
+    
+}
+.trades_x{
+    margin-top: 0px!important;
+}
+.btn-new-with{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+.btn-new-with:hover{
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.prof_email input{
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+.input__deposit input:focus{
+    outline: none;
+}
+.notifications{
+    width: 600px;
+    font-size: 14px;
+}
+.notifications p{
+    text-align: left;
+}
+.sm__prof{
+    color: #c0c0c0; 
+    font-size: 12px
+}
+@media screen and (max-width: 760px){
+    .hide-on-mobile {
+        display: none;
+      }
+    .trader{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .details{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .updown__{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .btn__buy, .btn__sell{
+      margin: 0;
+      margin-bottom: 1rem;
+      margin-top: -1rem;
+    
+    }
+    .notifications{
+        width: 100%;
+    }
+    .profile_{
+        width: 100%;
+    }
+    .trade__col__1 .row select{
+        flex: 1;
+    }
+    .trade{
+        flex-direction: column-reverse;
+        margin-bottom: 3rem;
+    }
+    .trade__col__2{
+        height: 400px!important;
+    }
+    .withdraw_form{
+        flex-direction: column;
+        width: 300px;
+        gap: 0;
+    }
+   .withdrawal{
+    width: 100%;
+    overflow: hidden;
+   }
+    .panel__{
+        width: 100%;
+    }
+    .referral__wrap{
+        flex-direction: column;
+    }
+    .deposit_pending_icon{
+        font-size: 15px;
+    }
+    .deposit_pending p{
+        font-size: 13px;
+    }
+    .deposit_pending{
+        width: 100%;
+    }
+    .panel{
+        width: 100%;
+    }
+    .categories{
+        margin-top: 2rem;
+        
+    }
+    .bottom_nav_links span{
+        display: none;
+    }
+    .bottom_nav_icon{
+        font-size: 1.9rem;
+    }
+    .bottom__nav{
+        gap: 2rem;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .deposit__form, .deposit__form__{
+        width: 400px!important;
+    }
+    .deposit h2{
+        font-size: 2.4rem!important;
+    }
+}

@@ -20,14 +20,21 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "prisma/client.ts", "prisma/client.ts", "src/app/api/register/route.js", "prisma/client.ts", "src/app/users/profile/page.jsx", "src/app/users/dashboard/page.jsx"  ],
+    "**/*.tsx",
+    "prisma/client.ts",
+    "prisma/client.ts",
+    "src/app/api/register/route.js",
+    "prisma/client.ts",
+    "src/app/users/profile/page.jsx",
+    "src/app/users/dashboard/page.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]

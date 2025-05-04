@@ -5,7 +5,9 @@ import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 import "./styles/footer.css";
+import { useTranslations } from "next-intl";
 const Footer = () => {
+  const t = useTranslations("footer");
   return (
     <>
       <div className="footer">
@@ -21,17 +23,17 @@ const Footer = () => {
             </span>
           </div>
           <div className="footer__box__2">
-            <h4>Quick Links</h4>
+            <h4>{t("quick_links")}</h4>
 
             <ul>
               <li>
-                <Link href="contact">Contact Us</Link>
+                <Link href="contact">{t("contact_us")}</Link>
               </li>
               <li>
-                <Link href="/">My Account</Link>
+                <Link href="/">{t("my_account")}</Link>
               </li>
               <li>
-                <Link href="signup">Create Account</Link>
+                <Link href="signup">{t("create_account")}</Link>
               </li>
             </ul>
           </div>

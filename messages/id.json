@@ -1,0 +1,594 @@
+{
+    "HomePage": {
+      "home": "Beranda",
+      "login": "Masuk",
+      "signin": "Masuk",
+      "signup": "Daftar",
+      "contact": "Hubungi Kami",
+      "cookie": "Kebijakan Cookie",
+      "privacy": "Kebijakan Privasi",
+      "cryptomining": "Penambangan Kripto",
+      "bitcoinmining": "Penambangan Bitcoin",
+      "dogecoinmining": "Penambangan Dogecoin",
+      "copytrading": "Copy Trading",
+      "cryptotrading": "Crypto Trading",
+      "terms": "Syarat Layanan",
+      "forextrading": "Forex Trading",
+      "stockstrading": "Perdagangan Saham",
+      "optionstrading": "Perdagangan Opsi",
+      "leverage": "Apa itu Leverage?",
+      "responsibletrading": "Perdagangan yang Bertanggung Jawab",
+      "generalrisk": "Pernyataan Risiko Umum",
+      "about": "Tentang Kami"
+    },
+  
+    "Carousel": {
+      "welcome": "Selamat datang di {project}",
+      "welcomeDesc": "Mulailah menghasilkan keuntungan hari ini dengan berdagang Kripto, Forex, Saham, atau Binary Options.",
+      "stocksTitle": "Perdagangan Saham",
+      "stocksDesc": "Perdagangkan saham atau lakukan investasi jangka panjang di platform yang sama.",
+      "forexTitle": "Perdagangan Forex",
+      "forexDesc": "Perdagangkan forex di platform {project} dan nikmati harga yang dapat diandalkan serta eksekusi yang luar biasa.",
+      "copyTitle": "Salin Pedagang Ahli",
+      "copyDesc": "Pilih dari daftar pedagang ahli, dan salin secara otomatis perdagangan mereka tanpa harus mengawasi pasar sendiri.",
+      "getStarted": "Mulai Sekarang"
+    },
+  
+    "ContactPage": {
+      "name": "Nama Anda*",
+      "email": "Alamat Email*",
+      "phone": "Nomor Telepon*",
+      "subject": "Subjek*",
+      "message": "Pesan Anda...",
+      "send": "Kirim Pesan",
+      "note": "Catatan:",
+      "disclaimer": "Kami berjanji tidak akan mengirim spam dan alamat email Anda akan dijaga kerahasiaannya."
+    },
+    "features": {
+      "feature1Heading": "Pendaftaran Cepat",
+      "feature1Paragraph": "Hanya 1 menit dan Anda sudah siap. Masukkan informasi yang Anda perlukan untuk menjadi investor platform dan mulai segera.",
+      "feature2Heading": "Perdagangan Cepat",
+      "feature2Paragraph": "Investasikan dan duduk santai. Anda dapat memantau status investasi Anda kapan saja dan berinvestasi dalam penawaran terbatas waktu.",
+      "feature3Heading": "Dukungan Tepat Waktu",
+      "feature3Paragraph": "Kami menyediakan layanan dukungan yang tak tertandingi melalui email atau obrolan langsung untuk memberikan respons profesional dan cepat."
+    },
+    "CopyExperts": {
+  "title": "Copy Expert Traders",
+  "paragraph1": "Sekitar 5 tahun lalu saya mulai bereksperimen dan bermain-main dengan pasar mata uang. Alasan mengapa saya memilih trading adalah karena kebebasan. Kemampuan untuk melakukan apa saja, kapan saja... Itu adalah sisi terang dari trading.",
+  "paragraph2": "Namun, ketika saya mulai, tidak ada yang memberitahu saya tentang sisi gelap dan menantang dari trading. Beberapa tahun yang lalu, tidak ada panduan atau sumber daya terstruktur untuk membantu trader mengubah ini menjadi karier. Semua itu adalah coba-coba bagi saya... Saya terus bereksperimen dan belajar dari kesalahan saya hingga saya menguasainya. Sekarang saya akan menjadi yang pertama memberitahu Anda, trading membutuhkan disiplin yang sangat besar.",
+  "paragraph3": "Secara realistis, Anda bahkan bisa trading selama lebih dari 2 tahun secara konsisten tanpa melihat banyak pertumbuhan, atau uang, di tahap awal. Itu menakutkan untuk dipikirkan, tetapi itulah kenyataan yang banyak orang tidak bicarakan.",
+  "paragraph4": "Jika ada rahasia dalam trading, itu adalah konsistensi. Namun, tetap konsisten itu sulit ketika Anda tidak memiliki arah. Tidak ada yang bisa Anda bagi tantangan Anda. Tidak ada yang memberi Anda umpan balik. Semua itu berakhir dengan Copy Trading.",
+  "paragraph5": "Tujuan saya adalah menjembatani kesenjangan antara sisi gelap dan menantang dari trading hingga titik di mana Anda dapat mengubah ini menjadi karier yang berkelanjutan. Jadi, siap-siap karena ini akan menjadi perjalanan yang luar biasa! Anda dapat melihat perdagangan langsung yang telah saya lakukan di akun yang dibiayai {project_name}. Yang saya dapat tumbuhkan menjadi keuntungan enam digit dalam 30 hari - {project_title} Expert Trader"
+},
+"WhatWeOffer": {
+    "title": "Apa yang kami tawarkan",
+    "description": "Kami membangun standar baru untuk perdagangan dan penambangan. Satu akun dengan akses yang disederhanakan ke berbagai pasar likuiditas.",
+    "learnMore": "Pelajari lebih lanjut",
+    "offerList": [
+      {
+        "heading": "Perdagangan Crypto",
+        "paragraph": "Sekarang Anda dapat mulai berdagang Bitcoin, Ethereum, dan banyak cryptocurrency lainnya dengan cepat, mudah, dan aman dari mana saja — hanya dalam beberapa detik.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Perdagangan Forex",
+        "paragraph": "Pasar forex adalah tempat di mana mata uang diperdagangkan. Ini adalah pasar keuangan terbesar dan paling likuid di dunia dengan rata-rata omset harian sebesar 6,6 triliun dolar AS pada 2019.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Traders Ahli Crypto",
+        "paragraph": "Copy trading memungkinkan Anda untuk menyalin posisi yang diambil oleh trader lain. Anda memutuskan jumlah yang ingin Anda investasikan dan cukup menyalin semua yang mereka lakukan secara otomatis.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "MENGGALI KRIPTOCURRENCY TERATAS",
+    "description1": "Berbeda dengan uang kertas, Bitcoin dan cryptocurrency lainnya diproduksi secara matematis dan disimpan secara digital. Orang-orang yang secara sukarela menawarkan kekuatan komputasi mereka untuk mengamankan jaringan cryptocurrency ini disebut penambang. Cryptocurrency tidak memiliki pemerintah pusat atau 'perantara' lain yang memutuskan masa depan sistem.",
+    "description2": "Sebagai penambang, kami memproses dan memverifikasi transaksi dari ekosistem cryptocurrency dan menjaga sejarah transaksi publik mereka (blockchains) tetap aman. Sebagai imbalannya, komunitas penambang diberi penghargaan dengan biaya transaksi jaringan dan koin baru yang dibuat."
+  },
+  "FinancialMarket": {
+    "title": "Pasar Keuangan Dijelaskan",
+    "description1": "Pasar keuangan secara kolektif mengacu pada pasar online di mana perusahaan dan individu melakukan kontrak untuk menjual atau membeli produk tertentu dari berbagai 'instrumen pasar keuangan'.",
+    "description2": "Tujuan utama investasi dalam ruang pasar keuangan adalah untuk memperdagangkan sekuritas keuangan dan derivatif dengan biaya transaksi rendah sambil menghasilkan pengembalian dari entri dan keluar perdagangan yang dihitung.",
+    "description3": "Instrumen pasar keuangan dan sekuritas termasuk saham dan obligasi, opsi, cryptocurrency, pasangan mata uang asing, bahan mentah dan logam mulia yang dikenal di pasar keuangan sebagai komoditas."
+  },
+  
+   "TradingPlan": {
+  "title": "RENCANA TRADING UNTUK SEMUA ORANG",
+  "description": "Kami menawarkan berbagai jenis akun trading untuk setiap gaya trading dan semua tingkat pengalaman. Baik Anda scalper, day trader, pengguna EA, atau trader diskresioner – kami siap membantu Anda.",
+  "plans": [
+    {
+      "title": "Perunggu",
+      "amount": "300",
+      "minDeposit": "300",
+      "referralBonus": "Bonus Referensi",
+      "itSupport": "Dukungan IT Penuh",
+      "purchasePlan": "BELI RENCANA"
+    },
+    {
+      "title": "Premium",
+      "amount": "600",
+      "minDeposit": "600",
+      "referralBonus": "Bonus Referensi",
+      "itSupport": "Dukungan IT Penuh",
+      "purchasePlan": "BELI RENCANA"
+    },
+    {
+      "title": "Emas",
+      "amount": "1200",
+      "minDeposit": "1200",
+      "referralBonus": "Bonus Referensi",
+      "itSupport": "Dukungan IT Penuh",
+      "purchasePlan": "BELI RENCANA"
+    },
+    {
+      "title": "Platina",
+      "amount": "50000",
+      "minDeposit": "50000",
+      "referralBonus": "Bonus Referensi",
+      "itSupport": "Dukungan IT Penuh",
+      "purchasePlan": "BELI RENCANA"
+    }
+  ]
+},
+
+  "latest_payouts": "Pembayaran Terbaru",
+  "testimonials": {
+    "name_1": "Miles Kozey",
+    "comment_1": "Saya sangat puas dengan platform ini, dalam hal kemudahan, kecepatan penggunaan, dan keandalan.",
+    "name_2": "Katrine Welch",
+    "comment_2": "Metode yang sangat sederhana dan aman untuk menambah bunga pada investasi Anda.",
+    "name_3": "Kianna Heaney",
+    "comment_3": "Saya mengalikan bitcoin di dompet saya dengan layanan ini hanya dalam 7 hari.",
+    "name_4": "Geoffrey Dare",
+    "comment_4": "Platform trading yang mudah digunakan, bebas risiko, yang meningkatkan potensi pendapatan seseorang."
+  },
+  "payouts": {
+    "1": "Delmer Kuhlman",
+    "2": "Clifton Deckow",
+    "3": "Gina Hills",
+    "4": "Elta Fritsch",
+    "5": "Name Ziemann",
+    "6": "Daniela Erdman",
+    "7": "Bernhard Haag",
+    "8": "Shawna Goldner",
+    "9": "Hazle Konopelski",
+    "10": "Kenneth Gorczany",
+    "11": "Lela Kuhn",
+    "12": "Benedict Donnelly",
+    "13": "Raphaelle Spencer",
+    "14": "Sadie Lesch",
+    "15": "Nico Kshlerin",
+    "16": "Britney Runolfsdottir",
+    "17": "Jermaine Howe",
+    "18": "Brisa Rice"
+  },
+  "faq": {
+  "how_does_copy_trading_work": {
+    "question": "Bagaimana cara kerja copy trading?",
+    "answer": "Copy trading bekerja dengan cara Anda, sebagai investor, memilih satu atau lebih ahli yang ingin Anda salin transaksinya. Setelah Anda mendaftar, itu satu-satunya hal yang perlu Anda lakukan. Setelah itu, Anda siap. Anda tidak perlu menjalankan kode atau memasukkan sinyal secara manual. Perangkat lunak kami akan secara otomatis menyalin transaksi untuk Anda. Kami memantau aktivitas trading dari ahli pilihan Anda, dan segera setelah mereka melakukan transaksi, kami menghitung semua parameter yang diperlukan dan mengeksekusi transaksi tersebut. Anda hanya perlu memastikan bahwa Anda memiliki cukup mata uang dasar di akun trading Anda, yang sama dengan yang digunakan oleh ahli tersebut. Berapa banyak yang cukup? Pertama, Anda perlu memenuhi jumlah minimum per transaksi yang disyaratkan oleh platform exchange (misalnya sekitar 10 USD per transaksi untuk amannya). Ini berarti jika ahli Anda melakukan transaksi sebesar 5%, Anda harus memiliki setidaknya 300 USD dalam total nilai akun Anda (dengan asumsi alokasi 100% ke ahli tersebut). Ini juga berarti Anda perlu memiliki setidaknya 10% atau lebih dalam mata uang dasar yang tersedia untuk menghindari kehilangan transaksi. Saat ahli menutup posisi, posisi Anda juga akan ditutup secara otomatis. Anda dapat mengubah alokasi kapan saja."
+  },
+  "what_are_the_fees": {
+    "question": "Berapa biayanya?",
+    "answer": "Setiap investor dikenakan biaya sebesar 10% pada saat penarikan untuk menyelesaikan proses penarikan, dan setiap trader menerima persentase keuntungan yang telah ditentukan dari keuntungan yang mereka hasilkan."
+  },
+  "who_are_the_trading_experts": {
+    "question": "Siapa ahli trading itu?",
+    "answer": "Kami memilih kandidat ahli dengan sangat hati-hati. Kami mengenal mereka sebagai trader dan meninjau performa mereka dalam jangka waktu tertentu. Kami juga mencari ahli yang sudah memiliki komunitas pengikut sebagai bukti sosial. Anda juga dapat mempelajari lebih lanjut tentang setiap ahli melalui halaman performa mereka masing-masing."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "Berapa jumlah yang direkomendasikan untuk memulai?",
+    "answer": "Kami menyarankan memiliki sekitar 3000 hingga 5000 USD dalam nilai BTC di akun Anda, mengingat persyaratan minimum untuk pesanan di exchange dan agar setidaknya menutupi biaya langganan bulanan."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "Bagaimana cara kerja penambangan Bitcoin?",
+    "answer": "Sangat cepat dan sederhana! Segera setelah kami menerima pembayaran Anda, kontrak Anda ditambahkan ke profil Anda dan Anda bisa langsung mulai menambang. Bergantung pada algoritma blockchain yang Anda pilih dan kesepakatan layanan yang sesuai, Anda dapat menambang mata uang kripto asli secara langsung, menetapkan daya penambangan Anda ke kripto lain (ditandai sebagai AUTO), atau bahkan menentukan pembagian yang disesuaikan, seperti 60% LTC, 20% BTC, dan 20% DOGE. Pembayaran penambangan pertama dilakukan setelah 48 jam, lalu Anda akan menerima pembayaran harian."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "Apakah Anda juga menambang untuk diri sendiri?",
+    "answer": "Kami juga menambang menggunakan peralatan yang sama seperti yang kami tawarkan kepada pelanggan, tetapi dana kami terbatas. Kami percaya bahwa menambang Bitcoin dan altcoin adalah salah satu cara terbaik untuk memperoleh mata uang kripto, namun kami tidak ingin menaruh semua telur dalam satu keranjang."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "Di mana lokasi peternakan penambangan Anda?",
+    "answer": "Untuk alasan keamanan, kami tidak mengungkapkan lokasi tepat dari peternakan penambangan kami. Sejak April 2015, kami telah menjalankan beberapa peternakan yang berlokasi di Eropa, Amerika, dan Asia. Biaya listrik dan ketersediaan pendinginan sangat penting, tetapi bukan satu-satunya faktor. Kunjungi halaman Pusat Data kami untuk informasi lebih lanjut."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "Koin apa yang bisa ditambang dengan setiap algoritma?",
+    "answer": "Anda dapat menambang Bitcoin dan berbagai altcoin secara langsung melalui halaman alokasi penambangan kami*. Ketersediaan kripto tergantung pada kontrak yang Anda pilih.<br/><br/>Anda harus menetapkan daya hash Anda untuk menentukan kripto yang akan Anda terima. Jika tidak, hasil default akan ditentukan oleh algoritma:<br/><br/>Kontrak SHA-256 - Bitcoin<br/>Kontrak Ethash - Ethereum<br/>(*) “{param} Alokasi Lanjutan” (fitur khusus): memungkinkan Anda menerima pembayaran dalam berbagai kripto, bahkan jika kripto tersebut tidak ditambang secara langsung dengan algoritma tertentu. Misalnya, Anda dapat menerima BTC meskipun menggunakan kontrak X11. Ini dimungkinkan melalui konversi otomatis oleh sistem kami. Kami menyebutnya “penambangan BTC pintar.” Teknik yang sama juga berlaku untuk, misalnya, menerima LTC dengan kontrak SHA-256."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "Bagaimana cara kerja kontrak Ether Anda?",
+    "answer": "Ketika Anda membeli kontrak penambangan Ether, Anda membeli sebagian dari GPU (kartu grafis) yang digunakan untuk menambang Ethereum. Algoritma yang digunakan disebut Ethash (atau Dagger-Hashimoto).<br/><br/>Ethash memerlukan file bernama DAG untuk melakukan perhitungan. File ini bertambah besar seiring waktu, yang berarti semakin banyak operasi yang dibutuhkan per hash, dan ini menyebabkan penurunan dalam hash rate efektif.<br/><br/>Hal ini harus diperhitungkan ketika membandingkan hasil penambangan teoritis. Kalkulator online biasanya tidak memperhitungkan hal ini.<br/><br/>Perlu dicatat juga bahwa beberapa produk kami memiliki biaya pemeliharaan."
+  },
+  "expected_returns": {
+    "question": "Berapa hasil yang bisa saya harapkan?",
+    "answer": "Hasil penambangan sangat tergantung pada harga dan kesulitan jaringan dari mata uang kripto yang Anda tambang, yang tidak dapat diprediksi. Tidak pantas bagi kami untuk memberikan data hasil sambil menjual kontrak. Oleh karena itu, kami mendorong klien untuk melakukan riset mereka sendiri.<br/><br/>Sebagai contoh, Anda dapat mengunjungi coinwarz.com. Perlu diingat bahwa beberapa produk kami memiliki biaya pemeliharaan harian yang akan dikurangkan dari hasil penambangan Anda.<br/><br/>Catatan: situs ini adalah sumber independen dan tidak berafiliasi dengan {param}."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "Pool mana yang digunakan untuk menambang?",
+    "answer": "Kami tidak mempublikasikan daftar pool yang kami gunakan. Kriteria kami adalah: keandalan, biaya, dan tingkat penolakan. Di masa depan, kami akan menambang secara mandiri untuk beberapa koin (dan memberikan penghematan biaya kepada pengguna kami!).<br/><br/>Kebijakan kami: menjadi 'warga kripto yang baik'. Artinya, kami menggunakan minimal dua pool per koin, kadang hingga empat, untuk menjaga desentralisasi. Jika satu pool mendekati 50% kekuatan jaringan, kami akan pindah ke pool lain."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "Bukankah lebih murah membeli perangkat keras sendiri?",
+    "answer": "Sekilas, membeli perangkat X mungkin tampak lebih murah dibandingkan menggunakan layanan kami. Namun, ada banyak biaya tersembunyi:<br/><br/>Biaya pengiriman: biasanya tidak termasuk.<br/><br/>Pajak dan bea cukai: jika dikirim dari luar negeri, kemungkinan Anda akan dikenakan biaya tambahan.<br/><br/>Waktu tunggu: dari pemesanan, pengiriman, hingga potensi tertahan di bea cukai, bisa memakan waktu berminggu-minggu tanpa penambangan (biaya peluang).<br/><br/>Peralatan tambahan: seperti power supply, controller, dan rak.<br/><br/>Instalasi: memerlukan keahlian teknis yang sering diremehkan.<br/><br/>Pemeliharaan: perangkat bisa rusak. Jika rusak, Anda harus mengganti. Di {param}, kami menjamin kontinuitas—jika satu unit gagal, unit lain akan menggantikan.<br/><br/>Listrik: tagihan listrik Anda akan naik, ditambah panas dan kebisingan. Kami tidak melarang penambangan di rumah, tetapi kami ingin Anda menyadari biaya nyata. Jika Anda membandingkan dengan harga kami, Anda akan melihat bahwa kami kompetitif. Kami bertujuan menyediakan pengalaman yang sederhana dan dapat diandalkan, sehingga Anda dapat fokus pada kripto pilihan Anda."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "Apa itu biaya pemeliharaan?",
+    "answer": "Beberapa produk kami memiliki biaya pemeliharaan. Biaya ini mencakup:<br/><br/>Biaya listrik<br/>Pendinginan<br/>Pemeliharaan teknis<br/>Layanan hosting<br/><br/>Biaya ini dihitung dalam USD tetapi akan dipotong setiap hari dari hasil penambangan Anda."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "Bagaimana saya bisa menambang beberapa koin secara bersamaan?",
+    "answer": "{param} memungkinkan Anda untuk menambang berbagai koin kripto secara bersamaan. Anda memilih koin yang diinginkan dan mengalokasikan daya penambangan sesuai keinginan.<br/><br/>Setiap algoritma memiliki kripto default. Alokasi lanjutan otomatis (AUTO) dari {param} berlaku untuk kripto yang tidak ditambang secara langsung. Dari dasbor, masuk ke 'Alokasi Penambangan' dan buat pilihan Anda. Klik 'simpan alokasi'.<br/><br/>Catatan: kripto dengan label (AUTO) tidak ditambang langsung. Lihat bagian 'Koin apa yang bisa ditambang' di atas.<br/>Untuk menerima pembayaran, tambahkan alamat dompet Anda ke profil {param} Anda. Lihat bagian berikutnya untuk detail lebih lanjut."
+  }
+},
+"footer": {
+  "quick_links": "Tautan Cepat",
+  "contact_us": "Hubungi Kami",
+  "my_account": "Akun Saya",
+  "create_account": "Buat Akun"
+},
+
+  "SignUpPage": {
+    "signUp": "Daftar",
+    "successMessage": "Akun berhasil didaftarkan",
+    "accountTypeLive": "LIVE",
+    "accountTypeDemo": "DEMO",
+    "accountType": "Tipe Akun",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "firstName": "Nama Depan",
+    "lastName": "Nama Belakang",
+    "mobileNumber": "Nomor Ponsel",
+    "currency": "Mata Uang",
+    "country": "Negara",
+    "state": "Provinsi",
+    "city": "Kota",
+    "termsText": "Saya setuju dengan semua ketentuan layanan",
+    "createAccount": "Buat Akun Saya",
+    "processing": "Memproses...",
+    "alreadyHaveAccount": "Sudah memiliki akun?",
+    "login": "Masuk",
+    "creatingAccount": "Membuat Akun..."
+  },
+  "ErrorPage": {
+    "error": "Kesalahan!",
+    "emailAlreadyRegistered": "Email sudah terdaftar"
+  },
+  "LoadingPage": {
+    "loading": "Memuat..."
+  },
+  
+    "LoginPage": {
+      "email": "Email",
+      "password": "Kata Sandi",
+      "signIn": "Masuk",
+      "forgotPassword": "Lupa Kata Sandi?",
+      "noAccount": "Belum punya akun?",
+      "signUp": "Daftar",
+      "processing": "Memproses...",
+      "error": "Kesalahan!",
+      "invalidDetails": "Detail login tidak valid.",
+      "signInFailed": "Gagal masuk. Silakan coba lagi."
+    },
+    "ForgotPassword": {
+    "pageTitle": "Atur Ulang Kata Sandi",
+    "instruction": "Silakan masukkan alamat email yang terhubung dengan akun Anda di bawah ini",
+    "emailLabel": "Email",
+    "submit": "Kirim"
+  },
+  "CookiePolicy": {
+  "title": "Kebijakan Cookie",
+  "lastRevised": "Terakhir Diperbarui",
+  "purpose1": "{project_name} menggunakan cookie untuk: Mengoptimalkan pengalaman trading Anda, termasuk mengingat preferensi, lokasi, bahasa pilihan, browser, dan detail lainnya;",
+  "purpose2": "Mengautentikasi identitas Anda untuk tujuan keamanan;",
+  "purpose3": "Memelihara situs web kami dan beberapa fungsi yang tersedia di sana;",
+  "purpose4": "Menganalisis dan melacak penggunaan layanan kami;",
+  "purpose5": "Menyesuaikan platform kami berdasarkan kebiasaan trading Anda dan persyaratan regulasi kami.",
+  "whatAreCookiesTitle": "Apa itu cookie",
+  "whatAreCookiesDesc": "Cookie adalah potongan kecil data yang dikirim ke komputer Anda oleh situs web dan disimpan di komputer Anda. Cookie tidak dapat dijalankan dan tidak dapat digunakan untuk memasang perangkat lunak berbahaya. Mereka memungkinkan situs web untuk mengenali pengunjung saat mereka kembali dan menyertakan informasi dasar tentang mereka yang diperiksa dan diperbarui setiap kali Anda mengunjungi situs tersebut. Untuk informasi lebih lanjut, lihat: http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Mengelola cookie",
+  "managingCookiesIntro": "Di {project_name}, kami menghormati hak Anda atas privasi dan dengan senang hati menyediakan alat untuk mengelola cookie yang Anda terima dari layanan web kami. Beberapa cookie diperlukan untuk kinerja platform kami (Anda tidak dapat memilih keluar dari cookie ini jika Anda ingin menggunakan platform kami). Di bawah ini Anda akan menemukan daftar beberapa cookie pihak ketiga yang digunakan oleh {project_name}. Untuk pengguna yang lebih memilih untuk tidak menerima cookie yang tidak penting, kami telah menyediakan opsi 'menarik diri' untuk Anda pilih.",
+  "managingCookiesBrowser": "Browser Anda juga dapat memungkinkan Anda untuk memblokir penyimpanan cookie di komputer Anda; silakan merujuk ke menu 'Bantuan' browser Anda atau situs web untuk informasi lebih lanjut. Jika Anda menggunakan layanan web kami tanpa memblokir cookie, Anda sebenarnya menyetujui penggunaan cookie."
+},
+
+  "privacyPolicy": "Kebijakan Privasi",
+  "lastRevised": "Terakhir Diperbarui",
+  "limited": "Terbatas",
+  "respectPrivacy": "menghormati privasi pengguna kami (masing-masing, “Anda” atau “Pengguna”)",
+  "usersCommitment": "dan berkomitmen untuk melindungi privasi Pengguna yang mengakses, mengunduh, menginstal, atau mendaftar ke aplikasi seluler kami",
+  "informationCollection": "Perusahaan telah menyusun Kebijakan Privasi ini untuk menjelaskan praktik kami terkait dengan pengumpulan, penggunaan, dan pengungkapan informasi Anda saat Anda menggunakan Layanan.",
+  "agreeToTerms": "Dengan menggunakan Layanan, Anda setuju dengan ketentuan Kebijakan Privasi ini.",
+  "retainInformation": "Untuk berapa lama kami menyimpan informasi",
+  "protectingInformation": "Bagaimana kami melindungi informasi Anda",
+  "advertisements": "Iklan",
+  "advertisingId": "ID Iklan dan Pengidentifikasi Iklan",
+  "cookiesAndAnalytics": "Cookies dan Google Analytics",
+  "shareInformation": "DENGAN SIAPA KAMI BERBAGI INFORMASI DAN UNTUK TUJUAN APA",
+  "sharingDetails": "Kami tidak menyewakan, menjual, atau membagikan Informasi Pribadi Anda dengan pihak ketiga kecuali sebagaimana dijelaskan dalam Kebijakan Privasi ini...",
+  "retentionDetails": "Kami menghormati hak privasi Anda dan karena itu Anda dapat menghubungi kami kapan saja dan meminta...",
+  "protectionDetails": "Kami sangat berhati-hati dalam menerapkan dan memelihara keamanan Layanan dan informasi Anda...",
+  "advertisementDetails": "Kami dapat menggunakan teknologi iklan pihak ketiga untuk menampilkan iklan ketika Anda menggunakan Layanan...",
+  "advertisingIdDetails": "ID Iklan Google adalah pengidentifikasi anonim yang disediakan oleh layanan Google Play...",
+  "updatePrivacyPolicy": "PEMBARUAN ATAU PERUBAHAN PADA KEBIJAKAN PRIVASI",
+  "updateDetails": "Kami dapat merevisi Kebijakan Privasi ini dari waktu ke waktu sesuai kebijakan kami, dan versi terbaru akan selalu diposting...",
+  
+    "cryptoMining": "Crypto Mining",
+    "cryptoMiningTitle": "Crypto Mining",
+    "cryptoMiningParagraph1": "Jaringan cryptocurrency membutuhkan daya komputasi untuk berfungsi dengan aman. Blockchain paling kuat di dunia didukung oleh jutaan komputer di seluruh dunia...",
+    "cryptoMiningParagraph2": "Cryptocurrencies tidak memiliki pemerintah pusat atau 'perantara' lain yang memutuskan masa depan sistem...",
+    "howIsBitcoinSecure": "BAGAMANA BITCOIN DIAMANKAN",
+    "bitcoinSecurityParagraph": "Satu-satunya cara untuk tidak menciptakan uang dari udara tipis atau merusaknya adalah dengan membakar energi nyata. Ini disebut Proof-of-Work...",
+    "minersIncentives": "APA INSENTIF UNTUK MINER",
+    "minersIncentivesParagraph": "Semua itu tentang kepercayaan: Miner menjaga blockchain tetap terpercaya dan diberi imbalan atas usaha mereka...",
+    "bigVisionOfCrypto": "VISI BESAR DARI CRYPTO CURRENCY",
+    "bigVisionParagraph": "Untuk menjaga integritas (dan nilai!) dari semua ekosistem cryptocurrency tetap utuh, miner menjaga jaringan tetap aman dan wewenangnya terdesentralisasi...",
+    "BitcoinMining": {
+  "title": "Penambangan Bitcoin",
+  "paragraph1": "Bitcoin memiliki buku besar publik yang disebut blockchain. Proses penambangan menambahkan transaksi baru ke buku besar publik ini. Mengapa? Karena pengguna Bitcoin membutuhkan proses ini untuk memastikan bahwa setiap transaksi dikonfirmasi dan diverifikasi dengan aman, sementara semua pengguna yang menggunakan jaringan Bitcoin memiliki akses penuh ke blockchain, yaitu buku besar Bitcoin. Penambangan juga membantu jaringan menentukan transaksi mana yang sah dan valid, serta menghapus transaksi yang mencoba menghabiskan uang dua kali.",
+  "paragraph2": "Jadi, jika seseorang ingin menambang Bitcoin, mereka sebenarnya sedang menyediakan layanan untuk semua pengguna Bitcoin dengan memastikan bahwa transaksi Bitcoin sah. Selama proses penambangan, para penambang menyelesaikan sebuah blok baru, yang berarti bahwa penambang menerima hadiah. Pada tahun 2018, hadiah untuk menyelesaikan sebuah blok baru adalah 12,5 Bitcoin, namun hadiah ini berkurang seiring waktu.",
+  "paragraph3": "Seperti yang bisa Anda bayangkan, penambangan membutuhkan banyak kerja keras dan kesabaran: Anda tidak akan mendapatkan hasil dengan cepat dalam menambang Bitcoin. Karena itu, ada analogi yang jelas dengan penambangan logam fisik seperti emas. Dari situlah istilah 'penambangan' digunakan untuk tugas berbasis komputer yang menghasilkan Bitcoin baru.",
+  "bold1": "Memilih Peralatan Penambangan",
+  "paragraph4": "Penambangan Bitcoin melibatkan perhitungan rumit yang memerlukan banyak daya komputasi. Oleh karena itu, memilih peralatan yang tepat untuk menambang Bitcoin sangat penting. Saat memilih peralatan penambangan Bitcoin, Anda harus mempertimbangkan beberapa fitur spesifik.",
+  "bold2": "Tingkat Hash",
+  "paragraph5": "Mungkin aspek terpenting saat memilih peralatan penambangan Anda adalah tingkat hash, yang merupakan jumlah perhitungan kriptografi yang dapat dilakukan peralatan penambangan Anda per detik. Tingkat hash pada dasarnya adalah jumlah perhitungan kriptografi yang dapat dilakukan perangkat keras penambangan Anda setiap detik. Mudah untuk memahami mengapa tingkat hash yang lebih tinggi membantu menambang koin lebih cepat: semakin banyak perhitungan yang dapat Anda lakukan per detik, semakin cepat Anda akan menyelesaikan matematika kriptografi yang diperlukan untuk menambang sebuah koin. Ini memungkinkan Anda untuk menyelesaikan blok lebih cepat dan mendapatkan hadiah untuk itu.",
+  "paragraph6": "Fungsi hash bekerja dengan cara ini: terlepas dari nilai input, Anda selalu mendapatkan nilai output yang sama. Untuk menemukan nilai output tertentu, Anda harus mencoba sebanyak mungkin input acak dengan secepat mungkin. Ini membuat penambangan menjadi kompetitif, dan penambang yang dapat memproses lebih banyak input dibandingkan dengan orang lain akan menjadi yang pertama menemukan solusi. Jadi, jika Anda mendapatkan perangkat keras dengan tingkat hash yang lebih tinggi, Anda akan memiliki keuntungan dibandingkan penambang lainnya, yang berarti Anda akan mendapatkan lebih banyak hadiah lebih cepat.",
+  "paragraph7": "Satuan ukuran untuk tingkat hash adalah MH/s, yang berarti megahash per detik. Anda juga dapat mengukur tingkat hash dalam GH/s dan TH/s, yang berarti gigahash dan terahash per detik, masing-masing. Tingkat hash dari peralatan penambangan Bitcoin berkisar dari beberapa ratus MH/s hingga 10 TH/s (atau 10.000.000 MH/s).",
+  "bold3": "Biaya Energi",
+  "paragraph8": "Penambangan Bitcoin tidak hanya melibatkan peralatan fisik penambangan yang harus Anda tangani. Ketika Anda mampu memiliki perangkat keras yang kuat, Anda segera akan menghadapi masalah lain: biaya energi yang terkait dengan pengoperasian perangkat keras tersebut, karena perangkat penambangan yang kuat mengonsumsi banyak listrik.",
+  "paragraph9": "Saat membeli perangkat keras, Anda harus melihat konsumsi energi perangkat – menghitungnya dalam watt dan kemudian memeriksa berapa banyak biaya operasionalnya, agar Anda tidak terkejut ketika tagihan listrik Anda tiba. Jika Anda tidak melakukannya, Anda berisiko menghabiskan semua keuntungan penambangan Anda untuk membayar listrik, atau bahkan mengalami kerugian yang cukup besar.",
+  "paragraph10": "Tingkat hash bersama dengan konsumsi energi adalah cara yang baik untuk mengevaluasi keuntungan penambangan. Bandingkan hash yang dapat Anda selesaikan dalam satu jam dengan biaya energi per jam (atau per hari). Cara sederhana untuk melakukannya adalah membagi tingkat hash perangkat Anda dengan konsumsi energi dalam watt. Ini akan memberi Anda tingkat MH/s per watt, yang akan membantu Anda menentukan apakah peralatan penambangan Anda akan menguntungkan, berdasarkan biaya energi saat ini.",
+  "paragraph11": "Jangan lupa untuk mempertimbangkan biaya tambahan, seperti perangkat keras komputer yang menjalankan GPU penambangan, saat menghitung keuntungan Anda – PC Anda juga mengonsumsi daya selain perangkat keras penambangan yang Anda miliki.",
+  "bold4": "Opsi Perangkat Keras untuk Penambangan Bitcoin",
+  "paragraph12": "Ketika Bitcoin pertama kali diluncurkan, banyak orang melihatnya sebagai ide yang unik dan revolusioner, karena dianggap sangat liberal dibandingkan dengan metode tradisional transaksi melalui bank sentral. Bagaimanapun, Bitcoin sangat berbeda dari bentuk transaksi tradisional, yang membuatnya menarik dan menarik.",
+  "paragraph13": "Pada saat-saat awal Bitcoin, lebih sedikit orang yang tahu tentang cryptocurrency dan lebih sedikit orang yang membeli atau berinvestasi dalam Bitcoin, sehingga nilai Bitcoin tidak terlalu tinggi. Ini membuat penambangan Bitcoin menjadi mudah dan mendorong banyak orang untuk tertarik menambang Bitcoin dengan tujuan menghasilkan uang, tetapi juga tertarik pada Bitcoin sebagai ide revolusioner. Saat itu, menambang Bitcoin membutuhkan penggunaan kekuatan komputasi dasar – bahkan laptop pun cukup atau komputer desktop berperforma tinggi.",
+  "paragraph14": "Melalui proses penambangan menggunakan laptop dan PC desktop, orang segera menyadari bahwa GPU (unit pemrosesan grafis) dapat meningkatkan penambangan Bitcoin secara signifikan. GPU sangat cocok untuk penambangan Bitcoin: mereka mengonsumsi lebih sedikit energi dibandingkan CPU yang digunakan untuk penambangan dan dapat menambang hingga 50 hingga 100 kali lebih cepat.",
+  "paragraph15": "Akibatnya, perangkat yang dirancang khusus diluncurkan yang dirancang khusus untuk penambangan. Kemampuan penambangan meningkat dan ini mengarah pada perkembangan menarik: ladang penambangan Bitcoin, yang pada dasarnya adalah pusat keuntungan – dan pengembangan industri yang lebih formal yang berfokus pada penambangan Bitcoin.",
+  "paragraph16": "Seiring waktu, penambangan Bitcoin menjadi sangat menguntungkan, dan banyak penambang serius yang mengoperasikan ladang penambangan Bitcoin besar yang menghasilkan banyak uang. Ini melibatkan campuran perangkat keras yang digunakan dalam ladang penambangan ini, termasuk GPU bersama dengan sistem pendingin yang kuat untuk menurunkan suhu. Listrik merupakan masalah besar bagi operasi ini, tetapi di beberapa negara, harga listrik rendah, yang membuat ladang penambangan terkonsentrasi di negara-negara dengan tarif listrik yang murah.",
+  "paragraph17": "Sayangnya, ini berarti Anda harus bersaing dengan operasi penambangan yang sangat kuat dengan modal besar – dengan kata lain, Anda bersaing dengan perusahaan besar di seluruh dunia yang mampu menghabiskan banyak uang. Namun, masih ada banyak penambang individu Bitcoin, dan mereka cenderung bergabung dengan grup penambangan untuk mencari keuntungan.",
+  "bold5": "Memilih CPU",
+  "paragraph18": "Meskipun CPU penting untuk komputer Anda, itu bukan komponen paling penting dari instalasi penambangan Bitcoin. Ya, pada awal Bitcoin, Anda bisa menambang dengan CPU dan tetap menghasilkan keuntungan jika CPU PC Anda cukup kuat.",
+  "paragraph19": "Namun, para penambang segera menyadari bahwa CPU bukanlah pilihan terbaik untuk penambangan Bitcoin. Anda tetap memerlukan CPU untuk mengoperasikan PC yang mengendalikan perangkat penambangan Anda, tetapi CPU Anda akan membutuhkan beberapa dekade untuk menambang Bitcoin dalam jumlah yang signifikan.",
+  "bold6": "GPU untuk Penambangan",
+  "paragraph20": "Ada banyak penggunaan untuk GPU atau unit pemrosesan grafis, mulai dari menjalankan video game 3D hingga merender 3D. Sebenarnya, tujuan awal GPU adalah untuk dapat menghitung matematika yang diperlukan agar video game berkualitas tinggi terlihat seperti sekarang. Secara kebetulan, ini juga berarti bahwa GPU adalah alat yang sangat baik untuk melakukan fungsi hash. Dan seperti yang kita ketahui, hashing adalah kunci untuk menyelesaikan teka-teki kriptografi yang diperlukan untuk menyelesaikan blok transaksi Bitcoin.",
+  "paragraph21": "GPU tidak murah, dengan harga mulai dari beberapa ratus dolar per unit, tetapi mereka memiliki keuntungan besar dibandingkan CPU ketika datang ke hashing. GPU yang bagus dapat melakukan hash hingga seratus kali lebih cepat daripada CPU berperforma tinggi. Fakta ini mendorong munculnya apa yang disebut rig penambangan: komputer dasar yang terhubung ke beberapa GPU – semuanya dirancang untuk menambang secepat mungkin. Beberapa orang juga menggunakan mesin ini untuk bermain video game ketika tidak menambang.",
+  "paragraph22": "Namun, berita buruk segera datang untuk penambangan dengan GPU: saat ini, tidak menguntungkan untuk menambang Bitcoin dengan GPU. Singkatnya, semakin kuat peralatan penambangan, semakin sulit untuk menambang Bitcoin. Hasilnya, GPU tidak lagi dapat menambang Bitcoin secara efisien, dibandingkan dengan alternatif yang akan kita bahas selanjutnya. Jadi, jangan berharap untuk mendapatkan kembali uang Anda jika Anda memutuskan untuk menggunakan GPU untuk penambangan Bitcoin.",
+  "bold7": "FPGA dalam Penambangan Bitcoin",
+  "paragraph23": "GPU segera digantikan oleh sesuatu yang disebut Field Programmable Gate Array (FPGA). FPGA adalah sirkuit terintegrasi yang harus diprogram setelah dibuat, tetapi ini berarti bahwa perusahaan yang membuat peralatan penambangan dapat membeli banyak FPGA dan memprogramnya agar sangat baik dalam penambangan Bitcoin. FPGA terbukti menjadi pilihan yang sangat baik untuk penambangan Bitcoin dan mengubah parameter penambangan Bitcoin – mereka mengeluarkan GPU dari kompetisi.",
+  "paragraph24": "Sebenarnya, rig penambangan FPGA adalah perangkat penambangan pertama yang dirancang khusus untuk penambangan Bitcoin dan yang hanya dapat digunakan untuk penambangan Bitcoin. Dalam perkembangan penting, segera ditemukan bahwa FPGA mengonsumsi jauh lebih sedikit energi daripada GPU – sebenarnya, FPGA dengan tingkat hash yang sama mengonsumsi kurang dari 20% energi yang dibutuhkan oleh GPU – yang membuat operasi penambangan jauh lebih menguntungkan.",
+  "bold8": "Apa itu ASIC?",
+  "paragraph25": "Langkah terakhir dalam perlombaan penambangan Bitcoin adalah penciptaan Application-Specific Integrated Circuits (ASIC), yang merupakan chip yang dirancang dari awal untuk menambang Bitcoin. Anda tidak bisa memprogram ASIC, fungsinya sudah dicetak dalam sirkuitnya, dan dalam hal rig penambangan Bitcoin, ASIC hanya dapat digunakan untuk penambangan Bitcoin. ASIC yang bagus dapat menambang hingga 100 kali lebih cepat daripada GPU, dan mengonsumsi lebih sedikit energi. Saat ini, tidak ada teknologi alternatif yang dapat mengalahkan ASIC, sehingga mereka tetap menjadi cara tercepat untuk menambang Bitcoin.",
+  "paragraph26": "Tentu saja, chip yang dirancang khusus membutuhkan waktu dan relatif mahal. Tetapi investasi ini memberikan hasil: penambang kelas atas, seperti AntMiner, dapat mencapai tingkat hash dalam kisaran terahash per detik – lebih dari 10 TH/s. Harga? Lebih dari seribu dolar. Ada juga opsi yang lebih murah, meskipun kinerjanya lebih rendah.",
+  "bold9": "Biaya Penambangan Bitcoin",
+  "paragraph27": "Tentu saja, penambangan Bitcoin tidak murah. Peralatan penambangan membutuhkan investasi yang signifikan, dan biaya listrik juga harus dipertimbangkan. Persaingan sangat ketat, dan Anda membutuhkan waktu dan uang untuk tetap kompetitif.",
+  "paragraph28": "Biaya tarif listrik dan biaya operasional lainnya dianggap sebagai salah satu hambatan terbesar yang dihadapi penambang baru saat memulai. Untungnya, seiring berkembangnya jaringan Bitcoin, pendekatan baru mulai dikembangkan yang membantu mengurangi biaya penambangan dalam jangka panjang.",
+  "paragraph29": "Bagaimanapun, penambangan Bitcoin tetap merupakan cara yang mahal untuk menghasilkan keuntungan, tetapi dengan peralatan yang tepat, tarif yang tepat, dan pendekatan yang benar, itu bisa menguntungkan.",
+  "paragraph30": "Dengan semua ini, pastikan untuk memperhitungkan biaya operasional, yang merupakan bagian terpenting dari rencana penambangan Anda dalam jangka panjang. Tanpa perencanaan yang tepat, biaya energi dan pengeluaran lainnya bisa melebihi keuntungan Anda.",
+  "paragraph31": "Jika Anda tidak memiliki akses ke energi murah atau tidak dapat menginvestasikan sejumlah besar uang untuk peralatan penambangan Anda, peluang untuk menghasilkan keuntungan terbatas.",
+  "paragraph32": "Selain itu, para penambang sering menghadapi fluktuasi harga Bitcoin, yang berarti bahwa apa yang mungkin menguntungkan hari ini bisa jadi tidak menguntungkan besok. Oleh karena itu, penting untuk terus memantau jaringan Bitcoin dan menyesuaikan peralatan dan strategi penambangan Anda sesuai kebutuhan.",
+  "bold10": "Pertimbangan dan Risiko",
+  "paragraph33": "Penting untuk mempertimbangkan beberapa risiko utama saat memikirkan untuk terjun ke dunia penambangan Bitcoin. Pertama, kesulitan penambangan meningkat seiring waktu, yang berarti hadiah dibagi di antara lebih banyak penambang, dan peluang untuk memenangkan hadiah berkurang seiring waktu.",
+  "paragraph34": "Kedua, fluktuasi harga Bitcoin dapat memengaruhi keuntungan penambang secara signifikan. Nilai Bitcoin dikenal karena volatilitasnya, dan perubahan mendadak dalam harga Bitcoin bisa membuat penambangan menjadi kurang menguntungkan.",
+  "paragraph35": "Ketiga, penambangan Bitcoin memerlukan banyak energi, yang dapat berdampak negatif pada lingkungan, terutama jika energi berasal dari sumber yang tidak terbarukan.",
+  "paragraph36": "Selain itu, dalam mengoperasikan operasi penambangan, Anda harus selalu mempertimbangkan persaingan. Penambangan Bitcoin semakin menjadi ladang persaingan yang ketat, dan pertanian penambangan besar memiliki keuntungan yang signifikan.",
+  "paragraph37": "Terakhir, Anda harus menyadari risiko keamanan. Jika Anda tidak melindungi aset dan peralatan penambangan Anda dengan benar, Anda berisiko kehilangan semuanya karena serangan hacker atau masalah teknis.",
+  "paragraph38": "Meski ada risiko-risiko ini, penambangan Bitcoin tetap menjadi pilihan yang menarik bagi mereka yang ingin terlibat dalam cryptocurrency dan memanfaatkan peluangnya.",
+  "bold11": "Hadiah untuk Menambang Bitcoin",
+  "paragraph39": "Ketika seorang penambang menyelesaikan sebuah blok, mereka diberi hadiah berupa sejumlah Bitcoin. Hadiah ini berkurang seiring waktu, dan saat ini berada di 6,25 Bitcoin per blok.",
+  "paragraph40": "Seiring waktu, hadiah ini akan berkurang lebih lanjut karena halving, sebuah acara yang terjadi sekitar setiap empat tahun, di mana hadiah untuk menyelesaikan sebuah blok berkurang setengahnya. Acara ini memiliki implikasi baik bagi penambang maupun harga Bitcoin.",
+  "paragraph41": "Halving juga merupakan faktor penting yang perlu dipertimbangkan, karena ini berarti bahwa jumlah Bitcoin yang tersedia untuk penambang berkurang, yang dapat memengaruhi penawaran dan permintaan.",
+  "paragraph42": "Selain itu, hadiah untuk menambang Bitcoin bukan satu-satunya cara bagi penambang untuk mendapatkan uang. Mereka juga dapat memperoleh komisi untuk transaksi dalam blok yang mereka tambang.",
+  "paragraph43": "Meskipun penambangan Bitcoin menawarkan hadiah besar, hal ini juga disertai dengan tantangan dan risiko. Biaya energi, persaingan yang meningkat, dan penurunan hadiah adalah faktor penting yang perlu dipertimbangkan oleh penambang sebelum memulai.",
+  "paragraph44": "Bagi mereka yang siap menghadapi tantangan dan berinvestasi dalam peralatan yang tepat, penambangan Bitcoin bisa menjadi cara yang menarik untuk mendapatkan keuntungan dari perkembangan cryptocurrency.",
+  "paragraph45": "Ingat bahwa dunia penambangan terus berubah. Apa yang menguntungkan hari ini bisa jadi tidak menguntungkan besok, jadi penting untuk tetap diperbarui dan melakukan penyesuaian.",
+  "paragraph46": "Apakah Anda memutuskan untuk terjun ke penambangan Bitcoin atau tidak, sangat penting untuk mendapatkan informasi yang baik dan membuat keputusan yang tepat sesuai dengan situasi Anda.",
+  "paragraph47": "Pada akhirnya, kesuksesan dalam penambangan Bitcoin bergantung pada banyak faktor: dari pemilihan peralatan yang tepat hingga penyesuaian dengan perkembangan pasar. Ini adalah proses pembelajaran berkelanjutan yang membutuhkan pengetahuan teknis dan pemahaman bisnis.",
+  "paragraph48": "Penambangan Bitcoin adalah petualangan yang menarik namun penuh tantangan. Ini menawarkan peluang, tetapi memerlukan perencanaan yang hati-hati dan perhatian yang berkelanjutan untuk memastikan bahwa profitabilitas tetap terjaga."
+},
+"About": {
+    "title": "Tentang Kami",
+    "paragraph1": "Didirikan pada tahun 2014 oleh sekelompok profesional yang secara cermat menggabungkan keahlian teknis yang diperlukan untuk Menyalin Trader Profesional (Jika Anda tidak bisa trading sendiri). Trading Forex, Trading Cryptocurrency, dan Trading Saham dengan tim korporat yang berdedikasi, kantor pusat yang canggih, dan hasrat untuk membantu mereka yang memiliki keinginan kuat untuk meningkatkan kehidupan mereka.",
+    "paragraph2": "Tim kami berkomitmen untuk mencapai hasil yang luar biasa, selalu selangkah lebih maju. Kami menciptakan platform trading jangka panjang, menetapkan standar untuk mengubah nasib generasi yang akan datang! Kami menyatukan semua aspek penting dalam menjalankan operasi penambangan cryptocurrency yang efisien. Dari membangun pusat data yang sangat efisien hingga menyediakan sistem penambangan yang efisien untuk pengguna kami.",
+    "paragraph3": "Untuk menambang secara kompetitif saat ini, Anda perlu menginvestasikan sumber daya, waktu, dan usaha yang signifikan ke dalam pengaturan Anda. Tim kami telah membangun sistem penambangan yang paling efisien untuk melakukan pekerjaan tersebut untuk Anda. Dengan cara ini, Anda dapat fokus sepenuhnya untuk memantau pasar dan tetap kompetitif dengan hadiah penambangan Anda.",
+    "paragraph4": "Selain menjadi portal untuk data penambangan yang menarik, kami juga berkontribusi secara aktif pada ekosistem cryptocurrency, mulai dari meluncurkan kampanye kesadaran hingga merilis perangkat lunak penambangan sumber terbuka. Kami membangun pusat data penambangan di seluruh dunia yang dapat mendukung 6 algoritma penambangan untuk lebih dari 10 cryptocurrency yang berbeda. Jika itu tidak cukup, kami juga dengan senang hati mendukung yang ingin Anda tambang!"
+},
+  "DepositInfo": {
+    "deposit": "Deposit",
+    "signal": "Kekuatan Sinyal",
+    "profit": "Keuntungan",
+    "copytraders": "Copy Traders",
+    "refer": "Referensikan & Dapatkan"
+  },
+  "Categories": {
+    "favorites": "Favorit",
+    "gainers": "Pemenang",
+    "losers": "Pecundang"
+  },
+  "ButtomNav": {
+    "dashboard": "Beranda",
+    "mining": "Penambangan",
+    "markets": "Pasar",
+    "trade": "Perdagangan",
+    "trades": "Transaksi",
+    "profile": "Profil"
+  },
+  "Trade": {
+    "title": "Perdagangan",
+    "trade_message": "Perdagangan berhasil dimulai",
+    "trade_error": "Dana tidak cukup. Silakan isi ulang saldo Anda untuk melakukan perdagangan ini.",
+    "buy": "Beli",
+    "sell": "Jual",
+    "amount": "Jumlah",
+    "time": "Durasi (menit)",
+    "leverage": "Leverage (maks 5000)",
+    "lev": "Leverage:"
+  },
+  "Dashboard": {
+    "title": "Dasbor",
+    "markets": "Pasar",
+    "mining": "Penambangan",
+    "trades": "Transaksi"
+  },
+  "Trades": {
+    "noopen": "Tidak ada perdagangan terbuka",
+    "noclose": "Tidak ada perdagangan yang ditutup"
+  },
+  "Profile": {
+    "deposits": "Deposit",
+    "withdrawals": "Penarikan",
+    "referrals": "Referensi",
+    "watchlist": "Daftar Pantauan",
+    "updatemail": "Perbarui Email",
+    "updatephoto": "Perbarui Foto",
+    "updatepassword": "Perbarui Kata Sandi",
+    "accountsettings": "Pengaturan Akun",
+    "logout": "Keluar",
+    "loading_data": "Memuat data pengguna...",
+    "update_email_title": "Perbarui Email",
+    "new_email_text": "EMAIL BARU ANDA",
+    "update": "PERBARUI",
+    "update_email_success": "Email berhasil diperbarui",
+    "update_email_error": "Gagal memperbarui email",
+    "InvalidLogin": "Login tidak valid.",
+    "update_photo_title": "Perbarui Foto",
+    "update_photo_alt": "Foto Profil",
+    "update_password_success": "Kata sandi berhasil diperbarui",
+    "update_password_title": "Perbarui Kata Sandi",
+    "password": "Kata Sandi",
+    "new_password": "Kata Sandi Baru",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "update_password_error_1": "Kata sandi minimal 4 karakter",
+    "update_password_error_2": "Pengguna tidak ditemukan",
+    "update_password_error_3": "Kata sandi saat ini salah",
+    "update_password_error_4": "Kata sandi baru dan konfirmasi tidak cocok",
+    "myprofile": "Profil Saya",
+    "notifications": "Notifikasi",
+    "updateaddress": "Perbarui Alamat",
+    "accountverification": "Verifikasi Akun",
+    "email": "EMAIL",
+    "phone": "NOMOR TELEPON",
+    "firstname": "NAMA DEPAN",
+    "lastname": "NAMA BELAKANG",
+    "streetaddress": "ALAMAT",
+    "postalcode": "KODE POS",
+    "city": "KOTA",
+    "state": "PROVINSI",
+    "country": "NEGARA",
+    "notification_permission": "Anda dapat menonaktifkan notifikasi melalui pengaturan browser Anda; pengaturan browser memiliki prioritas.",
+    "notification_permission_2": "Izin notifikasi (browser): diberikan",
+    "notification_permission_3": "Izin notifikasi (browser)",
+    "denied": "Ditolak",
+    "granted": "Diberikan",
+    "update_address_title": "Perbarui Alamat",
+    "street_address": "Alamat",
+    "zip_code": "Kode Pos",
+    "address_success": "Alamat berhasil diperbarui",
+    "email_verification": "Verifikasi Email",
+    "identity_verification": "Verifikasi Identitas",
+    "address_vericiation": "Verifikasi Alamat",
+    "verified": "Terverifikasi",
+    "pending": "Menunggu",
+    "notstarted": "Belum Dimulai",
+    "verifications": "Verifikasi",
+    "verify_email_error": "Email tidak valid. Email ini tidak terdaftar.",
+    "verify_email_success": "Kode verifikasi telah dikirim ke {email}.",
+    "verify_email_success_2": "Email berhasil diverifikasi.",
+    "verify_email_error_2": "Gagal memperbarui status verifikasi: {error}",
+    "verify_email_error_3": "PIN tidak valid, coba lagi.",
+    "verify_email_title": "Verifikasi Email",
+    "paragraph1": "Email dengan kode PIN 6 digit telah dikirim. Jika Anda tidak menerima dalam 1-2 menit, klik kirim ulang.",
+    "pin": "Kode PIN",
+    "verify_email_title_2": "VERIFIKASI EMAIL",
+    "email_2": "Email",
+    "resend": "KIRIM ULANG PIN",
+    "verify_identity_success": "Verifikasi identitas sedang diproses...",
+    "verify_identity_error": "Gagal mengunggah data: {error}",
+    "verify_identity_title": "Verifikasi Identitas",
+    "verify_your_title": "Verifikasi Identitas Anda",
+    "paragraph2": "Harap verifikasi identitas Anda dengan mengunggah dokumen ID yang valid. Beberapa masalah mungkin terjadi di iOS. Pastikan browser memiliki akses ke kamera.",
+    "select_front": "Pilih Sisi Depan",
+    "select_back": "Pilih Sisi Belakang",
+    "upload": "Unggah",
+    "skip": "Lewati",
+    "address_verify_success": "Verifikasi alamat sedang diproses...",
+    "address_verify_error": "Gagal mengunggah data: {error}",
+    "address_verification_title": "Verifikasi Alamat",
+    "street": "Alamat",
+    "bill": "Pilih Tagihan",
+    "submit": "Kirim"
+  },
+  "DepositList": {
+    "title": "Deposit",
+    "message": "Deposit akan tertunda hingga konfirmasi blockchain cukup diterima.",
+    "withdrawal": "Penarikan",
+    "new_withdrawal": "Penarikan Baru",
+    "no_withdrawal": "Belum ada penarikan"
+  },
+  "Referrals": {
+    "title": "Referensi",
+    "ref_balance": "Saldo Referensi",
+    "withdraw": "TARIK",
+    "ref_link": "Tautan Referensi",
+    "no_ref": "Anda belum memiliki referensi"
+  },
+  "Deposit": {
+    "title": "Deposit",
+    "fundaccount": "Danai Akun",
+    "viewpricing": "Lihat Harga",
+    "amount": "Jumlah",
+    "to": "Ke",
+    "tradingbalance": "Saldo Perdagangan",
+    "proceed": "Lanjutkan",
+    "loading": "Memuat...",
+    "pay": "BAYAR",
+    "paymentmethod": "PILIH METODE PEMBAYARAN",
+    "sendcrypto": "Kirim Kripto",
+    "sendcrypto_message": "kirim kripto yang didukung",
+    "invalidlink": "Tautan pembayaran tidak valid atau kadaluarsa",
+    "send": "KIRIM",
+    "worth": "BERNILAI",
+    "paragraph1": "KE ALAMAT DOMPET BERIKUT ATAU PINDAI KODE QR MENGGUNAKAN APLIKASI DOMPET ANDA",
+    "wallet": "Alamat Dompet",
+    "paragraph2": "KE REKENING BANK BERIKUT.",
+    "paragraph3": "HUBUNGI [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM) UNTUK DETAIL BANK",
+    "awaiting": "Menunggu Pembayaran",
+    "wait": "Menunggu Konfirmasi"
+  },
+  "Withdrawal": {
+    "title": "Penarikan",
+    "selectmethod": "Pilih Metode Penarikan",
+    "bankwithdraw": "Penarikan Bank",
+    "withdrawbank": "Tarik ke Rekening Bank",
+    "paragraph1": "Kami mungkin menghubungi Anda untuk informasi tambahan.",
+    "from": "Dari",
+    "to": "Ke",
+    "accountnumber": "Nomor Rekening",
+    "accountname": "Nama Pemilik Rekening",
+    "amount": "Jumlah",
+    "bankname": "Nama Bank",
+    "otpcode": "Kode OTP",
+    "submit": "Kirim",
+    "success_message": "Permintaan penarikan Anda sedang diproses.",
+    "error_message": "Kode OTP tidak valid. Silakan hubungi dukungan untuk mendapatkan kode baru dan coba lagi.",
+    "cryptowithdraw": "Penarikan Kripto",
+    "withdrawcrypto": "Tarik ke Kripto",
+    "wallet": "Alamat Dompet",
+    "paypalwithdraw": "Penarikan PayPal",
+    "withdrawpaypal": "Tarik ke PayPal",
+    "paypalemail": "Email PayPal",
+    "cashappwithdraw": "Penarikan CashApp",
+    "withdrawcashapp": "Tarik ke CashApp",
+    "cashtag": "Cashtag"
+  }
+
+
+
+
+
+
+
+    
+
+  }
+  

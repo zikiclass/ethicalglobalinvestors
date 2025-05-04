@@ -14,7 +14,7 @@ import logo from "../../../../public/img/logo.png";
 import { useSession } from "next-auth/react";
 import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 import { signOut } from "next-auth/react";
-import fetchUser from "../../users/_components/FetchUser";
+import fetchUser from "../../[locale]/users/_components/FetchUser";
 
 import HomeIcon from "@mui/icons-material/Home";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
@@ -29,12 +29,16 @@ import WysiwygIcon from "@mui/icons-material/Wysiwyg";
 import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
 import PeopleIcon from "@mui/icons-material/People";
+import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 const DashboardNavbar = () => {
   const { status, data: session } = useSession();
   const [countryShow, setCountryShow] = useState(false);
   const [fadeOut, setFadeOut] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const { data } = fetchUser();
+  const t = useTranslations();
   // Function to handle scroll event
   const handleScroll = (event) => {
     setScrollPosition(event.target.scrollTop);
@@ -43,77 +47,76 @@ const DashboardNavbar = () => {
       event.target.scrollTop = 0;
     }
   };
+  const pathname = usePathname();
+  const router = useRouter();
 
+  // Get locale from the first part of the path: "/fr/contact" -> "fr"
+  const locale = pathname.split("/")[1] || "en";
   const sidebarLinks = [
-    { id: 1, icon: HomeIcon, name: "Home", link: "/" },
-    { id: 2, icon: PersonOutlinedIcon, name: "Sign In", link: "signin" },
-    { id: 3, icon: PersonAddIcon, name: "Sign Up", link: "signup" },
-    { id: 4, icon: MailOutlinedIcon, name: "Contact Us", link: "contact" },
-    {
-      id: 5,
-      icon: LockOpenOutlinedIcon,
-      name: "Cookie Policy",
-      link: "cookie",
-    },
-    {
-      id: 6,
-      icon: LockOpenOutlinedIcon,
-      name: "Privacy Policy",
-      link: "privacy",
-    },
-    { id: 7, icon: DnsIcon, name: "Crypto Mining", link: "cryptomining" },
+    { id: 1, icon: HomeIcon, nameKey: "home", link: "" },
+    { id: 2, icon: PersonOutlinedIcon, nameKey: "signin", link: "signin" },
+    { id: 3, icon: PersonAddIcon, nameKey: "signup", link: "signup" },
+    { id: 4, icon: MailOutlinedIcon, nameKey: "contact", link: "contact" },
+    { id: 5, icon: LockOpenOutlinedIcon, nameKey: "cookie", link: "cookie" },
+    { id: 6, icon: LockOpenOutlinedIcon, nameKey: "privacy", link: "privacy" },
+    { id: 7, icon: DnsIcon, nameKey: "cryptomining", link: "cryptomining" },
     {
       id: 8,
       icon: CopyrightIcon,
-      name: "Bitcoin Mining",
+      nameKey: "bitcoinmining",
       link: "bitcoinmining",
     },
-    {
-      id: 9,
-      icon: CopyrightIcon,
-      name: "Dogecoin Mining",
-      link: "dogecoinmining",
-    },
-    {
-      id: 10,
-      icon: ContentCopyIcon,
-      name: "Copy Trading",
-      link: "copytrading",
-    },
-    {
-      id: 11,
-      icon: CopyrightIcon,
-      name: "Crypto Trading",
-      link: "cryptotrading",
-    },
-    { id: 12, icon: FolderOpenIcon, name: "Terms of Service", link: "terms" },
-    { id: 13, icon: WysiwygIcon, name: "Forex Trading", link: "forextrading" },
-    {
-      id: 14,
-      icon: InsertChartOutlinedIcon,
-      name: "Stocks Trading",
-      link: "stockstrading",
-    },
-    {
-      id: 15,
-      icon: DonutLargeOutlinedIcon,
-      name: "Options Trading",
-      link: "optionstrading",
-    },
-    { id: 16, icon: PeopleIcon, name: "What is Leverage", link: "leverage" },
-    {
-      id: 17,
-      icon: PeopleIcon,
-      name: "Responsible Trading",
-      link: "responsibletrading",
-    },
-    {
-      id: 18,
-      icon: FolderOpenIcon,
-      name: "General Risk Disclosure",
-      link: "generalrisk",
-    },
-    { id: 19, icon: PeopleIcon, name: "About Us", link: "about" },
+    // {
+    //   id: 9,
+    //   icon: CopyrightIcon,
+    //   nameKey: "dogecoinmining",
+    //   link: "dogecoinmining",
+    // },
+    // {
+    //   id: 10,
+    //   icon: ContentCopyIcon,
+    //   nameKey: "copytrading",
+    //   link: "copytrading",
+    // },
+    // {
+    //   id: 11,
+    //   icon: CopyrightIcon,
+    //   nameKey: "cryptotrading",
+    //   link: "cryptotrading",
+    // },
+    // { id: 12, icon: FolderOpenIcon, nameKey: "terms", link: "terms" },
+    // {
+    //   id: 13,
+    //   icon: WysiwygIcon,
+    //   nameKey: "forextrading",
+    //   link: "forextrading",
+    // },
+    // {
+    //   id: 14,
+    //   icon: InsertChartOutlinedIcon,
+    //   nameKey: "stockstrading",
+    //   link: "stockstrading",
+    // },
+    // {
+    //   id: 15,
+    //   icon: DonutLargeOutlinedIcon,
+    //   nameKey: "optionstrading",
+    //   link: "optionstrading",
+    // },
+    // { id: 16, icon: PeopleIcon, nameKey: "leverage", link: "leverage" },
+    // {
+    //   id: 17,
+    //   icon: PeopleIcon,
+    //   nameKey: "responsibletrading",
+    //   link: "responsibletrading",
+    // },
+    // {
+    //   id: 18,
+    //   icon: FolderOpenIcon,
+    //   nameKey: "generalrisk",
+    //   link: "generalrisk",
+    // },
+    { id: 19, icon: PeopleIcon, nameKey: "about", link: "about" },
   ];
 
   useEffect(() => {
@@ -147,6 +150,12 @@ const DashboardNavbar = () => {
       console.error("Sign-out error:", err);
     }
   };
+  const handleLocaleChange = (newLocale) => {
+    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
+    router.replace(newPathname);
+  };
+
+  const [selectedCountry, setSelectedCountry] = useState(locale.toUpperCase());
   return (
     <div className="scrolled">
       <div className="navbar__logo__harmburger">
@@ -161,7 +170,7 @@ const DashboardNavbar = () => {
       <div className="navbar__links">
         {status === "unauthenticated" ? (
           <Link href="../signin" className="md-links">
-            Log In
+            {t("HomePage.login")}
           </Link>
         ) : (
           <Link href="profile" className="md-links">
@@ -182,49 +191,69 @@ const DashboardNavbar = () => {
           />
         </Link>
 
-        {/* <div
+        <div
           className="icon__"
           onClick={() => {
             setCountryShow(!countryShow);
           }}
         >
-          <FlagIcon code="US" className="icon__country" /> <span>EN</span>
-        </div> */}
+          <FlagIcon
+            code={selectedCountry === "EN" ? "GB" : selectedCountry}
+            className="icon__country"
+          />{" "}
+          <span>{selectedCountry}</span>
+        </div>
 
-        {/* <div className="country__list">
-          <div className="country__wrap">
-            {countryList.map((country) => (
-              <div className="icon__country__list" key={country.id}>
-                <FlagIcon code={country.code} className="icon__country__" />{" "}
-                <span>{country.code}</span>
-              </div>
-            ))}
+        {
+          <div className="country__list">
+            <div className="country__wrap">
+              {countryList.map((country) => (
+                <div
+                  className="icon__country__list"
+                  key={country.id}
+                  onClick={() => {
+                    setSelectedCountry(country.code);
+                    handleLocaleChange(country.lang.toLowerCase());
+                  }}
+                >
+                  <FlagIcon code={country.code} className="icon__country__" />
+                  <span>{country.code}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div> */}
+        }
       </div>
 
       <div
-        className={`sidebar__container ${fadeOut ? "fadeOut" : ""}`}
+        className={
+          fadeOut ? "sidebar__container fadeOut" : "sidebar__container"
+        }
         onClick={() => {
           setFadeOut(!fadeOut);
         }}
       >
         <div
-          className={`sidebar ${fadeOut ? "fadeOut" : ""}`}
+          className={fadeOut ? "sidebar fadeOut" : "sidebar"}
           onScroll={handleScroll}
         >
           <div className="logo__wrap">
             <Image src={logo} alt="Logo" className="logo__sidebar" />
           </div>
           <ul className="sidebar__links">
-            {sidebarLinks.map((link) => (
-              <li key={link.id}>
-                <Link href={`../${link.link}`} className="sidebar__link">
-                  <link.icon className="sidebar__links__icon" />
-                  <span>{link.name}</span>
-                </Link>
-              </li>
-            ))}
+            {sidebarLinks.map((link) => {
+              const Icon = link.icon;
+              const href = `/${locale}${link.link ? `/${link.link}` : ""}`;
+
+              return (
+                <li key={link.id}>
+                  <Link href={href} className="sidebar__link">
+                    {Icon && <Icon className="sidebar__links__icon" />}
+                    <span>{t(`HomePage.${link.nameKey}`)}</span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>

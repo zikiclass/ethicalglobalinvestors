@@ -1,10 +1,90 @@
 "use client";
 import React, { useState } from "react";
 import "./styles/faq.css";
-import { faqs } from "./data";
 import { Fade } from "react-awesome-reveal";
-
+import { useTranslations } from "next-intl";
 const Faq = ({ project_title }) => {
+  const t = useTranslations();
+  const faqs = (param) => {
+    let faqArray = [
+      {
+        id: 1,
+        question: t("faq.how_does_copy_trading_work.question"), // Using t() for localization
+        answer: t("faq.how_does_copy_trading_work.answer"), // Use t() for answer as well
+      },
+      {
+        id: 2,
+        question: t("faq.what_are_the_fees.question"),
+        answer: t("faq.what_are_the_fees.answer"),
+      },
+      {
+        id: 3,
+        question: t("faq.who_are_the_trading_experts.question"),
+        answer: t("faq.who_are_the_trading_experts.answer"),
+      },
+      {
+        id: 4,
+        question: t("faq.recommended_amount_to_start_with.question"),
+        answer: t("faq.recommended_amount_to_start_with.answer"),
+      },
+      {
+        id: 5,
+        question: t("faq.how_does_bitcoin_mining_work.question"),
+        answer: t("faq.how_does_bitcoin_mining_work.answer"),
+      },
+      {
+        id: 6,
+        question: t("faq.are_you_mining_for_yourself.question"),
+        answer: t("faq.are_you_mining_for_yourself.answer"),
+      },
+      {
+        id: 7,
+        question: t("faq.where_is_your_mining_farm_located.question"),
+        answer: t("faq.where_is_your_mining_farm_located.answer"),
+      },
+      {
+        id: 8,
+        question: t("faq.mining_coins_per_algorithm.question"),
+        answer: t("faq.mining_coins_per_algorithm.answer", { param }),
+      },
+      {
+        id: 9,
+        question: t("faq.how_do_your_ether_contracts_work.question"),
+        answer: t("faq.how_do_your_ether_contracts_work.answer"),
+      },
+      {
+        id: 10,
+        question: t("faq.expected_returns.question"),
+        answer: t("faq.expected_returns.answer", { param }),
+      },
+      {
+        id: 11,
+        question: t("faq.which_pools_are_you_using_for_mining.question"),
+        answer: t("faq.which_pools_are_you_using_for_mining.answer"),
+      },
+      {
+        id: 12,
+        question: t("faq.isnt_buying_hardware_cheaper.question"),
+        answer: t("faq.isnt_buying_hardware_cheaper.answer", { param }),
+      },
+      {
+        id: 13,
+        question: t("faq.what_is_the_maintenance_fee.question"),
+        answer: t("faq.what_is_the_maintenance_fee.answer"),
+      },
+      {
+        id: 14,
+        question: t(
+          "faq.how_can_i_mine_different_coins_at_the_same_time.question"
+        ),
+        answer: t(
+          "faq.how_can_i_mine_different_coins_at_the_same_time.answer",
+          { param }
+        ),
+      },
+    ];
+    return faqArray;
+  };
   const faqArray = faqs(project_title);
   // State to keep track of active state for each FAQ item
   const [activeItems, setActiveItems] = useState(

@@ -1,0 +1,597 @@
+{
+    "HomePage": {
+      "home": "Inicio",
+      "login": "Iniciar sesión",
+      "signin": "Acceder",
+      "signup": "Registrarse",
+      "contact": "Contáctanos",
+      "cookie": "Política de cookies",
+      "privacy": "Política de privacidad",
+      "cryptomining": "Minería de Criptomonedas",
+      "bitcoinmining": "Minería de Bitcoin",
+      "dogecoinmining": "Minería de Dogecoin",
+      "copytrading": "Copy Trading",
+      "cryptotrading": "Trading de Criptomonedas",
+      "terms": "Términos del servicio",
+      "forextrading": "Trading de Forex",
+      "stockstrading": "Trading de Acciones",
+      "optionstrading": "Trading de Opciones",
+      "leverage": "¿Qué es el apalancamiento?",
+      "responsibletrading": "Trading Responsable",
+      "generalrisk": "Divulgación General de Riesgos",
+      "about": "Sobre nosotros"
+    },
+  
+    "Carousel": {
+      "welcome": "Bienvenido a {project}",
+      "welcomeDesc": "Comienza a obtener beneficios hoy mismo negociando criptomonedas, Forex, acciones u opciones binarias.",
+      "stocksTitle": "Negociar Acciones",
+      "stocksDesc": "Negocia acciones o realiza inversiones a largo plazo en la misma plataforma",
+      "forexTitle": "Negociar Forex",
+      "forexDesc": "Negocia Forex en la plataforma de {project} y disfruta de precios confiables y ejecución excepcional",
+      "copyTitle": "Copiar a Traders Expertos",
+      "copyDesc": "Selecciona de una lista de traders expertos y copia automáticamente sus operaciones sin tener que vigilar el mercado.",
+      "getStarted": "Comenzar"
+    },
+  
+    "ContactPage": {
+      "name": "Tu Nombre*",
+      "email": "Correo Electrónico*",
+      "phone": "Número de Teléfono*",
+      "subject": "Asunto*",
+      "message": "Tu Mensaje...",
+      "send": "Enviar Mensaje",
+      "note": "Nota:",
+      "disclaimer": "Prometemos no enviar spam y tu dirección de correo electrónico es confidencial."
+    },
+    "features": {
+      "feature1Heading": "Registro rápido",
+      "feature1Paragraph": "Solo 1 minuto y estarás dentro. Ingresa la información necesaria para convertirte en un inversionista de la plataforma y comienza de inmediato.",
+      "feature2Heading": "Operaciones rápidas",
+      "feature2Paragraph": "Invierte y relájate. Puedes seguir el estado de tu inversión en cualquier momento e invertir en ofertas especiales limitadas por tiempo.",
+      "feature3Heading": "Soporte oportuno",
+      "feature3Paragraph": "Brindamos un servicio de soporte inigualable por correo electrónico o chat en vivo para proporcionar una respuesta profesional y rápida."
+    },
+    "CopyExperts": {
+  "title": "Traders Expertos en Copia",
+  "paragraph1": "Hace unos 5 años comencé a experimentar y jugar con el mercado de divisas. La razón por la que elegí el trading fue por la libertad. La capacidad de hacer lo que quiera, cuando quiera... Esa es la parte positiva del trading.",
+  "paragraph2": "Pero, cuando empecé, nadie me habló sobre el lado oscuro y desafiante del trading. Hace unos años no había ninguna guía o recurso estructurado para ayudar a los traders a convertir esto en una carrera. Todo fue ensayo y error para mí... Continué experimentando y aprendiendo de mis errores hasta que lo dominé. Ahora seré el primero en decirte que el trading requiere una gran disciplina.",
+  "paragraph3": "Realísticamente, incluso podrías comerciar durante más de 2 años de manera constante sin ver mucho crecimiento o dinero en las primeras etapas. Eso es aterrador de pensar, pero esa es la realidad de la que muchos no hablan.",
+  "paragraph4": "Si existiera un secreto para el trading, sería la consistencia. Pero, mantener la consistencia es difícil cuando no tienes dirección. Nadie con quien compartir tus desafíos. Nadie que te dé retroalimentación. Todo eso termina con el Copy Trading.",
+  "paragraph5": "Mi objetivo es cerrar la brecha desde el lado oscuro y desafiante del trading hasta un punto en el que puedas convertir esto en una carrera sostenible. ¡Así que prepárate porque será un viaje increíble! Puedes echar un vistazo a las operaciones en vivo que he realizado en mi cuenta financiada de {project_name}. La cual pude hacer crecer a ganancias de 6 cifras en 30 días - {project_title} Expert Trader"
+},
+
+  "WhatWeOffer": {
+    "title": "Lo que ofrecemos",
+    "description": "Estamos creando un nuevo estándar para el trading y la minería. Una cuenta con acceso simplificado a múltiples mercados de liquidez.",
+    "learnMore": "Aprende más",
+    "offerList": [
+      {
+        "heading": "Trading de Cripto",
+        "paragraph": "Ahora puedes empezar a operar con Bitcoin, Ethereum y muchas otras criptomonedas de forma rápida, fácil y segura desde donde estés — en solo unos segundos.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Trading en Forex",
+        "paragraph": "El mercado Forex es un lugar donde se intercambian monedas. Es el mercado financiero más grande y más líquido del mundo con un volumen de operaciones diario promedio de 6,6 billones de dólares estadounidenses en 2019.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Expertos en Traders de Cripto",
+        "paragraph": "El copy trading te permite copiar directamente las posiciones tomadas por otro trader. Tú decides la cantidad que deseas invertir y simplemente copias todo lo que hacen automáticamente.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "MINAR LAS PRINCIPALES CRIPTOMONEDAS",
+    "description1": "A diferencia del dinero en papel, el Bitcoin y otras criptomonedas se producen matemáticamente y se mantienen digitalmente. Las personas que ofrecen voluntariamente su poder de cálculo para asegurar estas redes de criptomonedas se llaman mineros. Las criptomonedas no tienen un gobierno central ni otros 'intermediarios' que decidan sobre el futuro del sistema.",
+    "description2": "Como mineros, procesamos y verificamos las transacciones de los ecosistemas de criptomonedas y mantenemos su historial público de transacciones (blockchains) seguro. A cambio, la comunidad minera es recompensada con las tarifas de transacción de las redes y las nuevas monedas creadas."
+  },
+  "FinancialMarket": {
+    "title": "Mercados Financieros Explicados",
+    "description1": "Los mercados financieros se refieren colectivamente a un mercado en línea en el que las empresas y los individuos firman contratos para vender o comprar un producto específico de una amplia gama de 'instrumentos del mercado financiero'.",
+    "description2": "El único propósito de las inversiones dentro del espacio de los mercados financieros es comerciar valores financieros y derivados con bajos costos de transacción, mientras se generan rendimientos a partir de entradas y salidas comerciales calculadas.",
+    "description3": "Los instrumentos del mercado financiero y los valores incluyen acciones y bonos, opciones, criptomonedas, pares de divisas extranjeras, materias primas y metales preciosos que se conocen en los mercados financieros como materias primas."
+  },
+  
+    "TradingPlan": {
+      "title": "UN PLAN DE TRADING PARA TODOS",
+      "description": "Ofrecemos una variedad de cuentas de trading para adaptarnos a cada estilo de trading en todos los niveles de experiencia. Ya seas un scalper, un day trader, uses EAs o seas un trader discrecional, tenemos lo que necesitas.",
+      "plans": [
+        {
+          "title": "Bronce",
+          "amount": "300",
+          "minDeposit": "300",
+          "referralBonus": "Bono de Referencia",
+          "itSupport": "Soporte IT Completo",
+          "purchasePlan": "COMPRAR PLAN"
+        },
+        {
+          "title": "Premium",
+          "amount": "600",
+          "minDeposit": "600",
+          "referralBonus": "Bono de Referencia",
+          "itSupport": "Soporte IT Completo",
+          "purchasePlan": "COMPRAR PLAN"
+        },
+        {
+          "title": "Oro",
+          "amount": "1200",
+          "minDeposit": "1200",
+          "referralBonus": "Bono de Referencia",
+          "itSupport": "Soporte IT Completo",
+          "purchasePlan": "COMPRAR PLAN"
+        },
+        {
+          "title": "Platino",
+          "amount": "50000",
+          "minDeposit": "50000",
+          "referralBonus": "Bono de Referencia",
+          "itSupport": "Soporte IT Completo",
+          "purchasePlan": "COMPRAR PLAN"
+        }
+      ]
+    },
+    
+      "latest_payouts": "Últimos Pagos",
+      "testimonials": {
+        "name_1": "Miles Kozey",
+        "comment_1": "Estoy extremadamente satisfecho con la plataforma, en cuanto a facilidad, velocidad de uso y fiabilidad.",
+        "name_2": "Katrine Welch",
+        "comment_2": "Método muy simple y seguro para agregar algo de interés a tus inversiones.",
+        "name_3": "Kianna Heaney",
+        "comment_3": "Tripliqué el bitcoin en mi billetera con este servicio en solo 7 días.",
+        "name_4": "Geoffrey Dare",
+        "comment_4": "Plataforma de trading fácil de usar, sin riesgos, que aumenta el potencial de ganancias de una persona."
+      },
+      "payouts": {
+        "1": "Delmer Kuhlman",
+        "2": "Clifton Deckow",
+        "3": "Gina Hills",
+        "4": "Elta Fritsch",
+        "5": "Name Ziemann",
+        "6": "Daniela Erdman",
+        "7": "Bernhard Haag",
+        "8": "Shawna Goldner",
+        "9": "Hazle Konopelski",
+        "10": "Kenneth Gorczany",
+        "11": "Lela Kuhn",
+        "12": "Benedict Donnelly",
+        "13": "Raphaelle Spencer",
+        "14": "Sadie Lesch",
+        "15": "Nico Kshlerin",
+        "16": "Britney Runolfsdottir",
+        "17": "Jermaine Howe",
+        "18": "Brisa Rice"
+      },
+      "faq": {
+  "how_does_copy_trading_work": {
+    "question": "¿Cómo funciona el copy trading?",
+    "answer": "Así es como funciona copiar operaciones: tú, como inversionista, simplemente seleccionas a un experto o expertos de los que deseas copiar las operaciones. Una vez que te registras, esta es la única acción que necesitas hacer. Después de eso, ya estás listo. No necesitas ejecutar ningún código ni ingresar señales manualmente. Nuestro software se encarga automáticamente de copiar las operaciones por ti. Monitoreamos la actividad de trading de tus expertos, y tan pronto como se realiza una operación, calculamos todos los parámetros necesarios y ejecutamos la operación. Lo único que debes asegurarte es de tener suficiente moneda base disponible en tu cuenta de trading, la misma que utiliza tu experto. ¿Cuánto es suficiente? Primero, debes cumplir con el monto mínimo por orden del exchange (digamos unos 10 USD por operación para estar seguros). Esto significa que si tu experto ejecuta una orden del 5%, debes tener al menos 300 USD de valor total en tu cuenta (como ejemplo con una asignación del 100% al experto). Esto también significa que debes tener al menos un 10% o más en moneda base disponible para evitar perder operaciones. Cuando el experto cierre una posición, tú también la cerrarás. Automáticamente. También puedes cambiar la asignación en cualquier momento."
+  },
+  "what_are_the_fees": {
+    "question": "¿Cuáles son las comisiones?",
+    "answer": "Cada inversionista debe pagar una comisión del 10% sobre los retiros para completar el proceso de retiro, y cada trader recibe un porcentaje establecido de las ganancias que genera."
+  },
+  "who_are_the_trading_experts": {
+    "question": "¿Quiénes son los expertos en trading?",
+    "answer": "Seleccionamos cuidadosamente a los expertos postulantes. Los conocemos como traders y examinamos su rendimiento durante un período de tiempo. También solemos buscar expertos que ya cuenten con seguidores para confirmar aún más su competencia (prueba social). También puedes leer sobre cada experto en sus páginas individuales de rendimiento."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "¿Cuál es el monto recomendado para empezar?",
+    "answer": "Sugerimos tener entre 3000 y 5000 USD en valor de BTC en tu cuenta debido a los requisitos mínimos de orden del exchange y para que al menos puedas cubrir el costo de suscripción mensual."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "¿Cómo funciona la minería de Bitcoin?",
+    "answer": "¡Es rápido y muy fácil! Tan pronto como recibamos tu pago, tu contrato se agregará a tu perfil y podrás comenzar a minar inmediatamente. Dependiendo del algoritmo de blockchain que elijas y del acuerdo de servicio de minería correspondiente, puedes minar criptomonedas nativas directamente o asignar tu poder de hash a otras criptomonedas (marcadas como AUTO), e incluso elegir una asignación específica para ellas. Por ejemplo: 60% LTC, 20% BTC y 20% DOGE. El primer pago de minería se emite después de 48 horas, y luego recibirás pagos diarios de minería."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "¿Mineran para ustedes mismos?",
+    "answer": "Además del hecho de que nosotros mismos minamos con el mismo hardware que ofrecemos a nuestros clientes, nuestro capital es limitado. Creemos que la minería de Bitcoin y Altcoins es una de las mejores formas de recibir criptomonedas, sin embargo, no queremos 'poner todos los huevos en una sola canasta'."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "¿Dónde se encuentra su granja de minería?",
+    "answer": "Por razones de seguridad, no revelamos la ubicación exacta de nuestras granjas de minería. Desde abril de 2015, operamos varias granjas ubicadas en Europa, América y Asia. El costo de electricidad y la disponibilidad de enfriamiento son importantes, pero no son los únicos criterios. Consulta nuestra página de Centros de Datos para más información."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "¿Qué monedas puedo minar con cada algoritmo?",
+    "answer": "Puedes minar Bitcoin y varias altcoins directamente a través de nuestra página de asignación de minería*. La disponibilidad de criptomonedas que puedes minar depende del contrato que hayas elegido.<br/><br/>Debes asignar tu poder de hash para determinar la criptomoneda que recibirás como resultado de la minería. Si no realizas una asignación, el resultado de la minería se establecerá por defecto según el algoritmo:<br/><br/>Contrato SHA-256 - Bitcoin<br/>Contrato Ethash - Ethereum<br/>(*) “{param} Asignación Avanzada” (función especial): te permite recibir pagos en muchas monedas diferentes incluso si no son minadas directamente por un determinado algoritmo. Por ejemplo, puedes recibir BTC mientras minas con un algoritmo X11. Esto es posible al minar directamente la moneda DASH, que luego se convierte automáticamente a BTC mediante nuestro sistema algorítmico. Esta función está diseñada para que los clientes reciban sus resultados de minería en la criptomoneda de su preferencia. Lo llamamos “minar BTC de forma inteligente”. La misma técnica se aplica, por ejemplo, para obtener LTC con un contrato SHA-256."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "¿Cómo funcionan sus contratos de ether?",
+    "answer": "Cuando compras un contrato de minería de Ether, estás comprando una parte de una GPU (unidad de procesamiento gráfico) para minar Ethereum. El algoritmo de hash utilizado se llama Ethash (o Dagger-Hashimoto).<br/><br/>Ethash requiere el llamado archivo DAG para realizar los cálculos. Este archivo crece con el tiempo, lo que significa que se deben realizar más operaciones por cada operación de hash. Esto provoca una ligera disminución del hashrate efectivo a medida que crece el archivo DAG.<br/><br/>Esto debe tenerse en cuenta al comparar la producción teórica de tu poder de hash. Los calculadores en línea no lo consideran.<br/><br/>Además, ten en cuenta que algunos de nuestros productos tienen una tarifa de mantenimiento."
+  },
+  "expected_returns": {
+    "question": "¿Cuáles son los rendimientos esperados?",
+    "answer": "La minería de Bitcoin y altcoins depende en gran medida de los precios y dificultades de red de las criptomonedas que estás minando, lo cual no se puede predecir. No sería apropiado que proporcionáramos datos sobre el rendimiento de la minería mientras vendemos contratos al mismo tiempo. Por eso, recomendamos a todos nuestros clientes que hagan su propia investigación y cálculos.<br/><br/>Por ejemplo, puedes visitar coinwarz.com. Recuerda que algunos de nuestros productos tienen una tarifa de mantenimiento diaria que debe deducirse de las recompensas de minería diarias.<br/><br/>Ten en cuenta que ese sitio web es una fuente independiente y no está relacionado con {param} de ninguna manera."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "¿Qué pools utilizan para la minería?",
+    "answer": "No publicamos una lista de los pools que usamos. Nuestros principales criterios son: fiabilidad, estructura de comisiones y tasa de rechazo. En el futuro, realizaremos minería en solitario para algunas monedas (¡y trasladaremos los ahorros en comisiones a nuestros usuarios!).<br/><br/>Nuestra política interna es: “ser un buen ciudadano cripto”. Esto significa que utilizamos al menos dos pools diferentes (a veces hasta cuatro) por moneda, para preservar la naturaleza descentralizada de las redes cripto. Si detectamos que un pool se acerca al 50% del poder total, cambiaremos a otro."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "¿No es más barato comprar hardware?",
+    "answer": "A simple vista, uno podría pensar que comprar el minero X es más barato que la minería alojada. Sin embargo, hay varios costos ocultos asociados con la compra y el mantenimiento de un minero que cambian considerablemente los números:<br/><br/>Costos de envío: pocos comerciantes lo cubren, la mayoría lo cobra por separado.<br/><br/>Impuestos y aduanas: si es una entrega internacional, probablemente tengas que pagar impuestos y aranceles.<br/><br/>Tiempo de entrega: hay que esperar a que el dispositivo sea enviado; si se retiene en aduanas, puede tardar semanas. Durante ese tiempo no puedes minar (coste de oportunidad).<br/><br/>Costos de equipamiento adicional: normalmente necesitas fuente de alimentación compatible, unidades de control y estantes.<br/><br/>Instalación: requiere trabajo técnico, configuración y tiempo. Muchos usuarios subestiman esto. Se pierde tiempo y oportunidad de minado.<br/><br/>Mantenimiento: fallas de hardware y averías pueden causar inactividad. Si se rompe, tienes que reemplazarlo. Con {param} tienes 100% de tiempo activo garantizado. Si una unidad falla, otra toma su lugar inmediatamente.<br/><br/>Electricidad: en casa, la minería produce calor, ruido y aumenta tu factura eléctrica. No queremos desalentar la minería doméstica, solo informarte de los costos reales. Al compararlos, notarás que nuestros precios son competitivos. Queremos ofrecerte la mejor experiencia de minería posible para que te enfoques en minar tus monedas favoritas (y nosotros nos encargamos del resto)."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "¿Cuál es la tarifa de mantenimiento?",
+    "answer": "Algunos de nuestros productos tienen una tarifa de mantenimiento. Esta tarifa cubre todos los costos relacionados con la minería, incluyendo:<br/><br/>Costo de electricidad<br/>Refrigeración<br/>Trabajo de mantenimiento<br/>Servicios de alojamiento<br/><br/>La tarifa está fijada en USD pero se deduce diariamente de las recompensas de minería en la moneda minada."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "¿Cómo puedo minar diferentes monedas al mismo tiempo?",
+    "answer": "{param} permite a sus clientes minar diferentes tipos de monedas al mismo tiempo. Tú decides qué monedas prefieres y puedes asignar el poder de hash en consecuencia.<br/><br/>Cada algoritmo de minería tiene una criptomoneda de entrega predeterminada. La Asignación Avanzada Automática de {param} (AUTO) se aplica a todas las criptomonedas que no se pueden minar directamente. En la interfaz, ve a “Asignación de Minería” y elige la asignación que mejor se adapte a ti. Cuando termines, presiona 'guardar asignación'.<br/><br/>Recuerda que las criptomonedas marcadas con (AUTO) no se minan directamente, como se menciona en la sección “¿Qué monedas puedo minar?” de esta página.<br/>Para recibir los pagos de minería, asegúrate de agregar tu(s) dirección(es) de wallet a tu perfil de {param}. Consulta la siguiente sección para más detalles sobre cómo agregar tus monederos."
+  }
+      },
+      "footer": {
+  "quick_links": "Enlaces Rápidos",
+  "contact_us": "Contáctenos",
+  "my_account": "Mi Cuenta",
+  "create_account": "Crear Cuenta"
+},
+
+  "SignUpPage": {
+    "signUp": "Registrarse",
+    "successMessage": "Cuenta registrada exitosamente",
+    "accountTypeLive": "CUENTA REAL",
+    "accountTypeDemo": "CUENTA DEMO",
+    "accountType": "Tipo de Cuenta",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "mobileNumber": "Número de Móvil",
+    "currency": "Moneda",
+    "country": "País",
+    "state": "Estado",
+    "city": "Ciudad",
+    "termsText": "Acepto todos los términos del servicio",
+    "createAccount": "Crear Mi Cuenta",
+    "processing": "Procesando...",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "login": "Iniciar sesión",
+    "creatingAccount": "Creando Cuenta..."
+  },
+  "ErrorPage": {
+    "error": "¡Error!",
+    "emailAlreadyRegistered": "Correo electrónico ya registrado"
+  },
+  "LoadingPage": {
+    "loading": "Cargando..."
+  },
+  
+    "LoginPage": {
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "signIn": "Iniciar sesión",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "noAccount": "¿No tienes una cuenta?",
+      "signUp": "Regístrate",
+      "processing": "Procesando...",
+      "error": "¡Error!",
+      "invalidDetails": "Detalles de inicio de sesión inválidos.",
+      "signInFailed": "Error al iniciar sesión. Por favor, inténtalo de nuevo."
+    },
+    "ForgotPassword": {
+    "pageTitle": "Restablecer la contraseña",
+    "instruction": "Por favor, introduzca la dirección de correo electrónico asociada a su cuenta a continuación",
+    "emailLabel": "Correo electrónico",
+    "submit": "Enviar"
+  },
+  "CookiePolicy": {
+  "title": "Política de Cookies",
+  "lastRevised": "Última revisión",
+  "purpose1": "{project_name} usa cookies para: Optimizar tu experiencia de trading, incluyendo recordar tus preferencias, ubicación, idioma preferido, navegador y otros detalles;",
+  "purpose2": "Autenticar tu identidad con fines de seguridad;",
+  "purpose3": "Mantener nuestro sitio web y ciertas funciones disponibles en él;",
+  "purpose4": "Analizar y rastrear el uso de nuestros servicios;",
+  "purpose5": "Ajustar nuestra plataforma según tus hábitos de trading y nuestros requisitos regulatorios.",
+  "whatAreCookiesTitle": "Qué son las cookies",
+  "whatAreCookiesDesc": "Las cookies son pequeños fragmentos de datos que un sitio web envía a tu computadora y almacena en ella. Las cookies no son ejecutables y no pueden ser usadas para instalar malware. Permiten que los sitios web reconozcan a los visitantes cuando regresan e incluyen información básica sobre ellos que es verificada y actualizada cada vez que visitas el sitio web. Para más información, consulta: http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Gestionar cookies",
+  "managingCookiesIntro": "En {project_name} respetamos tu derecho a la privacidad y por lo tanto estamos encantados de proporcionarte herramientas para gestionar las cookies que recibes de nuestros servicios web. Algunas cookies son esenciales para el rendimiento de nuestra plataforma (no puedes optar por no recibir estas cookies si deseas usar nuestra plataforma). A continuación, encontrarás una lista de algunas de las cookies de terceros que utiliza {project_name}. Para los usuarios que prefieren no recibir cookies no esenciales, hemos proporcionado una opción de “opt-out” para que la selecciones.",
+  "managingCookiesBrowser": "Tu navegador también puede permitirte bloquear el almacenamiento de cookies en tu computadora; consulta el menú de 'Ayuda' de tu navegador o su sitio web para más información. Si usas nuestros servicios web sin bloquear cookies, en realidad estás dando tu consentimiento a las cookies."
+},
+
+  "privacyPolicy": "Política de privacidad",
+  "lastRevised": "Última revisión",
+  "limited": "Limitado",
+  "respectPrivacy": "respeta la privacidad de nuestros usuarios (cada uno, \"usted\" o \"Usuario\")",
+  "usersCommitment": "y se compromete a proteger la privacidad de los Usuarios que acceden, descargan, instalan o se registran en nuestra aplicación móvil",
+  "informationCollection": "La empresa ha preparado esta Política de Privacidad para describir nuestras prácticas con respecto a la recopilación, el uso y la divulgación de su información cuando usa los Servicios.",
+  "agreeToTerms": "Al usar los Servicios, acepta los términos de esta Política de Privacidad.",
+  "retainInformation": "Durante cuánto tiempo retenemos la información",
+  "protectingInformation": "Cómo protegemos su información",
+  "advertisements": "Publicidad",
+  "advertisingId": "ID de publicidad e identificador de publicidad",
+  "cookiesAndAnalytics": "Cookies y Google Analytics",
+  "shareInformation": "CON QUIÉNES COMPARTIMOS LA INFORMACIÓN Y CON QUÉ PROPÓSITO",
+  "sharingDetails": "No alquilamos, vendemos ni compartimos su información personal con terceros, excepto como se describe en esta Política de Privacidad...",
+  "retentionDetails": "Respetamos sus derechos de privacidad y, por lo tanto, puede contactarnos en cualquier momento y solicitar...",
+  "protectionDetails": "Tomamos gran cuidado en implementar y mantener la seguridad de los Servicios y su información...",
+  "advertisementDetails": "Podemos usar una tecnología de publicidad de terceros para mostrar anuncios cuando usa los Servicios...",
+  "advertisingIdDetails": "El ID de publicidad de Google es un identificador anónimo proporcionado por los servicios de Google Play...",
+  "updatePrivacyPolicy": "ACTUALIZACIONES O ENMIENDAS DE LA POLÍTICA DE PRIVACIDAD",
+  "updateDetails": "Podemos revisar esta Política de Privacidad de vez en cuando a nuestra entera discreción, y la versión más actual siempre se publicará...",
+  
+    "cryptoMining": "Minería de Cripto Moneda",
+    "cryptoMiningTitle": "Minería de Cripto Moneda",
+    "cryptoMiningParagraph1": "Las redes de criptomonedas necesitan potencia computacional para funcionar de manera segura. Las blockchains más poderosas del mundo son respaldadas por millones de computadoras en todo el mundo...",
+    "cryptoMiningParagraph2": "Las criptomonedas no tienen un gobierno central ni otros ‘intermediarios’ que decidan sobre el futuro del sistema...",
+    "howIsBitcoinSecure": "¿CÓMO SE MANTIENE SEGURO EL BITCOIN?",
+    "bitcoinSecurityParagraph": "La única forma de no crear dinero de la nada o corromperlo es quemando energía real. Esto se llama Proof-of-Work...",
+    "minersIncentives": "¿CUÁLES SON LOS INCENTIVOS PARA LOS MINEROS?",
+    "minersIncentivesParagraph": "Todo se reduce a la confianza: Los mineros mantienen las cadenas de bloques confiables y son recompensados por sus esfuerzos...",
+    "bigVisionOfCrypto": "LA GRAN VISIÓN DE LAS CRIPTOMONEDAS",
+    "bigVisionParagraph": "Para mantener la integridad (¡y los valores!) de todos los ecosistemas de criptomonedas intactos, los mineros mantienen las redes seguras y su autoridad descentralizada...",
+    "BitcoinMining": {
+  "title": "Minería de Bitcoin",
+  "paragraph1": "Bitcoin tiene un libro mayor público llamado blockchain. El proceso de minería agrega nuevas transacciones a este libro mayor público. ¿Por qué? Bueno, los usuarios de Bitcoin necesitan este proceso porque significa que cada transacción se confirma y verifica de forma segura, mientras que todos los usuarios que usan la red Bitcoin tienen acceso completo a la blockchain, es decir, el libro mayor de Bitcoin. La minería también ayuda a la red a determinar qué transacciones son justas y legítimas, eliminando todas las transacciones que intentan gastar dinero dos veces.",
+  "paragraph2": "Entonces, si alguien quiere hacer minería de Bitcoin, realmente está prestando un servicio a todos los usuarios de Bitcoin, asegurándose de que las transacciones de Bitcoin sean legítimas. Durante el proceso de minería, los mineros completan un nuevo bloque, lo que significa que el minero recibe una recompensa. En 2018, la recompensa por completar un nuevo bloque era de 12,5 Bitcoin, pero esta recompensa disminuye con el tiempo.",
+  "paragraph3": "Como puedes imaginar, la minería requiere mucho trabajo y paciencia: no obtendrás resultados rápidos al minar Bitcoin. Por eso hay una analogía obvia con la minería física de metales como el oro. De ahí que se use la palabra ‘minería’ para las tareas basadas en computadoras que generan nuevos Bitcoins.",
+  "bold1": "Elección del equipo de minería",
+  "paragraph4": "La minería de Bitcoin implica cálculos complejos que requieren mucho poder de cómputo. Por lo tanto, la elección del equipo adecuado para minar Bitcoin es crucial. Al elegir el equipo de minería de Bitcoin, debes tener en cuenta varias características específicas.",
+  "bold2": "Tasa de hash",
+  "paragraph5": "Quizás el aspecto más importante al elegir tu equipo de minería es la tasa de hash, que es la cantidad de cálculos criptográficos que tu equipo de minería puede hacer por segundo. La tasa de hash es, básicamente, la cantidad de cálculos criptográficos que tu hardware de minería puede realizar cada segundo. Es fácil entender por qué una mayor tasa de hash ayuda a minar monedas más rápido: simplemente, cuanto más cálculos puedas hacer por segundo, más rápido resolverás las matemáticas criptográficas necesarias para minar una moneda. Esto te permitirá completar bloques más rápido y obtener la recompensa por ello.",
+  "paragraph6": "Las funciones hash funcionan de esta manera: sin importar el valor de entrada, siempre obtienes el mismo valor de salida. Para encontrar un valor de salida específico, debes probar tantas entradas aleatorias como sea posible, tan rápido como sea posible. Esto hace que la minería sea competitiva, y el minero que puede procesar más entradas que otros será el primero en encontrar una solución. Así que, si obtienes un hardware con una tasa de hash más alta, tendrás ventaja sobre otros mineros, lo que significa que recibirás más recompensas más rápido.",
+  "paragraph7": "La unidad de medida para las tasas de hash es MH/s, que significa megahashes por segundo. También puedes medir las tasas de hash en GH/s y TH/s, que significan gigahashes y terahashes por segundo, respectivamente. Las tasas de hash de los equipos de minería de Bitcoin van desde algunos cientos de MH/s hasta 10 TH/s (o 10,000,000 MH/s).",
+  "bold3": "Costos de energía",
+  "paragraph8": "La minería de Bitcoin conlleva costos, y no se trata solo del equipo físico de minería con el que debes lidiar. Cuando puedes permitirte un hardware potente, pronto descubrirás otro problema: los costos de energía asociados con la operación de dicho hardware, ya que los equipos de minería potentes consumen mucha electricidad.",
+  "paragraph9": "Al comprar hardware, debes echar un vistazo al consumo de energía del equipo – calcúlalo en vatios y luego verifica cuánto te costará operarlo, para que no te lleves sorpresas cuando llegue tu próxima factura de electricidad. Si no haces esto, corres el riesgo de gastar todas tus ganancias de minería en electricidad, o incluso sufrir una pérdida considerable.",
+  "paragraph10": "La tasa de hash junto con el consumo de energía es una buena forma de evaluar las ganancias de minería. Compara los hashes que puedes completar en una hora con los costos de energía por hora (o por día). Una forma simple de hacer esto es dividir la tasa de hash de tu equipo entre el consumo de energía en vatios. Esto te dará una tasa de MH/s por vatio, lo que te ayudará a determinar si tu equipo de minería será rentable, basándote en los costos de energía actuales.",
+  "paragraph11": "No olvides tener en cuenta los costos adicionales, como el hardware de la computadora que opera las GPUs de minería, cuando calcules tus ganancias – tu PC también consume energía además del hardware de minería que tengas.",
+  "bold4": "Opciones de hardware para minería de Bitcoin",
+  "paragraph12": "Cuando Bitcoin fue lanzado, muchas personas lo vieron como una idea única y revolucionaria, ya que se consideraba muy liberal en comparación con los métodos tradicionales de transacciones a través de bancos centrales. En cualquier caso, Bitcoin era muy diferente de las formas tradicionales de hacer transacciones, lo que lo hacía interesante y atractivo.",
+  "paragraph13": "En esos primeros días de Bitcoin, menos personas sabían sobre la criptomoneda y menos personas compraban o invertían en Bitcoin, por lo que el valor de Bitcoin no era tan alto. Esto hizo que la minería de Bitcoin fuera fácil y llevó a muchas personas a mostrar interés en la minería de Bitcoin con fines de lucro, pero también interesadas en Bitcoin como una idea revolucionaria. En ese entonces, minar Bitcoin requería el uso de una potencia computacional básica – incluso una computadora portátil era suficiente o un ordenador de escritorio de alto rendimiento.",
+  "paragraph14": "A través de este proceso de minería con portátiles y PCs de escritorio, las personas se dieron cuenta rápidamente de que las GPUs (unidades de procesamiento gráfico) podían aumentar significativamente la minería de Bitcoin. Las GPUs son muy adecuadas para la minería de Bitcoin: consumen menos energía que una CPU utilizada para la minería y pueden minar entre 50 y 100 veces más rápido.",
+  "paragraph15": "Como resultado, se lanzaron dispositivos especializados diseñados específicamente para la minería. Las capacidades de minería aumentaron y esto condujo a un desarrollo interesante: las granjas de minería de Bitcoin, que en esencia eran centros de ganancias – y el desarrollo de una industria más formal que se dedicaba a la minería de Bitcoin.",
+  "paragraph16": "Con el tiempo, la minería de Bitcoin se volvió muy rentable, y muchos mineros serios operan grandes granjas de minería de Bitcoin que generan una gran cantidad de dinero. Se trata de una mezcla de hardware utilizado en estas granjas de minería, incluidas las GPUs junto con sistemas de enfriamiento potentes para reducir la temperatura. La electricidad es un gran problema para estas operaciones, pero en algunos países los precios de la electricidad son bajos, lo que hace que las granjas de minería estén concentradas en países con tarifas eléctricas económicas.",
+  "paragraph17": "Desafortunadamente, esto significa que tendrás que competir contra operaciones de minería muy potentes con grandes cantidades de capital – en otras palabras, estás compitiendo contra grandes empresas en todo el mundo que pueden permitirse gastar mucho dinero. Sin embargo, aún hay muchos mineros individuales de Bitcoin, y tienden a unirse a grupos de minería en busca de ganancias.",
+  "bold5": "Elección de una CPU",
+  "paragraph18": "Aunque una CPU es importante para tu computadora, no es necesariamente el componente más importante de una instalación de minería de Bitcoin. Sí, al principio de Bitcoin, podías minar con una CPU y ser rentable si la CPU de tu PC tenía suficiente potencia.",
+  "paragraph19": "Sin embargo, los mineros pronto se dieron cuenta de que las CPUs no eran las mejores opciones para la minería de Bitcoin. Aún necesitarás una CPU para operar el PC que controla tu equipo de minería, pero tu CPU tardaría décadas en minar una cantidad significativa de Bitcoin.",
+  "bold6": "GPUs para minería",
+  "paragraph20": "Existen muchos usos para las GPUs o unidades de procesamiento gráfico, desde ejecutar videojuegos 3D hasta hacer renderización 3D. De hecho, el objetivo original de las GPUs era ser capaces de calcular las matemáticas necesarias para que los videojuegos de alta calidad se vean como lo hacen. Por casualidad, esto también significaba que las GPUs son herramientas excelentes para realizar funciones hash. Y como sabemos, el hashing es clave para resolver los acertijos criptográficos necesarios para completar los bloques de transacciones de Bitcoin.",
+  "paragraph21": "Las GPUs no son baratas, con precios que van desde varios cientos de dólares por unidad, pero tienen una gran ventaja sobre las CPUs cuando se trata de hashing. Una buena GPU podría hacer hashes a una velocidad de hasta cien veces mayor que una CPU de alto rendimiento. Este hecho llevó al surgimiento de lo que se llaman rigs de minería: una computadora básica conectada a múltiples GPUs – todas diseñadas para minar lo más rápido posible. Algunas personas usaban estas máquinas también para jugar videojuegos cuando no estaban minando.",
+  "paragraph22": "Sin embargo, rápidamente llegaron malas noticias para la minería con GPUs: hoy en día, no es rentable minar Bitcoin con GPUs. En resumen, cuanto más potente se vuelve el equipo de minería, más difícil se vuelve minar Bitcoin. El resultado es que las GPUs ya no pueden minar Bitcoin de manera eficiente, en comparación con las alternativas que discutiremos a continuación. Así que, no recuperes tu dinero si decides usar GPUs para la minería de Bitcoin.",
+  "bold7": "FPGAs en la minería de Bitcoin",
+  "paragraph23": "Las GPUs fueron pronto reemplazadas por algo llamado Field Programmable Gate Array (FPGA). Un FPGA es un circuito integrado que debe ser configurado después de su fabricación, pero esto significa que una empresa que fabrica equipos de minería puede comprar muchos FPGAs y configurarlos para ser particularmente buenos en la minería de Bitcoin. Los FPGAs resultaron ser una excelente opción para la minería de Bitcoin y cambiaron los parámetros de la minería de Bitcoin – sacaron a las GPUs de la competencia.",
+  "paragraph24": "De hecho, los rigs de minería FPGA fueron los primeros dispositivos de minería diseñados específicamente para la minería de Bitcoin y que solo podían ser utilizados para minería de Bitcoin. En un desarrollo crucial, se descubrió rápidamente que los FPGAs consumían mucha menos energía que las GPUs – de hecho, un FPGA con la misma tasa de hash consumía menos del 20% de la energía que una GPU – lo que hizo que las operaciones de minería fueran mucho más rentables.",
+  "bold8": "¿Qué son los ASICs?",
+  "paragraph25": "El último paso en la carrera por la minería de Bitcoin fue la creación de los Application-Specific Integrated Circuits (ASICs), que son chips diseñados desde cero para minar Bitcoin. No puedes programar un ASIC, su funcionalidad está impresa en sus circuitos, y en el caso de los rigs de minería de Bitcoin, los ASICs solo pueden ser usados para minería de Bitcoin. Los buenos ASICs pueden minar a una velocidad de hasta 100 veces más rápido que las GPUs, y consumen menos energía. Hoy en día, no hay ninguna tecnología alternativa que supere a los ASICs, por lo que siguen siendo la forma más rápida de minar Bitcoin.",
+  "paragraph26": "Por supuesto, un chip diseñado específicamente lleva tiempo y es relativamente caro. Pero estas inversiones traen resultados: un minero de alta gama, como el AntMiner, puede alcanzar tasas de hash en el rango de terahashes por segundo – fácilmente más de 10 TH/s. ¿El precio? Más de mil dólares. También hay opciones más baratas disponibles, aunque el rendimiento será menor.",
+  "bold9": "Costos de Minería de Bitcoin",
+  "paragraph27": "Por supuesto, la minería de Bitcoin no es barata. Los equipos de minería requieren una inversión significativa, y los costos de electricidad también deben ser considerados. La competencia es feroz, y se necesita tiempo y dinero para mantenerse competitivo.",
+  "paragraph28": "El costo de las tarifas de electricidad y otros gastos operativos se considera uno de los mayores obstáculos que los nuevos mineros enfrentan al comenzar. Afortunadamente, a medida que la red de Bitcoin madura, se están desarrollando nuevos enfoques que ayudan a reducir el costo de minería a largo plazo.",
+  "paragraph29": "En cualquier caso, la minería de Bitcoin sigue siendo una forma costosa de generar ganancias, pero con el equipo adecuado, las tarifas adecuadas y el enfoque correcto, puede ser rentable.",
+  "paragraph30": "Con todo esto, asegúrate de tener en cuenta los costos operativos, que son la parte más importante de tu plan de minería a largo plazo. Sin una planificación adecuada, los costos de energía y otros gastos podrían superar tus ganancias.",
+  "paragraph31": "Si no tienes acceso a energía barata o no puedes invertir una cantidad significativa de dinero en tu equipo de minería, las posibilidades de generar ganancias son limitadas.",
+  "paragraph32": "Además, los mineros a menudo se enfrentan a la fluctuación en los precios de Bitcoin, lo que significa que lo que hoy puede ser rentable podría no serlo mañana. De ahí que sea importante realizar un seguimiento constante de la red de Bitcoin y ajustar tu equipo y estrategia de minería según sea necesario.",
+  "bold10": "Consideraciones y Riesgos",
+  "paragraph33": "Es importante considerar algunos riesgos clave al pensar en ingresar al mundo de la minería de Bitcoin. Primero, la dificultad de minería aumenta con el tiempo, lo que significa que las recompensas se distribuyen entre más mineros, y las probabilidades de ganar recompensas decrecen con el tiempo.",
+  "paragraph34": "Segundo, las fluctuaciones en el precio de Bitcoin pueden afectar significativamente las ganancias de los mineros. El valor de Bitcoin es conocido por su volatilidad, y un cambio repentino en el precio de Bitcoin puede hacer que la minería sea menos rentable.",
+  "paragraph35": "Tercero, la minería de Bitcoin requiere mucha energía, lo que puede tener un impacto negativo en el medio ambiente, especialmente si la energía proviene de fuentes no renovables.",
+  "paragraph36": "Además, al operar una operación minera, siempre debes tener en cuenta la competencia. La minería de Bitcoin se está convirtiendo en un campo altamente competitivo, y las grandes granjas de minería tienen una ventaja considerable.",
+  "paragraph37": "Finalmente, debes ser consciente de los riesgos de seguridad. Si no proteges adecuadamente tus activos y equipos de minería, corres el riesgo de perderlo todo debido a ataques de hackers o problemas técnicos.",
+  "paragraph38": "A pesar de estos riesgos, la minería de Bitcoin sigue siendo una opción interesante para aquellos que desean involucrarse en la criptomoneda y aprovechar sus oportunidades.",
+  "bold11": "La recompensa por minar Bitcoin",
+  "paragraph39": "Cuando un minero resuelve un bloque, se le recompensa con una cierta cantidad de Bitcoin. Esta recompensa disminuye con el tiempo, y actualmente se encuentra en 6.25 Bitcoin por bloque.",
+  "paragraph40": "Con el tiempo, la recompensa disminuirá aún más debido al halving, un evento que ocurre aproximadamente cada cuatro años, donde la recompensa por resolver un bloque se reduce a la mitad. Este evento tiene implicaciones tanto para los mineros como para el precio de Bitcoin.",
+  "paragraph41": "El halving también es un factor importante a considerar, ya que significa que la cantidad de Bitcoin disponible para los mineros disminuye, lo que puede influir en el suministro y la demanda.",
+  "paragraph42": "Además, la recompensa por minar Bitcoin no es la única forma en que los mineros ganan dinero. También pueden obtener comisiones por las transacciones dentro de los bloques que minan.",
+  "paragraph43": "Aunque la minería de Bitcoin ofrece grandes recompensas, también viene con desafíos y riesgos. Los costos de energía, la competencia creciente y la disminución de las recompensas son factores importantes que los mineros deben considerar antes de comenzar.",
+  "paragraph44": "Para aquellos dispuestos a asumir el desafío y a invertir en el equipo adecuado, la minería de Bitcoin puede ser una forma interesante de beneficiarse del desarrollo de la criptomoneda.",
+  "paragraph45": "Recuerda que el panorama de la minería está cambiando constantemente. Lo que hoy es rentable puede no serlo mañana, por lo que es importante mantenerse actualizado y hacer ajustes.",
+  "paragraph46": "Ya sea que decidas o no adentrarte en la minería de Bitcoin, es esencial estar bien informado y tomar las decisiones correctas según tu propia situación.",
+  "paragraph47": "Al final, el éxito en la minería de Bitcoin depende de muchos factores: desde la elección del equipo adecuado hasta la adaptación a los desarrollos del mercado. Es un proceso continuo de aprendizaje que requiere tanto conocimientos técnicos como comprensión empresarial.",
+  "paragraph48": "La minería de Bitcoin es una aventura emocionante pero desafiante. Ofrece oportunidades, pero requiere una planificación cuidadosa y atención continua para garantizar que la rentabilidad se mantenga."
+},
+"About": {
+    "title": "Sobre Nosotros",
+    "paragraph1": "Fundada en 2014 por un grupo de profesionales que combinan hábilmente la experiencia técnica necesaria para copiar a los traders profesionales (si no puedes operar por tu cuenta). Trading de Forex, Trading de Criptomonedas y Trading de Acciones con un equipo corporativo dedicado, una sede de última generación y una pasión por ayudar a aquellos con un fuerte deseo de mejorar sus vidas.",
+    "paragraph2": "Nuestro equipo está comprometido en lograr resultados excepcionales, estando un paso adelante. Creamos una plataforma de trading a largo plazo, estableciendo el estándar para cambiar la fortuna de las generaciones futuras. Estamos uniendo todos los aspectos clave para operar una operación de minería de criptomonedas eficiente. Desde la construcción de centros de datos altamente eficientes hasta la provisión de un sistema de minería optimizado para nuestros usuarios.",
+    "paragraph3": "Para minar de forma competitiva hoy en día, necesitas invertir recursos, tiempo y esfuerzo significativos en tu configuración. Nuestro equipo ha construido los sistemas de minería más eficientes para hacer el trabajo por ti. De esta forma, puedes concentrarte plenamente en seguir los mercados y mantenerte competitivo con tus recompensas de minería.",
+    "paragraph4": "Además de ser el portal para datos interesantes de minería, también estamos contribuyendo activamente al ecosistema de las criptomonedas, desde el lanzamiento de campañas de concientización hasta la publicación de software de minería de código abierto. Estamos construyendo centros de datos de minería alrededor del mundo que pueden soportar 6 algoritmos de minería para más de 10 criptomonedas diferentes. Si eso no es suficiente, ¡también estaremos encantados de apoyar las que desees minar!"
+},
+  "DepositInfo": {
+    "deposit": "Depósito",
+    "signal": "Fuerza de señal",
+    "profit": "Ganancia",
+    "copytraders": "Copy Traders",
+    "refer": "Recomienda y gana"
+  },
+  "Categories": {
+    "favorites": "Favoritos",
+    "gainers": "Ganadores",
+    "losers": "Perdedores"
+  },
+  "ButtomNav": {
+    "dashboard": "Inicio",
+    "mining": "Minería",
+    "markets": "Mercados",
+    "trade": "Comercio",
+    "trades": "Operaciones",
+    "profile": "Perfil"
+  },
+  "Trade": {
+    "title": "Comercio",
+    "trade_message": "Comercio iniciado con éxito",
+    "trade_error": "Fondos insuficientes. Por favor recargue su saldo para realizar esta operación.",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "amount": "Monto",
+    "time": "Tiempo (minutos)",
+    "leverage": "Apalancamiento (máx. 5000)",
+    "lev": "Apalancamiento:"
+  },
+  "Dashboard": {
+    "title": "Panel",
+    "markets": "Mercados",
+    "mining": "Minería",
+    "trades": "Operaciones"
+  },
+  "Trades": {
+    "noopen": "No hay operaciones abiertas",
+    "noclose": "No hay operaciones cerradas"
+  },
+  "Profile": {
+    "deposits": "Depósitos",
+    "withdrawals": "Retiros",
+    "referrals": "Referidos",
+    "watchlist": "Lista de seguimiento",
+    "updatemail": "Actualizar correo electrónico",
+    "updatephoto": "Actualizar foto",
+    "updatepassword": "Actualizar contraseña",
+    "accountsettings": "Configuración de cuenta",
+    "logout": "Cerrar sesión",
+    "loading_data": "Cargando datos del usuario...",
+    "update_email_title": "Actualizar correo electrónico",
+    "new_email_text": "TU NUEVO CORREO ELECTRÓNICO",
+    "update": "ACTUALIZAR",
+    "update_email_success": "Correo electrónico actualizado con éxito",
+    "update_email_error": "No se pudo actualizar el correo electrónico",
+    "InvalidLogin": "Credenciales inválidas.",
+    "update_photo_title": "Actualizar foto",
+    "update_photo_alt": "Foto de perfil",
+    "update_password_success": "Contraseña actualizada con éxito",
+    "update_password_title": "Actualizar contraseña",
+    "password": "Contraseña",
+    "new_password": "Nueva contraseña",
+    "confirm_password": "Confirmar contraseña",
+    "update_password_error_1": "La contraseña debe tener al menos 4 caracteres",
+    "update_password_error_2": "Usuario no encontrado",
+    "update_password_error_3": "La contraseña actual es incorrecta",
+    "update_password_error_4": "La nueva contraseña no coincide con la confirmación",
+    "myprofile": "Mi perfil",
+    "notifications": "Notificaciones",
+    "updateaddress": "Actualizar dirección",
+    "accountverification": "Verificación de cuenta",
+    "email": "CORREO ELECTRÓNICO",
+    "phone": "NÚMERO DE TELÉFONO",
+    "firstname": "NOMBRE",
+    "lastname": "APELLIDO",
+    "streetaddress": "DIRECCIÓN",
+    "postalcode": "CÓDIGO POSTAL",
+    "city": "CIUDAD",
+    "state": "ESTADO",
+    "country": "PAÍS",
+    "notification_permission": "Puede desactivar el PERMISO DE NOTIFICACIONES en la configuración de su navegador; la configuración del navegador anula la configuración del sitio web.",
+    "notification_permission_2": "Permiso de notificación (Navegador): Concedido",
+    "notification_permission_3": "Permiso de notificación (Navegador)",
+    "denied": "Denegado",
+    "granted": "Concedido",
+    "update_address_title": "Actualizar dirección",
+    "street_address": "Dirección",
+    "zip_code": "Código postal",
+    "address_success": "Dirección actualizada con éxito",
+    "email_verification": "Verificación de correo electrónico",
+    "identity_verification": "Verificación de identidad",
+    "address_vericiation": "Verificación de dirección",
+    "verified": "Verificado",
+    "pending": "Verificación pendiente",
+    "notstarted": "No iniciado",
+    "verifications": "Verificaciones",
+    "verify_email_error": "Correo electrónico inválido. Este correo no está registrado con nosotros.",
+    "verify_email_success": "Código de verificación enviado con éxito a {email}.",
+    "verify_email_success_2": "Verificación de correo completada con éxito.",
+    "verify_email_error_2": "Error al actualizar la verificación de correo: {error}",
+    "verify_email_error_3": "PIN inválido, por favor intente de nuevo.",
+    "verify_email_title": "Verificar correo electrónico",
+    "paragraph1": "Se ha enviado un correo electrónico con tu PIN de 6 dígitos a tu dirección de correo. Si no lo recibes en uno o dos minutos, haz clic en reenviar.",
+    "pin": "PIN",
+    "verify_email_title_2": "VERIFICAR CORREO ELECTRÓNICO",
+    "email_2": "Correo electrónico",
+    "resend": "REENVIAR PIN",
+    "verify_identity_success": "Verificación de identidad en progreso...",
+    "verify_identity_error": "No se pudieron subir los datos {error}",
+    "verify_identity_title": "Verificar identidad",
+    "verify_your_title": "Verifica tu identidad",
+    "paragraph2": "Por favor verifica tu identidad subiendo una identificación válida emitida por el gobierno. Puede haber problemas al subir desde un dispositivo iOS. Asegúrate de que tu navegador tenga acceso a la cámara en la configuración de iOS.",
+    "select_front": "Seleccionar frente",
+    "select_back": "Seleccionar reverso",
+    "upload": "Subir",
+    "skip": "Omitir",
+    "address_verify_success": "Verificación de dirección en progreso...",
+    "address_verify_error": "No se pudieron subir los datos {error}",
+    "address_verification_title": "Verificación de dirección",
+    "street": "Dirección",
+    "bill": "Seleccionar factura",
+    "submit": "Enviar"
+  },
+  "DepositList": {
+    "title": "Depósito",
+    "message": "Los depósitos permanecerán pendientes hasta que haya suficientes confirmaciones en la blockchain.",
+    "withdrawal": "Retiro",
+    "new_withdrawal": "Nuevo retiro",
+    "no_withdrawal": "Aún no hay retiros"
+  },
+  "Referrals": {
+    "title": "Referidos",
+    "ref_balance": "Saldo de referidos",
+    "withdraw": "RETIRAR",
+    "ref_link": "Enlace de referido",
+    "no_ref": "Aún no tienes referidos"
+  },
+  "Deposit": {
+    "title": "Depósito",
+    "fundaccount": "Recargar cuenta",
+    "viewpricing": "Ver precios",
+    "amount": "Cantidad",
+    "to": "A",
+    "tradingbalance": "Saldo de trading",
+    "proceed": "Continuar",
+    "loading": "Cargando...",
+    "pay": "PAGAR",
+    "paymentmethod": "SELECCIONAR MÉTODO DE PAGO",
+    "sendcrypto": "Enviar cripto",
+    "sendcrypto_message": "enviar criptomonedas admitidas",
+    "invalidlink": "Enlace de pago inválido o expirado",
+    "send": "ENVIAR",
+    "worth": "VALOR DE",
+    "paragraph1": "A LA SIGUIENTE DIRECCIÓN DE WALLET O ESCANEE EL CÓDIGO QR CON SU APP DE WALLET",
+    "wallet": "Dirección de Wallet",
+    "paragraph2": "A LOS DETALLES BANCARIOS INDICADOS.",
+    "paragraph3": "CONTACTA A [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM) PARA DETALLES BANCARIOS",
+    "awaiting": "Esperando pago",
+    "wait": "Esperando confirmación"
+  },
+  "Withdrawal": {
+    "title": "Retiro",
+    "selectmethod": "Seleccionar método de retiro",
+    "bankwithdraw": "Retiro bancario",
+    "withdrawbank": "Retirar a banco",
+    "paragraph1": "Podríamos contactarlo para información adicional.",
+    "from": "Desde",
+    "to": "A",
+    "accountnumber": "Número de cuenta",
+    "accountname": "Titular de la cuenta",
+    "amount": "Cantidad",
+    "bankname": "Nombre del banco",
+    "otpcode": "Código OTP",
+    "submit": "Enviar",
+    "success_message": "Tu solicitud de retiro está en proceso.",
+    "error_message": "Código OTP inválido, por favor contacta con soporte para obtener un código válido e inténtalo de nuevo.",
+    "cryptowithdraw": "Retiro en cripto",
+    "withdrawcrypto": "Retirar a cripto",
+    "wallet": "Dirección de wallet",
+    "paypalwithdraw": "Retiro a PayPal",
+    "withdrawpaypal": "Retirar a PayPal",
+    "paypalemail": "Correo de PayPal",
+    "cashappwithdraw": "Retiro a CashApp",
+    "withdrawcashapp": "Retirar a CashApp",
+    "cashtag": "Etiqueta de CashApp"
+  }
+
+
+
+    
+
+
+
+        
+    
+
+
+  }
+  

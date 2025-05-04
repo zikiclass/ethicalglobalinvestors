@@ -1,0 +1,618 @@
+{
+  "HomePage": {
+    "home": "Accueil",
+    "login": "Connexion",
+    "signin": "Se connecter",
+    "signup": "S'inscrire",
+    "contact": "Nous contacter",
+    "cookie": "Politique de cookies",
+    "privacy": "Politique de confidentialité",
+    "cryptomining": "Minage de crypto",
+    "bitcoinmining": "Minage de Bitcoin",
+    "dogecoinmining": "Minage de Dogecoin",
+    "copytrading": "Copy Trading",
+    "cryptotrading": "Crypto Trading",
+    "terms": "Conditions d'utilisation",
+    "forextrading": "Trading Forex",
+    "stockstrading": "Trading d'actions",
+    "optionstrading": "Options de trading",
+    "leverage": "Qu'est-ce que l'effet de levier",
+    "responsibletrading": "Trading responsable",
+    "generalrisk": "Divulgation générale des risques",
+    "about": "À propos de nous"
+  },
+
+  "Carousel": {
+    "welcome": "Bienvenue sur {project}",
+    "welcomeDesc": "Commencez à générer des profits dès aujourd'hui en tradant des crypto-monnaies, le Forex, des actions ou des options binaires.",
+    "stocksTitle": "Trader des actions",
+    "stocksDesc": "Tradez des actions ou investissez à long terme sur la même plateforme",
+    "forexTitle": "Trader le Forex",
+    "forexDesc": "Tradez le Forex sur la plateforme {project} et profitez de prix fiables et d'une exécution exceptionnelle",
+    "copyTitle": "Copiez les traders experts",
+    "copyDesc": "Choisissez parmi une liste de traders experts et copiez automatiquement leurs transactions sans avoir à surveiller le marché vous-même.",
+    "getStarted": "Commencer"
+  },
+
+  "ContactPage": {
+    "name": "Votre nom*",
+    "email": "Adresse e-mail*",
+    "phone": "Numéro de téléphone*",
+    "subject": "Sujet*",
+    "message": "Votre message...",
+    "send": "Envoyer le message",
+    "note": "Remarque :",
+    "disclaimer": "Nous promettons de ne pas envoyer de spam et votre adresse e-mail reste confidentielle."
+  },
+  "features": {
+      "feature1Heading": "Enregistrement rapide",
+      "feature1Paragraph": "Il vous suffit d'une minute pour vous inscrire. Entrez les informations nécessaires pour devenir un investisseur sur la plateforme et commencez immédiatement.",
+      "feature2Heading": "Transactions rapides",
+      "feature2Paragraph": "Investissez et détendez-vous. Vous pouvez suivre l'état de votre investissement à tout moment et investir dans des offres spéciales à durée limitée.",
+      "feature3Heading": "Support rapide",
+      "feature3Paragraph": "Nous offrons un service de support inégalé par e-mail ou chat en direct pour fournir une réponse professionnelle et rapide."
+    },
+    "CopyExperts": {
+  "title": "Traders Experts en Copie",
+  "paragraph1": "Il y a environ 5 ans, j'ai commencé à expérimenter et à m'amuser avec le marché des devises. La raison pour laquelle j'ai choisi le trading était la liberté. La possibilité de faire ce que je veux, quand je veux... C'est le côté positif du trading.",
+  "paragraph2": "Mais, quand j'ai commencé, personne ne m'a parlé du côté sombre et difficile du trading. Il y a quelques années, il n'y avait aucun guide ou ressource structurée pour aider les traders à en faire une carrière. Tout était basé sur des essais et des erreurs pour moi... Je continuais à expérimenter et à apprendre de mes erreurs jusqu'à ce que je maîtrise cela. Maintenant, je serai le premier à vous dire que le trading nécessite une discipline massive.",
+  "paragraph3": "Réellement, vous pourriez même trader pendant plus de 2 ans de manière constante sans voir beaucoup de croissance, ou d'argent, dans les premières étapes. C'est terrifiant d'y penser, mais c'est la réalité dont beaucoup ne parlent pas.",
+  "paragraph4": "Si le secret du trading existait, ce serait la constance. Mais rester constant est difficile lorsque vous n'avez aucune direction. Personne à qui partager vos défis. Personne pour vous donner des retours. Tout cela se termine avec le Copy Trading.",
+  "paragraph5": "Mon objectif est de combler l'écart entre le côté sombre et difficile du trading et un point où vous pouvez en faire une carrière durable. Alors accrochez-vous, car ça va être un sacré voyage ! Vous pouvez jeter un œil aux trades en direct que j'ai effectués sur mon compte financé {project_name}. Que j'ai pu faire croître pour atteindre un bénéfice à six chiffres en 30 jours - {project_title} Expert Trader"
+},
+"WhatWeOffer": {
+    "title": "Ce que nous offrons",
+    "description": "Nous construisons une nouvelle norme pour le trading et le mining. Un compte avec un accès simplifié à plusieurs plateformes de liquidité.",
+    "learnMore": "En savoir plus",
+    "offerList": [
+      {
+        "heading": "Trading de Crypto",
+        "paragraph": "Vous pouvez maintenant commencer à trader des Bitcoins, Ethereum et bien d'autres cryptomonnaies rapidement, facilement et en toute sécurité, peu importe où vous êtes — en quelques secondes.",
+        "link": "/crypto-trading"
+      },
+      {
+        "heading": "Trading Forex",
+        "paragraph": "Le marché des changes est un endroit où les devises sont échangées. C'est le plus grand et le plus liquide marché financier du monde avec un chiffre d'affaires quotidien moyen de 6,6 trillions de dollars américains en 2019.",
+        "link": "/forex-trading"
+      },
+      {
+        "heading": "Traders Experts en Crypto",
+        "paragraph": "Le copy trading vous permet de copier directement les positions prises par un autre trader. Vous décidez du montant que vous souhaitez investir et copiez simplement tout ce qu'il fait automatiquement.",
+        "link": "/crypto-expert-traders"
+      }
+    ]
+  },
+  "Cryptocurrencies": {
+    "title": "EXTRAIRE LES PRINCIPALES CRYPTO-MONNAIES",
+    "description1": "Contrairement à l'argent papier, le Bitcoin et d'autres cryptomonnaies sont produits mathématiquement et conservés numériquement. Les personnes qui offrent volontairement leur puissance de calcul pour sécuriser ces réseaux de cryptomonnaies sont appelées mineurs. Les cryptomonnaies n'ont pas de gouvernement central ou d'autres soi-disant 'intermédiaires' qui décident de l'avenir du système.",
+    "description2": "En tant que mineurs, nous traitons et vérifions les transactions des écosystèmes de cryptomonnaies et maintenons leur historique public de transactions (blockchains) sécurisé. En échange, la communauté des mineurs est récompensée par les frais de transaction des réseaux et les nouvelles pièces créées."
+  },
+  "FinancialMarket": {
+    "title": "Les Marchés Financiers Expliqués",
+    "description1": "Les marchés financiers font collectivement référence à un marché en ligne dans lequel les entreprises et les individus concluent des contrats pour vendre ou acheter un produit spécifique parmi une large gamme d' 'instruments de marché financier'.",
+    "description2": "Le seul but des investissements dans l'espace des marchés financiers est de négocier des titres financiers et des produits dérivés à faibles coûts de transaction tout en générant des rendements à partir des entrées et sorties de transactions calculées.",
+    "description3": "Les instruments financiers et les titres incluent des actions et des obligations, des options, des crypto-monnaies, des paires de devises étrangères, des matières premières et des métaux précieux, connus dans les marchés financiers sous le nom de matières premières."
+  },
+  
+    "TradingPlan": {
+      "title": "UN PLAN DE TRADING POUR TOUS",
+      "description": "Nous proposons une variété de comptes de trading pour correspondre à chaque style de trading, quel que soit le niveau d'expérience. Que vous soyez un scalper ou un trader de jour, que vous utilisiez des EA ou que vous soyez un trader discrétionnaire, nous avons ce qu'il vous faut.",
+      "plans": [
+        {
+          "title": "Bronze",
+          "amount": "300",
+          "minDeposit": "300",
+          "referralBonus": "Bonus de Parrainage",
+          "itSupport": "Support Informatique Complet",
+          "purchasePlan": "ACHETER LE PLAN"
+        },
+        {
+          "title": "Premium",
+          "amount": "600",
+          "minDeposit": "600",
+          "referralBonus": "Bonus de Parrainage",
+          "itSupport": "Support Informatique Complet",
+          "purchasePlan": "ACHETER LE PLAN"
+        },
+        {
+          "title": "Gold",
+          "amount": "1200",
+          "minDeposit": "1200",
+          "referralBonus": "Bonus de Parrainage",
+          "itSupport": "Support Informatique Complet",
+          "purchasePlan": "ACHETER LE PLAN"
+        },
+        {
+          "title": "Platinum",
+          "amount": "50000",
+          "minDeposit": "50000",
+          "referralBonus": "Bonus de Parrainage",
+          "itSupport": "Support Informatique Complet",
+          "purchasePlan": "ACHETER LE PLAN"
+        }
+      ]
+    },
+    
+      "latest_payouts": "Derniers Paiements",
+      "testimonials": {
+        "name_1": "Miles Kozey",
+        "comment_1": "Je suis extrêmement satisfait de la plateforme, en termes de facilité, de rapidité d'utilisation et de fiabilité.",
+        "name_2": "Katrine Welch",
+        "comment_2": "Méthode très simple et sécurisée pour ajouter de l'intérêt à vos investissements.",
+        "name_3": "Kianna Heaney",
+        "comment_3": "J'ai triplé le bitcoin dans mon portefeuille avec ce service en seulement 7 jours.",
+        "name_4": "Geoffrey Dare",
+        "comment_4": "Plateforme de trading facile à utiliser, sans risque, qui augmente le potentiel de gains."
+      },
+      "payouts": {
+        "1": "Delmer Kuhlman",
+        "2": "Clifton Deckow",
+        "3": "Gina Hills",
+        "4": "Elta Fritsch",
+        "5": "Name Ziemann",
+        "6": "Daniela Erdman",
+        "7": "Bernhard Haag",
+        "8": "Shawna Goldner",
+        "9": "Hazle Konopelski",
+        "10": "Kenneth Gorczany",
+        "11": "Lela Kuhn",
+        "12": "Benedict Donnelly",
+        "13": "Raphaelle Spencer",
+        "14": "Sadie Lesch",
+        "15": "Nico Kshlerin",
+        "16": "Britney Runolfsdottir",
+        "17": "Jermaine Howe",
+        "18": "Brisa Rice"
+      },
+      
+        "faq": {
+          "how_does_copy_trading_work": "Comment fonctionne le trading de copie ?",
+          "what_are_the_fees": "Quelles sont les frais ?",
+          "who_are_the_trading_experts": "Qui sont les experts en trading ?",
+          "recommended_amount_to_start_with": "Quel est le montant recommandé pour commencer ?",
+          "how_does_bitcoin_mining_work": "Comment fonctionne le minage de Bitcoin ?",
+          "are_you_mining_for_yourself": "Minez-vous pour vous-même ?",
+          "where_is_your_mining_farm_located": "Où est située votre ferme de minage ?",
+          "mining_coins_per_algorithm": "Quelles pièces puis-je miner avec chaque algorithme ?",
+          "how_do_your_ether_contracts_work": "Comment fonctionnent vos contrats Ether ?",
+          "expected_returns": "Quels sont les rendements attendus ?",
+          "which_pools_are_you_using_for_mining": "Quels pools utilisez-vous pour le minage ?",
+          "isnt_buying_hardware_cheaper": "N'est-il pas moins cher d'acheter du matériel ?",
+          "what_is_the_maintenance_fee": "Quels sont les frais de maintenance ?",
+          "how_can_i_mine_different_coins_at_the_same_time": "Comment puis-je miner différentes pièces en même temps ?"
+        },
+        "faq": {
+  "how_does_copy_trading_work": {
+    "question": "Comment fonctionne le copy trading ?",
+    "answer": "Voici comment fonctionne le copy trading : vous, en tant qu’investisseur, sélectionnez simplement un ou plusieurs experts dont vous souhaitez copier les transactions. Une fois inscrit, c’est la seule action que vous avez à effectuer. Après cela, vous êtes prêt. Vous n’avez pas besoin d’exécuter de code ni de saisir des signaux manuellement. Notre logiciel se charge automatiquement de copier les transactions pour vous. Nous surveillons l’activité de trading de vos experts, et dès qu’une transaction est réalisée, nous calculons tous les paramètres nécessaires et exécutons la transaction. Il vous suffit de vous assurer que vous avez suffisamment de devise de base disponible sur votre compte de trading, la même que celle utilisée par votre expert. Combien est suffisant ? Tout d’abord, vous devez répondre au montant minimum par ordre requis par la plateforme d’échange (disons environ 10 USD par transaction pour être sûr). Cela signifie que si votre expert passe un ordre de 5 %, vous devez avoir au moins 300 USD en valeur totale sur votre compte (exemple avec une allocation de 100 % à l’expert). Cela signifie aussi que vous devez avoir au moins 10 % ou plus en devise de base disponible pour éviter de manquer des transactions. Lorsque l’expert clôture une position, vous la clôturez également. Automatiquement. Vous pouvez également modifier l’allocation à tout moment."
+  },
+  "what_are_the_fees": {
+    "question": "Quels sont les frais ?",
+    "answer": "Chaque investisseur doit payer des frais de 10 % sur les retraits pour compléter le processus de retrait, et chaque trader reçoit un pourcentage prédéfini des bénéfices qu’il génère."
+  },
+  "who_are_the_trading_experts": {
+    "question": "Qui sont les experts en trading ?",
+    "answer": "Nous sélectionnons soigneusement les experts candidats. Nous les connaissons en tant que traders et examinons leurs performances sur une période donnée. Nous recherchons également des experts ayant déjà une communauté de followers pour confirmer leur compétence (preuve sociale). Vous pouvez aussi en apprendre davantage sur chaque expert sur leurs pages de performance individuelles."
+  },
+  "recommended_amount_to_start_with": {
+    "question": "Quel montant recommandez-vous pour commencer ?",
+    "answer": "Nous recommandons d’avoir entre 3000 et 5000 USD en valeur BTC sur votre compte, en raison des exigences minimales des ordres sur les exchanges et pour au moins couvrir le coût de l’abonnement mensuel."
+  },
+  "how_does_bitcoin_mining_work": {
+    "question": "Comment fonctionne le minage de Bitcoin ?",
+    "answer": "C’est rapide et très simple ! Dès que nous recevons votre paiement, votre contrat est ajouté à votre profil et vous pouvez commencer à miner immédiatement. En fonction de l’algorithme blockchain que vous choisissez et de l’accord de service correspondant, vous pouvez soit miner directement des cryptomonnaies natives, soit assigner votre puissance de calcul à d'autres cryptos (indiquées comme AUTO), et même choisir une répartition personnalisée. Par exemple : 60 % LTC, 20 % BTC et 20 % DOGE. Le premier paiement de minage est effectué après 48 heures, puis vous recevez des paiements de minage quotidiens."
+  },
+  "are_you_mining_for_yourself": {
+    "question": "Minez-vous pour vous-même ?",
+    "answer": "En plus de miner avec le même matériel que celui que nous proposons à nos clients, notre capital est limité. Nous pensons que le minage de Bitcoin et d’altcoins est l’un des meilleurs moyens d’acquérir des cryptomonnaies, mais nous ne voulons pas « mettre tous nos œufs dans le même panier »."
+  },
+  "where_is_your_mining_farm_located": {
+    "question": "Où se trouve votre ferme de minage ?",
+    "answer": "Pour des raisons de sécurité, nous ne divulguons pas l’emplacement exact de nos fermes de minage. Depuis avril 2015, nous exploitons plusieurs fermes situées en Europe, en Amérique et en Asie. Le coût de l’électricité et la disponibilité du refroidissement sont importants, mais ce ne sont pas les seuls critères. Consultez notre page Centres de données pour plus d’informations."
+  },
+  "mining_coins_per_algorithm": {
+    "question": "Quelles pièces puis-je miner avec chaque algorithme ?",
+    "answer": "Vous pouvez miner du Bitcoin et divers altcoins directement via notre page d’allocation de minage*. La disponibilité des cryptos dépend du contrat que vous avez choisi.<br/><br/>Vous devez assigner votre puissance de hachage pour déterminer la cryptomonnaie que vous recevrez. Si vous ne le faites pas, le résultat par défaut est déterminé par l’algorithme :<br/><br/>Contrat SHA-256 - Bitcoin<br/>Contrat Ethash - Ethereum<br/>(*) “{param} Allocation Avancée” (fonction spéciale) : vous permet de recevoir des paiements dans diverses cryptomonnaies, même si elles ne sont pas directement minées par un certain algorithme. Par exemple, vous pouvez recevoir des BTC tout en utilisant un contrat X11. Cela est possible grâce à une conversion automatique via notre système. Nous appelons cela du « minage intelligent de BTC ». La même technique s’applique, par exemple, pour recevoir du LTC avec un contrat SHA-256."
+  },
+  "how_do_your_ether_contracts_work": {
+    "question": "Comment fonctionnent vos contrats Ether ?",
+    "answer": "Lorsque vous achetez un contrat de minage d’Ether, vous achetez une part de GPU (carte graphique) utilisée pour miner de l’Ethereum. L’algorithme utilisé est appelé Ethash (ou Dagger-Hashimoto).<br/><br/>Ethash nécessite un fichier appelé DAG pour effectuer les calculs. Ce fichier grossit avec le temps, ce qui signifie que davantage d’opérations doivent être effectuées par hachage, entraînant une baisse du taux de hachage effectif.<br/><br/>Ceci doit être pris en compte lors de la comparaison des rendements théoriques. Les calculateurs en ligne ne le prennent pas en compte.<br/><br/>Notez également que certains de nos produits incluent des frais de maintenance."
+  },
+  "expected_returns": {
+    "question": "Quels rendements puis-je attendre ?",
+    "answer": "Les rendements du minage dépendent fortement du prix et de la difficulté du réseau des cryptomonnaies que vous minez, ce qui ne peut être prédit. Il ne serait pas approprié pour nous de fournir des données sur les rendements tout en vendant des contrats. Nous encourageons donc nos clients à faire leurs propres recherches.<br/><br/>Par exemple, vous pouvez visiter coinwarz.com. Gardez à l’esprit que certains produits incluent des frais de maintenance quotidiens à déduire des récompenses de minage.<br/><br/>Notez que ce site est une source indépendante et n’est pas affilié à {param}."
+  },
+  "which_pools_are_you_using_for_mining": {
+    "question": "Quels pools utilisez-vous pour le minage ?",
+    "answer": "Nous ne publions pas la liste des pools que nous utilisons. Nos critères sont : fiabilité, frais, et taux de rejet. À l’avenir, nous ferons du minage en solo pour certaines pièces (et ferons bénéficier nos utilisateurs des économies de frais !).<br/><br/>Notre politique : « être un bon citoyen crypto ». Cela signifie que nous utilisons au moins deux pools par cryptomonnaie, parfois jusqu’à quatre, afin de préserver la décentralisation. Si un pool approche les 50 % de puissance réseau, nous passons à un autre."
+  },
+  "isnt_buying_hardware_cheaper": {
+    "question": "N’est-ce pas moins cher d’acheter son propre matériel ?",
+    "answer": "À première vue, acheter un appareil X peut sembler moins cher que d’utiliser notre service. Mais de nombreux coûts cachés entrent en jeu :<br/><br/>Frais d’expédition : rarement inclus, souvent en supplément.<br/><br/>Taxes et douanes : en cas de livraison internationale, vous devrez probablement payer.<br/><br/>Délais : entre la commande, l’expédition, et un éventuel blocage en douane, des semaines peuvent passer sans minage (coût d’opportunité).<br/><br/>Équipement supplémentaire : alimentation, contrôleurs, racks... à prévoir.<br/><br/>Installation : configuration technique nécessaire, souvent sous-estimée.<br/><br/>Maintenance : pannes possibles. Si l’appareil casse, il faut le remplacer. Chez {param}, vous avez une garantie de fonctionnement continu. Si une unité échoue, une autre prend le relais.<br/><br/>Électricité : la facture grimpe à la maison, sans parler du bruit et de la chaleur. Nous ne décourageons pas le minage domestique, mais voulons vous informer des coûts réels. Comparés à nos prix, vous verrez que nous sommes compétitifs. Nous voulons offrir une expérience simple et fiable pour que vous puissiez vous concentrer sur vos cryptos préférées."
+  },
+  "what_is_the_maintenance_fee": {
+    "question": "Quels sont les frais de maintenance ?",
+    "answer": "Certains de nos produits incluent des frais de maintenance. Ces frais couvrent :<br/><br/>Coût de l’électricité<br/>Refroidissement<br/>Maintenance technique<br/>Services d’hébergement<br/><br/>Le tarif est exprimé en USD mais déduit chaque jour des récompenses en crypto générées par le minage."
+  },
+  "how_can_i_mine_different_coins_at_the_same_time": {
+    "question": "Comment miner différentes cryptos en même temps ?",
+    "answer": "{param} permet à ses clients de miner plusieurs cryptomonnaies simultanément. Vous choisissez les cryptos souhaitées et assignez votre puissance de calcul comme vous le souhaitez.<br/><br/>Chaque algorithme a une cryptomonnaie par défaut. L’allocation avancée automatique (AUTO) de {param} s’applique aux cryptos non directement minables. Depuis l’interface, allez dans “Allocation de minage” et faites votre sélection. Cliquez sur ‘enregistrer l’allocation’.<br/><br/>Note : les cryptos marquées (AUTO) ne sont pas directement minées. Voir la section « Quelles pièces puis-je miner ? » ci-dessus.<br/>Pour recevoir vos paiements, ajoutez vos adresses de wallet à votre profil {param}. Consultez la prochaine section pour plus de détails."
+  }
+},
+"footer": {
+  "quick_links": "Liens Rapides",
+  "contact_us": "Contactez-nous",
+  "my_account": "Mon Compte",
+  "create_account": "Créer un Compte"
+},
+
+  "SignUpPage": {
+    "signUp": "S'inscrire",
+    "successMessage": "Compte enregistré avec succès",
+    "accountTypeLive": "LIVE",
+    "accountTypeDemo": "DEMO",
+    "accountType": "Type de compte",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "mobileNumber": "Numéro de téléphone",
+    "currency": "Devise",
+    "country": "Pays",
+    "state": "État",
+    "city": "Ville",
+    "termsText": "J'accepte tous les termes du service",
+    "createAccount": "Créer mon compte",
+    "processing": "Traitement...",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "login": "Se connecter",
+    "creatingAccount": "Création du compte..."
+  },
+  "ErrorPage": {
+    "error": "Erreur !",
+    "emailAlreadyRegistered": "E-mail déjà enregistré"
+  },
+  "LoadingPage": {
+    "loading": "Chargement..."
+  },
+  
+    "LoginPage": {
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "signIn": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "signUp": "S'inscrire",
+      "processing": "Traitement en cours...",
+      "error": "Erreur !",
+      "invalidDetails": "Identifiants invalides.",
+      "signInFailed": "Échec de la connexion. Veuillez réessayer."
+    },
+    
+      "ForgotPassword": {
+        "pageTitle": "Réinitialiser le mot de passe",
+        "instruction": "Veuillez saisir l'adresse e-mail associée à votre compte ci-dessous",
+        "emailLabel": "E-mail",
+        "submit": "Soumettre"
+      },
+      "CookiePolicy": {
+  "title": "Politique de cookies",
+  "lastRevised": "Dernière révision",
+  "purpose1": "{project_name} utilise des cookies pour : Optimiser votre expérience de trading, y compris en mémorisant vos préférences, votre emplacement, votre langue préférée, votre navigateur et d'autres détails ;",
+  "purpose2": "Authentifier votre identité à des fins de sécurité ;",
+  "purpose3": "Maintenir notre site web et certaines fonctionnalités disponibles sur celui-ci ;",
+  "purpose4": "Analyser et suivre l'utilisation de nos services ;",
+  "purpose5": "Ajuster notre plateforme en fonction de vos habitudes de trading et de nos exigences réglementaires.",
+  "whatAreCookiesTitle": "Qu'est-ce que les cookies",
+  "whatAreCookiesDesc": "Les cookies sont de petites données envoyées à votre ordinateur par un site web et stockées sur votre ordinateur. Les cookies ne sont pas exécutables et ne peuvent pas être utilisés pour installer des logiciels malveillants. Ils permettent aux sites web de reconnaître les visiteurs lorsqu'ils reviennent et incluent des informations de base sur eux qui sont vérifiées et mises à jour chaque fois que vous visitez le site. Pour plus d'informations, consultez : http://www.allaboutcookies.org/.",
+  "managingCookiesTitle": "Gestion des cookies",
+  "managingCookiesIntro": "Chez {project_name}, nous respectons votre droit à la vie privée et nous sommes donc heureux de vous fournir des outils pour gérer les cookies que vous recevez de nos services web. Certains cookies sont essentiels au bon fonctionnement de notre plateforme (vous ne pouvez pas refuser ces cookies si vous souhaitez utiliser notre plateforme). Vous trouverez ci-dessous une liste de certains des cookies tiers utilisés par {project_name}. Pour les utilisateurs qui préfèrent ne pas recevoir de cookies non essentiels, nous avons fourni une option de « désactivation » que vous pouvez sélectionner.",
+  "managingCookiesBrowser": "Votre navigateur peut également vous permettre de bloquer le stockage des cookies sur votre ordinateur ; veuillez consulter le menu « Aide » de votre navigateur ou le site Web pour plus d'informations. Si vous utilisez nos services web sans bloquer les cookies, vous consentez en réalité aux cookies."
+},
+
+  "privacyPolicy": "Politique de confidentialité",
+  "lastRevised": "Dernière révision",
+  "limited": "Limité",
+  "respectPrivacy": "respecte la vie privée de nos utilisateurs (chacun, « vous » ou « utilisateur »)",
+  "usersCommitment": "et s'engage à protéger la vie privée des utilisateurs qui accèdent, téléchargent, installent ou s'inscrivent à notre application mobile",
+  "informationCollection": "La société a préparé cette politique de confidentialité pour décrire nos pratiques concernant la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez les services.",
+  "agreeToTerms": "En utilisant les services, vous acceptez les termes de cette politique de confidentialité.",
+  "retainInformation": "Combien de temps nous conservons les informations",
+  "protectingInformation": "Comment nous protégeons vos informations",
+  "advertisements": "Publicités",
+  "advertisingId": "ID publicitaire et identifiant publicitaire",
+  "cookiesAndAnalytics": "Cookies et Google Analytics",
+  "shareInformation": "AVEC QUI NOUS PARTAGEONS LES INFORMATIONS ET À QUEL FIN",
+  "sharingDetails": "Nous ne louons, vendons ni ne partageons vos informations personnelles avec des tiers, sauf tel que décrit dans cette politique de confidentialité...",
+  "retentionDetails": "Nous respectons vos droits à la vie privée et vous pouvez donc nous contacter à tout moment et demander...",
+  "protectionDetails": "Nous prenons grand soin de mettre en œuvre et de maintenir la sécurité des services et de vos informations...",
+  "advertisementDetails": "Nous pouvons utiliser une technologie publicitaire tierce pour diffuser des publicités lorsque vous utilisez les services...",
+  "advertisingIdDetails": "L'ID publicitaire Google est un identifiant anonyme, fourni par les services Google Play...",
+  "updatePrivacyPolicy": "MISES À JOUR OU MODIFICATIONS DE LA POLITIQUE DE CONFIDENTIALITÉ",
+  "updateDetails": "Nous pouvons réviser cette politique de confidentialité de temps à autre, à notre seule discrétion, et la version la plus récente sera toujours publiée...",
+  
+    "cryptoMining": "Extraction de Crypto-Monnaie",
+    "cryptoMiningTitle": "Extraction de Crypto-Monnaie",
+    "cryptoMiningParagraph1": "Les réseaux de crypto-monnaie ont besoin de puissance informatique pour fonctionner de manière sécurisée. Les blockchains les plus puissantes au monde sont soutenues par des millions d'ordinateurs dans le monde...",
+    "cryptoMiningParagraph2": "Les crypto-monnaies n'ont pas de gouvernement central ou d'autres soi-disant 'intermédiaires' qui décident de l'avenir du système...",
+    "howIsBitcoinSecure": "COMMENT BITCOIN EST-IL GARDÉ SÉCURISÉ",
+    "bitcoinSecurityParagraph": "La seule façon de ne pas créer de l'argent à partir de rien ou de le corrompre, est de brûler de l'énergie réelle. Cela s'appelle la preuve de travail...",
+    "minersIncentives": "QUELLES SONT LES INCITATIONS POUR LES MINERS",
+    "minersIncentivesParagraph": "Tout se résume à la confiance : Les mineurs maintiennent les blockchains fiables et sont récompensés pour leurs efforts...",
+    "bigVisionOfCrypto": "LA GRANDE VISION DES CRYPTO-MONNAIES",
+    "bigVisionParagraph": "Pour maintenir l'intégrité (et les valeurs !) de tous les écosystèmes de crypto-monnaies, les mineurs gardent les réseaux sécurisés et leur autorité décentralisée...",
+    "BitcoinMining": {
+  "title": "Minage de Bitcoin",
+  "paragraph1": "Le Bitcoin dispose d’un registre public appelé la blockchain. Le processus de minage ajoute de nouvelles transactions à ce registre public. Pourquoi ? Car ce processus permet de confirmer et de vérifier chaque transaction de manière sécurisée, tout en garantissant à tous les utilisateurs du réseau Bitcoin un accès complet à la blockchain – autrement dit, au registre Bitcoin. Le minage permet également au réseau de déterminer quelles transactions sont légitimes, en éliminant celles qui tentent de dépenser de l'argent deux fois.",
+  "paragraph2": "Ainsi, lorsqu'une personne « mine » du Bitcoin, elle rend en réalité un service à tous les utilisateurs du Bitcoin en garantissant la légitimité des transactions. Pendant le minage, les mineurs complètent un nouveau bloc, ce qui leur donne droit à une récompense. En 2018, la récompense pour un nouveau bloc était de 12,5 Bitcoins, mais cette récompense diminue avec le temps.",
+  "paragraph3": "Comme vous pouvez l’imaginer, le minage demande beaucoup d’efforts et de patience – les résultats ne sont pas immédiats. Il existe donc une analogie évidente avec le minage physique de métaux comme l’or. D’où l’utilisation du mot « minage » pour désigner les tâches informatiques permettant de générer de nouveaux Bitcoins.",
+  "bold1": "Choisir son équipement de minage",
+  "paragraph4": "Le minage de Bitcoin nécessite des calculs très complexes, qui demandent beaucoup de puissance de calcul. Choisir le bon matériel est donc essentiel. Il faut prendre en compte plusieurs caractéristiques spécifiques au moment de sélectionner votre kit de minage.",
+  "bold2": "Taux de hachage",
+  "paragraph5": "L’aspect clé du choix de votre matériel est probablement le taux de hachage que celui-ci peut maintenir. Le taux de hachage correspond au nombre de calculs cryptographiques que votre matériel peut effectuer par seconde. Plus le taux est élevé, plus vous pourrez miner rapidement – puisque vous résolvez les calculs nécessaires à la validation d’un bloc plus vite. Cela vous permet de compléter un bloc et d’obtenir une récompense plus rapidement.",
+  "paragraph6": "Les fonctions de hachage fonctionnent ainsi : pour une entrée donnée, vous obtiendrez toujours la même sortie. Pour trouver une sortie spécifique, vous devez donc essayer autant d’entrées aléatoires que possible – le plus rapidement possible. Cela rend le minage compétitif, et le mineur capable de traiter le plus d’entrées est celui qui sera récompensé en premier. Encore une fois, un matériel avec un taux de hachage élevé vous donne un avantage.",
+  "paragraph7": "Le taux de hachage se mesure en MH/s (mégahashes par seconde), mais aussi en GH/s et TH/s, soit gigahashes et terahashes par seconde. Le matériel de minage Bitcoin peut avoir des taux allant de quelques centaines de MH/s jusqu’à 10 TH/s (soit 10 000 000 MH/s).",
+  "bold3": "Coût de l'énergie",
+  "paragraph8": "Le minage de Bitcoin implique des coûts, et pas uniquement celui du matériel. Si vous pouvez vous offrir un équipement puissant, vous découvrirez vite un autre problème : la consommation électrique liée à son utilisation, car ces machines consomment beaucoup d’énergie.",
+  "paragraph9": "Lors de l'achat de matériel, il faut donc examiner de près la consommation d’électricité – calculez-la en watts et estimez ce que cela vous coûtera, afin d’éviter une mauvaise surprise sur votre facture. Sinon, vous risquez de dépenser tout votre bénéfice – voire de subir des pertes.",
+  "paragraph10": "Comparer le taux de hachage à la consommation d’énergie est une bonne méthode pour évaluer les profits potentiels. Comparez les hashes que vous pouvez produire par heure au coût d’électricité. Une méthode simple consiste à diviser le taux de hachage par la consommation en watts – cela vous donne un taux de MH/s par watt, qui vous aidera à déterminer la rentabilité.",
+  "paragraph11": "N’oubliez pas d’inclure les coûts supplémentaires, comme l’ordinateur qui pilote vos GPU de minage – car il consomme aussi de l’énergie.",
+  "bold4": "Options de matériel de minage",
+  "paragraph12": "Lors du lancement du Bitcoin, l'idée a attiré l’attention de nombreuses personnes car elle était perçue comme très libérale. C'était une révolution par rapport aux systèmes de transaction traditionnels gérés par des banques centralisées. Ce réseau autogéré échappait au contrôle des institutions financières, des autorités fiscales et autres grandes organisations, car il était totalement décentralisé.",
+  "paragraph13": "À cette époque, peu de gens connaissaient le Bitcoin, et sa valeur était faible. Il était donc facile de miner du Bitcoin, et de nombreuses personnes y voyaient une opportunité de profit ou un concept fascinant. À l’époque, même un ordinateur portable ou un PC de bureau puissant suffisait.",
+  "paragraph14": "Les gens ont alors découvert que les GPU (cartes graphiques) amélioraient considérablement les capacités de minage. Les GPU consomment moins d’énergie que les CPU et peuvent miner à une vitesse 50 à 100 fois supérieure.",
+  "paragraph15": "Des dispositifs dédiés au minage ont alors été créés. Les capacités de minage ont explosé, donnant naissance à des fermes de minage de Bitcoin, devenues de véritables centres de profit – et à une industrie professionnelle du minage.",
+  "paragraph16": "Le minage est devenu très rentable, et de nombreux mineurs exploitent de grandes fermes de minage générant beaucoup d'argent. Ces fermes utilisent des GPU, mais aussi des systèmes de refroidissement performants. L’électricité représente un problème majeur, mais certains pays ont des prix très bas, ce qui attire les fermes de minage.",
+  "paragraph17": "Cela signifie qu’en tant que mineur individuel, vous êtes en concurrence avec des entreprises puissantes et riches. Il existe encore de nombreux mineurs individuels – qui s’associent souvent en pools pour améliorer leurs chances de profit.",
+  "bold5": "Choisir un processeur (CPU)",
+  "paragraph18": "Même si le CPU est au cœur de votre ordinateur, il n’est pas l’élément le plus important dans une plateforme de minage. À l’origine du Bitcoin, vous pouviez miner avec un simple CPU, à condition qu’il soit suffisamment puissant.",
+  "paragraph19": "Mais les mineurs ont rapidement cherché à maximiser leurs profits, en testant différents types de matériel. Ils ont vite compris que le CPU n'était pas optimal pour miner du Bitcoin. Il reste utile pour faire tourner votre PC, mais il faudrait des décennies à un CPU seul pour miner une quantité significative de Bitcoin.",
+  "bold6": "Les GPU pour le minage",
+  "paragraph20": "Les GPU (unités de traitement graphique) servent à de nombreux usages – du jeu vidéo en 3D au rendu graphique. Leur conception permet de réaliser des calculs complexes – ce qui les rend excellents pour le hachage, essentiel dans le minage de Bitcoin.",
+  "paragraph21": "Même s’ils sont coûteux, les GPU surpassent largement les CPU pour le minage. Un bon GPU peut hasher à une vitesse cent fois supérieure à celle d’un CPU haut de gamme. Cela a conduit à la création de plateformes de minage (« mining rigs ») – des PC avec plusieurs GPU dédiés exclusivement au minage. Certains utilisateurs les utilisent à la fois pour jouer et miner.",
+  "paragraph22": "Mais mauvaise nouvelle : aujourd’hui, il est pratiquement impossible de miner du Bitcoin de manière rentable avec un GPU. À mesure que le matériel devient plus puissant, la difficulté de minage augmente. Les GPU ne sont plus compétitifs – nous verrons plus bas quelles sont les alternatives.",
+  "bold7": "Les FPGA dans le minage de Bitcoin",
+  "paragraph23": "Les GPU ont été rapidement remplacés par les FPGA (Field Programmable Gate Array). Ces circuits intégrés peuvent être configurés après fabrication, ce qui permet de les adapter au minage. Les FPGA ont changé la donne : ils ont évincé les GPU grâce à leur efficacité énergétique.",
+  "paragraph24": "Les FPGA furent les premiers équipements conçus uniquement pour miner du Bitcoin. Ils consommaient jusqu’à cinq fois moins d’électricité que les GPU pour un taux de hachage équivalent – rendant les opérations de minage beaucoup plus rentables.",
+  "bold8": "Que sont les ASIC ?",
+  "paragraph25": "La dernière étape de cette course technologique : les ASIC (Application-Specific Integrated Circuits), conçus spécialement pour miner du Bitcoin. Non programmables, ils ont un circuit imprimé spécifique à cette tâche. Les ASIC permettent de miner à une vitesse 100 fois supérieure, tout en consommant moins d’énergie.",
+  "paragraph26": "Ces puces sur mesure coûtent cher et sont longues à fabriquer, mais elles sont très efficaces. Un modèle haut de gamme, comme ceux de chez AntMiner, peut dépasser les 10 TH/s – pour un prix supérieur à 1000 dollars. Des modèles plus accessibles existent, mais leur puissance est moindre.",
+  "paragraph27": "Calculer vos profits est compliqué et dépend du matériel choisi – ce qui peut rendre les débuts difficiles. Vous devez estimer votre rentabilité avant d’investir, car le matériel est difficile à revendre.",
+  "paragraph28": "Heureusement, des calculateurs existent, comme BTC Mining Profit Calculator, où vous entrez le coût de votre matériel, votre taux de hachage, votre consommation électrique – et l’outil vous indique si votre investissement est rentable. Genesis Block propose aussi un calculateur similaire.",
+  "bold9": "Choisir un logiciel de minage",
+  "paragraph29": "Trouver le bon matériel est déjà compliqué ? Il faut aussi choisir un logiciel de minage adapté. Tous les rigs n’en ont pas besoin, mais si vous utilisez des GPU ou FPGA, vous devrez disposer d’un ordinateur qui héberge le client Bitcoin et le logiciel de minage.",
+  "paragraph30": "Pourquoi les deux ? Le client connecte votre mineur au réseau Bitcoin, tandis que le logiciel utilise votre matériel pour résoudre les énigmes cryptographiques permettant de valider les blocs de transactions – ce pour quoi vous êtes récompensé.",
+  "paragraph31": "Certains ASIC sont préconfigurés avec un logiciel et même une adresse Bitcoin prête à l’emploi – il suffit de les brancher pour commencer. D’anciens modèles nécessitent un logiciel séparé.",
+  "paragraph32": "Voici cinq logiciels de minage populaires à tester selon vos besoins :",
+  "paragraph33": "Bitcoin Miner : simple d’utilisation, avec un mode économie d’énergie, support des pools et génération de rapports. Pour OS X et Windows.",
+  "paragraph34": "RPC Miner : conçu pour les utilisateurs de Mac, avec une intégration poussée à l’écosystème OS X.",
+  "paragraph35": "CGMiner : compatible Linux, OS X et Windows, avec contrôle des ventilateurs, support CPU/GPU, plusieurs GPU et détection automatique des blocs.",
+  "paragraph36": "BFGMiner : similaire à CGMiner mais conçu pour les ASIC. Compatible avec tous les OS de bureau.",
+  "paragraph37": "EasyMiner : propose des graphiques de performances, supporte plusieurs protocoles, fonctionne en mode solo ou pool, compatible Linux et OS X.",
+  "bold10": "Comprendre les pools de minage",
+  "paragraph38": "Le matériel nécessaire pour miner a tellement évolué qu’il est presque impossible de miner en solo. Rejoindre un pool permet de mutualiser les ressources et de trouver des blocs plus rapidement.",
+  "paragraph39": "Les récompenses sont ensuite partagées proportionnellement à votre contribution. Vous êtes ainsi rémunéré plus régulièrement, même si les paiements sont plus faibles.",
+  "paragraph40": "Rejoindre un pool est simple – il suffit de créer un compte, d’ajouter un ou plusieurs « workers » à vos rigs, et de les connecter. Attention, les pools prennent souvent une commission de 1 % à 10 % – mais certains sont gratuits.",
+  "bold11": "Est-il encore possible de miner Bitcoin avec profit ?",
+  "paragraph41": "La rentabilité du minage a évolué avec la hausse de la valeur du Bitcoin et la difficulté croissante. Les mineurs de la première heure ne peuvent plus rivaliser – ce secteur est désormais dominé par des exploitations à grande échelle.",
+  "paragraph42": "En clair, les Bitcoins faciles à miner l'ont déjà été – miner aujourd’hui est aussi difficile que chercher des diamants. La popularité du Bitcoin attire de nouveaux acteurs, rendant la concurrence encore plus rude.",
+  "bold12": "Du matériel spécialisé est désormais indispensable",
+  "paragraph43": "Il est toujours possible de miner – mais il faut du matériel spécialisé. Les mineurs individuels consomment souvent plus d’électricité que ce qu’ils gagnent. L’accès à une électricité bon marché et une grande échelle d’exploitation sont désormais clés.",
+  "paragraph44": "Miner chez soi expose aussi à de nombreux problèmes : pannes de courant, matériel défectueux, coupures internet ou encore chute du cours du Bitcoin. Il est donc très difficile d’en tirer un profit chez soi.",
+  "paragraph45": "Mais cela pourrait changer : les ASIC deviennent plus performants et les logiciels s’améliorent. À terme, le minage domestique pourrait redevenir viable – ce qui serait bénéfique pour la décentralisation du réseau Bitcoin.",
+  "bold13": "Ce qu’il faut savoir sur le cloud mining",
+  "paragraph46": "Une alternative au minage avec votre propre matériel est le cloud mining. Vous « louez » des capacités de minage auprès d’une entreprise. C’est comme acheter un contrat de minage et partager la puissance de calcul de l’entreprise.",
+  "paragraph47": "Le cloud mining est plus simple : pas besoin de gérer le matériel, la bande passante ou l’électricité. Il vous suffit d’une connexion internet et d’un portefeuille Bitcoin pour stocker vos coins.",
+  "paragraph48": "Mais attention : externaliser le minage implique des risques, car vous remettez le contrôle au fournisseur de cloud mining. C’est pourquoi vous ne devez choisir que des prestataires réputés comme {project_name}."
+},
+"About": {
+    "title": "À propos de nous",
+    "paragraph1": "Fondée en 2014 par un groupe de professionnels qui allient l'expertise technique nécessaire pour copier les traders professionnels (si vous ne pouvez pas trader seul). Trading Forex, Trading de Cryptomonnaies et Trading d'Actions avec une équipe dédiée, un siège social à la pointe de la technologie et une passion pour aider ceux qui ont un fort désir d'améliorer leur vie.",
+    "paragraph2": "Notre équipe est engagée à obtenir des résultats exceptionnels, toujours en avance d'un pas. Nous avons créé une plateforme de trading à long terme, établissant la norme pour changer la fortune des générations futures à venir ! Nous unissons tous les aspects clés d'une opération de minage de cryptomonnaies efficace. De la construction de centres de données hautement efficaces à la fourniture d'un système de minage simplifié pour nos utilisateurs.",
+    "paragraph3": "Pour miner de manière compétitive aujourd'hui, vous devez investir des ressources, du temps et des efforts importants dans votre configuration. Notre équipe a construit les systèmes de minage les plus efficaces pour faire le travail à votre place. De cette façon, vous pouvez vous concentrer pleinement sur la surveillance des marchés et rester compétitif avec vos récompenses de minage.",
+    "paragraph4": "En plus d'être le portail pour des données de minage intéressantes, nous contribuons également activement à l'écosystème des cryptomonnaies, en lançant des campagnes de sensibilisation et en publiant des logiciels de minage open source. Nous construisons des centres de données de minage à travers le monde qui peuvent prendre en charge 6 algorithmes de minage pour plus de 10 cryptomonnaies différentes. Si cela ne suffit pas, nous serions heureux de soutenir également celles que vous souhaitez miner!"
+},
+  "DepositInfo": {
+    "deposit": "Dépôt",
+    "signal": "Puissance du signal",
+    "profit": "Profit",
+    "copytraders": "Copy Traders",
+    "refer": "Parrainez et gagnez"
+  },
+  "Categories": {
+    "favorites": "Favoris",
+    "gainers": "Gagnants",
+    "losers": "Perdants"
+  },
+  "ButtomNav": {
+    "dashboard": "Accueil",
+    "mining": "Minage",
+    "markets": "Marchés",
+    "trade": "Trader",
+    "trades": "Transactions",
+    "profile": "Profil"
+  },
+  "Trade": {
+    "title": "Trader",
+    "trade_message": "Transaction lancée avec succès",
+    "trade_error": "Fonds insuffisants. Veuillez recharger votre solde pour effectuer cette transaction.",
+    "buy": "Acheter",
+    "sell": "Vendre",
+    "amount": "Montant",
+    "time": "Durée (minutes)",
+    "leverage": "Effet de levier (max 5000)",
+    "lev": "Effet de levier :"
+  },
+  "Dashboard": {
+    "title": "Tableau de bord",
+    "markets": "Marchés",
+    "mining": "Minage",
+    "trades": "Transactions"
+  },
+  "Trades": {
+    "noopen": "Aucune transaction ouverte",
+    "noclose": "Aucune transaction clôturée"
+  },
+  "Profile": {
+    "deposits": "Dépôts",
+    "withdrawals": "Retraits",
+    "referrals": "Parrainages",
+    "watchlist": "Liste de surveillance",
+    "updatemail": "Mettre à jour l’e-mail",
+    "updatephoto": "Mettre à jour la photo",
+    "updatepassword": "Mettre à jour le mot de passe",
+    "accountsettings": "Paramètres du compte",
+    "logout": "Déconnexion",
+    "loading_data": "Chargement des données utilisateur...",
+    "update_email_title": "Mettre à jour l’e-mail",
+    "new_email_text": "VOTRE NOUVEL E-MAIL",
+    "update": "METTRE À JOUR",
+    "update_email_success": "E-mail mis à jour avec succès",
+    "update_email_error": "Échec de la mise à jour de l’e-mail",
+    "InvalidLogin": "Identifiants invalides.",
+    "update_photo_title": "Mettre à jour la photo",
+    "update_photo_alt": "Photo de profil",
+    "update_password_success": "Mot de passe mis à jour avec succès",
+    "update_password_title": "Mettre à jour le mot de passe",
+    "password": "Mot de passe",
+    "new_password": "Nouveau mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "update_password_error_1": "Le mot de passe doit contenir au moins 4 caractères",
+    "update_password_error_2": "Utilisateur non trouvé",
+    "update_password_error_3": "Mot de passe actuel incorrect",
+    "update_password_error_4": "Le nouveau mot de passe ne correspond pas à la confirmation",
+    "myprofile": "Mon profil",
+    "notifications": "Notifications",
+    "updateaddress": "Mettre à jour l’adresse",
+    "accountverification": "Vérification du compte",
+    "email": "E-MAIL",
+    "phone": "NUMÉRO DE TÉLÉPHONE",
+    "firstname": "PRÉNOM",
+    "lastname": "NOM DE FAMILLE",
+    "streetaddress": "ADRESSE",
+    "postalcode": "CODE POSTAL",
+    "city": "VILLE",
+    "state": "ÉTAT",
+    "country": "PAYS",
+    "notification_permission": "Vous pouvez désactiver les notifications dans les paramètres de votre navigateur ; les paramètres du navigateur ont priorité sur ceux du site.",
+    "notification_permission_2": "Permission de notification (navigateur) : accordée",
+    "notification_permission_3": "Permission de notification (navigateur)",
+    "denied": "Refusée",
+    "granted": "Accordée",
+    "update_address_title": "Mettre à jour l’adresse",
+    "street_address": "Adresse",
+    "zip_code": "Code postal",
+    "address_success": "Adresse mise à jour avec succès",
+    "email_verification": "Vérification de l’e-mail",
+    "identity_verification": "Vérification d’identité",
+    "address_vericiation": "Vérification d’adresse",
+    "verified": "Vérifié",
+    "pending": "En attente",
+    "notstarted": "Non démarré",
+    "verifications": "Vérifications",
+    "verify_email_error": "E-mail invalide. Cet e-mail n’est pas enregistré chez nous.",
+    "verify_email_success": "Code de vérification envoyé avec succès à {email}.",
+    "verify_email_success_2": "E-mail vérifié avec succès.",
+    "verify_email_error_2": "Erreur lors de la mise à jour de la vérification : {error}",
+    "verify_email_error_3": "PIN invalide, veuillez réessayer.",
+    "verify_email_title": "Vérifier l’e-mail",
+    "paragraph1": "Un e-mail contenant votre code PIN à 6 chiffres a été envoyé. Si vous ne le recevez pas dans une minute ou deux, cliquez sur renvoyer.",
+    "pin": "Code PIN",
+    "verify_email_title_2": "VÉRIFIER L’E-MAIL",
+    "email_2": "E-mail",
+    "resend": "RENVOYER LE PIN",
+    "verify_identity_success": "Vérification d’identité en cours...",
+    "verify_identity_error": "Échec du téléchargement des données : {error}",
+    "verify_identity_title": "Vérifier l’identité",
+    "verify_your_title": "Vérifiez votre identité",
+    "paragraph2": "Veuillez vérifier votre identité en téléversant une pièce d’identité valide. Des problèmes peuvent survenir sur iOS. Assurez-vous que le navigateur a accès à la caméra.",
+    "select_front": "Sélectionner le recto",
+    "select_back": "Sélectionner le verso",
+    "upload": "Téléverser",
+    "skip": "Ignorer",
+    "address_verify_success": "Vérification de l’adresse en cours...",
+    "address_verify_error": "Échec du téléchargement des données : {error}",
+    "address_verification_title": "Vérification d’adresse",
+    "street": "Adresse",
+    "bill": "Sélectionner une facture",
+    "submit": "Soumettre"
+  },
+  "DepositList": {
+    "title": "Dépôt",
+    "message": "Les dépôts resteront en attente jusqu’à confirmation suffisante sur la blockchain.",
+    "withdrawal": "Retrait",
+    "new_withdrawal": "Nouveau retrait",
+    "no_withdrawal": "Aucun retrait pour l’instant"
+  },
+  "Referrals": {
+    "title": "Parrainages",
+    "ref_balance": "Solde de parrainage",
+    "withdraw": "RETIRER",
+    "ref_link": "Lien de parrainage",
+    "no_ref": "Vous n’avez pas encore de parrainages"
+  },
+  "Deposit": {
+    "title": "Dépôt",
+    "fundaccount": "Alimenter le compte",
+    "viewpricing": "Voir les tarifs",
+    "amount": "Montant",
+    "to": "Vers",
+    "tradingbalance": "Solde de trading",
+    "proceed": "Continuer",
+    "loading": "Chargement...",
+    "pay": "PAYER",
+    "paymentmethod": "SÉLECTIONNER LE MODE DE PAIEMENT",
+    "sendcrypto": "Envoyer des cryptos",
+    "sendcrypto_message": "envoyer les cryptos prises en charge",
+    "invalidlink": "Lien de paiement invalide ou expiré",
+    "send": "ENVOYER",
+    "worth": "VALEUR DE",
+    "paragraph1": "À L’ADRESSE DE PORTEFEUILLE SUIVANTE OU SCANNEZ LE CODE QR AVEC VOTRE APPLICATION DE PORTEFEUILLE",
+    "wallet": "Adresse du portefeuille",
+    "paragraph2": "AUX COORDONNÉES BANCAIRES SUIVANTES.",
+    "paragraph3": "CONTACTEZ [SUPPORT@ETHICALGLOBALINVESTORS.COM](mailto:SUPPORT@ETHICALGLOBALINVESTORS.COM) POUR LES DÉTAILS BANCAIRES",
+    "awaiting": "En attente de paiement",
+    "wait": "En attente de confirmation"
+  },
+  "Withdrawal": {
+    "title": "Retrait",
+    "selectmethod": "Sélectionner la méthode de retrait",
+    "bankwithdraw": "Retrait bancaire",
+    "withdrawbank": "Retirer vers un compte bancaire",
+    "paragraph1": "Nous pourrions vous contacter pour des informations supplémentaires.",
+    "from": "De",
+    "to": "Vers",
+    "accountnumber": "Numéro de compte",
+    "accountname": "Nom du titulaire",
+    "amount": "Montant",
+    "bankname": "Nom de la banque",
+    "otpcode": "Code OTP",
+    "submit": "Soumettre",
+    "success_message": "Votre demande de retrait est en cours.",
+    "error_message": "Code OTP invalide, veuillez contacter le support pour obtenir un code valide et réessayer.",
+    "cryptowithdraw": "Retrait crypto",
+    "withdrawcrypto": "Retirer vers crypto",
+    "wallet": "Adresse du portefeuille",
+    "paypalwithdraw": "Retrait PayPal",
+    "withdrawpaypal": "Retirer vers PayPal",
+    "paypalemail": "E-mail PayPal",
+    "cashappwithdraw": "Retrait CashApp",
+    "withdrawcashapp": "Retirer vers CashApp",
+    "cashtag": "Cashtag"
+  }
+
+
+
+  
+  
+      
+    
+
+
+
+      
+        
+    
+
+}
