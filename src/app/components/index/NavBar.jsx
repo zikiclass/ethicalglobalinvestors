@@ -157,8 +157,12 @@ const NavBar = () => {
   }, [theme]);
 
   const handleLocaleChange = (newLocale) => {
-    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.replace(newPathname);
+    if (newLocale === "en") {
+      router.reload();
+    } else {
+      const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
+      router.replace(newPathname);
+    }
   };
 
   const [selectedCountry, setSelectedCountry] = useState(locale.toUpperCase());
