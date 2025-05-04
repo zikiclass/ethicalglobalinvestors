@@ -581,7 +581,15 @@
     "cashappwithdraw": "Retiro a CashApp",
     "withdrawcashapp": "Retirar a CashApp",
     "cashtag": "Etiqueta de CashApp"
-  }
+  },
+  "Traders": {
+  "error": "¡Fondos insuficientes! Por favor, realice un depósito para poder copiar a este trader.",
+  "title": "Operadores",
+  "win": "Tasa de ganancia",
+  "profit": "Participación en las ganancias",
+  "copy": "COPIAR"
+}
+
 
 
 

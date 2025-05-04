@@ -580,7 +580,15 @@
     "cashappwithdraw": "Penarikan CashApp",
     "withdrawcashapp": "Tarik ke CashApp",
     "cashtag": "Cashtag"
-  }
+  },
+  "Traders": {
+  "error": "Dana tidak cukup! Harap lakukan deposit untuk dapat menyalin trader ini.",
+  "title": "Pedagang",
+  "win": "Tingkat Kemenangan",
+  "profit": "Bagi Hasil",
+  "copy": "SALIN"
+}
+
 
 
 

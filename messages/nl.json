@@ -583,7 +583,15 @@
     "cashappwithdraw": "CashApp-opname",
     "withdrawcashapp": "Opnemen via CashApp",
     "cashtag": "CashTag"
-  }
+  },
+  "Traders": {
+  "error": "Onvoldoende saldo! Maak een storting om deze handelaar te kunnen kopiëren.",
+  "title": "Handelaars",
+  "win": "Winstpercentage",
+  "profit": "Winstdeelname",
+  "copy": "KOPIEER"
+}
+
 
 
 

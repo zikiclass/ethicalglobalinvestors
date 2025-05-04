@@ -583,7 +583,15 @@
     "cashappwithdraw": "CashApp Çekimi",
     "withdrawcashapp": "CashApp ile Çekim",
     "cashtag": "Cash Tag"
-  }
+  },
+  "Traders": {
+  "error": "Yetersiz bakiye! Bu trader'ı kopyalayabilmek için lütfen para yatırın.",
+  "title": "Tüccarlar",
+  "win": "Kazanç Oranı",
+  "profit": "Kar Paylaşımı",
+  "copy": "KOPYALA"
+}
+
 
 
 

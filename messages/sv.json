@@ -572,7 +572,15 @@
     "otpcode": "OTP-kod",
     "submit": "Skicka",
     "success_message": "Ditt uttag har skickats för behandling och kommer att behandlas inom kort."
-  }
+  },
+  "Traders": {
+  "error": "Otillräckliga medel! Vänligen gör en insättning för att kunna kopiera denna trader.",
+  "title": "Traders",
+  "win": "Vinstprocent",
+  "profit": "Vinstandel",
+  "copy": "KOPIERA"
+}
+
 
 
 

@@ -584,7 +584,15 @@
     "cashappwithdraw": "CashApp提款",
     "withdrawcashapp": "前往CashApp提款",
     "cashtag": "Cash Tag"
-  }
+  },
+  "Traders": {
+  "error": "资金不足！请存款以便能够复制此交易员。",
+  "title": "交易员",
+  "win": "胜率",
+  "profit": "利润分成",
+  "copy": "复制"
+}
+
 
 
 

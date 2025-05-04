@@ -592,6 +592,13 @@
     "cashappwithdraw": "CashApp Withdraw",
     "withdrawcashapp": "Withdraw to CashApp",
     "cashtag": "Cash Tag"
+  },
+  "Traders":{
+    "error": "Insufficient funds! please make deposit to be able to copy this trader.",
+    "title": "Traders",
+    "win": "Win Rate",
+    "profit": "Profit Share",
+    "copy": "COPY"
   }
 
         

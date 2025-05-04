@@ -574,7 +574,15 @@
     "cashappwithdraw": "CashApp出金",
     "withdrawcashapp": "CashAppに出金",
     "cashtag": "キャッシュタグ"
-  }
+  },
+  "Traders": {
+  "error": "残高不足です！このトレーダーをコピーするには入金してください。",
+  "title": "トレーダー",
+  "win": "勝率",
+  "profit": "利益分配",
+  "copy": "コピー"
+}
+
 
 
 

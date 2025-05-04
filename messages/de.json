@@ -582,7 +582,15 @@
     "cashappwithdraw": "CashApp-Auszahlung",
     "withdrawcashapp": "Auf CashApp auszahlen",
     "cashtag": "Cash Tag"
-  }
+  },
+  "Traders": {
+  "error": "Unzureichende Mittel! Bitte tätigen Sie eine Einzahlung, um diesen Händler kopieren zu können.",
+  "title": "Händler",
+  "win": "Gewinnrate",
+  "profit": "Gewinnbeteiligung",
+  "copy": "KOPIEREN"
+}
+
 
 
 

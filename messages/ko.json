@@ -584,7 +584,15 @@
     "cashappwithdraw": "CashApp 출금",
     "withdrawcashapp": "CashApp으로 출금",
     "cashtag": "CashTag"
-  }
+  },
+  "Traders": {
+  "error": "자금이 부족합니다! 이 트레이더를 복사하려면 입금해주세요.",
+  "title": "트레이더",
+  "win": "승률",
+  "profit": "이익 배당",
+  "copy": "복사"
+}
+
 
 
     

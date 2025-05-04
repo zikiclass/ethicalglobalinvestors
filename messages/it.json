@@ -565,7 +565,15 @@
     "cashappwithdraw": "Prelievo CashApp",
     "withdrawcashapp": "Preleva su CashApp",
     "cashtag": "Cashtag"
-  }
+  },
+  "Traders": {
+  "error": "Fondi insufficienti! Si prega di fare un deposito per poter copiare questo trader.",
+  "title": "Trader",
+  "win": "Tasso di vincita",
+  "profit": "Quota di profitto",
+  "copy": "COPIA"
+}
+
 
 
 
