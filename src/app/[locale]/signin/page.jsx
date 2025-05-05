@@ -47,7 +47,7 @@ const Login = () => {
         Swal.fire({
           icon: "error",
           title: "Error!",
-          text: result.error,
+          text: `${t("Profile.InvalidLogin")}`,
           timer: 1500,
         });
         toast.error(t("Profile.InvalidLogin"));
