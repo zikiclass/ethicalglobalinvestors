@@ -72,6 +72,7 @@ const Login = () => {
           </Link>
 
           <form className="form__login" onSubmit={handleSignIn}>
+            <input type="hidden" name="role" value="user" />
             <div className="input">
               <EmailIcon className="icon" />
               <input type="email" name="email" required />
