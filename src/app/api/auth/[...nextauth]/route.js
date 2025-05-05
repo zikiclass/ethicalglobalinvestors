@@ -31,7 +31,9 @@ const authOptions = {
           );
           if (!match) return null;
 
-          await sendSignInEmail(user.email);
+          sendSignInEmail(user.email).catch((err) =>
+            console.error("Email sending failed:", err)
+          );
           return user;
         }
 

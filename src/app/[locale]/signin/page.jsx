@@ -47,7 +47,7 @@ const Login = () => {
         Swal.fire({
           icon: "error",
           title: "Error!",
-          text: `${t("Profile.InvalidLogin")}`,
+          text: result.error,
           timer: 1500,
         });
         toast.error(t("Profile.InvalidLogin"));
@@ -72,7 +72,6 @@ const Login = () => {
           </Link>
 
           <form className="form__login" onSubmit={handleSignIn}>
-            <input type="hidden" name="role" value="user" />
             <div className="input">
               <EmailIcon className="icon" />
               <input type="email" name="email" required />
