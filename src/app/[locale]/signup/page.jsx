@@ -9,7 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import Swal from "sweetalert2";
 import axios from "axios";
 import { useForm } from "react-hook-form";
-import { useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { registerSchema } from "../../validationSchemas";
 import toast, { Toaster } from "react-hot-toast";
@@ -34,6 +34,10 @@ const RegisterForm = () => {
       signupFormRef.current.classList.add("fadeIn");
     }
   }, []);
+  const pathname = usePathname();
+
+  // Get locale from the first part of the path: "/fr/contact" -> "fr"
+  const locale = pathname.split("/")[1] || "en";
 
   return (
     <>
@@ -49,7 +53,7 @@ const RegisterForm = () => {
                   setIsLoading(true);
                   await axios.post("/api/register", { ...data, referralId });
                   toast.success(t("SignUpPage.successMessage"));
-                  router.push("/signin");
+                  router.push(`/${locale}/signin`);
                 } catch (error) {
                   setIsLoading(false);
                   Swal.fire({
